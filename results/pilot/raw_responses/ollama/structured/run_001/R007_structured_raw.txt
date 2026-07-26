@@ -1,0 +1,36 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The attack vector is Network-based (N) because an attacker can exploit this IDOR issue remotely to modify posts they do not own and do not have permission to edit.
+
+**Attack Complexity (AC)**: The attack complexity is Low (L) because the vulnerability requires minimal effort or expertise to exploit, as it only involves passing internal class properties in a post_attributes payload.
+
+**Privileges Required (PR)**: The privileges required are None (N) because an authenticated user with post editing permissions can exploit this issue without requiring any additional privileges.
+
+**User Interaction (UI)**: The user interaction is None (N) because the attack does not require any user interaction, as it can be performed automatically by an attacker.
+
+**Scope (S)**: The scope is Changed (C) because the vulnerability allows an attacker to modify posts they do not own and do not have permission to edit, affecting confidentiality, integrity, and availability.
+
+**Confidentiality Impact (C)**: The confidentiality impact is High (H) because an attacker can access and modify sensitive information, such as user data or confidential posts.
+
+**Integrity Impact (I)**: The integrity impact is High (H) because the vulnerability allows an attacker to alter the content of a post, potentially leading to unauthorized changes or tampering with sensitive information.
+
+**Availability Impact (A)**: The availability impact is Low (L) because the vulnerability does not directly affect the availability of the system or services.
+
+Here's the output in JSON format:
+
+```json
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "C",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:L",
+  "base_score": 8.5
+}
+```
+
+Note that the base score is calculated based on the CVSS v3.1 guidelines and may vary depending on the specific circumstances of the vulnerability.

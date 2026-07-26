@@ -1,0 +1,36 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The vulnerability can be exploited remotely, so I'll set it to "A".
+
+**Attack Complexity (AC)**: The attack complexity is relatively low since an attacker only needs to manipulate a webhook URL to leak masked secrets. So, I'll set it to "L".
+
+**Privileges Required (PR)**: No privileges are required to exploit this vulnerability, so I'll set it to "N".
+
+**User Interaction (UI)**: This vulnerability can be exploited without user interaction, so I'll set it to "N".
+
+**Scope (S)**: The scope of the impact is limited to confidentiality and integrity, as availability is not explicitly mentioned. So, I'll set it to "U" for Unchanged.
+
+**Confidentiality Impact (C)**: The vulnerability can leak masked secrets, which could lead to sensitive information being compromised. So, I'll set it to "H".
+
+**Integrity Impact (I)**: The integrity of the system is also affected since an attacker can manipulate webhook URLs to compromise confidentiality. So, I'll set it to "H".
+
+**Availability Impact (A)**: Availability is not explicitly mentioned in the vulnerability description, so I'll set it to "N" for No impact.
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+  "base_score": 7.5
+}
+```
+
+The calculated base score is 7.5, indicating a high severity vulnerability.

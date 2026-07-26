@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is "N" because the vulnerability can be exploited remotely without any user interaction.
+
+**Attack Complexity (AC):**
+The attack complexity is "L" because the vulnerability requires some degree of expertise to exploit.
+
+**Privileges Required (PR):**
+The privileges required are "N" because no special privileges are needed to exploit the vulnerability.
+
+**User Interaction (UI):**
+The user interaction is "N" because the vulnerability can be exploited without any user interaction.
+
+**Scope (S):**
+The scope is "U" because the vulnerability affects all versions of Product Y EE starting from 16.5 prior to 17.2.8, from 17.3 prior to 17.3.4, and from 17.4 prior to 17.4.1.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is "H" because the vulnerability could potentially disclose sensitive information.
+
+**Integrity Impact (I):**
+The integrity impact is "N" because there is no potential for data tampering or modification.
+
+**Availability Impact (A):**
+The availability impact is "N" because there is no potential for denial-of-service attacks or system crashes.
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "N",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+  "base_score": 7.5
+}
+```
+
+The base score is 7.5, indicating a high severity vulnerability.

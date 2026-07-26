@@ -1,0 +1,43 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: N (Network)
+The vulnerability is related to an app's ability to read sensitive location information, which can be accessed over a network.
+* **Attack Complexity (AC)**: L (Low)
+The attack complexity is considered low as the vulnerability requires minimal effort and expertise to exploit.
+* **Privileges Required (PR)**: N (None)
+No privileges are required to exploit this vulnerability.
+* **User Interaction (UI)**: N (None)
+No user interaction is required to exploit this vulnerability.
+* **Scope (S)**: U (Unchanged)
+The scope of the attack remains unchanged, as it only affects the affected app and does not spread to other systems or networks.
+* **Confidentiality Impact (C)**: L (Low)
+The confidentiality impact is considered low as the vulnerability only allows an app to read sensitive location information, which may not be highly confidential data.
+* **Integrity Impact (I)**: N (None)
+There is no integrity impact, as the vulnerability does not allow an attacker to modify or delete data.
+* **Availability Impact (A)**: N (None)
+There is no availability impact, as the vulnerability does not affect the app's ability to function or respond.
+
+**Vector String**
+CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+
+**Base Score**
+The base score for this vulnerability is 2.9 (out of a maximum of 10).
+
+Here is the output in JSON format:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "N",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+  "base_score": 2.9
+}
+```

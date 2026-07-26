@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability allows a remote adversary with a valid Product Y account to append URL parameters to inject passive HTML. This indicates an **A**ttack Vector of "Network" (N).
+
+**Attack Complexity (AC):**
+The vulnerability requires a valid Product Y account, which implies some level of complexity in exploiting the vulnerability. I will rate this as **L**ow.
+
+**Privileges Required (PR):**
+No special privileges are required to exploit the vulnerability, so I will rate this as **N**one.
+
+**User Interaction (UI):**
+The vulnerability can be exploited without user interaction, so I will rate this as **N**one.
+
+**Scope (S):**
+The scope of the vulnerability is limited to the Product Y system, so I will rate this as **U**nchanged.
+
+**Confidentiality Impact (C):**
+The vulnerability allows an attacker to inject passive HTML, which could potentially lead to confidentiality breaches. I will rate this as **L**ow.
+
+**Integrity Impact (I):**
+The vulnerability could allow an attacker to inject malicious code, which could compromise the integrity of the system. I will rate this as **H**igh.
+
+**Availability Impact (A):**
+The vulnerability does not directly impact the availability of the system, so I will rate this as **N**one.
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "Network",
+  "attack_complexity": "Low",
+  "privileges_required": "None",
+  "user_interaction": "None",
+  "scope": "Unchanged",
+  "confidentiality_impact": "Low",
+  "integrity_impact": "High",
+  "availability_impact": "None",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:N",
+  "base_score": 6.2
+}
+```
+
+The calculated base score is **6.2**.

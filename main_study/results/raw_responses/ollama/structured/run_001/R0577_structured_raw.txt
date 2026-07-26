@@ -1,0 +1,56 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is remote, as it can be initiated remotely.
+Type: A
+
+**Attack Complexity (AC):**
+The attack complexity is low, as the exploit has been published and may be used.
+Type: L
+
+**Privileges Required (PR):**
+No privileges are required to exploit this vulnerability.
+Type: N
+
+**User Interaction (UI):**
+No user interaction is required to exploit this vulnerability.
+Type: N
+
+**Scope (S):**
+The scope of the impact is limited to confidentiality, integrity, and availability.
+Type: U
+
+**Confidentiality Impact (C):**
+The confidentiality impact is high, as an attacker may be able to access sensitive information.
+Type: H
+
+**Integrity Impact (I):**
+The integrity impact is high, as an attacker may be able to modify or delete data.
+Type: H
+
+**Availability Impact (A):**
+The availability impact is high, as an attacker may be able to cause a denial-of-service (DoS) or disrupt the system's functionality.
+Type: H
+
+**Vector String:**
+CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+
+**Base Score:**
+Based on the calculated metrics, the base score is 9.8.
+
+Here is the output in JSON format:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "base_score": 9.8
+}
+```

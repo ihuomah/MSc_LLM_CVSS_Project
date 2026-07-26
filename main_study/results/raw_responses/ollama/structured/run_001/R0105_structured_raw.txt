@@ -1,0 +1,36 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The attack vector is "N" because the vulnerability can be exploited by an authenticated user, without requiring any external interaction or network access.
+
+**Attack Complexity (AC)**: The attack complexity is "L" because the attacker only needs to send a null value in a PUT request to the session update endpoint, which is a relatively simple and straightforward action.
+
+**Privileges Required (PR)**: The privileges required are "L" because an authenticated user can exploit this vulnerability without requiring any additional privileges or access levels.
+
+**User Interaction (UI)**: The user interaction is "N" because the attacker does not need to interact with the system in any way, other than sending a null value in a PUT request.
+
+**Scope (S)**: The scope is "U" because the vulnerability affects only the confidentiality and integrity of the session data, without affecting the availability of the system or other systems.
+
+**Confidentiality Impact (C)**: The confidentiality impact is "H" because an attacker can bypass the immutability guard on session fields, allowing them to nullify the session expiry and access sensitive information indefinitely.
+
+**Integrity Impact (I)**: The integrity impact is also "H" because an attacker can modify or delete session data, which could lead to unauthorized changes to system state or data.
+
+**Availability Impact (A)**: The availability impact is "N" because the vulnerability does not affect the availability of the system or its services.
+
+Here's the output in JSON format:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "L",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+  "base_score": 9.0
+}
+```
+
+Note that the base score is calculated based on the CVSS v3.1 guidelines and is subject to change if additional information becomes available.

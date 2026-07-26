@@ -1,0 +1,36 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The vulnerability allows a team admin to get the invite ID of their team, which can be used to invite users even if the "Add Members" permission was explicitly removed from team admins. This is an **Network (N)** attack vector.
+
+**Attack Complexity (AC)**: The vulnerability requires minimal effort and expertise to exploit, making it a **Low (L)** attack complexity.
+
+**Privileges Required (PR)**: An attacker with team admin privileges can exploit this vulnerability, so the required privileges are **Low (L)**.
+
+**User Interaction (UI)**: No user interaction is required to exploit this vulnerability, making it a **No (N)** user interaction.
+
+**Scope (S)**: The scope of the impact is limited to the affected product and its users, making it an **Unchanged (U)** scope.
+
+**Confidentiality Impact (C)**: An attacker can use this vulnerability to invite users to teams, which could lead to unauthorized access to sensitive information. This has a **Low (L)** confidentiality impact.
+
+**Integrity Impact (I)**: The integrity of the affected product and its data is not directly impacted by this vulnerability, so it has a **None (N)** integrity impact.
+
+**Availability Impact (A)**: The availability of the affected product and its services is not directly impacted by this vulnerability, so it has a **None (N)** availability impact.
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "L",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "N",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+  "base_score": 4.0
+}
+```
+
+The calculated base score is **4.0**.

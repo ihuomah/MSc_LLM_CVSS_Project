@@ -1,0 +1,36 @@
+Based on the provided vulnerability description and constraints, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The issue is related to permissions, which can be exploited by an app without requiring any physical interaction or network access. Therefore, I assign **A** (Network).
+
+**Attack Complexity (AC)**: The vulnerability requires some level of expertise and knowledge about the affected system. However, it does not require a high degree of sophistication or creativity. Hence, I assign **L** (Low).
+
+**Privileges Required (PR)**: An app with elevated privileges can exploit this issue. Therefore, I assign **H** (High).
+
+**User Interaction (UI)**: The vulnerability can be exploited without requiring any user interaction. Hence, I assign **N** (None).
+
+**Scope (S)**: The scope of the impact is limited to the affected system and does not affect other systems or networks. Therefore, I assign **U** (Unchanged).
+
+**Confidentiality Impact (C)**: An app may be able to read sensitive location information, which could lead to confidentiality breaches. Hence, I assign **L** (Low).
+
+**Integrity Impact (I)**: The vulnerability does not affect the integrity of the system or data. Therefore, I assign **N** (None).
+
+**Availability Impact (A)**: The vulnerability does not affect the availability of the system or services. Therefore, I assign **N** (None).
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "H",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "N",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:N",
+  "base_score": 5.0
+}
+```
+
+The calculated base score is **5.0**.

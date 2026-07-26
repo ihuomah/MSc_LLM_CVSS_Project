@@ -1,0 +1,61 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is "A" because a maliciously-crafted Product Y can cause excessive CPU consumption in decoding, which requires a network-based attack.
+
+**Attack Complexity (AC):**
+The attack complexity is "L" because an attacker with moderate skill level can craft the malicious Product Y to exploit this vulnerability.
+
+**Privileges Required (PR):**
+No privileges are required ("N") for an attacker to exploit this vulnerability.
+
+**User Interaction (UI):**
+No user interaction is required ("N") for an attacker to exploit this vulnerability, as it can be exploited automatically.
+
+**Scope (S):**
+The scope of the attack is "U" because it affects a single system or process.
+
+**Confidentiality Impact (C):**
+There is no impact on confidentiality ("N"), as the vulnerability does not affect sensitive data.
+
+**Integrity Impact (I):**
+There is a moderate impact on integrity ("H") because an attacker can cause excessive CPU consumption, which may lead to denial-of-service (DoS) or crash of the system.
+
+**Availability Impact (A):**
+There is also a high impact on availability ("H") because an attacker can cause excessive CPU consumption, leading to DoS or crash of the system.
+
+**Vector String:**
+The vector string is:
+"CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H"
+
+**Base Score:**
+Based on the CVSS v3.1 base metric, I calculate the base score as follows:
+
+* Attack Vector (AV): 0.87
+* Attack Complexity (AC): 2.9
+* Privileges Required (PR): 0.85
+* User Interaction (UI): 0.85
+* Scope (S): 0.6
+* Confidentiality Impact (C): 0.0
+* Integrity Impact (I): 3.4
+* Availability Impact (A): 3.4
+
+The base score is:
+9.2
+
+Here is the output in JSON format:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "N",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H",
+  "base_score": 9.2
+}
+```

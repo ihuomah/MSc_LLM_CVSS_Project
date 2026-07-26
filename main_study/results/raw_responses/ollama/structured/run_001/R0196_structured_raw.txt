@@ -1,0 +1,26 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: Network-adjacent attackers can exploit this vulnerability without any physical interaction with the device. Therefore, the attack vector is **A** (Network).
+
+**Attack Complexity (AC)**: The vulnerability requires no special skills or knowledge to exploit. An attacker can easily craft a request to inject arbitrary code. Hence, the attack complexity is **L** (Low).
+
+**Privileges Required (PR)**: To execute arbitrary code on the affected router, an attacker needs to have root privileges. Therefore, the privileges required are **H** (High).
+
+**User Interaction (UI)**: No user interaction is required to exploit this vulnerability. An attacker can send a crafted request to inject arbitrary code. Hence, the user interaction is **N** (None).
+
+**Scope (S)**: The scope of the impact is limited to the affected router and its network. Therefore, the scope is **U** (Unchanged).
+
+**Confidentiality Impact (C)**: An attacker can execute arbitrary code on the affected router, which could potentially lead to unauthorized access or data breaches. Hence, the confidentiality impact is **H** (High).
+
+**Integrity Impact (I)**: The vulnerability allows an attacker to execute arbitrary code, which could result in a complete compromise of the affected router's integrity. Therefore, the integrity impact is also **H** (High).
+
+**Availability Impact (A)**: An attacker can potentially cause a denial-of-service or crash the affected router, leading to availability impacts. Hence, the availability impact is **H** (High).
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+CVSS:3.1/AV:A/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H
+Base Score: 9.8
+```
+
+Please note that this assessment is based solely on the provided vulnerability description and does not take into account any external knowledge or assumptions.

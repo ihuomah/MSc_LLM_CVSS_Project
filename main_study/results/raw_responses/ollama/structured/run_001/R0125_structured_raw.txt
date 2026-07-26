@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is "A" because a malicious server can trigger a client-side heap buffer overflow, causing a crash (DoS) and potential heap corruption with code-execution risk depending on allocator behavior and surrounding heap layout.
+
+**Attack Complexity (AC):**
+The attack complexity is "L" because the attacker needs to have some knowledge of the Remote Desktop Protocol and its implementation in Product Y. The attacker also needs to be able to craft a malicious server that can trigger the buffer overflow.
+
+**Privileges Required (PR):**
+The privileges required are "N" because an unprivileged user can exploit this vulnerability.
+
+**User Interaction (UI):**
+The user interaction is "R" because the attacker needs to interact with the system by sending a malicious request to the Remote Desktop Protocol server.
+
+**Scope (S):**
+The scope is "U" because the attack affects only the confidentiality, integrity, and availability of the system being accessed via the Remote Desktop Protocol.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is "H" because an attacker could potentially gain access to sensitive information or data stored on the system.
+
+**Integrity Impact (I):**
+The integrity impact is "H" because an attacker could potentially modify or delete files, leading to a loss of integrity.
+
+**Availability Impact (A):**
+The availability impact is "H" because an attacker could potentially cause a denial-of-service (DoS) attack, making the system unavailable.
+
+Here's the output in JSON format:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "R",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "base_score": 9.8
+}
+```
+
+Note that the base score is calculated based on the CVSS v3.1 guidelines and may vary depending on the specific circumstances of the vulnerability.

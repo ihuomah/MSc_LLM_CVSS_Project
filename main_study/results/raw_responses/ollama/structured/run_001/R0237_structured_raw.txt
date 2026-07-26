@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is Network (N) because the SQL injection vulnerability can be exploited remotely via the component /php-lfis/admin/?page=system_info/contact_information.
+
+**Attack Complexity (AC):**
+The attack complexity is Low (L) because the vulnerability requires minimal effort to exploit, and an attacker only needs to craft a malicious SQL query.
+
+**Privileges Required (PR):**
+No privileges are required (N) for an attacker to exploit this vulnerability.
+
+**User Interaction (UI):**
+No user interaction is required (N) for an attacker to exploit this vulnerability. The attack can be performed automatically.
+
+**Scope (S):**
+The scope of the impact is Unchanged (U) because the vulnerability affects only the targeted system and does not propagate to other systems or networks.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is None (N) because the vulnerability does not affect sensitive data or compromise confidentiality.
+
+**Integrity Impact (I):**
+The integrity impact is Low (L) because an attacker can potentially modify or delete data, but the extent of the damage is limited.
+
+**Availability Impact (A):**
+The availability impact is None (N) because the vulnerability does not affect system availability or cause it to become unavailable.
+
+Here's the output in JSON format:
+
+```json
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "N",
+  "integrity_impact": "L",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+  "base_score": 4.0
+}
+```
+
+The base score is calculated based on the CVSS v3.1 metrics and is equal to 4.0.

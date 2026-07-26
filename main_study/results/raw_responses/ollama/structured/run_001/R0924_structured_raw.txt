@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is "L" because the attacker must have valid Administrator privileges on the affected device to exploit these vulnerabilities.
+
+**Attack Complexity (AC):**
+The attack complexity is "H" because an attacker must submit a crafted CLI command to exploit these vulnerabilities, which requires some skill and expertise.
+
+**Privileges Required (PR):**
+The privileges required are "L" because the attacker must have valid Administrator privileges on the affected device to exploit these vulnerabilities.
+
+**User Interaction (UI):**
+The user interaction is "N" because the attacker does not need to interact with the system in any way to exploit these vulnerabilities. The attack can be performed automatically.
+
+**Scope (S):**
+The scope is "U" because the vulnerability affects the underlying operating system, which has a broader impact than just the affected device.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is "N" because there is no potential for sensitive information to be compromised.
+
+**Integrity Impact (I):**
+The integrity impact is "H" because an attacker could exploit these vulnerabilities to elevate privileges to root, which has a significant impact on the system's integrity.
+
+**Availability Impact (A):**
+The availability impact is "N" because there is no potential for the system or network to become unavailable.
+
+Here is the output in JSON format:
+
+```
+{
+  "attack_vector": "L",
+  "attack_complexity": "H",
+  "privileges_required": "L",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "N",
+  "integrity_impact": "H",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N",
+  "base_score": 7.5
+}
+```
+
+Note that the base score is calculated based on the CVSS v3.1 guidelines and is rounded to one decimal place.

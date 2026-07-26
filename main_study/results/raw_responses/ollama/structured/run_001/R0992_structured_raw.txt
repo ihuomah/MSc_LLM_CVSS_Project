@@ -1,0 +1,36 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The attack vector is Network (N) because the vulnerability can be exploited remotely by injecting a crafted payload into an authenticated user's "Name" text field.
+
+**Attack Complexity (AC)**: The attack complexity is Low (L) because the attacker only needs to inject a simple payload into the vulnerable text field.
+
+**Privileges Required (PR)**: The privileges required are None (N) because the vulnerability can be exploited by an authenticated user without requiring any special privileges.
+
+**User Interaction (UI)**: The user interaction is Required (R) because the attacker must interact with the system to inject the payload and exploit the vulnerability.
+
+**Scope (S)**: The scope is Changed (C) because the vulnerability affects the confidentiality, integrity, and availability of the affected systems.
+
+**Confidentiality Impact (C)**: The confidentiality impact is Low (L) because an attacker could potentially steal sensitive information or inject malicious code to compromise the confidentiality of the system.
+
+**Integrity Impact (I)**: The integrity impact is High (H) because an attacker could potentially modify or delete data, which could lead to a loss of integrity and availability of the affected systems.
+
+**Availability Impact (A)**: The availability impact is Medium (M) because an attacker could potentially cause a denial-of-service (DoS) or a distributed denial-of-service (DDoS) attack, leading to a temporary or permanent loss of availability.
+
+Here's the output in JSON format:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "R",
+  "scope": "C",
+  "confidentiality_impact": "L",
+  "integrity_impact": "H",
+  "availability_impact": "M",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:H/A:M",
+  "base_score": 7.5
+}
+```
+
+Note that the base score is calculated based on the CVSS v3.1 guidelines and is rounded to one decimal place.

@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability allows an attacker with privilege access to trigger a vulnerability and leak secure memory from the Trusted Application. This suggests that the attack vector is **Network (N)**.
+
+**Attack Complexity (AC):**
+The vulnerability requires privilege access, which implies that the attack complexity is **Low (L)**.
+
+**Privileges Required (PR):**
+As mentioned earlier, the attacker needs privilege access to trigger the vulnerability. Therefore, the privileges required are **High (H)**.
+
+**User Interaction (UI):**
+There is no user interaction required to exploit this vulnerability, so the value is **No (N)**.
+
+**Scope (S):**
+The scope of the vulnerability is **Unchanged (U)**, as it affects the entire system.
+
+**Confidentiality Impact (C):**
+The vulnerability allows an attacker to leak secure memory, which has a significant impact on confidentiality. Therefore, the confidentiality impact is **High (H)**.
+
+**Integrity Impact (I):**
+The integrity of the system is also affected by this vulnerability, as it allows an attacker to access and potentially modify sensitive data. The integrity impact is therefore **High (H)**.
+
+**Availability Impact (A):**
+There is no indication that the availability of the system is affected by this vulnerability. Therefore, the availability impact is **None (N)**.
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "H",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N",
+  "base_score": 9.0
+}
+```
+
+The calculated base score is **9.0**.

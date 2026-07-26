@@ -1,0 +1,36 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The vulnerability allows SQL Injection via a parameter in Hotel/admin/usersettingdel.php?eid=2, which can be accessed remotely without authentication. Therefore, I assign an Attack Vector of **A** (Network).
+
+**Attack Complexity (AC)**: The attack requires some skill and knowledge to craft the SQL injection payload, but it is still relatively straightforward. I assign an Attack Complexity of **L** (Low).
+
+**Privileges Required (PR)**: No privileges are required to exploit this vulnerability, as it can be accessed remotely without authentication. Therefore, I assign a Privileges Required of **N** (None).
+
+**User Interaction (UI)**: The attack does not require user interaction, as the vulnerability can be exploited automatically. Therefore, I assign a User Interaction of **N** (No).
+
+**Scope (S)**: The scope is limited to the affected system only, with no potential for lateral movement or further exploitation. Therefore, I assign a Scope of **U** (Unchanged).
+
+**Confidentiality Impact (C)**: An attacker could potentially access sensitive data, such as user information or financial records, which would have a moderate impact on confidentiality. Therefore, I assign a Confidentiality Impact of **L** (Low).
+
+**Integrity Impact (I)**: An attacker could potentially modify or delete data, which would have a high impact on integrity. Therefore, I assign an Integrity Impact of **H** (High).
+
+**Availability Impact (A)**: The vulnerability could potentially cause the system to become unavailable or slow down, which would have a moderate impact on availability. Therefore, I assign an Availability Impact of **L** (Low).
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:L",
+  "base_score": 6.2
+}
+```
+
+The calculated base score is **6.2**.

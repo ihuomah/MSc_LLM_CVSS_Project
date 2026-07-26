@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is "Network" (N) because the vulnerability can be exploited remotely through the "username" parameter in admin/check_avalability.php.
+
+**Attack Complexity (AC):**
+The attack complexity is "Low" (L) because the attacker only needs to craft a malicious input to exploit the vulnerability, which does not require significant expertise or resources.
+
+**Privileges Required (PR):**
+No privileges are required (N) for an attacker to exploit this vulnerability, as it can be exploited by any user who can access the affected parameter.
+
+**User Interaction (UI):**
+No user interaction is required (N) because the vulnerability can be exploited automatically without any human intervention.
+
+**Scope (S):**
+The scope of the impact is "Unchanged" (U) because the vulnerability affects only the targeted system and does not have a broader impact on other systems or networks.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is "None" (N) because the vulnerability does not affect sensitive data or compromise confidentiality.
+
+**Integrity Impact (I):**
+The integrity impact is "Low" (L) because the attacker can potentially manipulate or modify data, but the impact is limited to the targeted system and does not have a broader impact on other systems or networks.
+
+**Availability Impact (A):**
+The availability impact is "None" (N) because the vulnerability does not affect the overall availability of the system or network.
+
+Here is the output in JSON format:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "N",
+  "integrity_impact": "L",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+  "base_score": 2.0
+}
+```
+
+The base score is calculated based on the CVSS v3.1 metrics and is equal to 2.0.

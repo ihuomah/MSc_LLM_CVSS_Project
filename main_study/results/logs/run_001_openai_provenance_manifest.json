@@ -1,0 +1,97 @@
+{
+  "run_id": "run_001",
+  "created_at": "2026-06-22T10:26:10Z",
+  "mode": "inference",
+  "provider_arg": "openai",
+  "providers": [
+    "openai"
+  ],
+  "environment": {
+    "timestamp": "2026-06-22T10:26:10Z",
+    "python_version": "3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "package_versions": {
+      "openai": "2.41.0",
+      "google-genai": "2.8.0",
+      "requests": "2.34.2",
+      "pandas": "3.0.3",
+      "pyarrow": "24.0.0",
+      "cvss": "3.6",
+      "python-dotenv": "1.2.2"
+    },
+    "models": {
+      "openai": "gpt-5.5",
+      "gemini": "gemini-2.5-pro",
+      "ollama": "llama3:8b"
+    },
+    "requested_temperature": 0,
+    "requested_seed": 42
+  },
+  "assets": [
+    {
+      "name": "runtime_config",
+      "path": "C:\\Users\\uwach\\MSc_LLM_CVSS_Project\\main_study\\runtime\\config.py",
+      "sha256": "6bcc8178f98705f1b14fc0d7b125a57cdb62918c28f185380a8da01097a16a12"
+    },
+    {
+      "name": "runtime_parser",
+      "path": "C:\\Users\\uwach\\MSc_LLM_CVSS_Project\\main_study\\runtime\\parser\\parse_model_response_v1.py",
+      "sha256": "8ba414334b0b6d416d09eeb6fc764ee1fd6c6afad1aa57f5423a74db3521af3f"
+    },
+    {
+      "name": "runtime_conventional_prompt",
+      "path": "C:\\Users\\uwach\\MSc_LLM_CVSS_Project\\main_study\\runtime\\prompts\\condition1_conventional_prompt_v1.txt",
+      "sha256": "6e32b05daff572021d6dbde1857d74d6536df4221621f115c18f40cde3b6ae56"
+    },
+    {
+      "name": "runtime_structured_prompt",
+      "path": "C:\\Users\\uwach\\MSc_LLM_CVSS_Project\\main_study\\runtime\\prompts\\condition2_structured_prompt_v1.txt",
+      "sha256": "797295459aa2ba880b0987c2031bac7bdcae26a4495158c61487ed4e24fd16cc"
+    },
+    {
+      "name": "input_dataset",
+      "path": "C:\\Users\\uwach\\MSc_LLM_CVSS_Project\\main_study\\experiment_inputs\\main_inference_dataset_v1.parquet",
+      "sha256": "e4fb541e964246a3bce4177f4ada84f34e87d033ec2764dcb6079d1c5b31edd3"
+    },
+    {
+      "name": "frozen_parser",
+      "path": "C:\\Users\\uwach\\MSc_LLM_CVSS_Project\\scripts\\frozen_parser_v1\\parse_model_response_v1.py",
+      "sha256": "8ba414334b0b6d416d09eeb6fc764ee1fd6c6afad1aa57f5423a74db3521af3f"
+    },
+    {
+      "name": "frozen_conventional_prompt",
+      "path": "C:\\Users\\uwach\\MSc_LLM_CVSS_Project\\prompts\\frozen_prompt_v1\\condition1_conventional_prompt_v1.txt",
+      "sha256": "6e32b05daff572021d6dbde1857d74d6536df4221621f115c18f40cde3b6ae56"
+    },
+    {
+      "name": "frozen_structured_prompt",
+      "path": "C:\\Users\\uwach\\MSc_LLM_CVSS_Project\\prompts\\frozen_prompt_v1\\condition2_structured_prompt_v1.txt",
+      "sha256": "797295459aa2ba880b0987c2031bac7bdcae26a4495158c61487ed4e24fd16cc"
+    }
+  ],
+  "capability_probe": {
+    "timestamp": "2026-06-22T10:26:08Z",
+    "openai": {
+      "provider": "openai",
+      "model": "gpt-5.5",
+      "temperature_supported": false,
+      "seed_supported": false,
+      "temperature_status": "unsupported_or_rejected",
+      "seed_status": "unsupported_or_rejected",
+      "probe_errors": [
+        {
+          "parameter": "temperature",
+          "error_type": "BadRequestError",
+          "error_message": "Error code: 400 - {'error': {'message': \"Unsupported parameter: 'temperature' is not supported with this model.\", 'type': 'invalid_request_error', 'param': 'temperature', 'code': None}}",
+          "status_code": 400
+        },
+        {
+          "parameter": "seed",
+          "error_type": "TypeError",
+          "error_message": "Responses.create() got an unexpected keyword argument 'seed'",
+          "status_code": null
+        }
+      ]
+    }
+  }
+}

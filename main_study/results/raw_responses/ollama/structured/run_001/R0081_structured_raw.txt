@@ -1,0 +1,28 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: N (Network)
+The attack vector is network-based, as it involves sending a flood of queries to a backend.
+* **Attack Complexity (AC)**: L (Low)
+The complexity of the attack is low, as it only requires the ability to send a large number of queries in a short period.
+* **Privileges Required (PR)**: N (None)
+No privileges are required to carry out this attack.
+* **User Interaction (UI)**: N (None)
+This attack does not require any user interaction.
+* **Scope (S)**: U (Unchanged)
+The scope of the attack is unchanged, as it only affects the targeted backend.
+* **Confidentiality Impact (C)**: N (None)
+There is no impact on confidentiality, as this attack does not involve sensitive data.
+* **Integrity Impact (I)**: L (Low)
+The integrity impact is low, as the attack may cause a mismatch between queries and responses, but it does not compromise the integrity of the system.
+* **Availability Impact (A)**: H (High)
+The availability impact is high, as the attack can potentially cause a denial-of-service (DoS) or a slowdown in the system's response.
+
+**Vector String**
+CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H
+
+**Base Score**
+9.8
+
+The base score is calculated based on the metrics assessment, and it represents the severity of the vulnerability.

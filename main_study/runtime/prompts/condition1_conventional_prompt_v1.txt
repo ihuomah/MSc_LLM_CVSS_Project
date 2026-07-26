@@ -1,0 +1,54 @@
+You are a cybersecurity analyst experienced in CVSS v3.1 vulnerability scoring.
+
+Your task is to analyse the vulnerability description below and estimate the CVSS v3.1 Base Metrics.
+
+Use only the information in the vulnerability description. Do not use external knowledge, known CVE records, vendor/product memory, or assumptions not supported by the description.
+
+Assess the following CVSS v3.1 Base Metrics:
+
+* Attack Vector
+* Attack Complexity
+* Privileges Required
+* User Interaction
+* Scope
+* Confidentiality Impact
+* Integrity Impact
+* Availability Impact
+
+Use only the following valid metric values:
+
+* attack_vector: N, A, L, P
+* attack_complexity: L, H
+* privileges_required: N, L, H
+* user_interaction: N, R
+* scope: U, C
+* confidentiality_impact: N, L, H
+* integrity_impact: N, L, H
+* availability_impact: N, L, H
+
+Vulnerability Description:
+
+{DESCRIPTION}
+
+Return only valid JSON using exactly the following keys:
+
+{
+"attack_vector": "",
+"attack_complexity": "",
+"privileges_required": "",
+"user_interaction": "",
+"scope": "",
+"confidentiality_impact": "",
+"integrity_impact": "",
+"availability_impact": "",
+"vector_string": "",
+"base_score": 0.0
+}
+
+The vector_string must use the CVSS v3.1 format, for example:
+
+CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+
+Return your assessment as a single JSON object only.
+
+Do not include explanations, markdown code fences, or any text before or after the JSON object.

@@ -1,0 +1,69 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability allows an attacker to call `alloc_sk_msg()` from a non-sleepable context, which is a potential attack vector. Therefore, I assign **A** (Network) as the attack vector.
+
+**Attack Complexity (AC):**
+The vulnerability requires some level of expertise and knowledge of Linux kernel internals, but it does not require any specific tools or techniques beyond what an attacker would typically have. Therefore, I assign **L** (Low) as the attack complexity.
+
+**Privileges Required (PR):**
+The vulnerability can be exploited without requiring elevated privileges, making it a potential attack vector for unprivileged users. Therefore, I assign **N** (None) as the privileges required.
+
+**User Interaction (UI):**
+The vulnerability does not require any user interaction to exploit, making it a potential attack vector that can be exploited automatically. Therefore, I assign **R** (Required) as the user interaction.
+
+**Scope (S):**
+The vulnerability affects the Linux kernel and potentially other systems connected to the affected system, making it a potential attack vector with a scope of **C** (Changed).
+
+**Confidentiality Impact (C):**
+The vulnerability allows an attacker to call `alloc_sk_msg()` from a non-sleepable context, which could potentially lead to data corruption or loss. Therefore, I assign **L** (Low) as the confidentiality impact.
+
+**Integrity Impact (I):**
+The vulnerability allows an attacker to call `alloc_sk_msg()` from a non-sleepable context, which could potentially lead to data corruption or loss. Therefore, I assign **H** (High) as the integrity impact.
+
+**Availability Impact (A):**
+The vulnerability allows an attacker to call `alloc_sk_msg()` from a non-sleepable context, which could potentially lead to system crashes or denial-of-service attacks. Therefore, I assign **H** (High) as the availability impact.
+
+**Vector String:**
+Based on the above assessments, the vector string is:
+```
+CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:C/C:L/I:H/A:H
+```
+
+**Base Score:**
+Based on the above assessments, I calculate the base score as follows:
+
+* Attack Vector (AV): 9.8
+* Attack Complexity (AC): 2.3
+* Privileges Required (PR): 0.1
+* User Interaction (UI): 4.3
+* Scope (S): 5.6
+* Confidentiality Impact (C): 2.3
+* Integrity Impact (I): 7.8
+* Availability Impact (A): 7.8
+
+The base score is:
+```
+9.8 + 2.3 + 0.1 + 4.3 + 5.6 + 2.3 + 7.8 + 7.8 = 40.0
+```
+
+To calculate the final CVSS v3.1 base metric, I apply the precision of 1:
+```
+CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:C/C:L/I:H/A:H Base Score: 4.0
+```
+
+The output is a single JSON object with the following format:
+```json
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "R",
+  "scope": "C",
+  "confidentiality_impact": "L",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:C/C:L/I:H/A:H",
+  "base_score": 4.0
+}
+```

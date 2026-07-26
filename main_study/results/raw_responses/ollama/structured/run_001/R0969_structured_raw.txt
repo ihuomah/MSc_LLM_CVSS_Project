@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The manipulation leads to a buffer overflow, which can be launched remotely. Therefore, the attack vector is **A** (Network).
+
+**Attack Complexity (AC):**
+The exploit has been disclosed to the public and may be used. This indicates that the attack complexity is relatively low, so I will rate it as **L** (Low).
+
+**Privileges Required (PR):**
+No specific privileges are required to launch the attack, so I will rate it as **N** (None).
+
+**User Interaction (UI):**
+The attack can be launched remotely without user interaction. Therefore, I will rate it as **R** (Required).
+
+**Scope (S):**
+The scope of the vulnerability is limited to a single system or component (BYE Command Handler). Therefore, I will rate it as **U** (Unchanged).
+
+**Confidentiality Impact (C):**
+The manipulation leads to buffer overflow, which could potentially compromise confidentiality. Therefore, I will rate it as **H** (High).
+
+**Integrity Impact (I):**
+The vulnerability could also impact the integrity of the system or component. Therefore, I will rate it as **H** (High).
+
+**Availability Impact (A):**
+The attack could potentially disrupt the availability of the system or component. Therefore, I will rate it as **H** (High).
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "R",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "base_score": 9.8
+}
+```
+
+The calculated base score is **9.8**.

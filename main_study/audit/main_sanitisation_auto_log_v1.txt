@@ -1,0 +1,20 @@
+================================================================================
+Starting Main Dataset Automated Sanitisation - Revised
+================================================================================
+Input rows: 1000
+
+Sanitisation Summary
+Rows processed: 1000
+No-CPE rows: 0
+Rows with replacements: 866
+Total replacements: 1466
+Rows with residual flags: 29
+
+Outputs:
+Parquet: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\datasets\sanitised\main_dataset_sanitised_auto_v1.parquet
+CSV: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\datasets\sanitised\main_dataset_sanitised_auto_v1.csv
+XLSX: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\datasets\sanitised\main_dataset_sanitised_auto_v1.xlsx
+Log: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\audit\main_sanitisation_auto_log_v1.txt
+================================================================================
+Main Dataset Automated Sanitisation Revised Complete
+================================================================================

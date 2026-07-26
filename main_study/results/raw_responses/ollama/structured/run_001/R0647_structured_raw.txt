@@ -1,0 +1,42 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is "L" because an attacker must have the ability to execute code on the target modem in order to exploit this vulnerability.
+
+**Attack Complexity (AC):**
+The attack complexity is "H" because the attacker needs to have a good understanding of the AT+CMT command and its parsing mechanism, as well as the ability to execute code on the target modem.
+
+**Privileges Required (PR):**
+The privileges required are "L" because an attacker must have the ability to execute code on the target modem in order to exploit this vulnerability.
+
+**User Interaction (UI):**
+The user interaction is "N" because the attack does not require any user interaction, as it can be performed remotely.
+
+**Scope (S):**
+The scope is "U" because the vulnerability affects a single system or module.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is "H" because an attacker can disclose sensitive information on affected installations of Product Y.
+
+**Integrity Impact (I):**
+The integrity impact is "H" because an attacker can leverage this vulnerability to execute arbitrary code in the context of root, which could lead to a complete compromise of the system.
+
+**Availability Impact (A):**
+The availability impact is "N" because there is no indication that the attack would affect the availability of the system or network.
+
+Here is the calculated CVSS v3.1 base metric:
+
+{
+  "attack_vector": "L",
+  "attack_complexity": "H",
+  "privileges_required": "L",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N",
+  "base_score": 9.0
+}
+
+Please note that this assessment is based solely on the provided vulnerability description and does not take into account any external knowledge or assumptions.

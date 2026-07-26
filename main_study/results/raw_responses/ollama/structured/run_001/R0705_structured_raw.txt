@@ -1,0 +1,51 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is local (L) because it is possible to launch the attack on the local host.
+
+**Attack Complexity (AC):**
+The attack complexity is high (H) because the exploitation appears to be difficult.
+
+**Privileges Required (PR):**
+No privileges are required (N) for this vulnerability, as it can be exploited by an unprivileged user.
+
+**User Interaction (UI):**
+No user interaction is required (N) for this vulnerability, as it can be exploited without any user input.
+
+**Scope (S):**
+The scope of the impact is confined to the local system (U), as the attack only affects the local host.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is low (L) because the vulnerability does not directly affect sensitive data.
+
+**Integrity Impact (I):**
+The integrity impact is high (H) because the vulnerability can lead to insecure temporary files, which can compromise the system's integrity.
+
+**Availability Impact (A):**
+The availability impact is low (L) because the vulnerability does not directly affect the system's availability.
+
+**Vector String:**
+The vector string is:
+```
+CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:H/A:L
+```
+
+**Base Score:**
+Based on the CVSS v3.1 base metric, the calculated score is 7.5.
+
+Here is the output in JSON format:
+```json
+{
+  "attack_vector": "L",
+  "attack_complexity": "H",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:H/A:L",
+  "base_score": 7.5
+}
+```
+Please note that this assessment is based solely on the provided vulnerability description and does not take into account any external knowledge or assumptions.

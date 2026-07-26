@@ -1,0 +1,43 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: The vulnerability allows a remote attacker to decrypt captured messages in TLS servers that use RSA key exchanges, which may lead to exposure of confidential or sensitive data. Therefore, the attack vector is **A** (Network).
+* **Attack Complexity (AC)**: The vulnerability requires minimal attack complexity, as an attacker can exploit it by capturing and analyzing TLS traffic. Therefore, the attack complexity is **L** (Low).
+* **Privileges Required (PR)**: No privileges are required to exploit this vulnerability, as it can be exploited remotely. Therefore, the privileges required are **N** (None).
+* **User Interaction (UI)**: The vulnerability does not require user interaction, as an attacker can exploit it by capturing and analyzing TLS traffic. Therefore, the user interaction is **N** (None).
+* **Scope (S)**: The scope of this vulnerability is **U** (Unchanged), as it affects the confidentiality of data.
+* **Confidentiality Impact (C)**: The confidentiality impact is **H** (High), as an attacker can decrypt captured messages, potentially exposing confidential or sensitive data.
+* **Integrity Impact (I)**: The integrity impact is **N** (None), as this vulnerability does not affect the integrity of data.
+* **Availability Impact (A)**: The availability impact is **N** (None), as this vulnerability does not affect the availability of systems.
+
+**Vector String**
+
+The vector string is:
+```
+CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+```
+
+**Base Score**
+
+Based on the assessed metrics, the base score is:
+```
+9.8
+```
+
+Here is the output in JSON format:
+
+```json
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "N",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+  "base_score": 9.8
+}
+```

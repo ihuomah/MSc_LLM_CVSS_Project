@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is "A" because the exploit can be launched remotely.
+
+**Attack Complexity (AC):**
+The attack complexity is "L" because the manipulation of the argument refno leads to sql injection, which requires some skill and expertise.
+
+**Privileges Required (PR):**
+No privileges are required for this vulnerability, so it's "N".
+
+**User Interaction (UI):**
+The attack can be launched remotely without user interaction, so it's "R".
+
+**Scope (S):**
+The scope is "U" because the attack affects unknown functionality of the file /addcustind.php.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is "H" because an attacker could potentially access sensitive information.
+
+**Integrity Impact (I):**
+The integrity impact is also "H" because an attacker could modify or delete data.
+
+**Availability Impact (A):**
+The availability impact is "N" because the attack does not affect the system's overall availability.
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "R",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+  "base_score": 9.0
+}
+```
+
+The base score is 9.0, indicating a high severity vulnerability.

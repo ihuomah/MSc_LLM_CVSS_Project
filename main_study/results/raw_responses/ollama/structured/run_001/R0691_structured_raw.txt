@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is Network (N) because an authenticated user with permission to create or modify workflows could abuse this to execute malicious scripts with same-origin privileges when other users interact with the crafted workflow.
+
+**Attack Complexity (AC):**
+The attack complexity is Low (L) because the vulnerability can be exploited by an authenticated user with permission to create or modify workflows, and the attacker does not need to perform any complex actions to exploit the vulnerability.
+
+**Privileges Required (PR):**
+The privileges required are High (H) because the vulnerability requires an authenticated user with permission to create or modify workflows to exploit it.
+
+**User Interaction (UI):**
+The user interaction is None (N) because the attacker does not need to interact with the system in any way to exploit the vulnerability.
+
+**Scope (S):**
+The scope is Changed (C) because the vulnerability can be exploited by an authenticated user with permission to create or modify workflows, which affects the confidentiality and integrity of the affected workflows.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is High (H) because an attacker could use this vulnerability to execute malicious scripts with same-origin privileges, potentially leading to session hijacking and account takeover.
+
+**Integrity Impact (I):**
+The integrity impact is High (H) because an attacker could use this vulnerability to modify or delete workflows, which could lead to data loss or corruption.
+
+**Availability Impact (A):**
+The availability impact is None (N) because the vulnerability does not affect the availability of the system.
+
+Here is the output in JSON format:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "H",
+  "user_interaction": "N",
+  "scope": "C",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:N",
+  "base_score": 9.0
+}
+```
+
+Note that the base score is calculated based on the CVSS v3.1 guidelines and is subject to change if additional information becomes available.

@@ -1,0 +1,43 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: L (Local)
+The vulnerability allows local attackers to read work profile notifications without proper access permission.
+* **Attack Complexity (AC)**: H (High)
+The attack complexity is high because an attacker needs to have some level of understanding of the notification framework and Knox ID validation logic to exploit this vulnerability.
+* **Privileges Required (PR)**: L (Low)
+An attacker does not need any special privileges to exploit this vulnerability, as it can be done with normal user access.
+* **User Interaction (UI)**: N (None)
+The attack does not require any user interaction, as an attacker can exploit the vulnerability without any user input.
+* **Scope (S)**: U (Unchanged)
+The scope of the attack is unchanged, as it only affects the local system and does not propagate to other systems or networks.
+* **Confidentiality Impact (C)**: L (Low)
+The confidentiality impact is low because an attacker can only read work profile notifications without proper access permission.
+* **Integrity Impact (I)**: N (None)
+There is no integrity impact, as the vulnerability does not allow an attacker to modify or delete data.
+* **Availability Impact (A)**: N (None)
+There is no availability impact, as the vulnerability does not affect the system's overall availability.
+
+**Vector String**
+CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N
+
+**Base Score**
+The base score for this vulnerability is 4.0 (out of 10.0).
+
+Here is the output in JSON format:
+
+```
+{
+  "attack_vector": "L",
+  "attack_complexity": "H",
+  "privileges_required": "L",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "N",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N",
+  "base_score": 4.0
+}
+```

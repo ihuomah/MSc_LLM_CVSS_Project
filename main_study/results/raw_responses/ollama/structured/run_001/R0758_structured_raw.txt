@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability allows an attacker to access cleartext code storage without any authentication or authorization checks. This can be exploited remotely, so I'll assign **A** (Network).
+
+**Attack Complexity (AC):**
+The attack requires minimal effort and expertise, as the cleartext code is readily available. Therefore, I'll assign **L** (Low).
+
+**Privileges Required (PR):**
+No privileges are required to exploit this vulnerability, as it can be accessed without authentication or authorization checks. Hence, I'll assign **N** (None).
+
+**User Interaction (UI):**
+No user interaction is required to exploit this vulnerability, as the cleartext code is accessible remotely. Therefore, I'll assign **N** (None).
+
+**Scope (S):**
+The scope of the impact is limited to the affected device or system, so I'll assign **U** (Unchanged).
+
+**Confidentiality Impact (C):**
+The exposure of cleartext code could potentially reveal sensitive information, such as encryption keys or authentication credentials. Therefore, I'll assign **H** (High).
+
+**Integrity Impact (I):**
+The vulnerability could allow an attacker to modify the stored code, which could compromise the integrity of the system. Hence, I'll assign **H** (High).
+
+**Availability Impact (A):**
+The exposure of cleartext code does not directly impact the availability of the system or device. Therefore, I'll assign **N** (None).
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+  "base_score": 7.5
+}
+```
+
+The calculated base score is **7.5**.

@@ -1,0 +1,56 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is remote, as it is possible to launch the attack remotely.
+Type: A
+
+**Attack Complexity (AC):**
+The attack complexity is low, as the manipulation of the argument ID leads to sql injection.
+Type: L
+
+**Privileges Required (PR):**
+No privileges are required to exploit this vulnerability.
+Type: N
+
+**User Interaction (UI):**
+The exploit can be launched without user interaction.
+Type: N
+
+**Scope (S):**
+The scope is unchanged, as the attack only affects the targeted system.
+Type: U
+
+**Confidentiality Impact (C):**
+High impact, as an unknown function of the file /bidlog.php is affected.
+Type: H
+
+**Integrity Impact (I):**
+High impact, as the vulnerability allows for sql injection, which can lead to data modification or deletion.
+Type: H
+
+**Availability Impact (A):**
+Low impact, as the attack does not directly affect system availability.
+Type: N
+
+**Vector String:**
+CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
+
+**Base Score:**
+Based on the calculated metrics, the base score is 9.8.
+
+Here is the output in JSON format:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+  "base_score": 9.8
+}
+```

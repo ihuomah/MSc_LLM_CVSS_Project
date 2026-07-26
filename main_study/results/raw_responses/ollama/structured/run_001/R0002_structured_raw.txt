@@ -1,0 +1,46 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+Here is my assessment:
+
+**Attack Vector (AV)**: A (Network)
+The attack vector is network-based, as an authenticated attacker with Subscriber-level access and above can exploit the SQL injection vulnerability remotely.
+
+**Attack Complexity (AC)**: L (Low)
+The attack complexity is low because the vulnerability requires minimal effort to exploit. The attacker only needs to manipulate the 'data-id' parameter to inject malicious SQL code.
+
+**Privileges Required (PR)**: H (High)
+The privileges required are high, as an authenticated attacker with Subscriber-level access and above can exploit the vulnerability.
+
+**User Interaction (UI)**: N (None)
+No user interaction is required to exploit the vulnerability, as it can be done programmatically or through automated means.
+
+**Scope (S)**: U (Unchanged)
+The scope of the attack is unchanged, as the attacker's goal is to extract sensitive information from the database.
+
+**Confidentiality Impact (C)**: H (High)
+The confidentiality impact is high, as an attacker can potentially access sensitive information such as user data or financial information.
+
+**Integrity Impact (I)**: H (High)
+The integrity impact is also high, as an attacker can modify or delete existing data in the database.
+
+**Availability Impact (A)**: N (None)
+There is no availability impact, as the vulnerability does not affect the system's ability to function normally.
+
+Here is my output:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "H",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N",
+  "base_score": 9.0
+}
+```
+
+Please note that the base score is calculated based on the CVSS v3.1 guidelines and may vary depending on the specific circumstances of the vulnerability.

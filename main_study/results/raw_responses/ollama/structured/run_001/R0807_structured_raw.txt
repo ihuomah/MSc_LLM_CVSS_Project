@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability allows an attacker to manipulate the key handling, which can be done remotely (A).
+
+**Attack Complexity (AC):**
+The attack complexity is low because the vulnerability can be exploited by simply importing a malicious SPKI RSA public key as ECDSA P-256 (L).
+
+**Privileges Required (PR):**
+No privileges are required to exploit this vulnerability (N).
+
+**User Interaction (UI):**
+No user interaction is required to exploit this vulnerability (N).
+
+**Scope (S):**
+The scope of the impact is limited to the affected product only (U).
+
+**Confidentiality Impact (C):**
+The confidentiality impact is low because an attacker can manipulate the key handling, but it does not reveal sensitive information (L).
+
+**Integrity Impact (I):**
+The integrity impact is high because an attacker can cause the tab to crash, which may lead to data loss or corruption (H).
+
+**Availability Impact (A):**
+The availability impact is medium because an attacker can cause the tab to crash, but it does not affect the overall system availability (M).
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "H",
+  "availability_impact": "M",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:M",
+  "base_score": 7.5
+}
+```
+
+Note that the base score is calculated based on the provided vulnerability description and follows the CVSS v3.1 guidelines.

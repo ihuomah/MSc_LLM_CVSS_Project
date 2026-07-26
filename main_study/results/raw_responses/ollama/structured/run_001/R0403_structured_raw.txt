@@ -1,0 +1,36 @@
+Based on the provided vulnerability description and constraints, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The vulnerability allows an authenticated user to affect the device SSL-VPN availability via crafted requests. This suggests a **Network (N)** attack vector.
+
+**Attack Complexity (AC)**: The vulnerability requires crafting specific requests, which implies a moderate level of complexity. I will rate this as **High (H)**.
+
+**Privileges Required (PR)**: The vulnerability can be exploited by an authenticated user, so no special privileges are required. This is rated as **None (N)**.
+
+**User Interaction (UI)**: The vulnerability does not require any user interaction beyond authentication. This is rated as **None (N)**.
+
+**Scope (S)**: The vulnerability affects the device SSL-VPN availability, which is a limited scope. I will rate this as **Unchanged (U)**.
+
+**Confidentiality Impact (C)**: There is no indication of confidentiality being affected. This is rated as **None (N)**.
+
+**Integrity Impact (I)**: The vulnerability allows an authenticated user to affect the device SSL-VPN availability, which implies a moderate impact on integrity. I will rate this as **Low (L)**.
+
+**Availability Impact (A)**: The vulnerability directly affects the device SSL-VPN availability, which is a significant impact. I will rate this as **High (H)**.
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "H",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "N",
+  "integrity_impact": "L",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H",
+  "base_score": 7.5
+}
+```
+
+The calculated base score is **7.5**.

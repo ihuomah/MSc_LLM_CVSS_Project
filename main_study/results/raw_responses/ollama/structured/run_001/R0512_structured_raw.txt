@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is "N" because the issue can be exploited remotely without any user interaction.
+
+**Attack Complexity (AC):**
+The attack complexity is "L" because the exploit requires some degree of expertise and knowledge about the affected system.
+
+**Privileges Required (PR):**
+The privileges required are "N" because an attacker does not need to have elevated privileges to exploit this vulnerability.
+
+**User Interaction (UI):**
+The user interaction is "N" because the issue can be exploited without any user interaction.
+
+**Scope (S):**
+The scope is "U" because the vulnerability affects a single system or process.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is "N" because there is no sensitive information that could be compromised by this vulnerability.
+
+**Integrity Impact (I):**
+The integrity impact is "L" because an attacker can cause a denial of service (panic) but cannot modify the system's data or configuration.
+
+**Availability Impact (A):**
+The availability impact is "H" because the issue can cause a complete system failure, resulting in significant downtime and potential business disruption.
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "N",
+  "integrity_impact": "L",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H",
+  "base_score": 7.5
+}
+```
+
+The base score is 7.5, indicating a high severity vulnerability.

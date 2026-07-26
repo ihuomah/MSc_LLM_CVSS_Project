@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is Network (N) because an attacker would need to ensure that the response returns HTML tags and that the web-application is using streamed responses (non-RSC).
+
+**Attack Complexity (AC):**
+The attack complexity is Low (L) because the vulnerability requires some level of expertise to exploit, but it's not extremely complex.
+
+**Privileges Required (PR):**
+No privileges are required (N) for an attacker to exploit this vulnerability.
+
+**User Interaction (UI):**
+No user interaction is required (N) for an attacker to exploit this vulnerability.
+
+**Scope (S):**
+The scope of the impact is Unchanged (U) because the vulnerability affects the confidentiality, integrity, and availability of the system.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is Low (L) because an attacker could potentially steal sensitive information or inject malicious code into the response stream.
+
+**Integrity Impact (I):**
+The integrity impact is High (H) because an attacker could potentially modify the response stream to inject malicious code or alter the system's behavior.
+
+**Availability Impact (A):**
+The availability impact is Low (L) because an attacker could potentially cause a denial-of-service (DoS) attack by flooding the system with requests, but this would not be the primary goal of the exploit.
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:L",
+  "base_score": 7.5
+}
+```
+
+Please note that this assessment is based solely on the provided vulnerability description and does not take into account any external knowledge or assumptions.

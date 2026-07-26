@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack can be initiated remotely, so I will set AV to "A".
+
+**Attack Complexity (AC):**
+The manipulation of the argument productId leads to sql injection, which is a relatively simple attack vector. Therefore, I will set AC to "L" (Low).
+
+**Privileges Required (PR):**
+No privileges are required for this vulnerability, as it can be exploited remotely. So, I will set PR to "N" (None).
+
+**User Interaction (UI):**
+The exploit has been disclosed to the public and may be used, which means that user interaction is not required. Therefore, I will set UI to "R" (Remote).
+
+**Scope (S):**
+The scope of this vulnerability is limited to the affected file (/php_action/removeProduct.php). So, I will set S to "U" (Unchanged).
+
+**Confidentiality Impact (C):**
+This vulnerability allows for sql injection attacks, which could potentially lead to unauthorized access or data modification. Therefore, I will set C to "H" (High).
+
+**Integrity Impact (I):**
+The integrity of the affected file and possibly other files in the system could be compromised due to this vulnerability. So, I will set I to "H" (High).
+
+**Availability Impact (A):**
+This vulnerability could potentially lead to denial-of-service attacks or data corruption, affecting the availability of the system. Therefore, I will set A to "H" (High).
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "R",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "base_score": 9.8
+}
+```
+
+Please note that this assessment is based solely on the provided vulnerability description and does not take into account any external knowledge or assumptions.

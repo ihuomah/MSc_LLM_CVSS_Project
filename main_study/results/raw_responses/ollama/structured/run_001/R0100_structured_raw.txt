@@ -1,0 +1,36 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The vulnerability requires user interaction to exploit, so it is classified as "P" (Phased).
+
+**Attack Complexity (AC)**: The attack complexity is considered "L" (Low) because an attacker can easily create a malicious page or file to exploit the vulnerability.
+
+**Privileges Required (PR)**: No privileges are required to exploit this vulnerability, so it is classified as "N" (None).
+
+**User Interaction (UI)**: As mentioned earlier, user interaction is required to exploit this vulnerability, so it is classified as "R" (Required).
+
+**Scope (S)**: The scope of the impact is limited to the affected installation of Vendor X Product Y, so it is classified as "U" (Unchanged).
+
+**Confidentiality Impact (C)**: The confidentiality impact is considered "H" (High) because an attacker can execute arbitrary code on the affected system.
+
+**Integrity Impact (I)**: The integrity impact is also considered "H" (High) because an attacker can modify or delete data on the affected system.
+
+**Availability Impact (A)**: The availability impact is considered "H" (High) because an attacker can cause a denial-of-service (DoS) or crash the affected system.
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "P",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "R",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "base_score": 9.8
+}
+```
+
+Note that the base score is calculated based on the provided vulnerability description and follows the CVSS v3.1 guidelines.

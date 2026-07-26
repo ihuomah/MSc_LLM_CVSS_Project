@@ -1,0 +1,49 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attacker needs to have an authenticated session to exploit this vulnerability. Therefore, the attack vector is **A** (Network).
+
+**Attack Complexity (AC):**
+The complexity of the attack is relatively low as it involves brute-forcing a password using the change password functionality. Hence, the attack complexity is **L** (Low).
+
+**Privileges Required (PR):**
+No special privileges are required to exploit this vulnerability, so the value is **N** (None).
+
+**User Interaction (UI):**
+The attacker can perform the attack without user interaction, as they can call the route infinitely. Therefore, the user interaction is **N** (None).
+
+**Scope (S):**
+The scope of the impact is limited to the affected system or component, so the value is **U** (Unchanged).
+
+**Confidentiality Impact (C):**
+If an attacker gains access to an authenticated session, they can potentially gain unauthorized access to sensitive information. Therefore, the confidentiality impact is **H** (High).
+
+**Integrity Impact (I):**
+The integrity of the system or component may be compromised if an attacker gains access to an authenticated session and can modify data or perform other malicious actions. Hence, the integrity impact is **H** (High).
+
+**Availability Impact (A):**
+The availability of the affected system or component may also be impacted if an attacker can cause a denial-of-service (DoS) or a distributed denial-of-service (DDoS) attack. Therefore, the availability impact is **L** (Low).
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L
+Base Score: 7.5
+```
+
+The output will be a single JSON object with the following format:
+
+```json
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L",
+  "base_score": 7.5
+}
+```

@@ -1,0 +1,34 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: Remote (A)
+The manipulation of the argument name leads to sql injection, which can be initiated remotely.
+
+**Attack Complexity (AC)**: Low (L)
+The attack requires some degree of expertise and knowledge of SQL injection techniques, but it is not extremely complex or difficult to execute.
+
+**Privileges Required (PR)**: None (N)
+No special privileges are required to exploit this vulnerability.
+
+**User Interaction (UI)**: None (N)
+The attack can be initiated without user interaction.
+
+**Scope (S)**: Unchanged (U)
+The scope of the impact is limited to the affected system or component, and there is no potential for further exploitation or spread.
+
+**Confidentiality Impact (C)**: High (H)
+The vulnerability allows for unauthorized access to sensitive data, which could lead to significant confidentiality breaches.
+
+**Integrity Impact (I)**: High (H)
+The vulnerability also allows for unauthorized modifications to the affected system or component, which could lead to significant integrity breaches.
+
+**Availability Impact (A)**: Low (L)
+While the vulnerability could potentially cause some disruption or denial-of-service, it is not likely to have a significant impact on availability.
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L
+Base Score: 8.5
+```
+
+Please note that this assessment is based solely on the provided vulnerability description and does not take into account any external knowledge or information.

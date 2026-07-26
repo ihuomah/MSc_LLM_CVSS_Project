@@ -1,0 +1,28 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: N (Network)
+The vulnerability allows other processes to read keyboard input, which can be exploited remotely.
+* **Attack Complexity (AC)**: L (Low)
+The attack requires minimal complexity, as an attacker only needs to exploit the lack of secure keyboard input functionality.
+* **Privileges Required (PR)**: N (None)
+No special privileges are required to exploit this vulnerability.
+* **User Interaction (UI)**: N (None)
+No user interaction is required to exploit this vulnerability.
+* **Scope (S)**: U (Unchanged)
+The scope of the attack remains unchanged, as it only affects the targeted system.
+* **Confidentiality Impact (C)**: H (High)
+The vulnerability allows unauthorized access to sensitive information, such as keyboard input.
+* **Integrity Impact (I)**: L (Low)
+The integrity of the system is not significantly impacted by this vulnerability.
+* **Availability Impact (A)**: N (None)
+The availability of the system is not affected by this vulnerability.
+
+**Vector String**
+CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N
+
+**Base Score**
+9.8
+
+Please note that this assessment is based solely on the provided vulnerability description and does not take into account any external knowledge or assumptions.

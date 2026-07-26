@@ -1,0 +1,36 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The vulnerability allows a remote user to set their own username, which can be synced to the local server. This is an **Network-based (N)** attack vector.
+
+**Attack Complexity (AC)**: The vulnerability requires minimal effort and expertise from the attacker, making it **Low (L)** in complexity.
+
+**Privileges Required (PR)**: No privileges are required for the attack, making it **None (N)**.
+
+**User Interaction (UI)**: The attack does not require user interaction, making it **None (N)**.
+
+**Scope (S)**: The vulnerability affects a single system or data, making it **Unchanged (U)** in scope.
+
+**Confidentiality Impact (C)**: The vulnerability allows an attacker to set their own username, which could lead to unauthorized access. This is a **Low (L)** confidentiality impact.
+
+**Integrity Impact (I)**: The vulnerability does not affect the integrity of the system or data, making it **None (N)**.
+
+**Availability Impact (A)**: The vulnerability does not affect the availability of the system or data, making it **None (N)**.
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "N",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+  "base_score": 2.9
+}
+```
+
+The calculated base score is **2.9**.

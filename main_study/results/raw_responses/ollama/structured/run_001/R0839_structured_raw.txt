@@ -1,0 +1,36 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The vulnerability allows authenticated users to enumerate action bindings and metadata via dashboard and API endpoints. This can be exploited by an attacker who has already gained access to the system. Therefore, the attack vector is **A** (Network).
+
+**Attack Complexity (AC)**: The vulnerability requires minimal effort or skill from the attacker, as they only need to exploit the existing authorization flaw. Therefore, the attack complexity is **L** (Low).
+
+**Privileges Required (PR)**: The vulnerability can be exploited by an authenticated user with view: false permission. This means that an attacker does not require any special privileges to exploit the vulnerability. Therefore, the privileges required are **N** (None).
+
+**User Interaction (UI)**: The vulnerability can be exploited without requiring any user interaction. An attacker can simply exploit the existing authorization flaw to enumerate action bindings and metadata. Therefore, the user interaction is **N** (None).
+
+**Scope (S)**: The vulnerability affects the confidentiality, integrity, and availability of the system. Therefore, the scope is **C** (Changed).
+
+**Confidentiality Impact (C)**: An attacker can use this vulnerability to retrieve action titles, IDs, icons, and argument metadata, which could potentially compromise the confidentiality of the system. Therefore, the confidentiality impact is **L** (Low).
+
+**Integrity Impact (I)**: The vulnerability allows an attacker to enumerate action bindings and metadata, which could potentially compromise the integrity of the system. Therefore, the integrity impact is **L** (Low).
+
+**Availability Impact (A)**: An attacker can use this vulnerability to retrieve information that could potentially affect the availability of the system. However, the impact on availability is minimal. Therefore, the availability impact is **N** (None).
+
+Here's the output in JSON format:
+
+```json
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "C",
+  "confidentiality_impact": "L",
+  "integrity_impact": "L",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
+  "base_score": 4.0
+}
+```
+
+The base score is calculated based on the CVSS v3.1 metrics and is **4.0**.

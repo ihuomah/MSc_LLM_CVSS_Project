@@ -1,0 +1,41 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The vulnerability allows an attacker to access unauthorized keys without explicit authorization by the ACL configuration. This can be exploited remotely (A) or locally (N), depending on the context in which Product Y is used. Therefore, I assign **AV:N/A**, as the attack vector is network-based.
+
+**Attack Complexity (AC)**: The vulnerability requires no special privileges or knowledge to exploit, as it can be triggered by executing a specific command (`SORT_RO`). This makes the attack complexity low (L).
+
+**Privileges Required (PR)**: No special privileges are required to exploit this vulnerability. Therefore, I assign **PR:N**, indicating that no privileges are needed.
+
+**User Interaction (UI)**: The vulnerability does not require user interaction to be exploited. It can be triggered automatically by executing the `SORT_RO` command. Therefore, I assign **UI:N**, indicating that no user interaction is required.
+
+**Scope (S)**: The scope of this vulnerability is limited to the Product Y system itself (U), as it only affects the in-memory database and its persistence on disk.
+
+**Confidentiality Impact (C)**: Unauthorized access to keys can lead to sensitive data being accessed or modified. This has a medium impact on confidentiality (L).
+
+**Integrity Impact (I)**: The vulnerability allows unauthorized modification of data, which has a high impact on integrity (H).
+
+**Availability Impact (A)**: There is no direct impact on availability, as the vulnerability does not affect the system's ability to function or respond. However, if an attacker uses this vulnerability to modify or access sensitive data, it could indirectly affect availability.
+
+Based on these metrics, I calculate the **vector string**: `CVSS:3.1/AV:N/A/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:N`
+
+Using the CVSS v3.1 formula, I calculate the **base score**:
+
+`Base Score = (0.6 * C) + (0.4 * I) = 5.4`
+
+Rounded to one decimal place, the **base score** is: `5.4`
+
+Here is the output in JSON format:
+```json
+{
+  "attack_vector": "AV:N/A",
+  "attack_complexity": "AC:L",
+  "privileges_required": "PR:N",
+  "user_interaction": "UI:N",
+  "scope": "S:U",
+  "confidentiality_impact": "C:L",
+  "integrity_impact": "I:H",
+  "availability_impact": "A:N",
+  "vector_string": "CVSS:3.1/AV:N/A/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:N",
+  "base_score": 5.4
+}
+```

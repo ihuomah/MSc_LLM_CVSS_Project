@@ -1,0 +1,36 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metrics.
+
+**Attack Vector (AV)**: The attack vector is "L" (Local) because the vulnerability can be exploited by an attacker with administrative access to the console.
+
+**Attack Complexity (AC)**: The attack complexity is "L" (Low) because there are no specific requirements for the attack, and it can be executed by an attacker with minimal effort.
+
+**Privileges Required (PR)**: The privileges required are "H" (High) because the vulnerability requires administrative access to the console.
+
+**User Interaction (UI)**: The user interaction is "R" (Required) because the victim must actively participate in the attack sequence.
+
+**Scope (S)**: The scope is "U" (Unchanged) because the vulnerability does not affect confidentiality or availability, and only affects integrity with a low impact.
+
+**Confidentiality Impact (C)**: The confidentiality impact is "N" (None) because there is no impact to confidentiality.
+
+**Integrity Impact (I)**: The integrity impact is "L" (Low) because the vulnerability can interfere with another administrator's access to the console, but only affects integrity with a low impact.
+
+**Availability Impact (A)**: The availability impact is "N" (None) because there is no impact to availability.
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "L",
+  "attack_complexity": "L",
+  "privileges_required": "H",
+  "user_interaction": "R",
+  "scope": "U",
+  "confidentiality_impact": "N",
+  "integrity_impact": "L",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:U/C:N/I:L/A:N",
+  "base_score": 4.0
+}
+```
+
+The base score is 4.0, indicating a moderate severity vulnerability.

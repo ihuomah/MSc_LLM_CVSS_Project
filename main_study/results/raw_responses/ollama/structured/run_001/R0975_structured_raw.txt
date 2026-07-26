@@ -1,0 +1,51 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is Local (L) because the vulnerability can be exploited by a malicious actor with local non-administrative user privileges.
+
+**Attack Complexity (AC):**
+The attack complexity is Low (L) because the vulnerability requires some degree of expertise to exploit, but it does not require significant resources or planning.
+
+**Privileges Required (PR):**
+The privileges required are None (N) because the vulnerability can be exploited by a malicious actor with local non-administrative user privileges.
+
+**User Interaction (UI):**
+The user interaction is None (N) because the vulnerability can be exploited without any user interaction, such as clicking on a link or installing software.
+
+**Scope (S):**
+The scope is Changed (C) because the vulnerability affects the confidentiality, integrity, and availability of the system where Product Y is installed or being installed for the first time.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is High (H) because the vulnerability can be exploited to escalate privileges to root on the system, potentially leading to unauthorized access to sensitive data.
+
+**Integrity Impact (I):**
+The integrity impact is High (H) because the vulnerability can be exploited to modify or delete files on the system, potentially leading to data corruption or loss.
+
+**Availability Impact (A):**
+The availability impact is High (H) because the vulnerability can be exploited to disrupt or deny service to the system, potentially leading to system crashes or unavailability.
+
+**Vector String:**
+The vector string is:
+```
+CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+```
+
+**Base Score:**
+Based on the CVSS v3.1 base metric, the calculated score is 9.8.
+
+Here is the output in JSON format:
+
+```json
+{
+  "attack_vector": "L",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "C",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+  "base_score": 9.8
+}
+```

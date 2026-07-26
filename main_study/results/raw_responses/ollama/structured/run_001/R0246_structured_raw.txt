@@ -1,0 +1,50 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability allows a remote attacker to execute CL commands as QUSER, which suggests an **A**ttack Vector of "Network" (N).
+
+**Attack Complexity (AC):**
+The exploitation of DDM architecture is likely to require some level of expertise and planning, making the **Attack Complexity** "High" (H).
+
+**Privileges Required (PR):**
+As the attacker can execute CL commands as QUSER, no special privileges are required, so the value is set to **None** (N).
+
+**User Interaction (UI):**
+The vulnerability can be exploited remotely without user interaction, making the value **None** (N).
+
+**Scope (S):**
+The scope of the vulnerability is limited to the affected products and versions, making it a **User** (U) impact.
+
+**Confidentiality Impact (C), Integrity Impact (I), Availability Impact (A):**
+The vulnerability allows remote execution of CL commands as QUSER, which could lead to unauthorized changes or data destruction. Therefore, I assess the impacts as follows:
+
+* Confidentiality: **None** (N)
+* Integrity: **High** (H)
+* Availability: **High** (H)
+
+Using these metrics, I will calculate the CVSS v3.1 base score.
+
+**Vector String:**
+The vector string is:
+`CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H`
+
+**Base Score:**
+Based on the calculated metrics, the base score is:
+`8.0`
+
+Here is the output in JSON format:
+
+```json
+{
+  "attack_vector": "N",
+  "attack_complexity": "H",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "N",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H",
+  "base_score": 8.0
+}
+```

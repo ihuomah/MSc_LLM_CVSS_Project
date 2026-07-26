@@ -1,0 +1,36 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The vulnerability is a reflected cross-site scripting issue, which can be exploited through user-controlled input. Therefore, the attack vector is **A** (Network).
+
+**Attack Complexity (AC)**: The vulnerability requires minimal effort to exploit, as it only needs unescaped user-controlled values inserted into the generated HTML. Hence, the attack complexity is **L** (Low).
+
+**Privileges Required (PR)**: No privileges are required to exploit this vulnerability, as it can be triggered by an unauthenticated attacker. Therefore, the privileges required are **N** (None).
+
+**User Interaction (UI)**: The vulnerability does not require user interaction to exploit, as it can be triggered automatically. Hence, the user interaction is **N** (No).
+
+**Scope (S)**: The scope of this vulnerability is **U** (Unchanged), as it only affects the callback server origin.
+
+**Confidentiality Impact (C)**: The confidentiality impact is **L** (Low), as an attacker can execute arbitrary JavaScript code, potentially leading to information disclosure or stealing sensitive data.
+
+**Integrity Impact (I)**: The integrity impact is also **L** (Low), as an attacker can manipulate the callback server origin, potentially leading to data tampering or modification.
+
+**Availability Impact (A)**: The availability impact is **N** (None), as this vulnerability does not affect the overall system availability.
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "L",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+  "base_score": 4.0
+}
+```
+
+The base score is **4.0**, indicating a moderate severity vulnerability.

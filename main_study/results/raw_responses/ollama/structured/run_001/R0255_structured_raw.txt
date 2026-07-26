@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is "A" because it requires a network-based attack to send a maliciously crafted JSON file with an HTML object.
+
+**Attack Complexity (AC):**
+The attack complexity is "L" because the attacker needs to have some knowledge of the vulnerability and the device's configuration, but no advanced expertise or specialized tools are required.
+
+**Privileges Required (PR):**
+The privileges required are "N" because the attacker does not need any special privileges to exploit the vulnerability.
+
+**User Interaction (UI):**
+The user interaction is "R" because the attacker needs to interact with the device's web interface to send the malicious JSON file.
+
+**Scope (S):**
+The scope is "U" because the attack affects only the confidentiality, integrity, and availability of the affected device.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is "H" because an attacker could obtain remote code execution on managed devices, which could lead to unauthorized access to sensitive information.
+
+**Integrity Impact (I):**
+The integrity impact is "H" because an attacker could execute scripts in the account context and potentially modify or delete data on the affected device.
+
+**Availability Impact (A):**
+The availability impact is "H" because an attacker could potentially cause a denial-of-service (DoS) attack by exploiting the vulnerability, leading to unavailability of the affected device.
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "R",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "base_score": 9.8
+}
+```
+
+The calculated base score is 9.8 out of a maximum of 10.0.

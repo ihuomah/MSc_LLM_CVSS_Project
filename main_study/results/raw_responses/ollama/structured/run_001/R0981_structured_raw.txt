@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is Network (N) because the vulnerability can be exploited remotely through a POST request.
+
+**Attack Complexity (AC):**
+The attack complexity is Low (L) because the attacker only needs to manipulate the kelime parameter with UNION-based SQL injection payloads to exploit the vulnerability.
+
+**Privileges Required (PR):**
+No privileges are required (N) for an attacker to exploit this vulnerability, as it can be done without any special permissions or access.
+
+**User Interaction (UI):**
+The user interaction is None (N) because the attack can be performed automatically through a POST request.
+
+**Scope (S):**
+The scope of the impact is Changed (C) because the vulnerability allows attackers to extract sensitive data from the database or bypass authentication controls, which changes the system's behavior.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is High (H) because the vulnerability can be used to extract sensitive data from the database, potentially leading to unauthorized access or disclosure of sensitive information.
+
+**Integrity Impact (I):**
+The integrity impact is High (H) because the vulnerability can be used to bypass authentication controls and potentially modify or delete sensitive data in the database.
+
+**Availability Impact (A):**
+The availability impact is None (N) because the vulnerability does not directly affect the system's availability, but it could indirectly lead to a denial-of-service attack if an attacker uses the extracted data to launch further attacks.
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "C",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N",
+  "base_score": 9.0
+}
+```
+
+Note that the base score is calculated based on the provided vulnerability description and follows the CVSS v3.1 guidelines.

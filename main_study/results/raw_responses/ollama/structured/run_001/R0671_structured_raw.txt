@@ -1,0 +1,51 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability allows an unprivileged user to write files in a custom location, which can be modified by any user. Therefore, the attack vector is **A** (Network).
+
+**Attack Complexity (AC):**
+The vulnerability requires minimal effort and expertise from the attacker, as they only need to modify the file system path. Hence, the attack complexity is **L** (Low).
+
+**Privileges Required (PR):**
+No privileges are required for an unprivileged user to exploit this vulnerability. Therefore, the privileges required are **N** (None).
+
+**User Interaction (UI):**
+The vulnerability can be exploited without any user interaction. Therefore, the user interaction is **N** (None).
+
+**Scope (S):**
+The scope of the vulnerability is limited to the affected system or file system. Hence, the scope is **U** (Unchanged).
+
+**Confidentiality Impact (C):**
+There is no impact on confidentiality, as the vulnerability only affects the integrity and availability of the system. Therefore, the confidentiality impact is **N** (None).
+
+**Integrity Impact (I):**
+The vulnerability allows an unprivileged user to write files in a custom location, which can lead to unauthorized changes to the file system. Hence, the integrity impact is **H** (High).
+
+**Availability Impact (A):**
+The vulnerability can potentially cause denial-of-service or data corruption, leading to availability impacts. Therefore, the availability impact is **L** (Low).
+
+**Vector String:**
+Based on the above assessments, the vector string is:
+```
+CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:L
+```
+
+**Base Score:**
+Using the CVSS v3.1 base metric calculator, I calculate the base score to be **6.5**.
+
+Here is the output in JSON format:
+```json
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "N",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:L",
+  "base_score": 6.5
+}
+```
+Please note that this assessment is based solely on the provided vulnerability description and does not take into account any external knowledge or assumptions.

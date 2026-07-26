@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is remote, as stated in the vulnerability description: "The attack may be initiated remotely." Therefore, I will assign AV:N (Network).
+
+**Attack Complexity (AC):**
+The attack complexity is low, as the exploit has been publicly disclosed and may be utilized. This suggests that an attacker can easily find and use the exploit. Therefore, I will assign AC:L (Low).
+
+**Privileges Required (PR):**
+No privileges are required to exploit this vulnerability, as it can be initiated remotely. Therefore, I will assign PR:N (None).
+
+**User Interaction (UI):**
+The attack does not require user interaction, as it can be initiated remotely. Therefore, I will assign UI:N (None).
+
+**Scope (S):**
+The scope of the impact is limited to the affected component, which is the Frontend. Therefore, I will assign S:U (Unchanged).
+
+**Confidentiality Impact (C):**
+The confidentiality impact is high, as an attacker can potentially inject commands and gain unauthorized access to sensitive information. Therefore, I will assign C:H (High).
+
+**Integrity Impact (I):**
+The integrity impact is also high, as an attacker can potentially modify or delete data. Therefore, I will assign I:H (High).
+
+**Availability Impact (A):**
+The availability impact is moderate, as the vulnerability may cause the affected component to become unavailable or malfunction. Therefore, I will assign A:M (Moderate).
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "M",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:M",
+  "base_score": 8.5
+}
+```
+
+The calculated base score is 8.5, indicating a high severity vulnerability.

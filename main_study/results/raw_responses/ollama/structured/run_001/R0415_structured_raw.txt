@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is "N" because it requires network access to start containers using custom volume configurations.
+
+**Attack Complexity (AC):**
+The attack complexity is "L" because an attacker must have some level of expertise in containerization and volume configuration to exploit this vulnerability.
+
+**Privileges Required (PR):**
+The privileges required are "L" because the attacker needs to be able to start containers with custom volume configurations, which requires some level of privilege escalation.
+
+**User Interaction (UI):**
+The user interaction is "N" because an attacker can exploit this vulnerability without any user interaction.
+
+**Scope (S):**
+The scope is "U" because the attack affects the confidentiality, integrity, and availability of the system.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is "L" because an attacker could potentially create empty files or directories in arbitrary locations on the host filesystem.
+
+**Integrity Impact (I):**
+The integrity impact is "H" because an attacker could potentially create files or directories that could be used to compromise the system's integrity.
+
+**Availability Impact (A):**
+The availability impact is "L" because an attacker could potentially create files or directories that could affect the system's availability.
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "L",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:L",
+  "base_score": 6.5
+}
+```
+
+Note that the base score is calculated based on the provided vulnerability description and may not reflect the actual severity of the vulnerability in a specific environment or scenario.

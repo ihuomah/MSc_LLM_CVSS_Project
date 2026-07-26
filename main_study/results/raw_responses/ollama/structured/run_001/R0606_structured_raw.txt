@@ -1,0 +1,32 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The attack vector is "N" because the vulnerability can be exploited by a network-based attack.
+**Attack Complexity (AC)**: The attack complexity is "L" because the attack requires some degree of expertise and knowledge about the product's functionality.
+**Privileges Required (PR)**: The privileges required are "L" because an authorized user with administrator or User::PERM_EDIT_USERS privilege can exploit this vulnerability.
+**User Interaction (UI)**: The user interaction is "N" because no user interaction is required to exploit this vulnerability.
+**Scope (S)**: The scope is "U" because the vulnerability affects a single system or application.
+**Confidentiality Impact (C)**: The confidentiality impact is "L" because an unauthorized user can potentially access sensitive information.
+**Integrity Impact (I)**: The integrity impact is "H" because the vulnerability allows an attacker to delete files, which can lead to data loss or corruption.
+**Availability Impact (A)**: The availability impact is "N" because this vulnerability does not affect the system's overall availability.
+
+Using these metrics, I will calculate the CVSS v3.1 base score:
+
+**Vector String**: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N
+
+**Base Score**: 7.5
+
+Here is the output in JSON format:
+```json
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "L",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "H",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N",
+  "base_score": 7.5
+}
+```

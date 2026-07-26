@@ -1,0 +1,14 @@
+```json
+{
+"attack_vector": "L",
+"attack_complexity": "H",
+"privileges_required": "L",
+"user_interaction": "N",
+"scope": "U",
+"confidentiality_impact": "L",
+"integrity_impact": "N",
+"availability_impact": "N",
+"vector_string": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N",
+"base_score": 2.5
+}
+```

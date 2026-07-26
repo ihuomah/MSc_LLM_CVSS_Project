@@ -1,0 +1,50 @@
+Based on the provided vulnerability description and constraints, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability description mentions that an app may be able to access information about a user's contacts. This suggests that the attack vector is **Network (N)**, as the attacker would need to interact with the app remotely to exploit this issue.
+
+**Attack Complexity (AC):**
+The complexity of the attack is considered **Low (L)**, as the attacker only needs to create an app that can access a user's contacts. This does not require significant expertise or resources.
+
+**Privileges Required (PR):**
+No privileges are required for the attacker to exploit this issue, so the value is set to **None (N)**.
+
+**User Interaction (UI):**
+The vulnerability description implies that some level of user interaction is required, as an app needs to be installed and interacted with by a user. Therefore, the value is set to **Required (R)**.
+
+**Scope (S):**
+The scope of this issue is limited to the affected app and its users, so the value is set to **User (U)**.
+
+**Confidentiality Impact (C):**
+The vulnerability allows an app to access information about a user's contacts. This could lead to unauthorized access to sensitive data, so the impact is considered **Low (L)**.
+
+**Integrity Impact (I):**
+There is no indication that this issue affects the integrity of the system or data, so the impact is set to **None (N)**.
+
+**Availability Impact (A):**
+The availability of the affected app and its services is not directly impacted by this vulnerability, so the impact is considered **None (N)**.
+
+Using these metrics, I will calculate the CVSS v3.1 base score:
+
+**Vector String:**
+CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N
+
+**Base Score:**
+Based on the calculated vector string, the base score is **4.0**.
+
+Here is the output in JSON format:
+```json
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "R",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "N",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+  "base_score": 4.0
+}
+```
+Please note that this assessment is based solely on the provided vulnerability description and does not take into account any external knowledge or assumptions.

@@ -1,0 +1,51 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability allows an attacker to perform session hijacking attacks without requiring any physical interaction with the system or human interaction. Therefore, the attack vector is **A** (Network).
+
+**Attack Complexity (AC):**
+The vulnerability requires some degree of expertise and knowledge about the affected application's behavior. However, it does not require a high level of technical skill to exploit. Therefore, the attack complexity is **L** (Low).
+
+**Privileges Required (PR):**
+No privileges are required to exploit this vulnerability, as an attacker can perform session hijacking attacks without elevating their privileges. Therefore, the privileges required are **N** (None).
+
+**User Interaction (UI):**
+The vulnerability does not require any user interaction to be exploited. An attacker can perform session hijacking attacks automatically. Therefore, the user interaction is **N** (No).
+
+**Scope (S):**
+The scope of this vulnerability is limited to the affected application and its users. The vulnerability does not affect other systems or networks. Therefore, the scope is **U** (Unchanged).
+
+**Confidentiality Impact (C):**
+An attacker can potentially access sensitive information, such as user credentials or confidential data, by hijacking sessions. Therefore, the confidentiality impact is **H** (High).
+
+**Integrity Impact (I):**
+The vulnerability allows an attacker to perform session hijacking attacks, which could lead to unauthorized changes to the affected application's state or data. Therefore, the integrity impact is **H** (High).
+
+**Availability Impact (A):**
+An attacker can potentially disrupt the availability of the affected application by hijacking sessions and causing it to become unavailable or unresponsive. Therefore, the availability impact is **H** (High).
+
+**Vector String:**
+The vector string for this vulnerability is:
+```
+CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+```
+
+**Base Score:**
+Based on the calculated metrics, the base score for this vulnerability is **8.8**.
+
+Here is the output in JSON format:
+
+```json
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "base_score": 8.8
+}
+```

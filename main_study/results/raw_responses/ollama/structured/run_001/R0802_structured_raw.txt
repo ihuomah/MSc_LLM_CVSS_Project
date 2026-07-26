@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is "A" because an attacker can exploit this vulnerability remotely.
+
+**Attack Complexity (AC):**
+The attack complexity is "L" because an attacker needs to have some knowledge of the Product Y technology and its functionality, but no advanced expertise or specialized tools are required.
+
+**Privileges Required (PR):**
+No privileges are required for an attacker to exploit this vulnerability, so it's "N".
+
+**User Interaction (UI):**
+The user interaction is "R" because an attacker can exploit this vulnerability without any user interaction.
+
+**Scope (S):**
+The scope of the impact is "U" because the vulnerability affects all users and systems that use Product Y technology.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is "L" because an attacker could potentially obtain usernames, which could aid in credential attacks.
+
+**Integrity Impact (I):**
+There is no integrity impact, so it's "N".
+
+**Availability Impact (A):**
+There is no availability impact, so it's "N".
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "R",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "N",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+  "base_score": 5.0
+}
+```
+
+The base score is 5.0, indicating a medium-severity vulnerability.

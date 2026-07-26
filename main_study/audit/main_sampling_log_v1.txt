@@ -1,0 +1,49 @@
+================================================================================
+Starting Main Dataset Sampling
+================================================================================
+Input enriched candidate pool rows: 134789
+Pilot CVEs loaded: 50
+NVD-grounded + EPSS-covered rows before pilot exclusion: 74856
+Pilot CVEs found in sampling pool and excluded: 29
+Pilot CVEs not present in sampling pool: 21
+Rows after pilot exclusion: 74827
+
+Severity counts after NVD-grounded + EPSS + pilot exclusion:
+official_severity
+CRITICAL    12261
+HIGH        26235
+MEDIUM      35247
+LOW          1084
+Name: count, dtype: int64
+
+Sampled severity distribution:
+official_severity
+CRITICAL    250
+HIGH        250
+MEDIUM      250
+LOW         250
+Name: count, dtype: int64
+
+Sampled publication year distribution:
+published_year
+2023    375
+2024    305
+2025    207
+2026    113
+Name: count, dtype: int64
+
+Sampled CVSS selection method distribution:
+cvss_selection_method
+primary_type    993
+nvd_source        7
+Name: count, dtype: int64
+
+Outputs:
+Frozen Parquet: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\datasets\frozen\main_dataset_frozen_v1.parquet
+Frozen CSV: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\datasets\frozen\main_dataset_frozen_v1.csv
+Frozen XLSX: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\datasets\frozen\main_dataset_frozen_v1.xlsx
+Sampling log: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\audit\main_sampling_log_v1.txt
+Sampling summary: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\audit\main_sampling_summary_v1.xlsx
+================================================================================
+Main Dataset Sampling Complete
+================================================================================

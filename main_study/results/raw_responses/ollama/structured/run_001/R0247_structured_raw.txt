@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is "N" because the vulnerability can be exploited remotely without any user interaction.
+
+**Attack Complexity (AC):**
+The attack complexity is "H" because the attacker needs to craft a large number of TLS messages and calculate an SHA-2 hash, which requires significant computational resources and expertise.
+
+**Privileges Required (PR):**
+The privileges required are "N" because no special privileges or access rights are needed to exploit this vulnerability.
+
+**User Interaction (UI):**
+The user interaction is "N" because the attack can be launched without any user interaction.
+
+**Scope (S):**
+The scope is "U" because the vulnerability affects a single system or process.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is "L" because the attacker could potentially obtain sensitive information, such as pre-shared keys.
+
+**Integrity Impact (I):**
+The integrity impact is "H" because the attacker could modify or manipulate the TLS messages to inject malicious data or disrupt the communication.
+
+**Availability Impact (A):**
+The availability impact is "H" because a large number of crafted TLS messages could cause the CPU to become heavily loaded, potentially leading to denial-of-service (DoS) attacks.
+
+Here's the output in JSON format:
+
+```json
+{
+  "attack_vector": "N",
+  "attack_complexity": "H",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:H/A:H",
+  "base_score": 8.5
+}
+```
+
+Note that the base score is calculated based on the CVSS v3.1 guidelines and is subject to change depending on additional information or further analysis.

@@ -1,0 +1,1 @@
+{"attack_vector":"L","attack_complexity":"L","privileges_required":"L","user_interaction":"R","scope":"U","confidentiality_impact":"N","integrity_impact":"L","availability_impact":"N","vector_string":"CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:L/A:N","base_score":2.8}

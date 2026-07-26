@@ -1,0 +1,18 @@
+================================================================================
+Applying Inference Leakage Redactions
+================================================================================
+
+Summary
+Review rows processed: 12
+Total replacements made: 12
+Zero-replacement warnings: 0
+
+Outputs:
+Updated frozen Parquet: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\datasets\frozen\main_dataset_sanitised_final_v2.parquet
+Updated frozen CSV: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\datasets\frozen\main_dataset_sanitised_final_v2.csv
+Updated frozen XLSX: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\datasets\frozen\main_dataset_sanitised_final_v2.xlsx
+Log XLSX: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\audit\main_inference_leak_redaction_log_v1.xlsx
+Log TXT: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\audit\main_inference_leak_redaction_log_v1.txt
+================================================================================
+Inference Leakage Redaction Complete
+================================================================================

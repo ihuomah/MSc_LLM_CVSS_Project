@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability allows an attacker to access the device without user interaction, as the credentials cannot be changed by the user or administrator. Therefore, I assign **A** (Network).
+
+**Attack Complexity (AC):**
+The attack complexity is relatively low, as the vulnerability can be exploited through a simple network-based attack. Hence, I assign **L** (Low).
+
+**Privileges Required (PR):**
+No privileges are required to exploit this vulnerability, as an attacker can access the device without authentication or authorization. Therefore, I assign **N** (None).
+
+**User Interaction (UI):**
+As mentioned earlier, no user interaction is required to exploit this vulnerability. Hence, I assign **N** (None).
+
+**Scope (S):**
+The scope of the impact is limited to the affected device and its associated systems. Therefore, I assign **U** (Unchanged).
+
+**Confidentiality Impact (C):**
+The confidentiality impact is high, as an attacker can access sensitive information stored on or transmitted by the device. Hence, I assign **H** (High).
+
+**Integrity Impact (I):**
+The integrity impact is also high, as an attacker can modify or delete data stored on or transmitted by the device. Therefore, I assign **H** (High).
+
+**Availability Impact (A):**
+The availability impact is moderate, as an attacker may be able to disrupt the normal functioning of the device or its associated systems. Hence, I assign **M** (Moderate).
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "M",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:M",
+  "base_score": 8.5
+}
+```
+
+Please note that this assessment is based solely on the provided vulnerability description and does not take into account any external knowledge or assumptions.

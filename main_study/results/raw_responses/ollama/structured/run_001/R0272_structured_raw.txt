@@ -1,0 +1,36 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The vulnerability allows SQL Injection, which can be exploited remotely without authentication (A). Therefore, the attack vector is "N".
+
+**Attack Complexity (AC)**: The vulnerability requires minimal effort to exploit, as it is a well-known and widely used technique (L). Therefore, the attack complexity is "L".
+
+**Privileges Required (PR)**: No privileges are required to exploit this vulnerability (N).
+
+**User Interaction (UI)**: This vulnerability can be exploited without user interaction (N).
+
+**Scope (S)**: The scope of this vulnerability is limited to confidentiality, integrity, and availability impacts within the affected system or network (U).
+
+**Confidentiality Impact (C)**: The confidentiality impact is high, as an attacker could potentially access sensitive data (H).
+
+**Integrity Impact (I)**: The integrity impact is also high, as an attacker could modify or delete data (H).
+
+**Availability Impact (A)**: The availability impact is moderate, as an attacker could potentially cause a denial-of-service (L).
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L",
+  "base_score": 8.0
+}
+```
+
+Please note that this assessment is based solely on the provided vulnerability description and does not take into account any external knowledge or assumptions.

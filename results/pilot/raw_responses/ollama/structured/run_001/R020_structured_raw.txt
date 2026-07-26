@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability is a Reflected XSS issue, which can be exploited through web page generation. Therefore, I assign an attack vector of **A** (Network).
+
+**Attack Complexity (AC):**
+The complexity of exploiting this vulnerability is relatively low, as it only requires the attacker to craft a malicious input that can be reflected back to the user's browser. Hence, I rate the attack complexity as **L** (Low).
+
+**Privileges Required (PR):**
+No special privileges are required to exploit this vulnerability, so I assign a value of **N** (None).
+
+**User Interaction (UI):**
+The attacker can exploit this vulnerability without requiring any user interaction, making it an automated attack. Therefore, I rate the user interaction as **R** (Required).
+
+**Scope (S):**
+The scope of this vulnerability is limited to the web application itself, so I assign a value of **U** (Unchanged).
+
+**Confidentiality Impact (C):**
+This vulnerability can potentially allow an attacker to inject malicious scripts into the victim's browser, which could lead to confidentiality breaches. Therefore, I rate the confidentiality impact as **H** (High).
+
+**Integrity Impact (I):**
+The integrity of the system or data can be compromised if an attacker successfully exploits this vulnerability. Hence, I rate the integrity impact as **H** (High).
+
+**Availability Impact (A):**
+This vulnerability does not directly affect the availability of the system or data, so I assign a value of **N** (None).
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "R",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+  "base_score": 7.5
+}
+```
+
+The calculated base score is **7.5**.

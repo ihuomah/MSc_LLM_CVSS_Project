@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability allows a remote attacker to potentially exploit heap corruption via a crafted HTML page. This indicates an attack vector of **A** (Network).
+
+**Attack Complexity (AC):**
+The vulnerability requires no special privileges or knowledge, making it relatively easy for an attacker to exploit. Therefore, the attack complexity is **L** (Low).
+
+**Privileges Required (PR):**
+No special privileges are required to exploit this vulnerability, so the value is **N** (None).
+
+**User Interaction (UI):**
+The vulnerability can be exploited without user interaction, making it a **N** (None) value.
+
+**Scope (S):**
+The scope of the vulnerability is **U** (Unchanged), as it affects the confidentiality, integrity, and availability of the system.
+
+**Confidentiality Impact (C):**
+The vulnerability allows a remote attacker to potentially exploit heap corruption, which could lead to unauthorized access or data modification. Therefore, the confidentiality impact is **H** (High).
+
+**Integrity Impact (I):**
+The vulnerability also has an integrity impact, as it could allow an attacker to modify or delete sensitive data. The integrity impact is therefore also **H** (High).
+
+**Availability Impact (A):**
+The vulnerability could potentially lead to a denial-of-service (DoS) or a crash of the system, affecting its availability. Therefore, the availability impact is **L** (Low).
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L",
+  "base_score": 7.5
+}
+```
+
+The calculated base score is **7.5**.

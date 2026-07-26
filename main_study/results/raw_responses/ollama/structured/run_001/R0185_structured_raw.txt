@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability allows an attacker to access SSID without any physical interaction or proximity requirements. Therefore, I assign an attack vector of **A** (Network).
+
+**Attack Complexity (AC):**
+The vulnerability can be exploited by an attacker with minimal effort and expertise. Therefore, I assign an attack complexity of **L** (Low).
+
+**Privileges Required (PR):**
+No privileges are required to exploit this vulnerability. Therefore, I assign a privilege requirement of **N** (None).
+
+**User Interaction (UI):**
+The vulnerability can be exploited without any user interaction. Therefore, I assign a user interaction of **N** (None).
+
+**Scope (S):**
+The scope of the vulnerability is limited to the affected system or network. Therefore, I assign a scope of **U** (Unchanged).
+
+**Confidentiality Impact (C):**
+An attacker can access SSID, which may lead to unauthorized access to sensitive information. Therefore, I assign a confidentiality impact of **H** (High).
+
+**Integrity Impact (I):**
+The vulnerability does not affect the integrity of the system or data. Therefore, I assign an integrity impact of **N** (None).
+
+**Availability Impact (A):**
+An attacker can access SSID, which may lead to denial-of-service (DoS) or disruption of service. Therefore, I assign an availability impact of **H** (High).
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "N",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H",
+  "base_score": 8.0
+}
+```
+
+The calculated base score is **8.0**.

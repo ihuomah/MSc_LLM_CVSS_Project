@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability is a business logic error in a GitHub repository, which can be exploited remotely without authentication (A).
+
+**Attack Complexity (AC):**
+The attack complexity is low because an attacker only needs to manipulate the input data to trigger the error (L).
+
+**Privileges Required (PR):**
+No privileges are required to exploit this vulnerability (N).
+
+**User Interaction (UI):**
+No user interaction is required to exploit this vulnerability (N).
+
+**Scope (S):**
+The scope of the impact is limited to confidentiality, integrity, and availability (C).
+
+**Confidentiality Impact (C):**
+The confidentiality impact is low because an attacker can only read or modify data without gaining access to sensitive information (L).
+
+**Integrity Impact (I):**
+The integrity impact is high because an attacker can modify or delete data, which could lead to a loss of integrity (H).
+
+**Availability Impact (A):**
+The availability impact is medium because an attacker can cause the system to crash or become unavailable, but it's not guaranteed (M).
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "C",
+  "confidentiality_impact": "L",
+  "integrity_impact": "H",
+  "availability_impact": "M",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:C/C:L/I:H/A:M",
+  "base_score": 7.5
+}
+```
+
+Please note that this assessment is based solely on the provided vulnerability description and does not take into account any external knowledge or assumptions.

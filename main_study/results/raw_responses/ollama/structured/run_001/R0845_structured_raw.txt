@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack may be launched remotely, so I will set AV to A.
+
+**Attack Complexity (AC):**
+The complexity of an attack is rather high, which corresponds to AC: H.
+
+**Privileges Required (PR):**
+No privileges are required for the exploitation, so I will set PR to N.
+
+**User Interaction (UI):**
+The manipulation leads to memory leak, and the exploit has been disclosed to the public. This suggests that user interaction is not necessary, so I will set UI to N.
+
+**Scope (S):**
+The scope of the attack is limited to the affected component ld, which corresponds to S: U.
+
+**Confidentiality Impact (C):**
+Memory leak may lead to sensitive information disclosure, so I will set C to H.
+
+**Integrity Impact (I):**
+Memory leak may also lead to data tampering or corruption, so I will set I to H.
+
+**Availability Impact (A):**
+The attack may cause denial-of-service or system crashes, which corresponds to A: L.
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "H",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L",
+  "base_score": 7.5
+}
+```
+
+Please note that the base score is calculated based on the provided vulnerability description and may not reflect the actual severity of the vulnerability.

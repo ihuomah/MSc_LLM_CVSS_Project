@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is Network-based (N) because an authenticated attacker with Contributor-level access and above can exploit this vulnerability remotely.
+
+**Attack Complexity (AC):**
+The attack complexity is Low (L) because the attacker only needs to manipulate the 'order' parameter of the 'tpsearch' shortcode to inject malicious SQL queries.
+
+**Privileges Required (PR):**
+The privileges required are High (H) because an authenticated attacker with Contributor-level access and above can exploit this vulnerability.
+
+**User Interaction (UI):**
+There is No User Interaction (N) required for this attack, as it can be performed automatically by an attacker.
+
+**Scope (S):**
+The scope of the impact is Unchanged (U) because the vulnerability affects the confidentiality, integrity, and availability of the database.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is High (H) because an attacker can extract sensitive information from the database.
+
+**Integrity Impact (I):**
+The integrity impact is High (H) because an attacker can modify or delete data in the database.
+
+**Availability Impact (A):**
+The availability impact is Low (L) because the vulnerability does not directly affect the availability of the system.
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "H",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:L",
+  "base_score": 8.5
+}
+```
+
+Note that the base score is calculated based on the provided vulnerability description and follows the CVSS v3.1 guidelines.

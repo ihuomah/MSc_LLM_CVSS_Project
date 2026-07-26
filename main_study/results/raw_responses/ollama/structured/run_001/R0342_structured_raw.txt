@@ -1,0 +1,36 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The issue can only be triggered by authenticated users, so it is an **A** (network).
+
+**Attack Complexity (AC)**: The attack requires injecting Python commands into the 'Template' field when configuring a data pipeline, which is a relatively complex process, so it is an **H** (high).
+
+**Privileges Required (PR)**: The issue can be triggered by authenticated users, but no specific privileges are required, so it is an **N** (none).
+
+**User Interaction (UI)**: The issue requires user interaction to inject Python commands into the 'Template' field, so it is an **R** (required).
+
+**Scope (S)**: The issue affects a single system or application, so it is a **U** (unchanged).
+
+**Confidentiality Impact (C)**: The issue allows remote code execution, which could potentially lead to unauthorized access to sensitive data, so it is an **H** (high).
+
+**Integrity Impact (I)**: The issue allows remote code execution, which could potentially lead to unauthorized changes to the system or application, so it is an **H** (high).
+
+**Availability Impact (A)**: The issue allows remote code execution, which could potentially lead to denial-of-service attacks or other availability impacts, so it is an **H** (high).
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "H",
+  "privileges_required": "N",
+  "user_interaction": "R",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:A/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "base_score": 9.8
+}
+```
+
+Note that the base score is calculated based on the provided vulnerability description and the CVSS v3.1 guidelines. The actual severity of the issue may vary depending on various factors, including the specific implementation and configuration of the affected system or application.

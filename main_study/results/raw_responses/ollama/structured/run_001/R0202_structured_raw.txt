@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is "A" because the vulnerability can be exploited remotely.
+
+**Attack Complexity (AC):**
+The attack complexity is "L" because the attacker needs to have some knowledge of the timing side channel and shared-secret comparison call sites, but no advanced expertise or specialized tools are required.
+
+**Privileges Required (PR):**
+No privileges are required for exploitation ("N").
+
+**User Interaction (UI):**
+No user interaction is required for exploitation ("N").
+
+**Scope (S):**
+The scope is "U" because the vulnerability can be exploited on a single system.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is "L" because an attacker could potentially leak secret-length information, weakening constant-time handling for shared secrets.
+
+**Integrity Impact (I):**
+The integrity impact is "N" because there is no indication that the vulnerability could be used to modify or delete data.
+
+**Availability Impact (A):**
+The availability impact is "N" because there is no indication that the vulnerability could be used to disrupt system availability.
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "N",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+  "base_score": 4.0
+}
+```
+
+The base score is 4.0, indicating a moderate severity vulnerability.

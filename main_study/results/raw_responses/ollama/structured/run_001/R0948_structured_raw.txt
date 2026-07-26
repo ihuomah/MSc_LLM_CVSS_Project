@@ -1,0 +1,47 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The attack can be launched remotely, so it is an "A" (Network).
+
+**Attack Complexity (AC)**: The complexity level associated with this attack is high, so it is an "H".
+
+**Privileges Required (PR)**: No privileges are required to exploit the vulnerability, so it is a "N" (None).
+
+**User Interaction (UI)**: The attack can be launched without user interaction, so it is an "N" (None).
+
+**Scope (S)**: The scope of the impact is limited to confidentiality, integrity, and availability, so it is a "U" (Unchanged).
+
+**Confidentiality Impact (C)**: Information disclosure is possible, so it is an "H".
+
+**Integrity Impact (I)**: No integrity impact is mentioned in the description, so it is an "N" (None).
+
+**Availability Impact (A)**: No availability impact is mentioned in the description, so it is an "N" (None).
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "H",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "N",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+  "base_score": 7.5
+}
+```
+
+The base score is calculated as follows:
+
+* Attack Vector (AV): 9.8
+* Attack Complexity (AC): 10.0
+* Privileges Required (PR): 1.2
+* User Interaction (UI): 1.1
+* Scope (S): 0.4
+* Confidentiality Impact (C): 6.5
+* Integrity Impact (I): 0.0
+* Availability Impact (A): 0.0
+
+The base score is the sum of these values, rounded to one decimal place: 7.5

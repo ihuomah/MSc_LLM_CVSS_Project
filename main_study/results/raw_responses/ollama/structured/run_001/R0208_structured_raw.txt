@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack can be launched remotely, so I will set AV to "A".
+
+**Attack Complexity (AC):**
+The manipulation of the argument Hostname leads to cross-site scripting, which is a relatively simple attack. Therefore, I will set AC to "L" (Low).
+
+**Privileges Required (PR):**
+No privileges are required for this vulnerability, so I will set PR to "N" (None).
+
+**User Interaction (UI):**
+The attack can be launched remotely without user interaction, so I will set UI to "N" (None).
+
+**Scope (S):**
+The scope of the impact is limited to the LAN Settings Page, which is a specific component. Therefore, I will set S to "U" (Unchanged).
+
+**Confidentiality Impact (C):**
+This vulnerability does not affect confidentiality, so I will set C to "N" (None).
+
+**Integrity Impact (I):**
+The vulnerability allows for cross-site scripting, which can lead to integrity issues. Therefore, I will set I to "H" (High).
+
+**Availability Impact (A):**
+The attack can be launched remotely and may cause the system to become unavailable or unstable. Therefore, I will set A to "L" (Low).
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "N",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:L",
+  "base_score": 6.5
+}
+```
+
+The calculated base score is 6.5.

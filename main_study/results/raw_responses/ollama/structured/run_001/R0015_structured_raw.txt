@@ -1,0 +1,40 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The vulnerability allows an attacker to keep participating in a call even if they are removed from the channel. This suggests that the attack vector is **Network (N)**.
+
+**Attack Complexity (AC)**: The vulnerability requires some level of expertise and knowledge about the product's behavior, but it does not require any specific tools or techniques beyond what an attacker would typically have. Therefore, I assess the attack complexity as **Low (L)**.
+
+**Privileges Required (PR)**: The vulnerability can be exploited by an unprivileged user, so I assess the privileges required as **None (N)**.
+
+**User Interaction (UI)**: The vulnerability does not require any user interaction beyond what is already present in the scenario. Therefore, I assess the user interaction as **No (N)**.
+
+**Scope (S)**: The vulnerability affects a single channel and call, so I assess the scope as **Unchanged (U)**.
+
+**Confidentiality Impact (C)**: The vulnerability allows an attacker to keep participating in a call even if they are removed from the channel. This could potentially lead to unauthorized access or eavesdropping on sensitive information. Therefore, I assess the confidentiality impact as **Low (L)**.
+
+**Integrity Impact (I)**: The vulnerability does not affect the integrity of the system or data, so I assess the integrity impact as **None (N)**.
+
+**Availability Impact (A)**: The vulnerability could potentially lead to a denial-of-service (DoS) attack by keeping an attacker connected to the call even if they are removed from the channel. Therefore, I assess the availability impact as **Low (L)**.
+
+Here is the calculated CVSS v3.1 base metric:
+
+**Vector String**: "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L"
+
+**Base Score**: 4.3
+
+The output will be in JSON format, as required:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "N",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
+  "base_score": 4.3
+}
+```

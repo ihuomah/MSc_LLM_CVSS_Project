@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is "A" because an authenticated attacker can exploit this vulnerability.
+
+**Attack Complexity (AC):**
+The attack complexity is "L" because the attacker needs to have some knowledge of the Product Y's API and endpoint structure, but no specialized skills or tools are required.
+
+**Privileges Required (PR):**
+The privileges required are "N" because an authenticated user can exploit this vulnerability without requiring any additional privileges.
+
+**User Interaction (UI):**
+The user interaction is "R" because the attacker needs to interact with the system by changing the "CHAT_ID" of the endpoint.
+
+**Scope (S):**
+The scope is "U" because the attack affects only a single system or component.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is "H" because an authenticated attacker can obtain sensitive information, such as chat messages belonging to other users.
+
+**Integrity Impact (I):**
+The integrity impact is "N" because this vulnerability does not affect the integrity of the system or data.
+
+**Availability Impact (A):**
+The availability impact is "N" because this vulnerability does not affect the availability of the system or services.
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "R",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "N",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+  "base_score": 7.5
+}
+```
+
+The base score is 7.5, indicating a high severity vulnerability.

@@ -1,0 +1,5 @@
+Main Study EPSS Snapshot Metadata
+=================================
+EPSS file: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\datasets\raw\epss\epss_scores-current.csv.gz
+Header line: #model_version:v2026.06.15,score_date:2026-06-19T12:03:05Z
+Columns line: cve,epss,percentile

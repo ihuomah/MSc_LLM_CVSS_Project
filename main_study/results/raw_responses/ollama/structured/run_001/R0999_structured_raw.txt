@@ -1,0 +1,39 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The vulnerability exists in a mobile application, which is typically accessed through a network (N) or physical proximity (A). Since it's an information disclosure vulnerability, there is no direct physical interaction required. Therefore, I'll assign **AV:N/A**.
+
+**Attack Complexity (AC)**: The vulnerability can be exploited without requiring any complex attacks or social engineering. It's a straightforward information disclosure issue. Hence, I'll assign **AC:L**.
+
+**Privileges Required (PR)**: No special privileges are needed to exploit this vulnerability. A regular user can access the affected functionality. Therefore, I'll assign **PR:N**.
+
+**User Interaction (UI)**: The vulnerability does not require any user interaction or input. It's a passive information disclosure issue. Hence, I'll assign **UI:N**.
+
+**Scope (S)**: The scope of this vulnerability is limited to the mobile application and its users. Therefore, I'll assign **S:U**.
+
+**Confidentiality Impact (C)**: The vulnerability discloses sensitive information, which could lead to confidentiality breaches. Hence, I'll assign **C:H**.
+
+**Integrity Impact (I)**: There is no impact on the integrity of the system or data. Therefore, I'll assign **I:N**.
+
+**Availability Impact (A)**: The availability of the system and its services is not affected by this vulnerability. Therefore, I'll assign **A:N**.
+
+Using these metrics, I will calculate the CVSS v3.1 base score:
+
+`CVSS:3.1/AV:N/A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N`
+
+Base Score: 7.5
+
+Here is the output in JSON format:
+```json
+{
+  "attack_vector": "N/A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "N",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:N/A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+  "base_score": 7.5
+}
+```

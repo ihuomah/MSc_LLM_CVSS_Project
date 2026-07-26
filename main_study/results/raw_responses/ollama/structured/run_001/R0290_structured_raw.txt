@@ -1,0 +1,36 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The attack vector is "A" because it requires user interaction to exploit the vulnerability.
+
+**Attack Complexity (AC)**: The attack complexity is "L" because the attacker needs to create a malicious page or file to exploit the vulnerability, which may require some skill and knowledge.
+
+**Privileges Required (PR)**: The privileges required are "N" because the vulnerability can be exploited without any special privileges.
+
+**User Interaction (UI)**: The user interaction is "R" because the target must visit a malicious page or open a malicious file to exploit the vulnerability.
+
+**Scope (S)**: The scope is "U" because the vulnerability affects only the affected installation of Tungsten Automation Product Y, and not other systems or networks.
+
+**Confidentiality Impact (C)**: The confidentiality impact is "L" because the vulnerability allows remote attackers to disclose sensitive information on affected installations.
+
+**Integrity Impact (I)**: The integrity impact is "N" because there is no indication that the vulnerability can be used to modify or delete data.
+
+**Availability Impact (A)**: The availability impact is "N" because there is no indication that the vulnerability can be used to disrupt or deny service.
+
+Here's the output in JSON format:
+
+```json
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "R",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "N",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+  "base_score": 5.0
+}
+```
+
+The base score is calculated based on the CVSS v3.1 guidelines and is equal to 5.0.

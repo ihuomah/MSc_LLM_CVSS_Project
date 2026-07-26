@@ -1,0 +1,51 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability allows an attacker to leak a cookie to a third-party site or a malicious attacker who can control the redirection target. This can be achieved through cross-origin redirects. Therefore, I assign **A: L**, as the attack vector is network-based and requires minimal interaction from the user.
+
+**Attack Complexity (AC):**
+The vulnerability can be exploited by an attacker with moderate expertise in web application security. The complexity of the exploit lies in understanding how Product Y handles headers and how to manipulate cross-origin redirects. Therefore, I assign **AC: H**, as the attack complexity is high.
+
+**Privileges Required (PR):**
+No privileges are required to exploit this vulnerability, as it can be achieved through a network-based attack. Therefore, I assign **PR: N**, as no privileges are needed.
+
+**User Interaction (UI):**
+The vulnerability does not require user interaction, as an attacker can exploit it by manipulating cross-origin redirects. Therefore, I assign **UI: N**, as there is no need for user involvement.
+
+**Scope (S):**
+The scope of the vulnerability is limited to the affected Product Y and its users. The vulnerability does not affect other systems or networks beyond the immediate scope. Therefore, I assign **S: U**, as the scope is unilateral.
+
+**Confidentiality Impact (C):**
+The vulnerability allows an attacker to leak a cookie, which can lead to unauthorized access to sensitive information. Therefore, I assign **C: H**, as the confidentiality impact is high.
+
+**Integrity Impact (I):**
+The vulnerability does not allow an attacker to modify or delete data, but it can be used to steal sensitive information. Therefore, I assign **I: N**, as there is no integrity impact.
+
+**Availability Impact (A):**
+The vulnerability does not affect the availability of Product Y or its services. Therefore, I assign **A: N**, as there is no availability impact.
+
+**Vector String:**
+Based on the above assessments, the vector string would be:
+```
+CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
+```
+
+**Base Score:**
+Using the CVSS v3.1 base metric calculator, I calculate the base score to be **7.5**, considering the high confidentiality impact and moderate attack complexity.
+
+Here is the output in JSON format:
+```json
+{
+  "attack_vector": "L",
+  "attack_complexity": "H",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "N",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+  "base_score": 7.5
+}
+```
+Please note that this assessment is based solely on the provided vulnerability description and does not take into account any external knowledge or assumptions.

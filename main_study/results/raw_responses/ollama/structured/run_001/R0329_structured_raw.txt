@@ -1,0 +1,36 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The attack vector is "A" because the vulnerability can be exploited remotely.
+
+**Attack Complexity (AC)**: The attack complexity is "L" because the attacker needs to trick a user into copy-pasting HTML code without markup, which requires some level of social engineering skill.
+
+**Privileges Required (PR)**: The privileges required are "N" because no special privileges are needed to exploit this vulnerability.
+
+**User Interaction (UI)**: The user interaction is "R" because the attacker needs to trick a user into copy-pasting HTML code without markup, which requires some level of user interaction.
+
+**Scope (S)**: The scope is "U" because the vulnerability affects individual users or devices.
+
+**Confidentiality Impact (C)**: The confidentiality impact is "N" because there is no sensitive information that can be compromised by this vulnerability.
+
+**Integrity Impact (I)**: The integrity impact is "L" because the attacker can potentially inject malicious code into a user's session, which could lead to data tampering or corruption.
+
+**Availability Impact (A)**: The availability impact is "N" because there is no potential for denial-of-service attacks or system crashes.
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "R",
+  "scope": "U",
+  "confidentiality_impact": "N",
+  "integrity_impact": "L",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+  "base_score": 4.0
+}
+```
+
+The base score is 4.0, indicating a moderate severity vulnerability.

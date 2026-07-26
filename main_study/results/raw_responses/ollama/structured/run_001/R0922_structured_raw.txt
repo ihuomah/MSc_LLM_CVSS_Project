@@ -1,0 +1,60 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability allows attackers to execute arbitrary commands via the configRestore parameter, which is accessible remotely. Therefore, I assign an attack vector of **A** (Network).
+
+**Attack Complexity (AC):**
+The vulnerability requires minimal effort and expertise from the attacker, as it can be exploited by sending a crafted request. Hence, I assign an attack complexity of **L** (Low).
+
+**Privileges Required (PR):**
+No privileges are required to exploit this vulnerability, as it can be accessed remotely. Therefore, I assign a privilege requirement of **N** (None).
+
+**User Interaction (UI):**
+The vulnerability does not require user interaction, as it can be exploited automatically. Hence, I assign a user interaction level of **N** (None).
+
+**Scope (S):**
+The scope of the vulnerability is **C** (Changed), as it affects the confidentiality, integrity, and availability of the affected system.
+
+**Confidentiality Impact (C):**
+The vulnerability allows attackers to execute arbitrary commands, which could potentially lead to unauthorized access or data disclosure. Therefore, I assign a confidentiality impact level of **H** (High).
+
+**Integrity Impact (I):**
+The vulnerability allows attackers to execute arbitrary commands, which could potentially lead to unauthorized changes or modifications to the affected system. Therefore, I assign an integrity impact level of **H** (High).
+
+**Availability Impact (A):**
+The vulnerability allows attackers to execute arbitrary commands, which could potentially lead to denial-of-service (DoS) attacks or other availability-related issues. Therefore, I assign an availability impact level of **H** (High).
+
+**Vector String:**
+Based on the above assessments, the vector string is:
+```
+CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+```
+
+**Base Score:**
+Using the CVSS v3.1 base metric formula, I calculate the base score as follows:
+
+Base Score = (Attack Vector * Attack Complexity) + (Privileges Required * User Interaction) + Scope
+
+= (A * L) + (N * N) + C
+
+= 10.0 + 0.0 + 3.0
+
+= **13.0**
+
+The base score is rounded to one decimal place, resulting in a final value of **13.0**.
+
+Here is the output in JSON format:
+```json
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "C",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+  "base_score": 13.0
+}
+```

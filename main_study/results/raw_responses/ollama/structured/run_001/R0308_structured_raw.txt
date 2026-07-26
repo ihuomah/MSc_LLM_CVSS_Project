@@ -1,0 +1,36 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The attack vector is Network-based (N) because an attacker can forge tokens remotely and access the system without physical interaction.
+
+**Attack Complexity (AC)**: The attack complexity is Low (L) because the vulnerability requires minimal effort to exploit, as it only involves crafting a JWT token with 'alg': 'none'.
+
+**Privileges Required (PR)**: No privileges are required (N) for an attacker to exploit this vulnerability, as they can access the system without any elevated permissions.
+
+**User Interaction (UI)**: No user interaction is required (N) because the attack can be performed automatically or remotely.
+
+**Scope (S)**: The scope of the impact is Changed (C) because an attacker can gain unauthorized access to the system.
+
+**Confidentiality Impact (C)**: The confidentiality impact is High (H) because an attacker can access sensitive information without authorization.
+
+**Integrity Impact (I)**: The integrity impact is High (H) because an attacker can modify or delete data without authorization.
+
+**Availability Impact (A)**: The availability impact is Low (L) because the attack does not directly affect the system's availability.
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "C",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:L",
+  "base_score": 8.5
+}
+```
+
+Note that the base score is calculated based on the provided vulnerability description and follows the CVSS v3.1 guidelines.

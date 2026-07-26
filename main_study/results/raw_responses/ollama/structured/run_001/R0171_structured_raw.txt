@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is "A" because remote code execution requires a network-based attack.
+
+**Attack Complexity (AC):**
+The attack complexity is "H" because it requires some level of expertise to exploit this vulnerability.
+
+**Privileges Required (PR):**
+The privileges required are "L" because the attacker needs low-level privileges to execute arbitrary code on the affected installation.
+
+**User Interaction (UI):**
+The user interaction is "R" because the target must visit a malicious page or open a malicious file to exploit this vulnerability.
+
+**Scope (S):**
+The scope is "U" because the attack affects only the targeted system.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is "H" because an attacker can execute arbitrary code on the affected installation, potentially leading to unauthorized access to sensitive information.
+
+**Integrity Impact (I):**
+The integrity impact is "H" because an attacker can execute arbitrary code on the affected installation, potentially leading to unauthorized changes to system files or data.
+
+**Availability Impact (A):**
+The availability impact is "H" because an attacker can execute arbitrary code on the affected installation, potentially leading to denial-of-service attacks or other disruptions to system functionality.
+
+Here's the output in JSON format:
+
+```json
+{
+  "attack_vector": "A",
+  "attack_complexity": "H",
+  "privileges_required": "L",
+  "user_interaction": "R",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:A/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+  "base_score": 9.8
+}
+```
+
+Note that the base score is calculated based on the CVSS v3.1 guidelines and may vary depending on the specific circumstances of the vulnerability.

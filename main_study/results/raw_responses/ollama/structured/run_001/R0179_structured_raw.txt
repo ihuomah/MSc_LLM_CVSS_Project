@@ -1,0 +1,36 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The vulnerability allows an attacker to manipulate the URL, which could be handled as command line options for certain web browsers. This is a network-based attack vector, so I will assign **A**.
+
+**Attack Complexity (AC)**: The vulnerability requires some level of expertise and knowledge about the affected web browser and its command-line options. However, it does not require any specific tools or techniques beyond what an attacker would typically have. Therefore, I will assign **L** for low attack complexity.
+
+**Privileges Required (PR)**: The vulnerability can be exploited without requiring any special privileges or access levels. Therefore, I will assign **N** for no privileges required.
+
+**User Interaction (UI)**: The vulnerability does not require user interaction to exploit. An attacker could potentially exploit this vulnerability remotely. Therefore, I will assign **R** for required user interaction.
+
+**Scope (S)**: The vulnerability affects the confidentiality, integrity, and availability of the affected web browser. Therefore, I will assign **U** for universal scope.
+
+**Confidentiality Impact (C)**: An attacker could potentially exploit this vulnerability to access sensitive information or steal confidential data. Therefore, I will assign **H** for high confidentiality impact.
+
+**Integrity Impact (I)**: An attacker could potentially exploit this vulnerability to modify or delete sensitive data. Therefore, I will assign **H** for high integrity impact.
+
+**Availability Impact (A)**: An attacker could potentially exploit this vulnerability to disrupt the affected web browser's functionality or make it unavailable. Therefore, I will assign **H** for high availability impact.
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "R",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "base_score": 9.8
+}
+```
+
+Please note that the base score is calculated based on the provided vulnerability description and may not reflect the actual severity of the vulnerability in a real-world scenario.

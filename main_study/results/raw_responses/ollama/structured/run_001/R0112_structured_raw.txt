@@ -1,0 +1,51 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is Network (N) because the attacker can downgrade the security mode of packets going to the victim from a remote location.
+
+**Attack Complexity (AC):**
+The attack complexity is Low (L) because the attacker only needs to perform a MITM attack, which requires some technical expertise but is not extremely complex.
+
+**Privileges Required (PR):**
+No privileges are required (N) for the attack, as it can be performed by an unauthenticated user.
+
+**User Interaction (UI):**
+No user interaction is required (N) because the attacker can perform the downgrade without any user involvement.
+
+**Scope (S):**
+The scope of the vulnerability is Unchanged (U) because the attacker's goal is to downgrade the security mode, which affects only the communication between the victim and the attacker.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is High (H) because the attacker can send messages to the victim in plaintext, potentially revealing sensitive information.
+
+**Integrity Impact (I):**
+The integrity impact is Low (L) because the downgrade of security mode does not affect the integrity of the data being transmitted.
+
+**Availability Impact (A):**
+The availability impact is None (N) because the vulnerability does not affect the availability of the system or service.
+
+**Vector String:**
+The vector string is:
+```
+CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N
+```
+
+**Base Score:**
+Based on the calculated metrics, the base score is 7.5.
+
+Here is the output in JSON format:
+
+```json
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "L",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N",
+  "base_score": 7.5
+}
+```

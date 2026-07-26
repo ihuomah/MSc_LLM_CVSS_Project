@@ -1,0 +1,51 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is Local (L) because the vulnerability can be exploited by a local authenticated attacker without having authority to the related *USRPRF objects.
+
+**Attack Complexity (AC):**
+The attack complexity is Low (L) because the vulnerability requires minimal effort and expertise to exploit.
+
+**Privileges Required (PR):**
+The privileges required are None (N) because the vulnerability can be exploited by a local authenticated attacker without having authority to the related *USRPRF objects.
+
+**User Interaction (UI):**
+The user interaction is None (N) because the vulnerability does not require any user interaction to exploit.
+
+**Scope (S):**
+The scope is Unchanged (U) because the vulnerability affects the confidentiality, integrity, and availability of the system.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is Low (L) because the vulnerability allows a malicious actor to gather information about users that can be targeted in further attacks.
+
+**Integrity Impact (I):**
+The integrity impact is None (N) because the vulnerability does not affect the integrity of the system.
+
+**Availability Impact (A):**
+The availability impact is None (N) because the vulnerability does not affect the availability of the system.
+
+**Vector String:**
+The vector string is:
+```
+CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+```
+
+**Base Score:**
+The base score is 4.0 (rounded to one decimal place).
+
+Here is the output in JSON format:
+
+```json
+{
+  "attack_vector": "L",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "N",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+  "base_score": 4.0
+}
+```

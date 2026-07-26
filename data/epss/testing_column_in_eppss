@@ -1,0 +1,9 @@
+import pandas as pd
+
+epss = pd.read_csv(
+    "data/epss/epss_scores-current.csv.gz",
+    compression="gzip",
+    skiprows=1
+)
+
+print(epss.columns.tolist())

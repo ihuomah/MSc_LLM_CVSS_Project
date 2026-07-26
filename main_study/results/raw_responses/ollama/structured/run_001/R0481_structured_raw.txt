@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability allows an authorized attacker to disclose information over a network. This suggests that the attack vector is **Network-based (N)**.
+
+**Attack Complexity (AC):**
+The vulnerability requires no special skills or knowledge to exploit, as it can be exploited by an authorized attacker. Therefore, I assess the attack complexity as **Low (L)**.
+
+**Privileges Required (PR):**
+No privileges are required to exploit this vulnerability, as it can be accessed by an authorized attacker. Hence, I rate the privileges required as **None (N)**.
+
+**User Interaction (UI):**
+The vulnerability does not require user interaction to exploit. Therefore, I assess the user interaction as **None (N)**.
+
+**Scope (S):**
+The scope of this vulnerability is limited to the Azure SaaS Resources. Hence, I rate the scope as **Unchanged (U)**.
+
+**Confidentiality Impact (C):**
+The vulnerability allows an authorized attacker to disclose information over a network, which could lead to confidentiality breaches. Therefore, I assess the confidentiality impact as **High (H)**.
+
+**Integrity Impact (I):**
+The vulnerability does not affect the integrity of the system or data. Hence, I rate the integrity impact as **None (N)**.
+
+**Availability Impact (A):**
+The vulnerability may cause a denial-of-service (DoS) or a disruption in service, affecting availability. Therefore, I assess the availability impact as **High (H)**.
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "N",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H",
+  "base_score": 9.0
+}
+```
+
+Please note that this assessment is based solely on the provided vulnerability description and does not take into account any external knowledge or assumptions.

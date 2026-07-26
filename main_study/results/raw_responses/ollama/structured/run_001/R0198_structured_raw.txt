@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is "A" because it involves a command injection attack through improper neutralization of hyperlink elements.
+
+**Attack Complexity (AC):**
+The attack complexity is "L" because the attack requires some degree of expertise and knowledge to execute successfully.
+
+**Privileges Required (PR):**
+No privileges are required for this vulnerability, so the value is "N".
+
+**User Interaction (UI):**
+The user interaction is "R" because an attacker can exploit this vulnerability without requiring any user interaction.
+
+**Scope (S):**
+The scope of the impact is "U" because it affects all users and systems that use the affected product versions.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is "N" because there is no potential for sensitive information to be compromised.
+
+**Integrity Impact (I):**
+The integrity impact is "H" because an attacker can potentially modify or delete data, which could lead to a loss of integrity.
+
+**Availability Impact (A):**
+The availability impact is "L" because the vulnerability could cause some disruption to system functionality, but it is not expected to be severe.
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "R",
+  "scope": "U",
+  "confidentiality_impact": "N",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:L",
+  "base_score": 6.5
+}
+```
+
+The calculated base score is 6.5, which indicates a moderate severity vulnerability.

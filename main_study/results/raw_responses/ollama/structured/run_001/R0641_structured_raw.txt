@@ -1,0 +1,49 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attacker can create an external lookup that calls a legacy internal function, which allows them to insert code into the Product Y platform installation directory. This indicates an **Network (N)** attack vector.
+
+**Attack Complexity (AC):**
+The vulnerability requires some level of expertise and knowledge of the Product Y platform's internal functions, making it **High (H)** in terms of attack complexity.
+
+**Privileges Required (PR):**
+An attacker can exploit this vulnerability without requiring any special privileges, indicating a **None (N)** privilege requirement.
+
+**User Interaction (UI):**
+The vulnerability does not require user interaction to be exploited, indicating a **None (N)** user interaction requirement.
+
+**Scope (S):**
+The scope of the vulnerability is limited to the Product Y platform instance, making it **Unchanged (U)** in terms of scope.
+
+**Confidentiality Impact (C):**
+An attacker can insert arbitrary code into the Product Y platform installation directory, which could potentially lead to unauthorized access or data disclosure. This indicates a **High (H)** confidentiality impact.
+
+**Integrity Impact (I):**
+The inserted code could be used to modify or delete files on the Product Y platform instance, indicating a **High (H)** integrity impact.
+
+**Availability Impact (A):**
+An attacker could potentially use this vulnerability to execute arbitrary code on the Product Y platform instance, which could lead to system crashes or denial-of-service conditions. This indicates a **High (H)** availability impact.
+
+Based on these metrics, I calculate the CVSS v3.1 base score as follows:
+
+**Vector String:**
+CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+
+**Base Score:**
+9.8 (rounded to 1 decimal place)
+
+Here is the output in JSON format:
+```json
+{
+  "attack_vector": "N",
+  "attack_complexity": "H",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "base_score": 9.8
+}
+```

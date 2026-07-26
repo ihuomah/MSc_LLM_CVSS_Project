@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability allows any authenticated user to delete procedure orders, answers, and specimens belonging to any patient in the system. This can be done without requiring network access or physical proximity, making it a **Network-based attack (N)**.
+
+**Attack Complexity (AC):**
+The vulnerability requires minimal effort and expertise from an attacker, as they only need to exploit the missing authorization in the AJAX deletion endpoint. Therefore, I assess this as **Low (L)**.
+
+**Privileges Required (PR):**
+Any authenticated user can exploit this vulnerability, regardless of their role. This means that no special privileges are required, making it a **None (N)**.
+
+**User Interaction (UI):**
+The vulnerability can be exploited without any user interaction, as an attacker only needs to send a request to the affected endpoint. Therefore, I assess this as **None (N)**.
+
+**Scope (S):**
+The vulnerability affects all users of the system, making it a **System-level attack (U)**.
+
+**Confidentiality Impact (C):**
+An attacker can delete sensitive information such as procedure orders, answers, and specimens, which could lead to confidentiality breaches. I assess this impact as **High (H)**.
+
+**Integrity Impact (I):**
+The vulnerability allows an attacker to irreversibly delete data, which could compromise the integrity of the system. I assess this impact as **High (H)**.
+
+**Availability Impact (A):**
+An attacker can also delete procedure orders and specimens, which could lead to availability issues for users of the system. I assess this impact as **High (H)**.
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "base_score": 9.8
+}
+```
+
+Please note that this assessment is based solely on the provided vulnerability description and does not take into account any external knowledge or assumptions.

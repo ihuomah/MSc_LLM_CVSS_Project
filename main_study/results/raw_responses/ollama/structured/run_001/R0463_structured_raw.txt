@@ -1,0 +1,36 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The vulnerability allows a remote attacker to bypass XSS preventions via a crafted HTML page. This indicates an **A**ttack Vector of Network (N).
+
+**Attack Complexity (AC)**: The attack requires crafting a specific HTML page, which suggests a moderate level of complexity. I will rate this as **H**igh.
+
+**Privileges Required (PR)**: No privileges are required to exploit the vulnerability, so I will rate this as **N**one.
+
+**User Interaction (UI)**: The attacker can bypass XSS preventions without requiring user interaction, so I will rate this as **N**one.
+
+**Scope (S)**: The attack affects a single system or data, so I will rate this as **U**nchanged.
+
+**Confidentiality Impact (C)**: The vulnerability allows an attacker to bypass XSS preventions, which could lead to the disclosure of sensitive information. I will rate this as **H**igh.
+
+**Integrity Impact (I)**: The vulnerability could allow an attacker to inject malicious code, which could compromise the integrity of the system. I will rate this as **H**igh.
+
+**Availability Impact (A)**: There is no indication that the vulnerability would affect the availability of the system or data, so I will rate this as **N**one.
+
+Here's the output in JSON format:
+
+```json
+{
+  "attack_vector": "A",
+  "attack_complexity": "H",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+  "base_score": 7.5
+}
+```
+
+The calculated base score is **7.5**.

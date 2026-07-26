@@ -1,0 +1,36 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The attack vector is "N" because the vulnerability can be exploited remotely without any physical interaction with the system.
+
+**Attack Complexity (AC)**: The attack complexity is "L" because the exploit requires some degree of expertise and knowledge about the PKI engine's ACME validation process, but it does not require a high level of sophistication or specialized tools.
+
+**Privileges Required (PR)**: The privileges required are "N" because an attacker can exploit this vulnerability without requiring any special privileges or access to sensitive areas of the system.
+
+**User Interaction (UI)**: The user interaction is "N" because the vulnerability can be exploited automatically, without any human intervention.
+
+**Scope (S)**: The scope is "U" because the vulnerability affects a single system or component, rather than an entire network or organization.
+
+**Confidentiality Impact (C)**: The confidentiality impact is "L" because the vulnerability could potentially lead to information disclosure, but it does not have a high likelihood of exposing sensitive or confidential data.
+
+**Integrity Impact (I)**: The integrity impact is "N" because the vulnerability does not have the potential to modify or destroy system files or data.
+
+**Availability Impact (A)**: The availability impact is "L" because the vulnerability could potentially lead to denial-of-service (DoS) or disruption of service, but it does not have a high likelihood of causing significant downtime or unavailability.
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "N",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
+  "base_score": 4.0
+}
+```
+
+The calculated base score is 4.0, indicating a moderate severity vulnerability.

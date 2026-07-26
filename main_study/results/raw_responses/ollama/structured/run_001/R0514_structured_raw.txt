@@ -1,0 +1,56 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is remote, as it can be initiated remotely.
+Type: A
+
+**Attack Complexity (AC):**
+The attack complexity is low, as the manipulation of the argument tname leads to sql injection.
+Type: L
+
+**Privileges Required (PR):**
+No privileges are required for this vulnerability.
+Type: N
+
+**User Interaction (UI):**
+The exploit can be initiated remotely, without user interaction.
+Type: R
+
+**Scope (S):**
+The scope is unchanged, as the attack affects some unknown processing of the file /admin/operations/tax.php.
+Type: U
+
+**Confidentiality Impact (C):**
+The confidentiality impact is high, as an attacker could potentially access sensitive information.
+Type: H
+
+**Integrity Impact (I):**
+The integrity impact is also high, as an attacker could potentially modify or delete data.
+Type: H
+
+**Availability Impact (A):**
+The availability impact is moderate, as the attack may cause some disruption to system functionality.
+Type: L
+
+**Vector String:**
+CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:L
+
+**Base Score:**
+Based on the calculated metrics, the base score is 8.8.
+
+Here is the output in JSON format:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "R",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:L",
+  "base_score": 8.8
+}
+```

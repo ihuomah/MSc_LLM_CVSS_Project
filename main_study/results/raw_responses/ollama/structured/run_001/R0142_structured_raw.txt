@@ -1,0 +1,55 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: Remote (R)
+The attack can be initiated remotely, so the attack vector is "Remote".
+
+**Attack Complexity (AC)**: Low (L)
+The manipulation of an argument leads to a sql injection, which is a relatively simple attack.
+
+**Privileges Required (PR)**: None (N)
+No privileges are required to exploit this vulnerability.
+
+**User Interaction (UI)**: None (N)
+The attack can be initiated without user interaction.
+
+**Scope (S)**: Unchanged (U)
+The scope of the impact is unchanged, as it affects unknown code.
+
+**Confidentiality Impact (C)**: High (H)
+The vulnerability allows for sql injection, which could lead to sensitive data being accessed or modified.
+
+**Integrity Impact (I)**: High (H)
+The vulnerability also allows for integrity attacks, such as modifying or deleting data.
+
+**Availability Impact (A)**: None (N)
+There is no impact on the availability of the system.
+
+Here's the output in JSON format:
+
+```json
+{
+  "attack_vector": "R",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:R/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+  "base_score": 9.0
+}
+```
+
+The base score is calculated as follows:
+
+* Attack Vector (AV): R (Remote) = 0.87
+* Attack Complexity (AC): L (Low) = 0.56
+* Privileges Required (PR): N (None) = 0.85
+* User Interaction (UI): N (None) = 0.85
+* Scope (S): U (Unchanged) = 0.65
+* Confidentiality Impact (C): H (High) = 3.25
+* Integrity Impact (I): H (High) = 3.25
+* Availability Impact (A): N (None) = 0.85
+
+Base Score: 9.0

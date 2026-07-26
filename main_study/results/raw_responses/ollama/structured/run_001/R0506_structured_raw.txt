@@ -1,0 +1,36 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The vulnerability allows an attacker to obtain email addresses of other users in a group SMTP topic. This can be done without any user interaction or physical access, making it a **Network-based attack (N)**.
+
+**Attack Complexity (AC)**: The attack requires some degree of expertise and knowledge about the system, but it is not extremely complex. I will rate this as **Low (L)**.
+
+**Privileges Required (PR)**: An attacker does not need any special privileges to exploit this vulnerability. It can be exploited by an unauthenticated user. Therefore, I will rate this as **None (N)**.
+
+**User Interaction (UI)**: The attack does not require any user interaction or input from the victim. Therefore, I will rate this as **None (N)**.
+
+**Scope (S)**: The vulnerability affects all users in a group SMTP topic. It is not limited to a specific user or system. Therefore, I will rate this as **Unchanged (U)**.
+
+**Confidentiality Impact (C)**: An attacker can obtain email addresses of other users in the group SMTP topic, which could lead to unauthorized access or spamming. I will rate this as **Low (L)**.
+
+**Integrity Impact (I)**: The vulnerability does not affect the integrity of the system or data. Therefore, I will rate this as **None (N)**.
+
+**Availability Impact (A)**: The vulnerability does not affect the availability of the system or services. Therefore, I will rate this as **None (N)**.
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "N",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+  "base_score": 2.9
+}
+```
+
+The calculated base score is **2.9**.

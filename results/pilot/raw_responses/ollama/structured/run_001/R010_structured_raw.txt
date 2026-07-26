@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is "A" because the vulnerability can be exploited remotely.
+
+**Attack Complexity (AC):**
+The attack complexity is "L" because the attacker needs to have some knowledge of web application security and scripting languages, but no advanced expertise is required.
+
+**Privileges Required (PR):**
+The privileges required are "N" because the vulnerability does not require any special privileges or access levels to exploit.
+
+**User Interaction (UI):**
+The user interaction is "R" because an attacker can exploit this vulnerability without requiring any user interaction.
+
+**Scope (S):**
+The scope is "U" because the vulnerability affects all users of the affected system.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is "H" because an attacker could potentially steal sensitive information or inject malicious scripts into the web page, leading to a high-impact confidentiality breach.
+
+**Integrity Impact (I):**
+The integrity impact is "H" because an attacker could potentially modify or delete data stored in the affected system, leading to a high-impact integrity breach.
+
+**Availability Impact (A):**
+The availability impact is "N" because the vulnerability does not affect the overall availability of the affected system.
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "R",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+  "base_score": 8.0
+}
+```
+
+The calculated base score is 8.0, indicating a high severity vulnerability.

@@ -1,0 +1,36 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The vulnerability allows an attacker to delete any directory given sufficient access rights. This can be done remotely (A) or locally (L), so I'll choose L as the attack vector.
+
+**Attack Complexity (AC)**: The vulnerability requires a moderate level of expertise and knowledge of the system, but it's not extremely complex. I'll rate this as H.
+
+**Privileges Required (PR)**: An attacker needs to have sufficient access rights to delete directories, which is considered high-level privileges. I'll rate this as H.
+
+**User Interaction (UI)**: The vulnerability can be exploited without user interaction (N), so I'll choose N.
+
+**Scope (S)**: The scope of the impact is limited to the affected system or directory (U), so I'll choose U.
+
+**Confidentiality Impact (C)**: There is no direct confidentiality impact, but an attacker could potentially delete sensitive files. I'll rate this as L.
+
+**Integrity Impact (I)**: An attacker can delete directories and files, which has a high integrity impact. I'll rate this as H.
+
+**Availability Impact (A)**: The vulnerability can cause the system to become unavailable or unresponsive if critical files are deleted. I'll rate this as H.
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "L",
+  "attack_complexity": "H",
+  "privileges_required": "H",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:L/I:H/A:H",
+  "base_score": 8.5
+}
+```
+
+The calculated base score is 8.5, indicating a high severity vulnerability.

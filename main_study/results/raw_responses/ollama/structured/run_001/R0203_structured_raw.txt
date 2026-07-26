@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability allows high privilege users to perform Cross-Site Scripting attacks even when unfiltered_html is disallowed. This suggests an **Network (N)** attack vector.
+
+**Attack Complexity (AC):**
+The vulnerability requires no special privileges or knowledge, making it relatively easy to exploit. Therefore, I assess the **attack complexity as Low (L)**.
+
+**Privileges Required (PR):**
+As mentioned in the description, high privilege users such as admin can perform the attack. This suggests that **High (H) privileges are required**.
+
+**User Interaction (UI):**
+The vulnerability does not require user interaction to exploit. Therefore, I assess the **user interaction as No (N)**.
+
+**Scope (S):**
+The vulnerability affects the confidentiality, integrity, and availability of the system. Therefore, I assess the **scope as Changed (C)**.
+
+**Confidentiality Impact (C):**
+The vulnerability allows Cross-Site Scripting attacks, which could potentially lead to sensitive information disclosure. This suggests a **High (H) confidentiality impact**.
+
+**Integrity Impact (I):**
+The vulnerability could allow an attacker to manipulate the system's integrity, leading to potential data tampering or corruption. This suggests a **High (H) integrity impact**.
+
+**Availability Impact (A):**
+The vulnerability could potentially lead to denial-of-service attacks or other availability-related issues. This suggests a **High (H) availability impact**.
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "H",
+  "user_interaction": "N",
+  "scope": "C",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H",
+  "base_score": 9.8
+}
+```
+
+Please note that the base score is calculated based on the provided vulnerability description and may not reflect the actual severity of the vulnerability in a real-world scenario.

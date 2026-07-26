@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is remote, as it is possible to initiate the attack remotely. Therefore, I assign AV:N.
+
+**Attack Complexity (AC):**
+The attack complexity is low, as the manipulation of the argument marketcurrency leads to sql injection. Therefore, I assign AC:L.
+
+**Privileges Required (PR):**
+No privileges are required to exploit this vulnerability. Therefore, I assign PR:N.
+
+**User Interaction (UI):**
+The attack can be initiated remotely without user interaction. Therefore, I assign UI:N.
+
+**Scope (S):**
+The scope of the impact is limited to a single system or component. Therefore, I assign S:U.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is high, as an attacker could potentially access sensitive information. Therefore, I assign C:H.
+
+**Integrity Impact (I):**
+The integrity impact is also high, as an attacker could potentially modify or delete data. Therefore, I assign I:H.
+
+**Availability Impact (A):**
+The availability impact is moderate, as the vulnerability could potentially cause a denial-of-service attack. Therefore, I assign A:M.
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "M",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:M",
+  "base_score": 8.5
+}
+```
+
+Note that the base score is calculated based on the CVSS v3.1 formula, which takes into account the values assigned to each metric. The final base score is 8.5 out of a maximum of 10.

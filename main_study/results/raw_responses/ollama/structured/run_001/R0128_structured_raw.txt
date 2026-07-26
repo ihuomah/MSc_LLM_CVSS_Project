@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability is a buffer overflow in SCTP, which can be exploited remotely without authentication (A). Therefore, the attack vector is **N** (Network).
+
+**Attack Complexity (AC):**
+The exploit requires some skill and knowledge of the SCTP protocol, but it's not extremely complex. I'll rate this as **L** (Low).
+
+**Privileges Required (PR):**
+No privileges are required to exploit this vulnerability, so I'll rate this as **N** (None).
+
+**User Interaction (UI):**
+The vulnerability can be exploited without user interaction, so I'll rate this as **N** (None).
+
+**Scope (S):**
+The scope of the impact is limited to the affected system or network, so I'll rate this as **U** (Unchanged).
+
+**Confidentiality Impact (C):**
+An attacker could potentially gain unauthorized access to sensitive information, which would have a moderate impact on confidentiality. I'll rate this as **L** (Low).
+
+**Integrity Impact (I):**
+The vulnerability could allow an attacker to modify or delete data, which would have a high impact on integrity. I'll rate this as **H** (High).
+
+**Availability Impact (A):**
+An attacker could potentially cause the system or network to become unavailable, which would have a moderate impact on availability. I'll rate this as **L** (Low).
+
+Here's the output in JSON format:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:L",
+  "base_score": 6.5
+}
+```
+
+The calculated base score is **6.5**.

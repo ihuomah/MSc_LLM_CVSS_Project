@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability allows attackers to read sandbox data of AR Emoji, which implies a network-based attack vector (A).
+
+**Attack Complexity (AC):**
+The attack complexity is considered high (H) as it requires some level of expertise and knowledge about the affected system.
+
+**Privileges Required (PR):**
+No privileges are required for this vulnerability, so I will set it to N.
+
+**User Interaction (UI):**
+This vulnerability does not require user interaction, so I will set it to N.
+
+**Scope (S):**
+The scope is considered unchanged (U) as the vulnerability affects only the AR Emoji sandbox data and does not affect other parts of the system or network.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is high (H) as an attacker can read sensitive information from the sandbox data.
+
+**Integrity Impact (I):**
+The integrity impact is medium (M) as an attacker can potentially modify or delete the sandbox data, but this does not affect the overall system integrity.
+
+**Availability Impact (A):**
+The availability impact is none (N) as the vulnerability does not affect the system's availability.
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "H",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "M",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:M/A:N",
+  "base_score": 7.5
+}
+```
+
+Please note that this assessment is based solely on the provided vulnerability description and does not take into account any external knowledge or assumptions.

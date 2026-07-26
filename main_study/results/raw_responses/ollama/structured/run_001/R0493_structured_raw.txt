@@ -1,0 +1,43 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: N (Network)
+The vulnerability allows an attacker to view other user's images without any additional execution privileges needed.
+* **Attack Complexity (AC)**: L (Low)
+The attack requires minimal complexity, as it only involves exploiting the confused deputy in the SaveUi.java file.
+* **Privileges Required (PR)**: N (None)
+No additional privileges are required to exploit this vulnerability.
+* **User Interaction (UI)**: N (None)
+No user interaction is needed for exploitation.
+* **Scope (S)**: U (Unchanged)
+The scope of the attack remains unchanged, as it only affects the local system.
+* **Confidentiality Impact (C)**: L (Low)
+The vulnerability could lead to local information disclosure, which has a low impact on confidentiality.
+* **Integrity Impact (I)**: N (None)
+There is no integrity impact, as the vulnerability does not allow an attacker to modify or delete data.
+* **Availability Impact (A)**: N (None)
+There is no availability impact, as the vulnerability does not affect the system's overall availability.
+
+**Vector String**
+CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+
+**Base Score**
+The base score for this vulnerability is 2.9 (out of a maximum of 10).
+
+Here is the output in JSON format:
+
+```json
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "N",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+  "base_score": 2.9
+}
+```

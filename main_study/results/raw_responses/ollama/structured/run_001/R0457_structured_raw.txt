@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability is a Cross-site Scripting (XSS) vulnerability in an on-premises product. This type of attack typically requires network access (A). Therefore, I assign AV:N.
+
+**Attack Complexity (AC):**
+The complexity of this attack is relatively low, as it only requires the attacker to craft a malicious script and inject it into the vulnerable system. Hence, I assign AC:L.
+
+**Privileges Required (PR):**
+No special privileges are required to exploit this vulnerability, making PR:N a suitable assignment.
+
+**User Interaction (UI):**
+The vulnerability can be exploited without user interaction, as an attacker can inject malicious code into the system. Therefore, I assign UI:N.
+
+**Scope (S):**
+The scope of this vulnerability is limited to the affected on-premises product and its users, making S:U a suitable assignment.
+
+**Confidentiality Impact (C):**
+An attacker exploiting this vulnerability could potentially steal sensitive information or inject malicious code into the system. This has a moderate impact on confidentiality, so I assign C:M.
+
+**Integrity Impact (I):**
+The integrity of the affected system and its data could be compromised if an attacker successfully exploits this vulnerability. This has a high impact on integrity, so I assign I:H.
+
+**Availability Impact (A):**
+An attacker exploiting this vulnerability could potentially cause the affected system to become unavailable or slow down its performance. This has a moderate impact on availability, so I assign A:M.
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "M",
+  "integrity_impact": "H",
+  "availability_impact": "M",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:M/I:H/A:M",
+  "base_score": 7.5
+}
+```
+
+Please note that this assessment is based solely on the provided vulnerability description and does not take into account any external knowledge or assumptions.

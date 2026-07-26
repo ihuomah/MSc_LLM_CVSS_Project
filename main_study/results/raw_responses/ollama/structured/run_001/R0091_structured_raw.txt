@@ -1,0 +1,36 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The vulnerability allows authenticated administrators to execute code via a network, which indicates an **A**ttack Vector of "Network".
+
+**Attack Complexity (AC)**: The vulnerability requires no special privileges or knowledge, making it relatively easy to exploit. Therefore, the **Attack Complexity** is set to **L**ow.
+
+**Privileges Required (PR)**: The vulnerability can be exploited by authenticated administrators, which means that an attacker would need **L**imited privileges to execute code. Therefore, the **Privileges Required** are set to **L**imited.
+
+**User Interaction (UI)**: The vulnerability does not require user interaction, as it can be exploited by authenticated administrators. Therefore, the **User Interaction** is set to **N**one.
+
+**Scope (S)**: The vulnerability affects multiple versions of Vendor X operating system, which means that the scope is **C**omprehensive.
+
+**Confidentiality Impact (C)**: If exploited, the vulnerability could allow code execution via a network, which has a moderate impact on confidentiality. Therefore, the **Confidentiality Impact** is set to **M**oderate.
+
+**Integrity Impact (I)**: The vulnerability allows code execution, which has a high impact on integrity. Therefore, the **Integrity Impact** is set to **H**igh.
+
+**Availability Impact (A)**: If exploited, the vulnerability could allow code execution via a network, which has a moderate impact on availability. Therefore, the **Availability Impact** is set to **M**oderate.
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "L",
+  "user_interaction": "N",
+  "scope": "C",
+  "confidentiality_impact": "M",
+  "integrity_impact": "H",
+  "availability_impact": "M",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:C/C:M/I:H/A:M",
+  "base_score": 7.5
+}
+```
+
+The calculated base score is **7.5**.

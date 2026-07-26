@@ -1,0 +1,39 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The attack vector is Network (N) because an attacker can hijack the victim's session by sending a valid `sessionId` cookie in the victim's browser and waiting for the victim to log in on the website.
+
+**Attack Complexity (AC)**: The attack complexity is Low (L) because the attacker only needs to send a valid `sessionId` cookie to hijack the victim's session, which does not require any complex or sophisticated techniques.
+
+**Privileges Required (PR)**: The privileges required are None (N) because an attacker can exploit this vulnerability without requiring any special privileges or access levels.
+
+**User Interaction (UI)**: The user interaction is None (N) because an attacker can hijack the victim's session without requiring any user interaction, such as clicking on a link or entering credentials.
+
+**Scope (S)**: The scope is Changed (C) because the vulnerability affects the confidentiality, integrity, and availability of the system.
+
+**Confidentiality Impact (C)**: The confidentiality impact is High (H) because an attacker can hijack the victim's session and access sensitive information without being detected.
+
+**Integrity Impact (I)**: The integrity impact is High (H) because an attacker can modify or delete data without being detected, which could lead to unauthorized changes to the system.
+
+**Availability Impact (A)**: The availability impact is High (H) because an attacker can deny access to authorized users by hijacking their sessions and preventing them from accessing the system.
+
+Based on these metrics, I will calculate the CVSS v3.1 base score:
+
+**Vector String**: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+
+**Base Score**: 9.8
+
+Here is the output in JSON format:
+```json
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "C",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+  "base_score": 9.8
+}
+```

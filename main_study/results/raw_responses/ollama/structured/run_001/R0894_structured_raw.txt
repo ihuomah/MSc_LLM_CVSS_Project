@@ -1,0 +1,51 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability allows for command injection via the system_time_timezone parameter, which can be accessed remotely. Therefore, I assign an attack vector of **A** (Network).
+
+**Attack Complexity (AC):**
+The vulnerability requires minimal effort to exploit, as it is a straightforward command injection. Hence, I assign an attack complexity of **L** (Low).
+
+**Privileges Required (PR):**
+No special privileges are required to exploit this vulnerability. Therefore, I assign a privilege requirement of **N** (None).
+
+**User Interaction (UI):**
+The vulnerability can be exploited without user interaction. Therefore, I assign a user interaction level of **N** (None).
+
+**Scope (S):**
+The scope of the impact is limited to the affected system. Therefore, I assign a scope of **U** (Unchanged).
+
+**Confidentiality Impact (C):**
+The vulnerability does not affect confidentiality. Therefore, I assign a confidentiality impact level of **N** (None).
+
+**Integrity Impact (I):**
+The vulnerability allows for command injection, which can lead to integrity compromise. Therefore, I assign an integrity impact level of **H** (High).
+
+**Availability Impact (A):**
+The vulnerability can potentially cause availability issues if exploited. Therefore, I assign an availability impact level of **L** (Low).
+
+**Vector String:**
+Based on the above assessments, the vector string is:
+```
+CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:L
+```
+
+**Base Score:**
+Using the CVSS v3.1 base metric calculator, I calculate the base score to be **6.5**.
+
+Here is the output in JSON format:
+```json
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "N",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:L",
+  "base_score": 6.5
+}
+```
+Please note that this assessment is based solely on the provided vulnerability description and does not take into account any external knowledge or assumptions.

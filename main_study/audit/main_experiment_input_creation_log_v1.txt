@@ -1,0 +1,32 @@
+================================================================================
+Creating Main Experiment Input Files
+================================================================================
+Input file: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\datasets\frozen\main_dataset_sanitised_final_v2.parquet
+Rows processed: 1000
+
+Inference dataset:
+Rows: 1000
+Columns: ['record_id', 'description_for_model']
+Parquet: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\experiment_inputs\main_inference_dataset_v1.parquet
+CSV: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\experiment_inputs\main_inference_dataset_v1.csv
+XLSX: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\experiment_inputs\main_inference_dataset_v1.xlsx
+
+Mapping dataset:
+Rows: 1000
+Columns: ['record_id', 'cve_id']
+Parquet: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\experiment_inputs\main_record_mapping_v1.parquet
+CSV: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\experiment_inputs\main_record_mapping_v1.csv
+XLSX: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\experiment_inputs\main_record_mapping_v1.xlsx
+
+Verification dataset:
+Rows: 1000
+Columns: ['record_id', 'cve_id', 'official_cvss_vector', 'official_base_score', 'official_severity', 'epss_score', 'epss_percentile', 'published_year', 'cvss_selection_method']
+Parquet: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\experiment_inputs\main_record_verification_v1.parquet
+CSV: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\experiment_inputs\main_record_verification_v1.csv
+XLSX: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\experiment_inputs\main_record_verification_v1.xlsx
+
+Important rule:
+description_for_model was created from final_description.
+================================================================================
+Main Experiment Input Creation Complete
+================================================================================

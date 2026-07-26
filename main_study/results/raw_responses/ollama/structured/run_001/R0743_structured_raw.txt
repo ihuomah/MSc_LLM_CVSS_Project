@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is "N" because the vulnerability can be exploited remotely without any physical interaction with the device.
+
+**Attack Complexity (AC):**
+The attack complexity is "L" because the attacker needs to have some knowledge of SSL/TLS certificates and NAT traversal modules, but no advanced expertise or specialized tools are required.
+
+**Privileges Required (PR):**
+The privileges required are "N" because an attacker can exploit this vulnerability without any special privileges or access rights.
+
+**User Interaction (UI):**
+The user interaction is "R" because the attacker needs to interact with the device's signaling server to establish a Man-in-the-Middle (MitM) attack.
+
+**Scope (S):**
+The scope is "U" because the vulnerability affects all users of affected products and versions, regardless of their location or role.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is "H" because an attacker can intercept or redirect SSL/TLS certificates to gain unauthorized access to device services.
+
+**Integrity Impact (I):**
+The integrity impact is "L" because the vulnerability allows an attacker to disrupt service availability, but does not allow them to modify or destroy data.
+
+**Availability Impact (A):**
+The availability impact is "H" because an attacker can disrupt service availability by intercepting or redirecting SSL/TLS certificates.
+
+Here's the output in JSON format:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "R",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "L",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:H",
+  "base_score": 8.5
+}
+```
+
+Note that the base score is calculated based on the CVSS v3.1 guidelines and is subject to change if additional information becomes available.

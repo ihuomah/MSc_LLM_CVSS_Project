@@ -1,0 +1,36 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The attack vector is "Network" (N) because the attacker can send GET requests to post.php with malicious 'post' values from anywhere on the network.
+
+**Attack Complexity (AC)**: The attack complexity is "Low" (L) because the attacker only needs to craft a simple SQL injection payload and send it through the 'post' parameter.
+
+**Privileges Required (PR)**: No privileges are required for this vulnerability, so the value is "None" (N).
+
+**User Interaction (UI)**: The user interaction is "None" (N) because the attacker can exploit the vulnerability without any user interaction.
+
+**Scope (S)**: The scope of the impact is "Unchanged" (U) because the vulnerability affects the confidentiality, integrity, and availability of the system.
+
+**Confidentiality Impact (C)**: The confidentiality impact is "High" (H) because an attacker can extract sensitive database information or perform time-based blind SQL injection attacks.
+
+**Integrity Impact (I)**: The integrity impact is also "High" (H) because an attacker can manipulate database queries to modify or delete data.
+
+**Availability Impact (A)**: The availability impact is "Low" (L) because the vulnerability does not directly affect the system's availability.
+
+Here is the output in JSON format:
+
+```json
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L",
+  "base_score": 8.0
+}
+```
+
+The base score is calculated based on the CVSS v3.1 formula, which takes into account the attack vector, attack complexity, privileges required, user interaction, scope, confidentiality impact, integrity impact, and availability impact. The final base score is 8.0.

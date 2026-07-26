@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is "A" because it can be initiated remotely.
+
+**Attack Complexity (AC):**
+The attack complexity is "L" because the exploit has been disclosed to the public and may be used.
+
+**Privileges Required (PR):**
+No privileges are required, so this metric is "N".
+
+**User Interaction (UI):**
+The user interaction is "R" because it is possible to initiate the attack remotely.
+
+**Scope (S):**
+The scope is "U" because the vulnerability affects an unknown part of the file /admin/patient-search.php.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is "H" because the vulnerability has been classified as critical.
+
+**Integrity Impact (I):**
+The integrity impact is also "H" because the vulnerability can lead to sql injection, which can compromise the integrity of the system.
+
+**Availability Impact (A):**
+The availability impact is "H" because the vulnerability can potentially cause a denial-of-service (DoS) or a disruption in service.
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "R",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "base_score": 9.8
+}
+```
+
+The base score is approximately 9.8 out of a maximum of 10.0.

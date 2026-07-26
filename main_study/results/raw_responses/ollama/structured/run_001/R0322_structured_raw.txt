@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability allows for remote code execution and account credentials theft, which can be exploited by an attacker without physical access to the system. Therefore, the attack vector is **A** (Network).
+
+**Attack Complexity (AC):**
+The vulnerability requires minimal effort or skill from the attacker, as it can be exploited using publicly available tools and techniques. Therefore, the attack complexity is **L** (Low).
+
+**Privileges Required (PR):**
+No privileges are required to exploit this vulnerability, as an unauthenticated attacker can perform the exploitation. Therefore, the privileges required are **N** (None).
+
+**User Interaction (UI):**
+The vulnerability does not require user interaction to be exploited, as it can be triggered automatically by an attacker. Therefore, the user interaction is **N** (No).
+
+**Scope (S):**
+The scope of this vulnerability is **U** (Unchanged), as it affects all users and systems that are vulnerable.
+
+**Confidentiality Impact (C):**
+The confidentiality impact of this vulnerability is **H** (High), as an attacker can potentially steal sensitive information, including account credentials.
+
+**Integrity Impact (I):**
+The integrity impact of this vulnerability is also **H** (High), as an attacker can potentially modify or delete data on the system.
+
+**Availability Impact (A):**
+The availability impact of this vulnerability is **H** (High), as an attacker can potentially cause a denial-of-service (DoS) or crash the system.
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "base_score": 9.8
+}
+```
+
+The calculated base score is **9.8**, indicating a high severity vulnerability.

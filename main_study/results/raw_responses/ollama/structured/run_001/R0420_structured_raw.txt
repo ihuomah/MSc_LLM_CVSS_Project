@@ -1,0 +1,36 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The vulnerability is related to a programming error in USB network code, which can be exploited by an attacker with access to the affected system. Therefore, I assign **N** (Network) as the attack vector.
+
+**Attack Complexity (AC)**: The vulnerability requires some level of expertise and knowledge about the affected system's configuration and USB network protocols. However, it does not require any unusual or unexpected interactions from the attacker. Therefore, I assign **L** (Low) as the attack complexity.
+
+**Privileges Required (PR)**: An attacker with normal user privileges can exploit this vulnerability. Therefore, I assign **N** (None) as the privileges required.
+
+**User Interaction (UI)**: The vulnerability does not require any user interaction or input from the victim. Therefore, I assign **N** (None) as the user interaction.
+
+**Scope (S)**: The vulnerability affects a single system or device, so I assign **U** (Unchanged) as the scope.
+
+**Confidentiality Impact (C)**: An attacker exploiting this vulnerability could potentially read sensitive data from the affected system. Therefore, I assign **L** (Low) as the confidentiality impact.
+
+**Integrity Impact (I)**: The vulnerability allows an out-of-bounds read, which could lead to data corruption or modification. Therefore, I assign **H** (High) as the integrity impact.
+
+**Availability Impact (A)**: An attacker exploiting this vulnerability could potentially cause a denial-of-service (DoS) or crash the affected system. Therefore, I assign **L** (Low) as the availability impact.
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:L",
+  "base_score": 6.2
+}
+```
+
+The calculated base score is **6.2**.

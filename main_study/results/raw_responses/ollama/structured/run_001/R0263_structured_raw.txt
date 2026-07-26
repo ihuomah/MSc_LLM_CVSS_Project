@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: Remote (R)
+The manipulation of the argument user_id leads to sql injection, which can be initiated remotely.
+
+**Attack Complexity (AC)**: Low (L)
+The attack is relatively simple and does not require a high level of expertise or resources.
+
+**Privileges Required (PR)**: None (N)
+No privileges are required to exploit this vulnerability.
+
+**User Interaction (UI)**: None (N)
+The attack can be initiated without user interaction.
+
+**Scope (S)**: Unchanged (U)
+The scope of the impact is unchanged, as it affects an unknown part of the file /admin/users.php.
+
+**Confidentiality Impact (C)**: High (H)
+The vulnerability allows for sql injection, which could lead to sensitive data being accessed or modified.
+
+**Integrity Impact (I)**: High (H)
+The vulnerability also allows for integrity attacks, such as modifying or deleting data.
+
+**Availability Impact (A)**: Low (L)
+While the attack can be initiated remotely, it is unlikely to cause significant availability impacts.
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "R",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:R/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L",
+  "base_score": 7.5
+}
+```
+
+Please note that this assessment is based solely on the provided vulnerability description and does not take into account any external knowledge or assumptions.

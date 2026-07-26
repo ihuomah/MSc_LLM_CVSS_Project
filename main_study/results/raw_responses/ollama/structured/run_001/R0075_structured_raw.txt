@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is Network (N) because an attacker can execute arbitrary commands by crafting malicious filenames containing shell metacharacters, which can be done remotely.
+
+**Attack Complexity (AC):**
+The attack complexity is Low (L) because the vulnerability requires minimal effort to exploit. An attacker only needs to craft a malicious filename to execute arbitrary commands.
+
+**Privileges Required (PR):**
+The privileges required are None (N) because an attacker can execute arbitrary commands without requiring any special privileges.
+
+**User Interaction (UI):**
+The user interaction is None (N) because the vulnerability can be exploited without any user interaction. An attacker can craft a malicious filename and execute arbitrary commands remotely.
+
+**Scope (S):**
+The scope is Changed (C) because an attacker can execute arbitrary commands, which can affect the confidentiality, integrity, or availability of the system.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is Low (L) because an attacker can potentially access sensitive information by executing arbitrary commands.
+
+**Integrity Impact (I):**
+The integrity impact is High (H) because an attacker can execute arbitrary commands and potentially modify or delete files, which can affect the integrity of the system.
+
+**Availability Impact (A):**
+The availability impact is Low (L) because an attacker can execute arbitrary commands, but it may not necessarily affect the availability of the system.
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "C",
+  "confidentiality_impact": "L",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:H/A:L",
+  "base_score": 7.5
+}
+```
+
+The base score is 7.5, indicating a High severity vulnerability.

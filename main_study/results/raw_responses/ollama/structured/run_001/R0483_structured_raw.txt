@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is Network-based (N) because an attacker can exploit this vulnerability remotely to bypass PKCE protection.
+
+**Attack Complexity (AC):**
+The attack complexity is Low (L) because the vulnerability requires minimal effort and expertise to exploit.
+
+**Privileges Required (PR):**
+No privileges are required (N) for an attacker to exploit this vulnerability, as it can be exploited by any user.
+
+**User Interaction (UI):**
+No user interaction is required (N) for an attacker to exploit this vulnerability, as it can be exploited automatically.
+
+**Scope (S):**
+The scope of the impact is Changed (C) because the vulnerability allows an attacker to bypass PKCE protection, which affects the confidentiality and integrity of the system.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is High (H) because an attacker can exploit this vulnerability to access sensitive information without being detected by PKCE.
+
+**Integrity Impact (I):**
+The integrity impact is High (H) because an attacker can exploit this vulnerability to modify or delete data without being detected by PKCE.
+
+**Availability Impact (A):**
+The availability impact is None (N) because the vulnerability does not affect the system's availability.
+
+Here is the output in JSON format:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "C",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N",
+  "base_score": 9.0
+}
+```
+
+Note that the base score is calculated based on the CVSS v3.1 guidelines and may vary depending on the specific circumstances of the vulnerability.

@@ -1,0 +1,55 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is remote, as it can be initiated remotely. Therefore, I assign AV:N.
+
+**Attack Complexity (AC):**
+The attack complexity is low, as the manipulation of the argument id leads to sql injection. Therefore, I assign AC:L.
+
+**Privileges Required (PR):**
+No privileges are required for this vulnerability. Therefore, I assign PR:N.
+
+**User Interaction (UI):**
+The exploit can be initiated remotely without user interaction. Therefore, I assign UI:N.
+
+**Scope (S):**
+The scope is unchanged, as the attack affects some unknown processing of the file /pages/deletedannounce.php. Therefore, I assign S:U.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is high, as the vulnerability allows for sql injection. Therefore, I assign C:H.
+
+**Integrity Impact (I):**
+The integrity impact is also high, as the vulnerability can be used to manipulate data. Therefore, I assign I:H.
+
+**Availability Impact (A):**
+The availability impact is moderate, as the attack may affect some unknown processing of the file /pages/deletedannounce.php. Therefore, I assign A:M.
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "M",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:M",
+  "base_score": 7.5
+}
+```
+
+The base score is calculated as follows:
+
+* Attack Vector (AV): N (0.9)
+* Attack Complexity (AC): L (2.9)
+* Privileges Required (PR): N (0.9)
+* User Interaction (UI): N (0.9)
+* Scope (S): U (1.0)
+* Confidentiality Impact (C): H (5.4)
+* Integrity Impact (I): H (5.4)
+* Availability Impact (A): M (2.6)
+
+Base Score: 0.9 + 2.9 + 0.9 + 0.9 + 1.0 + 5.4 + 5.4 + 2.6 = 7.5

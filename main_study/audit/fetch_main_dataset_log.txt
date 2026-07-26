@@ -1,0 +1,78 @@
+[2026-06-19T23:05:09Z] ================================================================================
+[2026-06-19T23:05:09Z] Starting Main Study NVD candidate-pool fetch
+[2026-06-19T23:05:09Z] ================================================================================
+[2026-06-19T23:05:09Z] NVD API key loaded: True
+[2026-06-19T23:05:09Z] Date window: 2023-01-01 to 2026-05-25
+[2026-06-19T23:05:09Z] Window days: 119
+[2026-06-19T23:05:09Z] Page size: 2000
+[2026-06-19T23:05:09Z] Window already complete, using cache: 2023-01-01 to 2023-04-30
+[2026-06-19T23:05:10Z] Fetched/cached window records: 10182
+[2026-06-19T23:05:10Z] Window already complete, using cache: 2023-05-01 to 2023-08-28
+[2026-06-19T23:05:10Z] Fetched/cached window records: 9667
+[2026-06-19T23:05:10Z] Window already complete, using cache: 2023-08-29 to 2023-12-26
+[2026-06-19T23:05:11Z] Fetched/cached window records: 10616
+[2026-06-19T23:05:11Z] Window already complete, using cache: 2023-12-27 to 2024-04-24
+[2026-06-19T23:05:11Z] Fetched/cached window records: 12321
+[2026-06-19T23:05:11Z] Window already complete, using cache: 2024-04-25 to 2024-08-22
+[2026-06-19T23:05:12Z] Fetched/cached window records: 14150
+[2026-06-19T23:05:12Z] Window already complete, using cache: 2024-08-23 to 2024-12-20
+[2026-06-19T23:05:13Z] Fetched/cached window records: 13431
+[2026-06-19T23:05:13Z] Window already complete, using cache: 2024-12-21 to 2025-04-19
+[2026-06-19T23:05:14Z] Fetched/cached window records: 16382
+[2026-06-19T23:05:14Z] Window already complete, using cache: 2025-04-20 to 2025-08-17
+[2026-06-19T23:05:14Z] Fetched/cached window records: 14902
+[2026-06-19T23:05:14Z] Window already complete, using cache: 2025-08-18 to 2025-12-15
+[2026-06-19T23:05:15Z] Fetched/cached window records: 16398
+[2026-06-19T23:05:15Z] Window already complete, using cache: 2025-12-16 to 2026-04-14
+[2026-06-19T23:05:15Z] Fetched/cached window records: 21887
+[2026-06-19T23:05:15Z] Window already complete, using cache: 2026-04-15 to 2026-05-25
+[2026-06-19T23:05:16Z] Fetched/cached window records: 7666
+[2026-06-19T23:05:16Z] Total raw vulnerability items loaded from cached pages: 147602
+[2026-06-19T23:05:56Z] Saved Parquet: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\datasets\raw\main_candidate_pool_raw.parquet
+[2026-06-19T23:05:56Z] Saved CSV: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\datasets\raw\main_candidate_pool_raw.csv
+[2026-06-19T23:05:56Z] Saved Excel: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\datasets\raw\main_candidate_pool_raw.xlsx
+[2026-06-19T23:05:56Z] ================================================================================
+[2026-06-19T23:05:56Z] Candidate Pool Summary
+[2026-06-19T23:05:56Z] ================================================================================
+[2026-06-19T23:05:56Z] Output file: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\datasets\raw\main_candidate_pool_raw.xlsx
+[2026-06-19T23:05:56Z] Total raw items seen: 147602
+[2026-06-19T23:05:56Z] Eligible CVEs retained: 134789
+[2026-06-19T23:05:56Z] Duplicates skipped: 0
+[2026-06-19T23:05:56Z] Excluded by status: 6848
+[2026-06-19T23:05:56Z] Missing English description: 0
+[2026-06-19T23:05:56Z] Missing usable CVSS v3.1: 5962
+[2026-06-19T23:05:56Z] Severity NONE skipped: 3
+[2026-06-19T23:05:56Z] Fallback CVSS selections used: 59933
+[2026-06-19T23:05:56Z] Excluded status counts: {'Rejected': 5856, 'Undergoing Analysis': 15, 'Awaiting Analysis': 977}
+[2026-06-19T23:05:56Z] 
+Severity distribution:
+[2026-06-19T23:05:56Z] official_severity
+MEDIUM      63865
+HIGH        49563
+CRITICAL    18415
+LOW          2946
+Name: count, dtype: int64
+[2026-06-19T23:05:56Z] 
+Publication year distribution:
+[2026-06-19T23:05:56Z] published_year
+2023    28669
+2024    38769
+2025    43925
+2026    23426
+Name: count, dtype: int64
+[2026-06-19T23:05:56Z] 
+CPE coverage:
+[2026-06-19T23:05:56Z] has_cpe
+True     105823
+False     28966
+Name: count, dtype: int64
+[2026-06-19T23:05:56Z] 
+CVSS selection method distribution:
+[2026-06-19T23:05:56Z] cvss_selection_method
+primary_type                74257
+fallback_first_available    59933
+nvd_source                    599
+Name: count, dtype: int64
+[2026-06-19T23:05:56Z] ================================================================================
+[2026-06-19T23:05:56Z] Main Study NVD candidate-pool fetch complete
+[2026-06-19T23:05:56Z] ================================================================================

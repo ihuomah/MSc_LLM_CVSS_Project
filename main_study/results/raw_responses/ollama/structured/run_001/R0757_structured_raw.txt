@@ -1,0 +1,34 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability is a Missing Authorization issue, which can be exploited remotely without authentication (A). Therefore, the attack vector is "N".
+
+**Attack Complexity (AC):**
+The complexity of exploiting this vulnerability is Low (L), as it requires minimal effort and expertise to exploit.
+
+**Privileges Required (PR):**
+No privileges are required to exploit this vulnerability, so the value is "N".
+
+**User Interaction (UI):**
+No user interaction is required to exploit this vulnerability, so the value is "N".
+
+**Scope (S):**
+The scope of this vulnerability is Unchanged (U), as it affects the same system or data that was already affected by the vulnerability.
+
+**Confidentiality Impact (C):**
+The confidentiality impact of this vulnerability is Low (L), as an attacker could potentially access sensitive information, but the impact would be limited.
+
+**Integrity Impact (I):**
+The integrity impact of this vulnerability is High (H), as an attacker could potentially modify or delete data, which could have significant consequences.
+
+**Availability Impact (A):**
+The availability impact of this vulnerability is Low (L), as it may cause temporary disruptions to the system or service, but the overall availability would not be severely impacted.
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:L
+Base Score: 6.5
+```
+
+Please note that this assessment is based solely on the provided vulnerability description and does not take into account any external knowledge or assumptions.

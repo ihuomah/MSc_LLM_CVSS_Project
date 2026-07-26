@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is Network (N) because the vulnerability allows authenticated attackers with contributor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+
+**Attack Complexity (AC):**
+The attack complexity is Low (L) because the attacker only needs to have contributor-level and above permissions to exploit the vulnerability, which can be achieved through normal authentication mechanisms.
+
+**Privileges Required (PR):**
+The privileges required are High (H) because the attacker needs to have contributor-level and above permissions to inject arbitrary web scripts in pages.
+
+**User Interaction (UI):**
+The user interaction is None (N) because the attack does not require any user interaction, as it can be exploited by an authenticated attacker with contributor-level and above permissions.
+
+**Scope (S):**
+The scope is Changed (C) because the vulnerability allows attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page, affecting the confidentiality, integrity, and availability of the affected system.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is High (H) because the vulnerability allows attackers to inject arbitrary web scripts in pages that can be used to steal sensitive information or disrupt normal system functioning.
+
+**Integrity Impact (I):**
+The integrity impact is High (H) because the vulnerability allows attackers to inject arbitrary web scripts in pages that can be used to modify or delete sensitive data, disrupting normal system functioning.
+
+**Availability Impact (A):**
+The availability impact is High (H) because the vulnerability allows attackers to inject arbitrary web scripts in pages that can be used to disrupt normal system functioning, causing denial-of-service attacks or other availability-related issues.
+
+Here's the output in JSON format:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "H",
+  "user_interaction": "N",
+  "scope": "C",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H",
+  "base_score": 9.8
+}
+```
+
+Note that the base score is calculated based on the CVSS v3.1 guidelines and may vary depending on the specific circumstances of the vulnerability.

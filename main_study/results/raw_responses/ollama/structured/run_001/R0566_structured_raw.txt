@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is network-based, as an attacker can send multiple network packets to trigger this vulnerability. Therefore, I assign AV:N.
+
+**Attack Complexity (AC):**
+The attack complexity is low, as the vulnerability can be triggered by sending a series of HTTP requests. Therefore, I assign AC:L.
+
+**Privileges Required (PR):**
+No privileges are required to exploit this vulnerability, as an attacker can send network packets without any special access or permissions. Therefore, I assign PR:N.
+
+**User Interaction (UI):**
+No user interaction is required to exploit this vulnerability, as the attack can be triggered by sending automated HTTP requests. Therefore, I assign UI:N.
+
+**Scope (S):**
+The scope of this vulnerability is unchanged, as it affects the entire system or network. Therefore, I assign S:U.
+
+**Confidentiality Impact (C):**
+This vulnerability does not affect confidentiality, as it only leads to a reboot and does not compromise sensitive information. Therefore, I assign C:N.
+
+**Integrity Impact (I):**
+This vulnerability has a low integrity impact, as it only affects the system's availability rather than its integrity or confidentiality. Therefore, I assign I:N.
+
+**Availability Impact (A):**
+This vulnerability has a high availability impact, as it can lead to a reboot and potentially cause significant disruptions. Therefore, I assign A:H.
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "N",
+  "integrity_impact": "N",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+  "base_score": 8.0
+}
+```
+
+Please note that this assessment is based solely on the provided vulnerability description and does not take into account any external knowledge or assumptions.

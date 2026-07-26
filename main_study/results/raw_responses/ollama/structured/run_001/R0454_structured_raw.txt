@@ -1,0 +1,51 @@
+Based on the provided vulnerability description and constraints, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is "A" because an attacker can exploit this vulnerability remotely.
+
+**Attack Complexity (AC):**
+The attack complexity is "L" because the attack requires some degree of expertise to set up the configuration key and write outside of the `credentials` directory.
+
+**Privileges Required (PR):**
+The privileges required are "H" because the attacker needs root privileges to write to arbitrary files as root.
+
+**User Interaction (UI):**
+The user interaction is "N" because no user interaction is required to exploit this vulnerability.
+
+**Scope (S):**
+The scope is "U" because the attack affects the confidentiality, integrity, and availability of the system.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is "L" because an attacker can write to arbitrary files as root, but cannot read any data.
+
+**Integrity Impact (I):**
+The integrity impact is "H" because an attacker can write to arbitrary files as root, enabling both privilege escalation and denial of service attacks.
+
+**Availability Impact (A):**
+The availability impact is "H" because an attacker can cause a denial of service attack by writing to critical system files.
+
+**Vector String:**
+The vector string is:
+```
+CVSS:3.1/AV:A/AC:L/PR:H/UI:N/S:U/C:L/I:H/A:H
+```
+
+**Base Score:**
+Based on the calculated metrics, the base score is 9.8.
+
+Here is the output in JSON format:
+
+```json
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "H",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:H/UI:N/S:U/C:L/I:H/A:H",
+  "base_score": 9.8
+}
+```

@@ -1,0 +1,66 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability allows an authenticated user to delete comments from other users due to client-side enforcement of server-side security. This suggests that the attack vector is **Network (N)**.
+
+**Attack Complexity (AC):**
+The vulnerability requires some level of expertise and knowledge of the system, but it does not require any unusual or unexpected interactions. Therefore, I assess the attack complexity as **Low (L)**.
+
+**Privileges Required (PR):**
+The vulnerability can be exploited by an authenticated user, which means that no special privileges are required to exploit this vulnerability. Therefore, I assess the privileges required as **None (N)**.
+
+**User Interaction (UI):**
+The vulnerability does not require any user interaction other than being authenticated on the network. Therefore, I assess the user interaction as **No (N)**.
+
+**Scope (S):**
+The vulnerability affects the confidentiality, integrity, and availability of the system. Therefore, I assess the scope as **Unchanged (U)**.
+
+**Confidentiality Impact (C):**
+The vulnerability allows an authenticated user to delete comments from other users, which could potentially lead to loss or unauthorized disclosure of sensitive information. Therefore, I assess the confidentiality impact as **Low (L)**.
+
+**Integrity Impact (I):**
+The vulnerability allows an authenticated user to delete comments from other users, which could potentially lead to modification or destruction of data. Therefore, I assess the integrity impact as **High (H)**.
+
+**Availability Impact (A):**
+The vulnerability does not directly affect the availability of the system. However, it could potentially lead to loss or unauthorized disclosure of sensitive information, which could indirectly affect the availability of the system. Therefore, I assess the availability impact as **None (N)**.
+
+**Vector String:**
+Based on the above assessments, the vector string is:
+```
+CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:N
+```
+
+**Base Score:**
+Based on the above assessments, I calculate the base score as follows:
+
+* Attack Vector (AV): 0.85
+* Attack Complexity (AC): 0.56
+* Privileges Required (PR): 0.95
+* User Interaction (UI): 0.85
+* Scope (S): 1.00
+* Confidentiality Impact (C): 0.28
+* Integrity Impact (I): 0.71
+* Availability Impact (A): 0.00
+
+The base score is:
+```
+(0.85 * 0.56) + (0.95 * 0.85) + 1.00 + (0.28 * 0.71) + 0.00 = 6.41
+```
+
+Rounded to one decimal place, the base score is: **6.4**
+
+Here is the output in JSON format:
+```json
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "H",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:N",
+  "base_score": 6.4
+}
+```

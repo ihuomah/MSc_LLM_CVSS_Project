@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is remote, as it is possible to launch the attack remotely. Therefore, I will assign an AV value of "A".
+
+**Attack Complexity (AC):**
+The exploit is publicly available and might be used, which indicates a relatively low complexity attack. Hence, I will assign an AC value of "L".
+
+**Privileges Required (PR):**
+No privileges are required to exploit this vulnerability, as it can be launched remotely. Therefore, I will assign a PR value of "N".
+
+**User Interaction (UI):**
+The attack can be launched without user interaction, as the exploit is publicly available and might be used. Hence, I will assign a UI value of "N".
+
+**Scope (S):**
+The scope of this vulnerability is limited to the affected functionality of the file /admin/customer-list.php. Therefore, I will assign an S value of "U" (Unchanged).
+
+**Confidentiality Impact (C):**
+This vulnerability allows for SQL injection attacks, which could potentially lead to unauthorized access or modification of sensitive data. Hence, I will assign a C value of "H".
+
+**Integrity Impact (I):**
+The integrity of the affected system could be compromised due to this vulnerability, as an attacker might be able to modify or delete sensitive data. Therefore, I will assign an I value of "H".
+
+**Availability Impact (A):**
+This vulnerability could potentially lead to a denial-of-service (DoS) attack or disrupt the normal functioning of the affected system. Hence, I will assign an A value of "L".
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L",
+  "base_score": 7.5
+}
+```
+
+The calculated base score is 7.5, indicating a high severity vulnerability.

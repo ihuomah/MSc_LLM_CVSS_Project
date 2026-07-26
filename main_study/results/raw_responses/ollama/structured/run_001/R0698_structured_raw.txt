@@ -1,0 +1,36 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The issue can be exploited remotely, so it's an "A" (Network).
+
+**Attack Complexity (AC)**: The attack complexity is considered high because a maliciously crafted file is required to exploit this vulnerability, making it an "H".
+
+**Privileges Required (PR)**: No privileges are required to exploit this vulnerability, so it's an "N" (None).
+
+**User Interaction (UI)**: User interaction is not required to exploit this vulnerability, so it's an "N" (None).
+
+**Scope (S)**: The scope of the impact is limited to a single system or process, making it a "U" (Unchanged).
+
+**Confidentiality Impact (C)**: There is no confidentiality impact, so it's an "N" (None).
+
+**Integrity Impact (I)**: The integrity of the affected system can be impacted, making it an "H" (High).
+
+**Availability Impact (A)**: The availability of the affected system can also be impacted, making it an "H" (High).
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "H",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "N",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H",
+  "base_score": 9.0
+}
+```
+
+The calculated base score is 9.0, indicating a high severity vulnerability.

@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability is an SQL Injection attack, which can be exploited remotely (A). Therefore, the Attack Vector is set to "A".
+
+**Attack Complexity (AC):**
+The vulnerability requires minimal effort and expertise from the attacker, as it can be easily exploited by sending a crafted request. Hence, the Attack Complexity is set to "L" (Low).
+
+**Privileges Required (PR):**
+No privileges are required to exploit this vulnerability, as an unauthenticated user can perform the attack. Therefore, the Privileges Required is set to "N" (None).
+
+**User Interaction (UI):**
+The vulnerability does not require any user interaction, as it can be exploited automatically by sending a crafted request. Hence, the User Interaction is set to "N" (None).
+
+**Scope (S):**
+The scope of this vulnerability is limited to the affected plugin and its functionality, which is within the context of the WordPress Announcement & Notification Banner Plugin – Product Y. Therefore, the Scope is set to "U" (Unchanged).
+
+**Confidentiality Impact (C):**
+An attacker can potentially access sensitive information, such as user data or configuration files, by exploiting this vulnerability. Hence, the Confidentiality Impact is set to "H" (High).
+
+**Integrity Impact (I):**
+The integrity of the affected plugin and its functionality can be compromised by an attacker, allowing them to modify or delete data. Therefore, the Integrity Impact is set to "H" (High).
+
+**Availability Impact (A):**
+An attacker can potentially cause a denial-of-service (DoS) or crash the system by exploiting this vulnerability. Hence, the Availability Impact is set to "H" (High).
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "base_score": 9.8
+}
+```
+
+Please note that this assessment is based solely on the provided vulnerability description and does not take into account any external knowledge or assumptions.

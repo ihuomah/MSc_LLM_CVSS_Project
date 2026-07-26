@@ -1,0 +1,28 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: N (Network)
+The vulnerability allows a remote authenticated admin with read-only rights to modify settings that should be restricted.
+* **Attack Complexity (AC)**: L (Low)
+The attack requires some degree of expertise and knowledge, but it is not extremely complex or difficult to execute.
+* **Privileges Required (PR)**: H (High)
+A remote authenticated admin with read-only rights is required to exploit the vulnerability.
+* **User Interaction (UI)**: N (None)
+No user interaction is required to exploit the vulnerability.
+* **Scope (S)**: U (Unchanged)
+The scope of the impact remains unchanged, as the vulnerability only affects the certificate management component.
+* **Confidentiality Impact (C)**: L (Low)
+The confidentiality impact is low, as the vulnerability allows modification of settings that should be restricted, but does not directly compromise sensitive information.
+* **Integrity Impact (I)**: H (High)
+The integrity impact is high, as the vulnerability allows an attacker to modify settings that could potentially lead to unauthorized changes or data corruption.
+* **Availability Impact (A)**: L (Low)
+The availability impact is low, as the vulnerability does not directly affect the system's availability.
+
+**Vector String**
+CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:H/A:L
+
+**Base Score**
+9.8
+
+Please note that this assessment is based solely on the provided vulnerability description and does not take into account any external knowledge or assumptions.

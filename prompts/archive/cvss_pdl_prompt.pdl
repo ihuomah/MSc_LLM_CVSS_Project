@@ -1,0 +1,60 @@
+description: "PDL prompt for CVSS v3.1 vulnerability scoring"
+
+input:
+  vulnerability_description:
+    type: string
+    description: "Sanitised vulnerability description with no CVE ID, vendor name, product name, CVSS score, or EPSS score."
+
+task:
+  role: "Cybersecurity analyst specialising in CVSS v3.1 scoring"
+  objective: "Estimate the CVSS v3.1 vector and base score from the provided vulnerability description."
+
+instructions:
+  - "Use only the provided vulnerability description."
+  - "Do not infer vendor, product, or CVE identity."
+  - "Do not invent missing technical details."
+  - "Evaluate only CVSS v3.1 base metrics."
+  - "Return output in the required schema only."
+
+metrics:
+  - AV
+  - AC
+  - PR
+  - UI
+  - S
+  - C
+  - I
+  - A
+
+output_schema:
+  AV: "N | A | L | P"
+  AC: "L | H"
+  PR: "N | L | H"
+  UI: "N | R"
+  S: "U | C"
+  C: "H | L | N"
+  I: "H | L | N"
+  A: "H | L | N"
+  cvss_vector: "CVSS:3.1/AV:<value>/AC:<value>/PR:<value>/UI:<value>/S:<value>/C:<value>/I:<value>/A:<value>"
+  base_score: "numeric value from 0.0 to 10.0"
+
+prompt: |
+  You are a cybersecurity analyst specialising in CVSS v3.1 scoring.
+
+  Analyse the following sanitised vulnerability description and estimate the CVSS v3.1 base metrics.
+
+  Vulnerability description:
+  {{ vulnerability_description }}
+
+  Return only the following YAML structure:
+
+  AV: <N|A|L|P>
+  AC: <L|H>
+  PR: <N|L|H>
+  UI: <N|R>
+  S: <U|C>
+  C: <H|L|N>
+  I: <H|L|N>
+  A: <H|L|N>
+  cvss_vector: CVSS:3.1/AV:<value>/AC:<value>/PR:<value>/UI:<value>/S:<value>/C:<value>/I:<value>/A:<value>
+  base_score: <0.0-10.0>

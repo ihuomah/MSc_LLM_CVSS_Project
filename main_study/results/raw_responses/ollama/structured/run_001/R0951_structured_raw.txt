@@ -1,0 +1,47 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The vulnerability allows an attacker to accept changes to self-appraisal submissions for administrator users after those submissions have been marked completed, breaking integrity of finalized appraisal records. This can be done remotely (A), as it is a web-based application.
+
+**Attack Complexity (AC)**: The attack complexity is Low (L) because the vulnerability requires minimal expertise or effort to exploit.
+
+**Privileges Required (PR)**: No privileges are required for an attacker to exploit this vulnerability, as it can be exploited by any authenticated administrator user. Therefore, Privileges Required is set to None (N).
+
+**User Interaction (UI)**: The attack does not require user interaction, as it can be performed automatically or through automated tools. Therefore, User Interaction is set to None (N).
+
+**Scope (S)**: The scope of the vulnerability is Changed (C), as it affects the integrity of finalized appraisal records.
+
+**Confidentiality Impact (C)**: There is no impact on confidentiality, as the vulnerability does not involve sensitive information disclosure. Therefore, Confidentiality Impact is set to None (N).
+
+**Integrity Impact (I)**: The integrity of finalized appraisal records is broken, allowing an attacker to modify or delete them. Therefore, Integrity Impact is set to High (H).
+
+**Availability Impact (A)**: There is no impact on availability, as the vulnerability does not affect the system's ability to function. Therefore, Availability Impact is set to None (N).
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "C",
+  "confidentiality_impact": "N",
+  "integrity_impact": "H",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N",
+  "base_score": 7.5
+}
+```
+
+The base score is calculated as follows:
+
+* Attack Vector (AV): A (9.8)
+* Attack Complexity (AC): L (2.9)
+* Privileges Required (PR): N (0.1)
+* User Interaction (UI): N (0.1)
+* Scope (S): C (3.6)
+* Confidentiality Impact (C): N (0.1)
+* Integrity Impact (I): H (5.4)
+* Availability Impact (A): N (0.1)
+
+The base score is the sum of these values, rounded to one decimal place: 7.5

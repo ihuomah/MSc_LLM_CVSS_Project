@@ -1,0 +1,22 @@
+================================================================================
+Starting Manual Redaction Application
+================================================================================
+
+Manual Redaction Summary
+Manual review rows processed: 46
+CVEs manually redacted: 25
+Total replacements made: 51
+Zero-replacement warnings: 3
+
+Outputs:
+Manual sanitised Parquet: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\datasets\sanitised\main_dataset_sanitised_manual_v1.parquet
+Manual sanitised CSV: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\datasets\sanitised\main_dataset_sanitised_manual_v1.csv
+Manual sanitised XLSX: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\datasets\sanitised\main_dataset_sanitised_manual_v1.xlsx
+Application log XLSX: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\audit\main_manual_redaction_application_log_v1.xlsx
+Application log TXT: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\audit\main_manual_redaction_application_log_v1.txt
+
+WARNING: Some manual review rows made zero replacements.
+Inspect the application log before freezing the dataset.
+================================================================================
+Manual Redaction Application Complete
+================================================================================

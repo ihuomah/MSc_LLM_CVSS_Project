@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is Network (N) because an attacker can compromise the container and return attacker-controlled strings to spoof messages in the user's terminal or change the window title.
+
+**Attack Complexity (AC):**
+The attack complexity is Low (L) because the vulnerability requires minimal effort to exploit, as it only needs to compromise the container and manipulate the output.
+
+**Privileges Required (PR):**
+The privileges required are None (N) because an attacker can exploit this vulnerability without requiring any special privileges.
+
+**User Interaction (UI):**
+The user interaction is None (N) because the vulnerability can be exploited without any user interaction, such as clicking on a link or entering sensitive information.
+
+**Scope (S):**
+The scope is Changed (C) because the vulnerability affects the confidentiality and integrity of the system, allowing an attacker to manipulate the output and potentially compromise the system.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is Low (L) because an attacker can only spoof messages in the user's terminal or change the window title, which may not result in significant confidentiality breaches.
+
+**Integrity Impact (I):**
+The integrity impact is Medium (M) because an attacker can manipulate the output and potentially compromise the system, which could lead to data tampering or corruption.
+
+**Availability Impact (A):**
+The availability impact is None (N) because this vulnerability does not affect the availability of the system or its services.
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "C",
+  "confidentiality_impact": "L",
+  "integrity_impact": "M",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:M/A:N",
+  "base_score": 5.3
+}
+```
+
+The base score is 5.3, indicating a Medium severity vulnerability.

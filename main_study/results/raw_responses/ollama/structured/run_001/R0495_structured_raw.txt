@@ -1,0 +1,36 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metrics.
+
+**Attack Vector (AV)**: Network-adjacent attackers can exploit this vulnerability, so it's an **A** (Network).
+
+**Attack Complexity (AC)**: The existing authentication mechanism can be bypassed, making it relatively easy for an attacker to exploit this vulnerability, so it's an **L** (Low).
+
+**Privileges Required (PR)**: Although authentication is required, the vulnerability allows an attacker to execute code in the context of root, so it's an **H** (High).
+
+**User Interaction (UI)**: No user interaction is required to exploit this vulnerability, so it's a **N** (None).
+
+**Scope (S)**: The scope of the impact is limited to the affected router installation, so it's a **U** (Unchanged).
+
+**Confidentiality Impact (C)**: An attacker can execute code in the context of root, which could potentially lead to unauthorized access or data theft, so it's an **H** (High).
+
+**Integrity Impact (I)**: The vulnerability allows arbitrary code execution, which could result in a complete compromise of the affected system, so it's also an **H** (High).
+
+**Availability Impact (A)**: An attacker can potentially cause a denial-of-service or crash the affected router, affecting its availability, so it's also an **H** (High).
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "H",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+  "base_score": 9.8
+}
+```
+
+The calculated base score is **9.8**.

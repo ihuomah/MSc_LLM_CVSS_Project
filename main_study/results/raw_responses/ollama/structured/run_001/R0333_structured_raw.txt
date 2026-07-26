@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is local (L) because the manipulation leads to denial of service and it is possible to launch the attack on the local host.
+
+**Attack Complexity (AC):**
+The attack complexity is low (L) because the exploit has been disclosed to the public and may be used, indicating that an attacker with minimal expertise can exploit this vulnerability.
+
+**Privileges Required (PR):**
+No privileges are required (N) for the exploitation of this vulnerability.
+
+**User Interaction (UI):**
+No user interaction is required (N) for the exploitation of this vulnerability.
+
+**Scope (S):**
+The scope is unchanged (U) because the manipulation leads to denial of service, which affects only the local host.
+
+**Confidentiality Impact (C):**
+There is no impact on confidentiality (N).
+
+**Integrity Impact (I):**
+There is a low impact on integrity (L) because the vulnerability can lead to denial of service, which may affect the system's ability to function correctly.
+
+**Availability Impact (A):**
+There is a high impact on availability (H) because the vulnerability can lead to denial of service, which may cause the system to become unavailable.
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "L",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "N",
+  "integrity_impact": "L",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H",
+  "base_score": 7.5
+}
+```
+
+The calculated base score is 7.5, indicating a high severity vulnerability.

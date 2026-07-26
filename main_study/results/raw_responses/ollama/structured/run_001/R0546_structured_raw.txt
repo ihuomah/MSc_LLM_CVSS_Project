@@ -1,0 +1,42 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The vulnerability allows an attacker to access unauthorized information without requiring any interaction from the user. Therefore, the attack vector is **N** (Network).
+
+**Attack Complexity (AC)**: The vulnerability requires minimal effort and expertise to exploit, as it can be achieved by creating a collection with an association to another collection. Hence, the attack complexity is **L** (Low).
+
+**Privileges Required (PR)**: An attacker needs to have Author Role or higher privileges to exploit this vulnerability. Therefore, the privileges required are **H** (High).
+
+**User Interaction (UI)**: The vulnerability can be exploited without any user interaction, as an attacker can create a collection and access unauthorized information. Hence, the user interaction is **N** (None).
+
+**Scope (S)**: The scope of this vulnerability is limited to the affected product/plugin-content-manager, with no impact on other systems or networks. Therefore, the scope is **U** (Unchanged).
+
+**Confidentiality Impact (C)**: An attacker can access unauthorized information, which has a moderate confidentiality impact. Hence, the confidentiality impact is **L** (Low).
+
+**Integrity Impact (I)**: The vulnerability does not allow an attacker to modify or delete data, but it does provide unauthorized access to sensitive information. Therefore, the integrity impact is **N** (None).
+
+**Availability Impact (A)**: The vulnerability does not affect system availability, as it only provides unauthorized access to information. Hence, the availability impact is **N** (None).
+
+Using these metrics, I will calculate the CVSS v3.1 base score.
+
+**Vector String**: CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:N
+
+**Base Score**: 5.3
+
+Here is the output in JSON format:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "H",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "N",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:N",
+  "base_score": 5.3
+}
+```
+
+Please note that this assessment is based solely on the provided vulnerability description and does not take into account any external knowledge or assumptions.

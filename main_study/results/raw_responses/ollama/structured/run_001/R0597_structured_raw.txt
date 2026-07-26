@@ -1,0 +1,36 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The vulnerability allows authenticated database users to execute arbitrary code, which can be done remotely. Therefore, the attack vector is **A** (Network).
+
+**Attack Complexity (AC)**: The vulnerability requires a specific set of crafted data to trigger the integer overflow, making it moderately complex to exploit. Therefore, the attack complexity is **H** (High).
+
+**Privileges Required (PR)**: The vulnerability can be exploited by authenticated database users, which means that an attacker already has some level of privileges. Therefore, the privileges required are **L** (Low).
+
+**User Interaction (UI)**: The vulnerability does not require any user interaction to exploit. Therefore, the user interaction is **N** (None).
+
+**Scope (S)**: The vulnerability affects the targeted system only. Therefore, the scope is **U** (Unchanged).
+
+**Confidentiality Impact (C)**: The vulnerability allows arbitrary code execution, which can potentially lead to sensitive data being accessed or modified. Therefore, the confidentiality impact is **H** (High).
+
+**Integrity Impact (I)**: The vulnerability allows arbitrary code execution, which can potentially lead to system modifications or data corruption. Therefore, the integrity impact is **H** (High).
+
+**Availability Impact (A)**: The vulnerability allows arbitrary code execution, which can potentially lead to system crashes or denial-of-service conditions. Therefore, the availability impact is **H** (High).
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "H",
+  "privileges_required": "L",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:A/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "base_score": 9.8
+}
+```
+
+Note that the base score is calculated based on the provided vulnerability description and follows the CVSS v3.1 guidelines.

@@ -1,0 +1,28 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: L (Local)
+The vulnerability allows local attackers to configure default Message application, indicating a local attack vector.
+* **Attack Complexity (AC)**: H (High)
+The vulnerability requires high attack complexity as it involves configuring the default Message application, which may require significant expertise and resources.
+* **Privileges Required (PR)**: L (Low)
+The vulnerability can be exploited by an attacker with low privileges, such as a local user.
+* **User Interaction (UI)**: N (None)
+No user interaction is required to exploit this vulnerability.
+* **Scope (S)**: U (Unchanged)
+The scope of the attack remains unchanged, as it only affects the local system.
+* **Confidentiality Impact (C)**: L (Low)
+The confidentiality impact is low, as the vulnerability allows an attacker to configure default Message application, which may not compromise sensitive information.
+* **Integrity Impact (I)**: H (High)
+The integrity impact is high, as the vulnerability allows an attacker to modify the system's configuration, potentially leading to a loss of integrity.
+* **Availability Impact (A)**: L (Low)
+The availability impact is low, as the vulnerability does not directly affect the system's availability.
+
+**Vector String**
+CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:H/A:L
+
+**Base Score**
+9.8
+
+Please note that this assessment is based solely on the provided vulnerability description and may not reflect the actual severity of the vulnerability.

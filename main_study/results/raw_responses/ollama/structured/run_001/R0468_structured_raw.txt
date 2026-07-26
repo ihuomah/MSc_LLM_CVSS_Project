@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is "A" because it requires user interaction to open a malicious file.
+
+**Attack Complexity (AC):**
+The attack complexity is "L" because the attacker needs to create a malicious file and trick the victim into opening it, which requires some level of skill and expertise.
+
+**Privileges Required (PR):**
+The privileges required are "N" because the vulnerability can be exploited in the context of the current user, without requiring elevated privileges.
+
+**User Interaction (UI):**
+The user interaction is "R" because a victim must open a malicious file to exploit this issue.
+
+**Scope (S):**
+The scope is "U" because the attack affects only the confidentiality, integrity, and availability of the affected system or data.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is "L" because the vulnerability could potentially leak sensitive information.
+
+**Integrity Impact (I):**
+The integrity impact is "H" because the vulnerability could allow arbitrary code execution, which could lead to significant changes to the affected system or data.
+
+**Availability Impact (A):**
+The availability impact is "N" because the vulnerability does not directly affect the availability of the affected system or data.
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "R",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "H",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:L/I:H/A:N",
+  "base_score": 7.5
+}
+```
+
+The calculated base score is 7.5, indicating a high severity vulnerability.

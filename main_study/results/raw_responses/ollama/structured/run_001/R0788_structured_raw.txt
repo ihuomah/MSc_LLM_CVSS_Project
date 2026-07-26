@@ -1,0 +1,51 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is "A" because an authenticated attacker with at least read-only admin permissions can exploit this vulnerability.
+
+**Attack Complexity (AC):**
+The attack complexity is "L" because the attacker needs to have some level of knowledge about the system and its configuration to exploit this vulnerability.
+
+**Privileges Required (PR):**
+The privileges required are "L" because an authenticated attacker with at least read-only admin permissions can exploit this vulnerability.
+
+**User Interaction (UI):**
+The user interaction is "N" because no user interaction is required to exploit this vulnerability.
+
+**Scope (S):**
+The scope is "U" because the attack affects only the confidentiality of the system.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is "H" because an attacker can view encrypted secrets, which could lead to significant consequences.
+
+**Integrity Impact (I):**
+The integrity impact is "N" because there is no indication that the integrity of the system or data will be affected by this vulnerability.
+
+**Availability Impact (A):**
+The availability impact is "N" because there is no indication that the availability of the system or data will be affected by this vulnerability.
+
+**Vector String:**
+The vector string is:
+```
+CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+```
+
+**Base Score:**
+Based on the calculated metrics, the base score is 7.4.
+
+Here is the output in JSON format:
+
+```json
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "L",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "N",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+  "base_score": 7.4
+}
+```

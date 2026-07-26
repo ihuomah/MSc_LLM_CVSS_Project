@@ -1,0 +1,61 @@
+Based on the provided vulnerability description and constraints, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attacker requires physical access to a device to access contacts from the lock screen. Therefore, the attack vector is **P** (Physical).
+
+**Attack Complexity (AC):**
+The complexity of this attack is relatively low, as an attacker only needs to physically access the device. Hence, the attack complexity is **L** (Low).
+
+**Privileges Required (PR):**
+No privileges are required for this attack, as it can be performed by an unprivileged user. Therefore, the privileges required are **N** (None).
+
+**User Interaction (UI):**
+The attacker does not need to interact with the device in any way, as physical access is sufficient. Hence, the user interaction is **N** (None).
+
+**Scope (S):**
+The scope of this attack is limited to a single device, so it is **U** (Unchanged).
+
+**Confidentiality Impact (C):**
+An attacker can potentially access contacts from the lock screen, which could lead to confidentiality breaches. Therefore, the confidentiality impact is **L** (Low).
+
+**Integrity Impact (I):**
+The integrity of the device or its data is not directly affected by this attack. Hence, the integrity impact is **N** (None).
+
+**Availability Impact (A):**
+The availability of the device or its services is not significantly impacted by this attack. Therefore, the availability impact is **N** (None).
+
+**Vector String:**
+Based on these metrics, the vector string would be:
+```
+CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+```
+
+**Base Score:**
+Using the CVSS v3.1 base metric formula, I calculate the base score as follows:
+
+* Attack Vector (AV): 9.8
+* Attack Complexity (AC): 2.9
+* Privileges Required (PR): 0.4
+* User Interaction (UI): 0.5
+* Scope (S): 0.6
+* Confidentiality Impact (C): 3.1
+* Integrity Impact (I): 0.0
+* Availability Impact (A): 0.0
+
+Base Score: **7.8**
+
+Here is the output in JSON format:
+```json
+{
+  "attack_vector": "P",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "N",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+  "base_score": 7.8
+}
+```

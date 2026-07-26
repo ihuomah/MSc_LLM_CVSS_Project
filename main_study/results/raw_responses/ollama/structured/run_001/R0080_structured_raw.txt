@@ -1,0 +1,28 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: N (Network)
+The issue allows attackers to modify configurations without prior authentication, which can be done remotely.
+* **Attack Complexity (AC)**: L (Low)
+The attack requires minimal complexity, as an attacker only needs to exploit the missing authorization check in captive portals.
+* **Privileges Required (PR)**: N (None)
+No privileges are required for the attack, as it can be performed by an unauthenticated user.
+* **User Interaction (UI)**: R (Required)
+The attack requires some level of user interaction, such as accessing the captive portal.
+* **Scope (S)**: U (Unchanged)
+The scope of the impact is unchanged, as the issue affects only the targeted system or network.
+* **Confidentiality Impact (C)**: H (High)
+The missing authorization check allows attackers to modify configurations without prior authentication, which can lead to sensitive information being compromised.
+* **Integrity Impact (I)**: H (High)
+The attack can compromise the integrity of the system or network by modifying configurations without authorization.
+* **Availability Impact (A)**: L (Low)
+The availability impact is low, as the issue does not directly affect the system's availability.
+
+**Vector String**
+CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:L
+
+**Base Score**
+9.8
+
+Please note that this assessment is based solely on the provided vulnerability description and may not reflect the actual severity of the issue in a real-world scenario.

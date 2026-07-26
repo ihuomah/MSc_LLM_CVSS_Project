@@ -1,0 +1,357 @@
+[2026-06-12T11:17:22Z] ================================================================================
+[2026-06-12T11:17:22Z] Starting 50-record pilot run
+[2026-06-12T11:17:22Z] Records found: 50
+[2026-06-12T11:17:22Z] Existing rows loaded: 0
+[2026-06-12T11:17:22Z] Results file: results\pilot\raw_results\pilot_run_001_results.xlsx
+[2026-06-12T11:17:22Z] Starting record_id=1
+[2026-06-12T11:17:43Z] COMPLETED record_id=1, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:18:29Z] COMPLETED record_id=1, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:18:46Z] COMPLETED record_id=1, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:18:59Z] COMPLETED record_id=1, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:19:18Z] COMPLETED record_id=1, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:19:36Z] COMPLETED record_id=1, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:19:36Z] Starting record_id=2
+[2026-06-12T11:19:50Z] COMPLETED record_id=2, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:20:44Z] COMPLETED record_id=2, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:21:02Z] COMPLETED record_id=2, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:21:15Z] COMPLETED record_id=2, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:21:56Z] COMPLETED record_id=2, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:22:57Z] COMPLETED record_id=2, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:22:57Z] Starting record_id=3
+[2026-06-12T11:23:11Z] COMPLETED record_id=3, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:23:59Z] COMPLETED record_id=3, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:24:16Z] COMPLETED record_id=3, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:24:32Z] COMPLETED record_id=3, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:25:06Z] COMPLETED record_id=3, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:25:23Z] COMPLETED record_id=3, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:25:23Z] Starting record_id=4
+[2026-06-12T11:25:38Z] COMPLETED record_id=4, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:26:31Z] COMPLETED record_id=4, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:27:29Z] COMPLETED record_id=4, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:27:42Z] COMPLETED record_id=4, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:27:59Z] COMPLETED record_id=4, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:28:22Z] COMPLETED record_id=4, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:28:22Z] Starting record_id=5
+[2026-06-12T11:28:36Z] COMPLETED record_id=5, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:29:24Z] COMPLETED record_id=5, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:29:38Z] COMPLETED record_id=5, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:29:47Z] COMPLETED record_id=5, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:30:00Z] COMPLETED record_id=5, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:30:17Z] COMPLETED record_id=5, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:30:17Z] Starting record_id=6
+[2026-06-12T11:30:35Z] COMPLETED record_id=6, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:31:20Z] COMPLETED record_id=6, provider=ollama, condition=structured, parse_success=False, retry_count=0, error_type=None
+[2026-06-12T11:31:52Z] COMPLETED record_id=6, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:32:10Z] COMPLETED record_id=6, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:32:35Z] COMPLETED record_id=6, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:33:01Z] COMPLETED record_id=6, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:33:01Z] Starting record_id=7
+[2026-06-12T11:33:17Z] COMPLETED record_id=7, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:34:11Z] COMPLETED record_id=7, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:34:29Z] COMPLETED record_id=7, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:34:43Z] COMPLETED record_id=7, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:35:05Z] COMPLETED record_id=7, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:35:39Z] COMPLETED record_id=7, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:35:39Z] Starting record_id=8
+[2026-06-12T11:35:54Z] COMPLETED record_id=8, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:36:41Z] COMPLETED record_id=8, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:36:54Z] COMPLETED record_id=8, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:37:19Z] COMPLETED record_id=8, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:37:48Z] COMPLETED record_id=8, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:38:05Z] COMPLETED record_id=8, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:38:05Z] Starting record_id=9
+[2026-06-12T11:38:19Z] COMPLETED record_id=9, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:39:09Z] COMPLETED record_id=9, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:39:38Z] COMPLETED record_id=9, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:39:56Z] COMPLETED record_id=9, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:40:39Z] COMPLETED record_id=9, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:41:04Z] COMPLETED record_id=9, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:41:04Z] Starting record_id=10
+[2026-06-12T11:41:19Z] COMPLETED record_id=10, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:42:07Z] COMPLETED record_id=10, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:42:22Z] COMPLETED record_id=10, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:42:35Z] COMPLETED record_id=10, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:43:10Z] COMPLETED record_id=10, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:43:41Z] COMPLETED record_id=10, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:43:41Z] Starting record_id=11
+[2026-06-12T11:43:56Z] COMPLETED record_id=11, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:44:53Z] COMPLETED record_id=11, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:45:03Z] COMPLETED record_id=11, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:45:16Z] COMPLETED record_id=11, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:46:03Z] COMPLETED record_id=11, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:46:48Z] COMPLETED record_id=11, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:46:48Z] Starting record_id=12
+[2026-06-12T11:47:04Z] COMPLETED record_id=12, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:47:55Z] COMPLETED record_id=12, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:48:05Z] COMPLETED record_id=12, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:48:19Z] COMPLETED record_id=12, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:48:45Z] COMPLETED record_id=12, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:49:03Z] COMPLETED record_id=12, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:49:03Z] Starting record_id=13
+[2026-06-12T11:49:17Z] COMPLETED record_id=13, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:49:55Z] COMPLETED record_id=13, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:50:19Z] COMPLETED record_id=13, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:50:42Z] COMPLETED record_id=13, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:51:03Z] COMPLETED record_id=13, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:51:30Z] COMPLETED record_id=13, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:51:30Z] Starting record_id=14
+[2026-06-12T11:51:44Z] COMPLETED record_id=14, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:52:29Z] COMPLETED record_id=14, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:53:14Z] COMPLETED record_id=14, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:53:39Z] COMPLETED record_id=14, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:53:57Z] COMPLETED record_id=14, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:54:14Z] COMPLETED record_id=14, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:54:14Z] Starting record_id=15
+[2026-06-12T11:54:29Z] COMPLETED record_id=15, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:55:38Z] COMPLETED record_id=15, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:56:05Z] COMPLETED record_id=15, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:57:02Z] COMPLETED record_id=15, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:57:26Z] COMPLETED record_id=15, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:57:44Z] COMPLETED record_id=15, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:57:44Z] Starting record_id=16
+[2026-06-12T11:57:58Z] COMPLETED record_id=16, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:58:49Z] COMPLETED record_id=16, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:58:58Z] COMPLETED record_id=16, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:59:05Z] COMPLETED record_id=16, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T11:59:57Z] COMPLETED record_id=16, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:00:29Z] COMPLETED record_id=16, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:00:30Z] Starting record_id=17
+[2026-06-12T12:00:45Z] COMPLETED record_id=17, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:01:35Z] COMPLETED record_id=17, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:01:50Z] COMPLETED record_id=17, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:02:12Z] COMPLETED record_id=17, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:02:30Z] COMPLETED record_id=17, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:03:03Z] COMPLETED record_id=17, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:03:03Z] Starting record_id=18
+[2026-06-12T12:03:19Z] COMPLETED record_id=18, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:04:15Z] COMPLETED record_id=18, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:05:13Z] COMPLETED record_id=18, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:06:15Z] COMPLETED record_id=18, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:06:39Z] COMPLETED record_id=18, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:07:10Z] COMPLETED record_id=18, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:07:10Z] Starting record_id=19
+[2026-06-12T12:07:26Z] COMPLETED record_id=19, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:08:18Z] COMPLETED record_id=19, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:08:43Z] COMPLETED record_id=19, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:09:17Z] COMPLETED record_id=19, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:09:38Z] COMPLETED record_id=19, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:10:10Z] COMPLETED record_id=19, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:10:10Z] Starting record_id=20
+[2026-06-12T12:10:25Z] COMPLETED record_id=20, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:11:17Z] COMPLETED record_id=20, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:11:24Z] COMPLETED record_id=20, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:11:32Z] COMPLETED record_id=20, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:11:51Z] COMPLETED record_id=20, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:12:14Z] COMPLETED record_id=20, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:12:14Z] Starting record_id=21
+[2026-06-12T12:12:29Z] COMPLETED record_id=21, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:13:17Z] COMPLETED record_id=21, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:14:00Z] COMPLETED record_id=21, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:15:09Z] COMPLETED record_id=21, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:15:28Z] COMPLETED record_id=21, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:16:10Z] COMPLETED record_id=21, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:16:10Z] Starting record_id=22
+[2026-06-12T12:16:46Z] COMPLETED record_id=22, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:18:00Z] COMPLETED record_id=22, provider=ollama, condition=structured, parse_success=False, retry_count=0, error_type=None
+[2026-06-12T12:18:15Z] COMPLETED record_id=22, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:18:27Z] COMPLETED record_id=22, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:18:43Z] COMPLETED record_id=22, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:18:56Z] COMPLETED record_id=22, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:18:56Z] Starting record_id=23
+[2026-06-12T12:19:14Z] COMPLETED record_id=23, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:20:08Z] COMPLETED record_id=23, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:20:15Z] COMPLETED record_id=23, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:20:25Z] COMPLETED record_id=23, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:20:43Z] COMPLETED record_id=23, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:21:03Z] COMPLETED record_id=23, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:21:03Z] Starting record_id=24
+[2026-06-12T12:21:38Z] COMPLETED record_id=24, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:23:20Z] COMPLETED record_id=24, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:23:36Z] COMPLETED record_id=24, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:23:59Z] COMPLETED record_id=24, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:24:19Z] COMPLETED record_id=24, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:24:40Z] COMPLETED record_id=24, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:24:40Z] Starting record_id=25
+[2026-06-12T12:25:05Z] COMPLETED record_id=25, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:26:02Z] COMPLETED record_id=25, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:26:41Z] COMPLETED record_id=25, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:27:11Z] COMPLETED record_id=25, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:27:39Z] COMPLETED record_id=25, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:28:07Z] COMPLETED record_id=25, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:28:07Z] Starting record_id=26
+[2026-06-12T12:28:25Z] COMPLETED record_id=26, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:29:23Z] COMPLETED record_id=26, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:29:31Z] COMPLETED record_id=26, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:29:40Z] COMPLETED record_id=26, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:29:52Z] COMPLETED record_id=26, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:30:09Z] COMPLETED record_id=26, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:30:09Z] Starting record_id=27
+[2026-06-12T12:30:24Z] COMPLETED record_id=27, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:31:13Z] COMPLETED record_id=27, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:31:25Z] COMPLETED record_id=27, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:31:35Z] COMPLETED record_id=27, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:31:50Z] COMPLETED record_id=27, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:32:05Z] COMPLETED record_id=27, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:32:05Z] Starting record_id=28
+[2026-06-12T12:32:21Z] COMPLETED record_id=28, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:33:27Z] COMPLETED record_id=28, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:33:57Z] COMPLETED record_id=28, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:34:14Z] COMPLETED record_id=28, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:34:50Z] COMPLETED record_id=28, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:35:30Z] COMPLETED record_id=28, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:35:30Z] Starting record_id=29
+[2026-06-12T12:35:57Z] COMPLETED record_id=29, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:37:21Z] COMPLETED record_id=29, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:37:53Z] COMPLETED record_id=29, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:38:15Z] COMPLETED record_id=29, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:38:39Z] COMPLETED record_id=29, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:38:58Z] COMPLETED record_id=29, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:38:58Z] Starting record_id=30
+[2026-06-12T12:39:16Z] COMPLETED record_id=30, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:40:07Z] COMPLETED record_id=30, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:40:25Z] COMPLETED record_id=30, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:40:42Z] COMPLETED record_id=30, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:41:25Z] COMPLETED record_id=30, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:41:46Z] COMPLETED record_id=30, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:41:46Z] Starting record_id=31
+[2026-06-12T12:42:02Z] COMPLETED record_id=31, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:42:52Z] COMPLETED record_id=31, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:43:07Z] COMPLETED record_id=31, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:43:18Z] COMPLETED record_id=31, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:43:52Z] COMPLETED record_id=31, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:44:24Z] COMPLETED record_id=31, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:44:24Z] Starting record_id=32
+[2026-06-12T12:44:38Z] COMPLETED record_id=32, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:45:17Z] COMPLETED record_id=32, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:45:34Z] COMPLETED record_id=32, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:45:46Z] COMPLETED record_id=32, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:46:20Z] COMPLETED record_id=32, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:46:37Z] COMPLETED record_id=32, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:46:37Z] Starting record_id=33
+[2026-06-12T12:46:53Z] COMPLETED record_id=33, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:47:43Z] COMPLETED record_id=33, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:47:55Z] COMPLETED record_id=33, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:48:15Z] COMPLETED record_id=33, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:48:43Z] COMPLETED record_id=33, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:49:01Z] COMPLETED record_id=33, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:49:01Z] Starting record_id=34
+[2026-06-12T12:49:16Z] COMPLETED record_id=34, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:50:12Z] COMPLETED record_id=34, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:50:48Z] COMPLETED record_id=34, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:51:26Z] COMPLETED record_id=34, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:51:58Z] COMPLETED record_id=34, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:52:20Z] COMPLETED record_id=34, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:52:20Z] Starting record_id=35
+[2026-06-12T12:52:34Z] COMPLETED record_id=35, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:53:21Z] COMPLETED record_id=35, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:53:28Z] COMPLETED record_id=35, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:53:34Z] COMPLETED record_id=35, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:53:56Z] COMPLETED record_id=35, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:54:11Z] COMPLETED record_id=35, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:54:11Z] Starting record_id=36
+[2026-06-12T12:54:25Z] COMPLETED record_id=36, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:55:18Z] COMPLETED record_id=36, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:55:34Z] COMPLETED record_id=36, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:56:17Z] COMPLETED record_id=36, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:56:36Z] COMPLETED record_id=36, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:57:04Z] COMPLETED record_id=36, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:57:04Z] Starting record_id=37
+[2026-06-12T12:57:19Z] COMPLETED record_id=37, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:58:09Z] COMPLETED record_id=37, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:58:20Z] COMPLETED record_id=37, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:58:30Z] COMPLETED record_id=37, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:59:06Z] COMPLETED record_id=37, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:59:30Z] COMPLETED record_id=37, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T12:59:30Z] Starting record_id=38
+[2026-06-12T12:59:45Z] COMPLETED record_id=38, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:00:35Z] COMPLETED record_id=38, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:00:47Z] COMPLETED record_id=38, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:01:03Z] COMPLETED record_id=38, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:01:25Z] COMPLETED record_id=38, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:01:45Z] COMPLETED record_id=38, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:01:45Z] Starting record_id=39
+[2026-06-12T13:02:00Z] COMPLETED record_id=39, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:02:45Z] COMPLETED record_id=39, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:03:12Z] COMPLETED record_id=39, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:03:40Z] COMPLETED record_id=39, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:03:56Z] COMPLETED record_id=39, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:04:18Z] COMPLETED record_id=39, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:04:18Z] Starting record_id=40
+[2026-06-12T13:04:33Z] COMPLETED record_id=40, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:05:45Z] COMPLETED record_id=40, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:05:59Z] COMPLETED record_id=40, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:06:16Z] COMPLETED record_id=40, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:06:27Z] COMPLETED record_id=40, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:06:43Z] COMPLETED record_id=40, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:06:43Z] Starting record_id=41
+[2026-06-12T13:06:58Z] COMPLETED record_id=41, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:07:53Z] COMPLETED record_id=41, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:08:04Z] COMPLETED record_id=41, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:08:21Z] COMPLETED record_id=41, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:08:49Z] COMPLETED record_id=41, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:09:22Z] COMPLETED record_id=41, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:09:22Z] Starting record_id=42
+[2026-06-12T13:09:38Z] COMPLETED record_id=42, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:10:44Z] COMPLETED record_id=42, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:11:01Z] COMPLETED record_id=42, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:11:15Z] COMPLETED record_id=42, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:11:39Z] COMPLETED record_id=42, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:11:57Z] COMPLETED record_id=42, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:11:57Z] Starting record_id=43
+[2026-06-12T13:12:12Z] COMPLETED record_id=43, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:13:02Z] COMPLETED record_id=43, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:13:31Z] COMPLETED record_id=43, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:13:55Z] COMPLETED record_id=43, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:14:10Z] COMPLETED record_id=43, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:14:31Z] COMPLETED record_id=43, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:14:31Z] Starting record_id=44
+[2026-06-12T13:14:46Z] COMPLETED record_id=44, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:16:00Z] COMPLETED record_id=44, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:16:15Z] COMPLETED record_id=44, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:16:30Z] COMPLETED record_id=44, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:16:52Z] COMPLETED record_id=44, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:17:16Z] COMPLETED record_id=44, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:17:16Z] Starting record_id=45
+[2026-06-12T13:17:30Z] COMPLETED record_id=45, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:18:19Z] COMPLETED record_id=45, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:18:35Z] COMPLETED record_id=45, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:19:02Z] COMPLETED record_id=45, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:19:28Z] COMPLETED record_id=45, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:19:51Z] COMPLETED record_id=45, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:19:51Z] Starting record_id=46
+[2026-06-12T13:20:07Z] COMPLETED record_id=46, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:21:07Z] COMPLETED record_id=46, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:21:20Z] COMPLETED record_id=46, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:21:37Z] COMPLETED record_id=46, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:21:57Z] COMPLETED record_id=46, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:22:17Z] COMPLETED record_id=46, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:22:17Z] Starting record_id=47
+[2026-06-12T13:22:34Z] COMPLETED record_id=47, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:23:19Z] COMPLETED record_id=47, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:23:27Z] COMPLETED record_id=47, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:23:34Z] COMPLETED record_id=47, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:24:07Z] COMPLETED record_id=47, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:25:09Z] COMPLETED record_id=47, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:25:09Z] Starting record_id=48
+[2026-06-12T13:25:23Z] COMPLETED record_id=48, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:25:58Z] COMPLETED record_id=48, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:26:25Z] COMPLETED record_id=48, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:26:51Z] COMPLETED record_id=48, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:27:18Z] COMPLETED record_id=48, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:27:41Z] COMPLETED record_id=48, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:27:41Z] Starting record_id=49
+[2026-06-12T13:27:56Z] COMPLETED record_id=49, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:28:58Z] COMPLETED record_id=49, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:29:39Z] COMPLETED record_id=49, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:30:04Z] COMPLETED record_id=49, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:30:22Z] COMPLETED record_id=49, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:30:52Z] COMPLETED record_id=49, provider=gemini, condition=structured, parse_success=False, retry_count=0, error_type=None
+[2026-06-12T13:30:52Z] Starting record_id=50
+[2026-06-12T13:31:07Z] COMPLETED record_id=50, provider=ollama, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:32:09Z] COMPLETED record_id=50, provider=ollama, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:32:40Z] COMPLETED record_id=50, provider=openai, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:32:56Z] COMPLETED record_id=50, provider=openai, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:34:17Z] COMPLETED record_id=50, provider=gemini, condition=conventional, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:34:43Z] COMPLETED record_id=50, provider=gemini, condition=structured, parse_success=True, retry_count=0, error_type=None
+[2026-06-12T13:34:43Z] 50-record pilot run completed
+[2026-06-12T13:34:43Z] Rows written: 300

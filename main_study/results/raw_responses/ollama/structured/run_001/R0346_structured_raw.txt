@@ -1,0 +1,36 @@
+Based on the provided vulnerability description and constraints, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The issue can be exploited remotely, so I'll set it to "A".
+
+**Attack Complexity (AC)**: The attack complexity is relatively low, as an app may be able to cause unexpected system termination or corrupt kernel memory without requiring significant expertise or resources. So, I'll set it to "L".
+
+**Privileges Required (PR)**: No privileges are required to exploit this vulnerability, so I'll set it to "N".
+
+**User Interaction (UI)**: The issue can be exploited without user interaction, so I'll set it to "N".
+
+**Scope (S)**: The scope of the impact is system-level, affecting the entire system. So, I'll set it to "C".
+
+**Confidentiality Impact (C)**: There is no significant confidentiality impact, as the issue does not directly compromise sensitive information. So, I'll set it to "N".
+
+**Integrity Impact (I)**: The integrity of the system can be impacted, as an app may cause unexpected system termination or corrupt kernel memory. So, I'll set it to "H".
+
+**Availability Impact (A)**: The availability of the system can also be impacted, as an app may cause unexpected system termination or corrupt kernel memory. So, I'll set it to "H".
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "C",
+  "confidentiality_impact": "N",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:H",
+  "base_score": 7.5
+}
+```
+
+The calculated base score is 7.5, indicating a high severity vulnerability.

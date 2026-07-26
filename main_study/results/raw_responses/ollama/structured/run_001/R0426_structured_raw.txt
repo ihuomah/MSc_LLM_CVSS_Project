@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability affects availability, which is typically associated with a network attack vector (A). Therefore, I assign AV:A.
+
+**Attack Complexity (AC):**
+The vulnerability requires no special privileges or access to sensitive information, making it relatively easy to exploit. I assign AC:L.
+
+**Privileges Required (PR):**
+No special privileges are required to exploit this vulnerability, so I assign PR:N.
+
+**User Interaction (UI):**
+No user interaction is required to exploit this vulnerability, as it can be triggered automatically. I assign UI:N.
+
+**Scope (S):**
+The scope of the vulnerability is limited to a single system or module, making it an uncompromised scope (U). Therefore, I assign S:U.
+
+**Confidentiality Impact (C):**
+There is no impact on confidentiality, as the vulnerability only affects availability. I assign C:N.
+
+**Integrity Impact (I):**
+There is no impact on integrity, as the vulnerability only affects availability. I assign I:N.
+
+**Availability Impact (A):**
+The vulnerability has a moderate impact on availability, making it L. Therefore, I assign A:L.
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "AV:A",
+  "attack_complexity": "AC:L",
+  "privileges_required": "PR:N",
+  "user_interaction": "UI:N",
+  "scope": "S:U",
+  "confidentiality_impact": "C:N",
+  "integrity_impact": "I:N",
+  "availability_impact": "A:L",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+  "base_score": 5.0
+}
+```
+
+The calculated base score is 5.0, indicating a moderate severity vulnerability.

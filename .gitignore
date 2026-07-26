@@ -1,0 +1,27 @@
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+
+*.pyc
+
+
+#Python environments
+.venv/
+
+venv/
+
+# Temporary Google Drive folders
+.tmp.drivedownload/
+.tmp.driveupload/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# VS Code local settings
+.vscode/
+
+# Large source candidate pools — retained locally, not stored on GitHub
+main_study/datasets/raw/main_candidate_pool_raw.csv
+main_study/datasets/processed/main_candidate_pool_with_epss.csv

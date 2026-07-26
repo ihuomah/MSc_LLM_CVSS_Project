@@ -1,0 +1,36 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The attack can be initiated remotely, so it's an "A" (Network).
+
+**Attack Complexity (AC)**: The exploit has been publicly disclosed and may be utilized, which makes it relatively easy to exploit, so it's a "H" (High).
+
+**Privileges Required (PR)**: No privileges are required for the attack, so it's a "N" (None).
+
+**User Interaction (UI)**: The attack can be initiated remotely without user interaction, so it's an "R" (Remote).
+
+**Scope (S)**: The scope of the attack is limited to the affected system, so it's a "U" (Unchanged).
+
+**Confidentiality Impact (C)**: The vulnerability allows for SQL injection, which could potentially lead to unauthorized access or data disclosure. Therefore, it's an "H" (High) impact.
+
+**Integrity Impact (I)**: The vulnerability also allows for potential data modification or destruction. Therefore, it's an "H" (High) impact.
+
+**Availability Impact (A)**: The attack may cause the system to become unavailable or slow down due to the potential denial-of-service (DoS) attacks. Therefore, it's an "H" (High) impact.
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "H",
+  "privileges_required": "N",
+  "user_interaction": "R",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:A/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "base_score": 9.8
+}
+```
+
+Please note that the base score is calculated based on the provided vulnerability description and may not reflect the actual severity of the vulnerability in a real-world scenario.

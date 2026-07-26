@@ -1,0 +1,37 @@
+Based on the provided vulnerability description, I will perform a CVSS v3.1 base metric assessment.
+
+**Metrics**
+
+* **Attack Vector**: N (Network)
+* **Attack Complexity**: L (Low)
+* **Privileges Required**: N (None)
+* **User Interaction**: N (None)
+* **Scope**: U (Unchanged)
+* **Confidentiality Impact**: L (Low)
+* **Integrity Impact**: N (None)
+* **Availability Impact**: H (High)
+
+**Vector String**
+CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H
+
+**Base Score**
+6.2
+
+Please note that this assessment is based solely on the provided vulnerability description, and no external knowledge or assumptions were made. The output is a single JSON object
+containing the CVSS v3.1 base metric values.
+
+Output:
+```json
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "N",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H",
+  "base_score": 6.2
+}
+```

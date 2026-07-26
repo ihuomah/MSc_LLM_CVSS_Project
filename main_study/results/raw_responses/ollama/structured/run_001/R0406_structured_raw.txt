@@ -1,0 +1,51 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is Network (N) because an authenticated attacker with contributor-level access and above can inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+
+**Attack Complexity (AC):**
+The attack complexity is Low (L) because the vulnerability requires minimal effort to exploit, as it only needs an authenticated attacker with contributor-level access and above.
+
+**Privileges Required (PR):**
+The privileges required are High (H) because the attacker needs to have contributor-level access or higher to inject arbitrary web scripts in pages.
+
+**User Interaction (UI):**
+The user interaction is None (N) because the attack can be performed without any user interaction, as an authenticated attacker with contributor-level access and above can exploit the vulnerability.
+
+**Scope (S):**
+The scope is Changed (C) because the vulnerability affects the confidentiality, integrity, and availability of the affected pages.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is High (H) because an attacker can inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page, potentially leading to sensitive information disclosure.
+
+**Integrity Impact (I):**
+The integrity impact is High (H) because an attacker can inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page, potentially leading to data tampering or modification.
+
+**Availability Impact (A):**
+The availability impact is Low (L) because the vulnerability does not directly affect the availability of the affected pages.
+
+**Vector String:**
+The vector string is:
+```
+CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:L
+```
+
+**Base Score:**
+Based on the CVSS v3.1 base metric, the calculated score is 8.8.
+
+Here is the output in JSON format:
+
+```json
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "H",
+  "user_interaction": "N",
+  "scope": "C",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:L",
+  "base_score": 8.8
+}
+```

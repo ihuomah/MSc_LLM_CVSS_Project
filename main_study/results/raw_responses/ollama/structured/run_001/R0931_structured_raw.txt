@@ -1,0 +1,28 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: N (Network)
+	+ Reasoning: The issue is a denial-of-service that can be exploited by an attacker in a privileged network position.
+* **Attack Complexity (AC)**: L (Low)
+	+ Reasoning: The attack requires some degree of expertise and knowledge, but it's not extremely complex or difficult to execute.
+* **Privileges Required (PR)**: H (High)
+	+ Reasoning: The issue can be exploited by an attacker with a high level of privileges in the network.
+* **User Interaction (UI)**: N (None)
+	+ Reasoning: No user interaction is required to exploit this vulnerability.
+* **Scope (S)**: U (Unchanged)
+	+ Reasoning: The scope of the attack remains unchanged, as it only affects the targeted system or network.
+* **Confidentiality Impact (C)**: N (None)
+	+ Reasoning: There is no impact on confidentiality, as this is a denial-of-service issue and not an information disclosure vulnerability.
+* **Integrity Impact (I)**: N (None)
+	+ Reasoning: Similarly, there is no impact on integrity, as the issue only affects availability.
+* **Availability Impact (A)**: H (High)
+	+ Reasoning: The issue can cause a denial-of-service, which has a high impact on availability.
+
+**Vector String**
+CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H
+
+**Base Score**
+9.8
+
+Please note that this assessment is based solely on the provided vulnerability description and does not take into account any external knowledge or assumptions.

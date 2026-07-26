@@ -1,0 +1,96 @@
+[2026-06-21T14:49:13Z] ================================================================================
+[2026-06-21T14:49:13Z] Starting runner: run_id=run_001, provider=all, combine_only=False
+[2026-06-21T14:49:13Z] Running provider capability probe for: ['openai', 'gemini', 'ollama']
+[2026-06-21T14:49:15Z] Capability probe transient error for openai.seed. attempt=1/5, wait=5s, status_code=None, error=TypeError: Responses.create() got an unexpected keyword argument 'seed'
+[2026-06-21T14:49:20Z] Capability probe transient error for openai.seed. attempt=2/5, wait=10s, status_code=None, error=TypeError: Responses.create() got an unexpected keyword argument 'seed'
+[2026-06-21T14:49:30Z] Capability probe transient error for openai.seed. attempt=3/5, wait=20s, status_code=None, error=TypeError: Responses.create() got an unexpected keyword argument 'seed'
+[2026-06-21T14:49:50Z] Capability probe transient error for openai.seed. attempt=4/5, wait=30s, status_code=None, error=TypeError: Responses.create() got an unexpected keyword argument 'seed'
+[2026-06-21T14:50:20Z] Capability probe transient error for openai.seed. attempt=5/5, wait=60s, status_code=None, error=TypeError: Responses.create() got an unexpected keyword argument 'seed'
+[2026-06-21T14:57:08Z] ================================================================================
+[2026-06-21T14:57:08Z] Starting runner: run_id=run_001, provider=all, combine_only=False
+[2026-06-21T14:57:08Z] Running provider capability probe for: ['openai', 'gemini', 'ollama']
+[2026-06-21T14:57:09Z] OpenAI capability probe: temp=unsupported_or_rejected, seed=unsupported_or_rejected
+[2026-06-21T14:57:15Z] Gemini capability probe: temp=accepted_unconfirmed, seed=accepted_unconfirmed
+[2026-06-21T14:57:27Z] Ollama capability probe: temp=accepted_unconfirmed, seed=accepted_unconfirmed
+[2026-06-21T14:57:27Z] Provider capability probe completed
+[2026-06-21T14:57:27Z] Provenance manifest saved: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\logs\run_001_all_provenance_manifest.json
+[2026-06-21T14:57:28Z] Records selected: 2
+[2026-06-21T14:57:28Z] Providers selected: ['openai', 'gemini', 'ollama']
+[2026-06-21T14:57:28Z] Total expected tasks: 12
+[2026-06-21T14:57:28Z] RUN record_id=1, provider=openai, condition=conventional, run_id=run_001
+[2026-06-21T14:57:39Z] SUCCESS record_id=1, provider=openai, condition=conventional
+[2026-06-21T14:57:39Z] RUN record_id=1, provider=openai, condition=structured, run_id=run_001
+[2026-06-21T14:57:49Z] SUCCESS record_id=1, provider=openai, condition=structured
+[2026-06-21T14:57:49Z] RUN record_id=1, provider=gemini, condition=conventional, run_id=run_001
+[2026-06-21T14:58:06Z] SUCCESS record_id=1, provider=gemini, condition=conventional
+[2026-06-21T14:58:06Z] RUN record_id=1, provider=gemini, condition=structured, run_id=run_001
+[2026-06-21T14:58:29Z] SUCCESS record_id=1, provider=gemini, condition=structured
+[2026-06-21T14:58:29Z] RUN record_id=1, provider=ollama, condition=conventional, run_id=run_001
+[2026-06-21T14:58:46Z] SUCCESS record_id=1, provider=ollama, condition=conventional
+[2026-06-21T14:58:46Z] RUN record_id=1, provider=ollama, condition=structured, run_id=run_001
+[2026-06-21T14:59:32Z] SUCCESS record_id=1, provider=ollama, condition=structured
+[2026-06-21T14:59:32Z] RUN record_id=2, provider=openai, condition=conventional, run_id=run_001
+[2026-06-21T14:59:38Z] SUCCESS record_id=2, provider=openai, condition=conventional
+[2026-06-21T14:59:38Z] RUN record_id=2, provider=openai, condition=structured, run_id=run_001
+[2026-06-21T14:59:48Z] SUCCESS record_id=2, provider=openai, condition=structured
+[2026-06-21T14:59:48Z] RUN record_id=2, provider=gemini, condition=conventional, run_id=run_001
+[2026-06-21T15:00:13Z] SUCCESS record_id=2, provider=gemini, condition=conventional
+[2026-06-21T15:00:13Z] RUN record_id=2, provider=gemini, condition=structured, run_id=run_001
+[2026-06-21T15:00:43Z] SUCCESS record_id=2, provider=gemini, condition=structured
+[2026-06-21T15:00:43Z] RUN record_id=2, provider=ollama, condition=conventional, run_id=run_001
+[2026-06-21T15:00:58Z] SUCCESS record_id=2, provider=ollama, condition=conventional
+[2026-06-21T15:00:58Z] RUN record_id=2, provider=ollama, condition=structured, run_id=run_001
+[2026-06-21T15:01:50Z] SUCCESS record_id=2, provider=ollama, condition=structured
+[2026-06-21T15:01:50Z] Provider exports rebuilt for openai. Rows exported: 4
+[2026-06-21T15:01:50Z] Provider exports rebuilt for gemini. Rows exported: 4
+[2026-06-21T15:01:50Z] Provider exports rebuilt for ollama. Rows exported: 4
+[2026-06-21T15:01:50Z] ================================================================================
+[2026-06-21T15:01:50Z] Run completed
+[2026-06-21T15:01:50Z] Total expected tasks for selected records/providers: 12
+[2026-06-21T15:01:50Z] Canonical completed rows for selected records/providers: 12
+[2026-06-21T15:01:50Z] Outstanding incomplete tasks: 0
+[2026-06-21T15:01:50Z] Success this session: 12
+[2026-06-21T15:01:50Z] Parse failures this session: 0
+[2026-06-21T15:01:50Z] API failures this session: 0
+[2026-06-21T15:01:50Z] Skipped this session: 0
+[2026-06-21T15:01:50Z] Provider-specific results exported to: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_results
+[2026-06-21T15:01:50Z] ================================================================================
+[2026-06-21T15:01:50Z] Provider=all was used. You may now run --combine-only to build the combined results table.
+[2026-06-21T15:13:55Z] ================================================================================
+[2026-06-21T15:13:55Z] Starting runner: run_id=run_001, provider=all, combine_only=False
+[2026-06-21T15:13:55Z] Running provider capability probe for: ['openai', 'gemini', 'ollama']
+[2026-06-21T15:13:56Z] OpenAI capability probe: temp=unsupported_or_rejected, seed=unsupported_or_rejected
+[2026-06-21T15:14:02Z] Gemini capability probe: temp=accepted_unconfirmed, seed=accepted_unconfirmed
+[2026-06-21T15:14:10Z] Ollama capability probe: temp=accepted_unconfirmed, seed=accepted_unconfirmed
+[2026-06-21T15:14:10Z] Provider capability probe completed
+[2026-06-21T15:14:10Z] Provenance manifest saved: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\logs\run_001_all_provenance_manifest.json
+[2026-06-21T15:14:10Z] Records selected: 3
+[2026-06-21T15:14:10Z] Providers selected: ['openai', 'gemini', 'ollama']
+[2026-06-21T15:14:10Z] Total expected tasks: 18
+[2026-06-21T15:14:10Z] RUN record_id=3, provider=openai, condition=conventional, run_id=run_001
+[2026-06-21T15:14:18Z] SUCCESS record_id=3, provider=openai, condition=conventional
+[2026-06-21T15:14:18Z] RUN record_id=3, provider=openai, condition=structured, run_id=run_001
+[2026-06-21T15:14:28Z] SUCCESS record_id=3, provider=openai, condition=structured
+[2026-06-21T15:14:28Z] RUN record_id=3, provider=gemini, condition=conventional, run_id=run_001
+[2026-06-21T15:14:51Z] SUCCESS record_id=3, provider=gemini, condition=conventional
+[2026-06-21T15:14:51Z] RUN record_id=3, provider=gemini, condition=structured, run_id=run_001
+[2026-06-21T15:15:16Z] SUCCESS record_id=3, provider=gemini, condition=structured
+[2026-06-21T15:15:16Z] RUN record_id=3, provider=ollama, condition=conventional, run_id=run_001
+[2026-06-21T15:15:34Z] SUCCESS record_id=3, provider=ollama, condition=conventional
+[2026-06-21T15:15:34Z] RUN record_id=3, provider=ollama, condition=structured, run_id=run_001
+[2026-06-21T15:16:33Z] SUCCESS record_id=3, provider=ollama, condition=structured
+[2026-06-21T15:16:34Z] Provider exports rebuilt for openai. Rows exported: 6
+[2026-06-21T15:16:34Z] Provider exports rebuilt for gemini. Rows exported: 6
+[2026-06-21T15:16:34Z] Provider exports rebuilt for ollama. Rows exported: 6
+[2026-06-21T15:16:34Z] ================================================================================
+[2026-06-21T15:16:34Z] Run completed
+[2026-06-21T15:16:34Z] Total expected tasks for selected records/providers: 18
+[2026-06-21T15:16:34Z] Canonical completed rows for selected records/providers: 18
+[2026-06-21T15:16:34Z] Outstanding incomplete tasks: 0
+[2026-06-21T15:16:34Z] Success this session: 6
+[2026-06-21T15:16:34Z] Parse failures this session: 0
+[2026-06-21T15:16:34Z] API failures this session: 0
+[2026-06-21T15:16:34Z] Skipped this session: 12
+[2026-06-21T15:16:34Z] Provider-specific results exported to: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_results
+[2026-06-21T15:16:34Z] ================================================================================
+[2026-06-21T15:16:34Z] Provider=all was used. You may now run --combine-only to build the combined results table.

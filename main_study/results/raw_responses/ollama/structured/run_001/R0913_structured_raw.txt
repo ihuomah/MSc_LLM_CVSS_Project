@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack is possible to be carried out remotely, so I will set it to "A" (Network).
+
+**Attack Complexity (AC):**
+The manipulation of the argument SERVER_ID/HTTP_SID leads to a stack-based buffer overflow, which requires some skill and expertise. Therefore, I will set it to "H" (High).
+
+**Privileges Required (PR):**
+No privileges are required for this attack, so I will set it to "N" (None).
+
+**User Interaction (UI):**
+The attack can be carried out without user interaction, so I will set it to "N" (None).
+
+**Scope (S):**
+The scope of the impact is limited to the affected product only, so I will set it to "U" (Unchanged).
+
+**Confidentiality Impact (C):**
+This vulnerability does not affect confidentiality, so I will set it to "N" (None).
+
+**Integrity Impact (I):**
+The attack can lead to a stack-based buffer overflow, which could potentially allow an attacker to execute arbitrary code. Therefore, I will set it to "H" (High).
+
+**Availability Impact (A):**
+This vulnerability does not affect availability, so I will set it to "N" (None).
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "H",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "N",
+  "integrity_impact": "H",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
+  "base_score": 7.5
+}
+```
+
+The calculated base score is 7.5.

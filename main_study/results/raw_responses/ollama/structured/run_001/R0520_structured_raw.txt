@@ -1,0 +1,43 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: N (Network)
+The vulnerability allows for persistent code execution, which can be exploited remotely.
+* **Attack Complexity (AC)**: L (Low)
+The attack requires minimal complexity, as it is an oversight in BCB handling of reboot reason that allows for persistent code execution.
+* **Privileges Required (PR)**: N (None)
+No privileges are required to exploit the vulnerability.
+* **User Interaction (UI)**: N (None)
+No user interaction is required to exploit the vulnerability.
+* **Scope (S)**: U (Unchanged)
+The scope of the impact remains unchanged, as the vulnerability affects the system's reboot reason handling.
+* **Confidentiality Impact (C)**: H (High)
+The vulnerability allows for persistent code execution, which can lead to high confidentiality impact.
+* **Integrity Impact (I)**: H (High)
+The vulnerability allows for persistent code execution, which can lead to high integrity impact.
+* **Availability Impact (A)**: H (High)
+The vulnerability allows for persistent code execution, which can lead to high availability impact.
+
+**Vector String**
+CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+
+**Base Score**
+9.0
+
+Here is the output in JSON format:
+
+```json
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "base_score": 9.0
+}
+```

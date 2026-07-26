@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is Network (N) because the CSRF vulnerability can be exploited remotely without any user interaction.
+
+**Attack Complexity (AC):**
+The attack complexity is Low (L) because an attacker only needs to craft a malicious HTML page with a hidden form to submit a request that deletes the administrative user account.
+
+**Privileges Required (PR):**
+No privileges are required (N) for the attack, as it can be performed by any authenticated user.
+
+**User Interaction (UI):**
+No user interaction is required (N) because the vulnerability can be exploited without any user involvement.
+
+**Scope (S):**
+The scope of the impact is Unchanged (U) because the vulnerability affects only the administrative user account and does not affect other users or systems.
+
+**Confidentiality Impact (C):**
+There is No impact (N) on confidentiality, as the vulnerability does not compromise sensitive information.
+
+**Integrity Impact (I):**
+The integrity of the system is affected Lowly (L), as the vulnerability allows an attacker to delete administrative user accounts without proper authorization.
+
+**Availability Impact (A):**
+The availability of the system is affected Lowly (L), as the vulnerability can cause temporary unavailability of the administrative interface.
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "N",
+  "integrity_impact": "L",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L",
+  "base_score": 4.3
+}
+```
+
+The calculated base score is 4.3, indicating a moderate severity vulnerability.

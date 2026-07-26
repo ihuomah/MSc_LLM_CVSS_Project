@@ -1,0 +1,79 @@
+TASK:
+  name: CVSS_v3.1_Base_Metric_Assessment
+  version: 3.1
+
+ROLE:
+  identity: cybersecurity_analyst
+  expertise: CVSS_v3.1_vulnerability_scoring
+
+INPUT:
+  vulnerability_description: |
+     ${DESCRIPTION}
+METRICS:
+  attack_vector:
+    type: string
+    allowed_values: [N, A, L, P]
+  attack_complexity:
+    type: string
+    allowed_values: [L, H]
+  privileges_required:
+    type: string
+    allowed_values: [N, L, H]
+  user_interaction:
+    type: string
+    allowed_values: [N, R]
+  scope:
+    type: string
+    allowed_values: [U, C]
+  confidentiality_impact:
+    type: string
+    allowed_values: [N, L, H]
+  integrity_impact:
+    type: string
+    allowed_values: [N, L, H]
+  availability_impact:
+    type: string
+    allowed_values: [N, L, H]
+
+CONSTRAINTS:
+  information_source: vulnerability_description_only
+  external_knowledge: forbidden
+  known_cve_memory: forbidden
+  vendor_or_product_memory: forbidden
+  unsupported_assumptions: forbidden
+
+OUTPUT:
+  format: JSON
+  schema:
+    attack_vector:
+      type: string
+    attack_complexity:
+      type: string
+    privileges_required:
+      type: string
+    user_interaction:
+      type: string
+    scope:
+      type: string
+    confidentiality_impact:
+      type: string
+    integrity_impact:
+      type: string
+    availability_impact:
+      type: string
+    vector_string:
+      type: string
+      format: "CVSS:3.1/AV:_/AC:_/PR:_/UI:_/S:_/C:_/I:_/A:_"
+    base_score:
+      type: float
+      range: [0.0, 10.0]
+      precision: 1
+
+REQUIREMENTS:
+  output_count: 1
+  output_type: single_json_object
+  explanations: forbidden
+  markdown_code_fences: forbidden
+  surrounding_text: forbidden
+
+  

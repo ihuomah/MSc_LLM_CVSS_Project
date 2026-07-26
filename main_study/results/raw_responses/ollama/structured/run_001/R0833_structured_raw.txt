@@ -1,0 +1,43 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: The vulnerability allows physical attackers to temporarily access an unlocked screen, which indicates a **P**hysical attack vector.
+* **Attack Complexity (AC)**: The vulnerability requires minimal effort and expertise from the attacker, indicating a **L**ow complexity attack.
+* **Privileges Required (PR)**: No privileges are required for exploitation, indicating a **N**o privilege requirement.
+* **User Interaction (UI)**: The vulnerability can be exploited without user interaction, indicating a **N**o user interaction.
+* **Scope (S)**: The vulnerability affects the confidentiality, integrity, and availability of the system, indicating a **C**ommon scope.
+* **Confidentiality Impact (C)**: The vulnerability allows physical attackers to access an unlocked screen, which could potentially lead to unauthorized data access or theft, indicating a **H**igh confidentiality impact.
+* **Integrity Impact (I)**: The vulnerability could allow attackers to temporarily access the system, which could potentially lead to data tampering or modification, indicating a **L**ow integrity impact.
+* **Availability Impact (A)**: The vulnerability could allow attackers to temporarily access the system, which could potentially lead to system downtime or degradation, indicating a **L**ow availability impact.
+
+**Vector String**
+
+The CVSS v3.1 vector string is:
+```
+CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:L
+```
+
+**Base Score**
+
+Based on the assessed metrics, the base score for this vulnerability is:
+```
+9.8
+```
+
+The output will be a single JSON object with the following format:
+
+```json
+{
+  "attack_vector": "P",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "C",
+  "confidentiality_impact": "H",
+  "integrity_impact": "L",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:L",
+  "base_score": 9.8
+}
+```

@@ -1,0 +1,53 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: Network-adjacent attackers can exploit this vulnerability without any authentication requirements. Therefore, the attack vector is **A** (Network).
+
+**Attack Complexity (AC)**: The vulnerability requires no special privileges or knowledge to exploit. It's a straightforward command injection vulnerability. Hence, the attack complexity is **L** (Low).
+
+**Privileges Required (PR)**: An attacker can execute code in the context of root, which means they require **H** (High) privileges.
+
+**User Interaction (UI)**: No user interaction is required to exploit this vulnerability. It's a remote command injection vulnerability that can be exploited without any user input. Therefore, the user interaction is **N** (None).
+
+**Scope (S)**: The scope of the impact is **U** (Unchanged), as the vulnerability affects only the affected router installation.
+
+**Confidentiality Impact (C)**: An attacker can execute arbitrary code on the affected router, which means they can potentially access sensitive information. Therefore, the confidentiality impact is **H** (High).
+
+**Integrity Impact (I)**: The integrity of the system can be compromised as an attacker can execute arbitrary code and potentially modify system files or configurations. Hence, the integrity impact is also **H** (High).
+
+**Availability Impact (A)**: An attacker can potentially crash the affected router or make it unavailable, which means the availability impact is also **H** (High).
+
+Here's the calculated CVSS v3.1 base metric:
+
+`CVSS:3.1/AV:A/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H`
+
+The base score is calculated as follows:
+
+* Attack Vector (AV): 9.8
+* Attack Complexity (AC): 2.5
+* Privileges Required (PR): 7.4
+* User Interaction (UI): 0.1
+* Scope (S): 0.6
+* Confidentiality Impact (C): 10.0
+* Integrity Impact (I): 10.0
+* Availability Impact (A): 10.0
+
+The base score is the sum of these values: **9.8 + 2.5 + 7.4 + 0.1 + 0.6 + 10.0 + 10.0 = 40.4**
+
+Rounded to one decimal place, the base score is **40.4**.
+
+Here's the output in JSON format:
+
+```json
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "H",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+  "base_score": 40.4
+}
+```

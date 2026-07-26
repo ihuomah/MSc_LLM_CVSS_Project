@@ -1,0 +1,47 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The attack vector is "A" because an authenticated malicious actor with Admin privileges can exploit this vulnerability.
+
+**Attack Complexity (AC)**: The attack complexity is "L" because the attacker needs to add a special character on the add, edit User forms, which requires some level of expertise and effort.
+
+**Privileges Required (PR)**: The privileges required are "H" because an authenticated actor with Admin privileges can exploit this vulnerability.
+
+**User Interaction (UI)**: The user interaction is "N" because no user interaction is required to exploit this vulnerability.
+
+**Scope (S)**: The scope is "U" because the vulnerability affects a single system or application.
+
+**Confidentiality Impact (C)**: The confidentiality impact is "L" because an attacker can obtain sensitive information, such as hashed passwords.
+
+**Integrity Impact (I)**: The integrity impact is "H" because an attacker can manipulate data, including user rows and hashed passwords.
+
+**Availability Impact (A)**: The availability impact is "N" because the vulnerability does not affect system availability.
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "H",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "H",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:H/UI:N/S:U/C:L/I:H/A:N",
+  "base_score": 7.5
+}
+```
+
+The base score is calculated as follows:
+
+* Attack Vector (A): 9.8
+* Attack Complexity (L): 2.9
+* Privileges Required (H): 4.3
+* User Interaction (N): 0.0
+* Scope (U): 1.0
+* Confidentiality Impact (L): 2.5
+* Integrity Impact (H): 6.4
+* Availability Impact (N): 0.0
+
+The base score is the sum of these values, rounded to one decimal place: 7.5

@@ -1,0 +1,54 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+Here is my assessment:
+
+**Attack Vector (AV)**: L (Local)
+
+The vulnerability allows a Stored Cross-Site Scripting attack, which requires the attacker to have some level of access to the system or network. The attack vector is local because it does not involve remote exploitation.
+
+**Attack Complexity (AC)**: H (High)
+
+The attack complexity is high because the vulnerability requires some level of expertise and knowledge to exploit. The attacker needs to understand how to inject malicious code into the plugin's shortcode attribute.
+
+**Privileges Required (PR)**: L (Low)
+
+The privileges required are low because the vulnerability can be exploited by a user with a role as low as contributor, which is a relatively low-level privilege.
+
+**User Interaction (UI)**: N (None)
+
+No user interaction is required to exploit this vulnerability. The attack can be performed automatically or through some level of automation.
+
+**Scope (S)**: U (Unchanged)
+
+The scope of the impact is unchanged because the vulnerability affects the confidentiality, integrity, and availability of the system.
+
+**Confidentiality Impact (C)**: H (High)
+
+The confidentiality impact is high because an attacker could potentially steal sensitive information or inject malicious code into the system.
+
+**Integrity Impact (I)**: H (High)
+
+The integrity impact is also high because an attacker could modify or delete data, which could lead to a loss of integrity.
+
+**Availability Impact (A)**: L (Low)
+
+The availability impact is low because the vulnerability does not directly affect the availability of the system. However, it could potentially be used as part of a larger attack that affects availability.
+
+Here is my CVSS v3.1 base metric assessment:
+
+```
+{
+  "attack_vector": "L",
+  "attack_complexity": "H",
+  "privileges_required": "L",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:L",
+  "base_score": 7.5
+}
+```
+
+Please note that this assessment is based solely on the provided vulnerability description and does not take into account any external knowledge or assumptions.

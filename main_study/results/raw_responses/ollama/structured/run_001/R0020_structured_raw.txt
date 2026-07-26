@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability allows an attacker to access sensitive information without requiring any interaction from the user. Therefore, I assign an attack vector of **A** (Network).
+
+**Attack Complexity (AC):**
+The vulnerability is relatively easy to exploit, as it involves accessing plaintext secret keys. Hence, I assign an attack complexity of **L** (Low).
+
+**Privileges Required (PR):**
+No special privileges are required to exploit this vulnerability. Therefore, I assign a privilege requirement of **N** (None).
+
+**User Interaction (UI):**
+The vulnerability can be exploited without any user interaction. Therefore, I assign a user interaction level of **N** (None).
+
+**Scope (S):**
+The scope of the impact is limited to the affected system and its connected systems. Hence, I assign a scope of **U** (Unchanged).
+
+**Confidentiality Impact (C):**
+The leakage of plaintext secret keys could result in unauthorized access to sensitive information, including financial data. Therefore, I assign a confidentiality impact level of **H** (High).
+
+**Integrity Impact (I):**
+The vulnerability could allow an attacker to manipulate or modify sensitive data, which could lead to integrity issues. Hence, I assign an integrity impact level of **H** (High).
+
+**Availability Impact (A):**
+The vulnerability does not directly affect the availability of the system. Therefore, I assign an availability impact level of **N** (None).
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+  "base_score": 9.0
+}
+```
+
+Please note that this assessment is based solely on the provided vulnerability description and does not take into account any external knowledge or assumptions.

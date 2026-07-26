@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability affects WASM source files when loaded in devtools, which suggests a **Network (N)** attack vector.
+
+**Attack Complexity (AC):**
+The vulnerability is caused by a crash when loading WASM source files in devtools, which implies a relatively low **Low (L)** attack complexity.
+
+**Privileges Required (PR):**
+No privileges are required to exploit this vulnerability, so the value is set to **None (N)**.
+
+**User Interaction (UI):**
+The vulnerability can be exploited without user interaction, so the value is set to **None (N)**.
+
+**Scope (S):**
+The scope of the vulnerability is limited to the affected product, Product Y < 122, which implies a **Unchanged (U)** scope.
+
+**Confidentiality Impact (C):**
+The vulnerability does not affect confidentiality, so the value is set to **None (N)**.
+
+**Integrity Impact (I):**
+The vulnerability can cause a crash when loading WASM source files in devtools, which implies a relatively low **Low (L)** integrity impact.
+
+**Availability Impact (A):**
+The vulnerability can cause a crash when loading WASM source files in devtools, which implies a relatively low **Low (L)** availability impact.
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "N",
+  "integrity_impact": "L",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L",
+  "base_score": 4.0
+}
+```
+
+The calculated base score is **4.0**.

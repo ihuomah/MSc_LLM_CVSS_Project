@@ -1,0 +1,36 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: Network-based attack is possible, as an attacker can inject SQL to gain access to private resources and PostgreSQL system information. Therefore, I assign **A** (Network).
+
+**Attack Complexity (AC)**: The vulnerability requires some skill and expertise to exploit, but it's not extremely complex. I assign **H** (High) for the attack complexity.
+
+**Privileges Required (PR)**: An attacker can gain access to private resources and PostgreSQL system information without requiring any specific privileges. Therefore, I assign **N** (None).
+
+**User Interaction (UI)**: No user interaction is required to exploit this vulnerability. I assign **N** (None).
+
+**Scope (S)**: The scope of the impact is limited to the affected system and data. I assign **U** (Unchanged).
+
+**Confidentiality Impact (C)**: An attacker can gain access to private resources, which could lead to unauthorized disclosure of sensitive information. I assign **H** (High) for confidentiality impact.
+
+**Integrity Impact (I)**: An attacker can inject SQL to modify or delete data, which could lead to a loss of integrity. I assign **H** (High) for integrity impact.
+
+**Availability Impact (A)**: The vulnerability could potentially cause the affected system to become unavailable or slow down, leading to availability issues. I assign **L** (Low) for availability impact.
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "H",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L",
+  "base_score": 7.5
+}
+```
+
+The calculated base score is **7.5**.

@@ -1,0 +1,21 @@
+Pilot Record ID Verification v2 Creation Log
+================================================================================
+Source verification v1: data\frozen_pilot_v1\datasets\pilot_record_id_verification_v1.xlsx
+Source EPSS v2: data\frozen_pilot_v2\datasets\nvd_pilot_raw_with_epss_v2.xlsx
+Output verification v2: data\frozen_pilot_v2\datasets\pilot_record_id_verification_v2.xlsx
+Verification v1 rows: 50
+Verification v2 rows: 50
+Missing EPSS after merge: 0
+
+Columns in verification v2:
+- record_id
+- cve_id
+- final_description
+- official_cvss_vector
+- official_base_score
+- official_severity
+- epss_score
+- epss_percentile
+- has_epss
+- epss_date
+- epss_source

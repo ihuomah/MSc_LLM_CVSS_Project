@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability is a deserialization of untrusted data issue in a chatbot with AI. This type of attack typically occurs through network access (A). Therefore, I assign an Attack Vector value of **A**.
+
+**Attack Complexity (AC):**
+The attack complexity is considered high (H) because the attacker needs to craft a malicious input that can be successfully deserialized by the chatbot's AI system.
+
+**Privileges Required (PR):**
+No privileges are required for this vulnerability, as it can be exploited by an unauthenticated user. Therefore, I assign a Privileges Required value of **N**.
+
+**User Interaction (UI):**
+The attack does not require any user interaction, as the malicious input can be sent automatically. Therefore, I assign a User Interaction value of **N**.
+
+**Scope (S):**
+The scope is limited to confidentiality, integrity, and availability impacts within the chatbot's AI system. Therefore, I assign a Scope value of **U** (Unchanged).
+
+**Confidentiality Impact (C):**
+The confidentiality impact is high (H) because an attacker could potentially access sensitive information or data stored in the chatbot's AI system.
+
+**Integrity Impact (I):**
+The integrity impact is also high (H) because an attacker could modify or delete data within the chatbot's AI system, leading to a loss of integrity.
+
+**Availability Impact (A):**
+The availability impact is moderate (M) because an attacker could potentially cause the chatbot's AI system to become unavailable or slow down its performance.
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "H",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "M",
+  "vector_string": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:M",
+  "base_score": 8.5
+}
+```
+
+The calculated base score is **8.5**.

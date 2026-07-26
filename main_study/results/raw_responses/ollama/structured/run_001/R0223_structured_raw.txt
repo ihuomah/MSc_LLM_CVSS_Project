@@ -1,0 +1,57 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: N (Network)
+The vulnerability allows secondary users to access owner's saved Wi-Fi password, which is a network-level issue.
+* **Attack Complexity (AC)**: L (Low)
+The attack complexity is low as the vulnerability can be exploited by an attacker with minimal effort and expertise.
+* **Privileges Required (PR)**: N (None)
+No privileges are required to exploit this vulnerability.
+* **User Interaction (UI)**: N (None)
+No user interaction is required to exploit this vulnerability.
+* **Scope (S)**: U (Unchanged)
+The scope of the attack remains unchanged, as it only affects the targeted device.
+* **Confidentiality Impact (C)**: H (High)
+The confidentiality impact is high as an attacker can access sensitive information such as saved Wi-Fi passwords.
+* **Integrity Impact (I)**: L (Low)
+The integrity impact is low as the vulnerability does not allow attackers to modify or delete data.
+* **Availability Impact (A)**: N (None)
+There is no availability impact, as the vulnerability does not affect the device's ability to function.
+
+**Vector String**
+CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N
+
+**Base Score**
+The base score is calculated based on the metrics:
+
+* Attack Vector (AV): 0.85
+* Attack Complexity (AC): 2.9
+* Privileges Required (PR): 1.5
+* User Interaction (UI): 1.5
+* Scope (S): 0.6
+* Confidentiality Impact (C): 3.7
+* Integrity Impact (I): 0.4
+* Availability Impact (A): 0.0
+
+The base score is calculated as:
+
+Base Score = (AV + AC + PR + UI + S) x (C + I + A)
+= (0.85 + 2.9 + 1.5 + 1.5 + 0.6) x (3.7 + 0.4 + 0.0)
+= 7.65
+
+**Output**
+{
+"attack_vector": "N",
+"attack_complexity": "L",
+"privileges_required": "N",
+"user_interaction": "N",
+"scope": "U",
+"confidentiality_impact": "H",
+"integrity_impact": "L",
+"availability_impact": "N",
+"vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N",
+"base_score": 7.65
+}
+
+Please note that this assessment is based solely on the provided vulnerability description and does not take into account any external knowledge or assumptions.

@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is "A" because an adjacent/raw-serial attacker can trigger memory corruption and crash PX4.
+
+**Attack Complexity (AC):**
+The attack complexity is "L" because the vulnerability requires low skill level to exploit, as it only needs to send a specific packet to trigger the memory corruption.
+
+**Privileges Required (PR):**
+The privileges required are "N" because no special privileges are needed to exploit this vulnerability.
+
+**User Interaction (UI):**
+The user interaction is "N" because an attacker can exploit this vulnerability without any user interaction.
+
+**Scope (S):**
+The scope is "U" because the attack affects only the system itself, and not other systems or networks.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is "N" because there is no sensitive information that could be compromised by exploiting this vulnerability.
+
+**Integrity Impact (I):**
+The integrity impact is "H" because an attacker can trigger memory corruption and crash PX4, which could lead to a denial-of-service or data loss.
+
+**Availability Impact (A):**
+The availability impact is "H" because the vulnerability could cause PX4 to crash, leading to a denial-of-service.
+
+Here's the output in JSON format:
+
+```json
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "N",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H",
+  "base_score": 7.5
+}
+```
+
+Note that the base score is calculated based on the CVSS v3.1 guidelines and is rounded to one decimal place.

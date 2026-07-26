@@ -1,0 +1,51 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability allows an attacker to access private data without authentication or interaction from the user. Therefore, I assign **A** (Network).
+
+**Attack Complexity (AC):**
+The vulnerability is a simple mistake in the data export feature, making it easy for an attacker to exploit. Hence, I assign **L** (Low).
+
+**Privileges Required (PR):**
+No privileges are required to exploit this vulnerability, as it can be accessed without authentication or interaction from the user. Therefore, I assign **N** (None).
+
+**User Interaction (UI):**
+The vulnerability does not require any user interaction to exploit. Hence, I assign **N** (None).
+
+**Scope (S):**
+The scope of the vulnerability is limited to the data export feature and affects only organization administrators. Therefore, I assign **U** (Unchanged).
+
+**Confidentiality Impact (C):**
+The vulnerability allows an attacker to access private data, which has a significant impact on confidentiality. Hence, I assign **H** (High).
+
+**Integrity Impact (I):**
+The vulnerability does not affect the integrity of the system or data. Therefore, I assign **N** (None).
+
+**Availability Impact (A):**
+The vulnerability does not affect the availability of the system or data. Therefore, I assign **N** (None).
+
+**Vector String:**
+Based on the above assessments, the vector string is:
+```
+CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+```
+
+**Base Score:**
+Using the CVSS v3.1 base metric calculator, I calculate the base score to be **7.5**.
+
+Here is the output in JSON format:
+```json
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "N",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+  "base_score": 7.5
+}
+```
+Please note that this assessment is based solely on the provided vulnerability description and does not take into account any external knowledge or assumptions.

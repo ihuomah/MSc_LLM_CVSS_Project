@@ -1,0 +1,36 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The vulnerability allows information disclosure via search_project function, which is a network-based attack vector. Therefore, I assign an Attack Vector of **A**.
+
+**Attack Complexity (AC)**: The vulnerability requires no special privileges or user interaction to exploit. It can be exploited by any authenticated user. Hence, I assign an Attack Complexity of **L** (Low).
+
+**Privileges Required (PR)**: No special privileges are required to exploit the vulnerability. Therefore, I assign a Privileges Required of **N** (None).
+
+**User Interaction (UI)**: The vulnerability does not require user interaction to be exploited. Hence, I assign a User Interaction of **N** (No).
+
+**Scope (S)**: The vulnerability affects the confidentiality of information. Therefore, I assign a Scope of **U** (Unchanged).
+
+**Confidentiality Impact (C)**: The vulnerability allows information disclosure, which has a moderate impact on confidentiality. Hence, I assign a Confidentiality Impact of **L** (Low).
+
+**Integrity Impact (I)**: There is no integrity impact associated with this vulnerability. Therefore, I assign an Integrity Impact of **N** (None).
+
+**Availability Impact (A)**: There is no availability impact associated with this vulnerability. Therefore, I assign an Availability Impact of **N** (None).
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "N",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+  "base_score": 4.0
+}
+```
+
+The calculated base score is **4.0**.

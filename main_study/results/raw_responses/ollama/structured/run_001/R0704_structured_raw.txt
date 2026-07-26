@@ -1,0 +1,49 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is limited to local users interacting with the application, and no privileged role or elevated permissions are required beyond standard local user access. Therefore, the attack vector is **L**ocal.
+
+**Attack Complexity (AC):**
+The complexity of the attack is relatively low, as an attacker only needs to supply malicious strings that may be rendered and executed when a specific dialog within Product Y is opened. Therefore, the attack complexity is **L**ow.
+
+**Privileges Required (PR):**
+No privileged role or elevated permissions are required beyond standard local user access. Therefore, the privileges required are **N**one.
+
+**User Interaction (UI):**
+The vulnerability requires user interaction in the form of a local attacker supplying malicious strings that may be rendered and executed when a specific dialog within Product Y is opened. Therefore, the user interaction is **R**equired.
+
+**Scope (S):**
+The scope of the vulnerability is limited to the affected product, Product Y, and does not affect other systems or networks. Therefore, the scope is **U**nchanged.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is **N**one, as the vulnerability does not compromise sensitive information.
+
+**Integrity Impact (I):**
+The integrity impact is **L**ow, as an attacker can supply malicious strings that may be rendered and executed when a specific dialog within Product Y is opened. However, this does not result in significant data modification or destruction.
+
+**Availability Impact (A):**
+The availability impact is **N**one, as the vulnerability does not affect the overall availability of the system or network.
+
+Using these metrics, I will calculate the CVSS v3.1 base score:
+
+**Vector String:**
+CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N
+
+**Base Score:**
+Based on the calculated vector string, the base score is **6.1**.
+
+Here is the output in JSON format:
+```json
+{
+  "attack_vector": "L",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "R",
+  "scope": "U",
+  "confidentiality_impact": "N",
+  "integrity_impact": "L",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+  "base_score": 6.1
+}
+```

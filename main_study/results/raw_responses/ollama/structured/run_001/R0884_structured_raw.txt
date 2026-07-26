@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is "A" because it allows a local attacker to execute arbitrary code via a crafted script.
+
+**Attack Complexity (AC):**
+The attack complexity is "L" because the attack requires some degree of expertise and knowledge about SQL injection vulnerabilities.
+
+**Privileges Required (PR):**
+The privileges required are "N" because no special privileges are needed to exploit this vulnerability.
+
+**User Interaction (UI):**
+The user interaction is "R" because a local attacker can execute arbitrary code without any user interaction.
+
+**Scope (S):**
+The scope is "U" because the attack affects only the targeted system or network.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is "H" because an attacker could potentially access sensitive data, such as passwords or financial information.
+
+**Integrity Impact (I):**
+The integrity impact is "H" because an attacker could potentially modify or delete sensitive data, such as configuration files or databases.
+
+**Availability Impact (A):**
+The availability impact is "N" because the attack does not affect the overall availability of the system or network.
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "R",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+  "base_score": 9.0
+}
+```
+
+The base score is 9.0, indicating a high severity vulnerability.

@@ -1,0 +1,31 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The attack vector is "A" because the vulnerability can be exploited remotely.
+**Attack Complexity (AC)**: The attack complexity is "L" because the attacker needs to have some knowledge of the system and the vulnerability, but no advanced expertise is required.
+**Privileges Required (PR)**: The privileges required are "N" because an authenticated portal user with normal privileges can exploit the vulnerability.
+**User Interaction (UI)**: The user interaction is "R" because the attacker needs to interact with the system to upload and overwrite provider signatures.
+**Scope (S)**: The scope is "U" because the attack affects only the confidentiality, integrity, and availability of the patient portal signature endpoint.
+**Confidentiality Impact (C)**: The confidentiality impact is "H" because an unauthorized user can forge signatures on medical documents, leading to potential legal compliance violations and fraud.
+**Integrity Impact (I)**: The integrity impact is "H" because the attacker can overwrite provider signatures, which could lead to the modification of medical records.
+**Availability Impact (A)**: The availability impact is "N" because the attack does not affect the overall availability of the system.
+
+**Vector String**: CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+
+**Base Score**: Based on the calculated metrics, the base score is 9.8.
+
+Here is the output in JSON format:
+
+```json
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "R",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+  "base_score": 9.8
+}
+```

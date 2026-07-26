@@ -1,0 +1,43 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: N (Network)
+The vulnerability allows an administrative user to obtain other users' password hashes, which can be done remotely.
+* **Attack Complexity (AC)**: L (Low)
+The attack requires minimal complexity, as it only involves accessing the affected system and obtaining the password hashes.
+* **Privileges Required (PR)**: H (High)
+An administrative user is required to exploit this vulnerability, indicating a high level of privileges needed.
+* **User Interaction (UI)**: N (None)
+No user interaction is required to exploit this vulnerability.
+* **Scope (S)**: U (Unchanged)
+The scope of the attack remains unchanged, as it only affects the affected system and does not propagate to other systems.
+* **Confidentiality Impact (C)**: H (High)
+The confidentiality impact is high, as an administrative user can obtain sensitive information such as password hashes.
+* **Integrity Impact (I)**: H (High)
+The integrity impact is also high, as the vulnerability allows an attacker to potentially modify or delete sensitive data.
+* **Availability Impact (A)**: N (None)
+There is no availability impact, as the vulnerability does not affect the system's ability to function.
+
+**Vector String**
+CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N
+
+**Base Score**
+The base score for this vulnerability is 9.8 (out of a maximum of 10).
+
+Here is the output in JSON format:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "H",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N",
+  "base_score": 9.8
+}
+```

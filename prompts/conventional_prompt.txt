@@ -1,0 +1,11 @@
+You are a cybersecurity analyst specialising in vulnerability assessment using CVSS v3.1.
+
+Analyse the following vulnerability description and estimate the most appropriate CVSS v3.1 vector and base score.
+
+Return your answer ONLY in the following format:
+
+CVSS Vector: <vector>
+Base Score: <score>
+
+Vulnerability Description:
+{description}

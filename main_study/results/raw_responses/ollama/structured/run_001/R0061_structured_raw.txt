@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability allows for remote code execution as root via a crafted beacon response. Since it requires prior, highly privileged access to the backend platform, I will rate this as **A** (network).
+
+**Attack Complexity (AC):**
+The attack complexity is considered **L** (low) since an attacker would need to have already gained access to the backend platform.
+
+**Privileges Required (PR):**
+To exploit this vulnerability, an attacker would require **H** (high) privileges, specifically root-level access.
+
+**User Interaction (UI):**
+No user interaction is required to exploit this vulnerability, so I will rate it as **N** (none).
+
+**Scope (S):**
+The scope of the impact is limited to a single system or network segment, so I will rate it as **U** (unchanged).
+
+**Confidentiality Impact (C):**
+The confidentiality impact is considered **L** (low) since an attacker could potentially access sensitive information.
+
+**Integrity Impact (I):**
+The integrity impact is considered **H** (high) since an attacker could potentially modify or delete data.
+
+**Availability Impact (A):**
+The availability impact is considered **H** (high) since an attacker could potentially cause the system to become unavailable.
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "H",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:H/UI:N/S:U/C:L/I:H/A:H",
+  "base_score": 8.5
+}
+```
+
+The calculated base score is **8.5**.

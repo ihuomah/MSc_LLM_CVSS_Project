@@ -1,0 +1,39 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The vulnerability allows an attacker to inherit permissions from a parent key, which can be exploited remotely (A). Therefore, the attack vector is "A" (Network).
+
+**Attack Complexity (AC)**: The vulnerability requires minimal effort and expertise to exploit, as it relies on inheriting permissions from a parent key. Therefore, the attack complexity is "L" (Low).
+
+**Privileges Required (PR)**: An attacker needs to create an access key with inherited permissions to exploit this vulnerability. This requires some level of privileges, but not necessarily elevated privileges. Therefore, the privileges required are "L" (Low).
+
+**User Interaction (UI)**: The vulnerability can be exploited without user interaction, as it relies on inheriting permissions from a parent key. Therefore, the user interaction is "N" (None).
+
+**Scope (S)**: The scope of this vulnerability is limited to the affected Product Y and its access keys. Therefore, the scope is "U" (Unchanged).
+
+**Confidentiality Impact (C)**: An attacker can inherit permissions from a parent key, which could lead to unauthorized access to sensitive data. Therefore, the confidentiality impact is "H" (High).
+
+**Integrity Impact (I)**: An attacker can also inherit permissions to modify or delete data, which could lead to integrity issues. Therefore, the integrity impact is "H" (High).
+
+**Availability Impact (A)**: The vulnerability does not directly affect system availability, but it could lead to data breaches or unauthorized access, which could indirectly impact availability. Therefore, the availability impact is "L" (Low).
+
+Here's the calculated CVSS v3.1 base metric:
+
+**Vector String**: CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:L
+
+**Base Score**: 8.5
+
+The output will be a single JSON object with the following format:
+```json
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "L",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:L",
+  "base_score": 8.5
+}
+```

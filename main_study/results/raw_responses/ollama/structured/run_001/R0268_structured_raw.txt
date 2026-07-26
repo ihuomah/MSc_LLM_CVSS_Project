@@ -1,0 +1,36 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The vulnerability is a heap buffer overflow, which can be exploited remotely without authentication (A). Therefore, the attack vector is "N".
+
+**Attack Complexity (AC)**: The vulnerability requires low complexity to exploit, as it only needs to manipulate the AuthorityKeyIdentifier extension size. Hence, the attack complexity is "L".
+
+**Privileges Required (PR)**: No privileges are required to exploit this vulnerability, making it a non-privileged attack. Therefore, the privileges required are "N".
+
+**User Interaction (UI)**: The vulnerability can be exploited without user interaction, as it occurs during the conversion of an X.509 certificate internally. Hence, the user interaction is "N".
+
+**Scope (S)**: The scope of this vulnerability is limited to confidentiality, integrity, and availability impacts. Therefore, the scope is "U" for Unchanged.
+
+**Confidentiality Impact (C)**: A successful exploitation could potentially lead to unauthorized access or disclosure of sensitive information. Hence, the confidentiality impact is "H".
+
+**Integrity Impact (I)**: The vulnerability could also allow an attacker to modify or delete data, leading to a high integrity impact.
+
+**Availability Impact (A)**: The availability impact is also high, as a successful exploitation could lead to denial-of-service or crash of the system.
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "base_score": 9.8
+}
+```
+
+Please note that the base score is calculated based on the provided vulnerability description and may not reflect the actual severity of the vulnerability in a real-world scenario.

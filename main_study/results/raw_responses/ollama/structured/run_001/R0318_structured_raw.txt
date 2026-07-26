@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack can be executed remotely, so I will set AV to "A".
+
+**Attack Complexity (AC):**
+The exploit is publicly available and might be used, which indicates a relatively low complexity of exploitation. Therefore, I will set AC to "L".
+
+**Privileges Required (PR):**
+No privileges are required for the attack, as it can be executed remotely. So, I will set PR to "N".
+
+**User Interaction (UI):**
+The attack does not require user interaction, as it can be executed automatically. Therefore, I will set UI to "N".
+
+**Scope (S):**
+The scope of the impact is limited to confidentiality, integrity, and availability. Since the vulnerability affects a specific function in a product, I will set S to "U" (Unchanged).
+
+**Confidentiality Impact (C):**
+Information disclosure occurs, which has a moderate impact on confidentiality. Therefore, I will set C to "L".
+
+**Integrity Impact (I):**
+No integrity impact is mentioned in the description. Since there is no indication of data tampering or modification, I will set I to "N".
+
+**Availability Impact (A):**
+The attack does not affect availability, as it only leads to information disclosure. Therefore, I will set A to "N".
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "N",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+  "base_score": 5.0
+}
+```
+
+The calculated base score is 5.0, indicating a moderate severity vulnerability.

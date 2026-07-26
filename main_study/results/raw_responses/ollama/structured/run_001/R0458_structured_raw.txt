@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability is an improper neutralization of input during web page generation, which can lead to stored XSS. This type of attack typically occurs through a network (N).
+
+**Attack Complexity (AC):**
+The complexity of this attack is low (L) as it requires minimal expertise and resources.
+
+**Privileges Required (PR):**
+No privileges are required for the attacker to exploit this vulnerability (N).
+
+**User Interaction (UI):**
+This vulnerability can be exploited without user interaction (N).
+
+**Scope (S):**
+The scope of this vulnerability is limited to confidentiality (C) as it allows an attacker to inject malicious code, which could potentially steal sensitive information.
+
+**Confidentiality Impact (C):**
+The impact on confidentiality is high (H) as the injected code can potentially access and steal sensitive information.
+
+**Integrity Impact (I):**
+The impact on integrity is also high (H) as the injected code can potentially modify or delete data.
+
+**Availability Impact (A):**
+The impact on availability is low (L) as this vulnerability does not directly affect system availability.
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "C",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:L",
+  "base_score": 8.5
+}
+```
+
+Please note that this assessment is based solely on the provided vulnerability description and does not take into account any external knowledge or assumptions.

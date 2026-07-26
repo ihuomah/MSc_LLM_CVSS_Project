@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is "A" because remote attackers can execute arbitrary code on affected installations of Product Y.
+
+**Attack Complexity (AC):**
+The attack complexity is "L" because user interaction is required to exploit this vulnerability, and an attacker must visit a malicious page or open a malicious file.
+
+**Privileges Required (PR):**
+No privileges are required ("N") because the vulnerability can be exploited without elevated privileges.
+
+**User Interaction (UI):**
+User interaction is required ("R") because the target must visit a malicious page or open a malicious file to exploit this vulnerability.
+
+**Scope (S):**
+The scope is "U" because the vulnerability affects user-level systems and does not affect system-level systems.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is "H" because an attacker can execute code in the context of the current process, which could potentially lead to sensitive data being compromised.
+
+**Integrity Impact (I):**
+The integrity impact is "H" because an attacker can execute code in the context of the current process, which could potentially lead to system files or data being modified or deleted.
+
+**Availability Impact (A):**
+The availability impact is "N" because there is no indication that this vulnerability would affect system availability.
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "R",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+  "base_score": 9.0
+}
+```
+
+The base score is 9.0, indicating a high severity vulnerability.

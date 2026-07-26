@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: Remote (R)
+The manipulation of the argument mac leads to os command injection, which can be initiated remotely.
+
+**Attack Complexity (AC)**: Low (L)
+The attack requires minimal complexity, as it only involves manipulating an argument to inject OS commands.
+
+**Privileges Required (PR)**: None (N)
+No privileges are required to exploit this vulnerability.
+
+**User Interaction (UI)**: None (N)
+The attack can be initiated without user interaction.
+
+**Scope (S)**: Unchanged (U)
+The scope of the impact is unchanged, as the vulnerability affects a specific function in the product.
+
+**Confidentiality Impact (C)**: High (H)
+The vulnerability allows for os command injection, which could lead to unauthorized access or data breaches.
+
+**Integrity Impact (I)**: High (H)
+The vulnerability also allows for os command injection, which could lead to unauthorized changes to system files or configurations.
+
+**Availability Impact (A)**: High (H)
+The vulnerability could potentially cause the system to become unavailable or crash due to the injected commands.
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "R",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:R/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "base_score": 9.8
+}
+```
+
+Please note that the base score is calculated based on the provided vulnerability description and may not reflect the actual severity of the vulnerability in a real-world scenario.

@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability allows remote code execution via a PHP file (/add_post_sql.php). This indicates an **A**ttack Vector of "Network" (N).
+
+**Attack Complexity (AC):**
+The vulnerability requires no special privileges or knowledge, making it relatively easy to exploit. This corresponds to an **L**ow Attack Complexity.
+
+**Privileges Required (PR):**
+No special privileges are required to exploit the vulnerability, so this is set to **N**one.
+
+**User Interaction (UI):**
+The vulnerability can be exploited without user interaction, as it is a remote code execution vulnerability. This is set to **N**one.
+
+**Scope (S):**
+The scope of the impact is limited to the affected component (/add_post_sql.php), so this is set to **U**nchanged.
+
+**Confidentiality Impact (C):**
+The vulnerability allows remote code execution, which could potentially lead to unauthorized access or data modification. This corresponds to a **H**igh Confidentiality Impact.
+
+**Integrity Impact (I):**
+Similarly, the vulnerability's ability to execute arbitrary code could compromise the integrity of the system. This is also set to **H**igh.
+
+**Availability Impact (A):**
+The vulnerability could potentially lead to denial-of-service or data corruption, affecting the availability of the affected system. This is set to **L**ow.
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L",
+  "base_score": 7.5
+}
+```
+
+Please note that this assessment is based solely on the provided vulnerability description and does not take into account any external knowledge or assumptions.

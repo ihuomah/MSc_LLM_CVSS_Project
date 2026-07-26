@@ -1,0 +1,50 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: N (Network)
+The vulnerability is a privacy issue that can be exploited through an app accessing information about a user's contacts.
+* **Attack Complexity (AC)**: L (Low)
+The attack complexity is low, as the vulnerability can be exploited by an app with minimal effort.
+* **Privileges Required (PR)**: N (None)
+No privileges are required to exploit this vulnerability.
+* **User Interaction (UI)**: N (None)
+No user interaction is required to exploit this vulnerability.
+* **Scope (S)**: U (Unchanged)
+The scope of the attack remains unchanged, as it only affects the confidentiality of user data.
+* **Confidentiality Impact (C)**: L (Low)
+The impact on confidentiality is low, as the vulnerability allows an app to access information about a user's contacts.
+* **Integrity Impact (I)**: N (None)
+There is no impact on integrity, as this is a confidentiality-only issue.
+* **Availability Impact (A)**: N (None)
+There is no impact on availability.
+
+**Vector String**
+CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+
+**Base Score**
+The base score for this vulnerability is 2.9, calculated as follows:
+
+* Confidentiality Impact: L (Low) = 0.36
+* Integrity Impact: N (None) = 0.00
+* Availability Impact: N (None) = 0.00
+* Attack Vector: N (Network) = 1.00
+* Attack Complexity: L (Low) = 0.44
+* Privileges Required: N (None) = 0.00
+* User Interaction: N (None) = 0.00
+
+Base Score = (C + I + A) x AV x AC x PR x UI = 2.9
+
+**Output**
+{
+"attack_vector": "N",
+"attack_complexity": "L",
+"privileges_required": "N",
+"user_interaction": "N",
+"scope": "U",
+"confidentiality_impact": "L",
+"integrity_impact": "N",
+"availability_impact": "N",
+"vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"base_score": 2.9
+}

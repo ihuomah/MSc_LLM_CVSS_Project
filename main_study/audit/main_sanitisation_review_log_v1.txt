@@ -1,0 +1,30 @@
+================================================================================
+Starting Main Sanitisation Review File Generation
+================================================================================
+Rows in full review: 1000
+Rows with residual flags: 29
+Heavy replacement review rows: 100
+No replacement review rows: 134
+Random sample review rows: 50
+
+Replacement distribution:
+count    1000.0000
+mean        1.4660
+std         1.4591
+min         0.0000
+25%         1.0000
+50%         1.0000
+75%         2.0000
+max        14.0000
+Name: total_replacements, dtype: float64
+
+Outputs:
+Full review: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\datasets\sanitised\review\main_full_sanitisation_review.xlsx
+Heavy replacement review: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\datasets\sanitised\review\main_heavy_replacement_review.xlsx
+No replacement review: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\datasets\sanitised\review\main_no_replacement_review.xlsx
+Random sample review: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\datasets\sanitised\review\main_random_review_sample.xlsx
+Residual flags review: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\datasets\sanitised\review\main_residual_flags_review.xlsx
+Log: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\audit\main_sanitisation_review_log_v1.txt
+================================================================================
+Main Sanitisation Review File Generation Complete
+================================================================================

@@ -1,0 +1,53 @@
+Based on the provided vulnerability description and constraints, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The issue allows an attacker with physical access to view notification content from the lock screen. This is a Local (L) attack vector.
+
+**Attack Complexity (AC):**
+The attack complexity is Low (L), as the attacker only needs physical access to the device.
+
+**Privileges Required (PR):**
+No privileges are required for this attack, so it's Not Required (N).
+
+**User Interaction (UI):**
+The attack does not require user interaction, so it's None (N).
+
+**Scope (S):**
+The scope of the attack is Unchanged (U), as the attacker only views notification content from the lock screen.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is Low (L), as the attacker can view notification content but not access sensitive information.
+
+**Integrity Impact (I):**
+There is no integrity impact, so it's None (N).
+
+**Availability Impact (A):**
+There is no availability impact, so it's None (N).
+
+**Vector String:**
+The vector string will be:
+```
+CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+```
+
+**Base Score:**
+Based on the calculated metrics, the base score is 2.5.
+
+Here is the output in JSON format:
+
+```json
+{
+  "attack_vector": "L",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "N",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+  "base_score": 2.5
+}
+```
+
+Please note that this assessment is based solely on the provided vulnerability description and does not take into account any external knowledge or assumptions.

@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: N (Network)
+The issue allows a user to view restricted content from the lock screen, which can be accessed remotely.
+* **Attack Complexity (AC)**: L (Low)
+The attack complexity is low because the vulnerability requires minimal effort and expertise to exploit.
+* **Privileges Required (PR)**: N (None)
+No privileges are required to exploit this issue.
+* **User Interaction (UI)**: R (Required)
+A user must interact with the lock screen to view restricted content.
+* **Scope (S)**: U (Unchanged)
+The scope of the attack is unchanged, as it only affects the local system.
+* **Confidentiality Impact (C)**: L (Low)
+The confidentiality impact is low because the issue allows a user to view restricted content, but does not disclose sensitive information.
+* **Integrity Impact (I)**: N (None)
+There is no integrity impact, as the vulnerability does not allow an attacker to modify or delete data.
+* **Availability Impact (A)**: L (Low)
+The availability impact is low because the issue only allows a user to view restricted content, but does not affect the system's overall availability.
+
+**Vector String**
+CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L
+
+**Base Score**
+Based on the assessed metrics, the base score is:
+7.5
+
+Here is the output in JSON format:
+
+```json
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "R",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "N",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L",
+  "base_score": 7.5
+}
+```

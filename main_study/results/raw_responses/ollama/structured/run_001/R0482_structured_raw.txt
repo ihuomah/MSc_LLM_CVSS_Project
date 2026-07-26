@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability allows for unauthorized arbitrary command execution, which can be exploited remotely. Therefore, I assign an attack vector of **A** (Network).
+
+**Attack Complexity (AC):**
+The vulnerability requires minimal effort to exploit, as it is a straightforward command injection. Hence, I assign an attack complexity of **L** (Low).
+
+**Privileges Required (PR):**
+No privileges are required to exploit this vulnerability, as the attacker can execute arbitrary commands without elevated permissions. Therefore, I assign a privilege requirement of **N** (None).
+
+**User Interaction (UI):**
+The vulnerability does not require user interaction to be exploited. An attacker can exploit it automatically. Hence, I assign a user interaction level of **R** (Required).
+
+**Scope (S):**
+The scope of the vulnerability is **C** (Changed), as it affects the confidentiality and integrity of the affected system.
+
+**Confidentiality Impact (C):**
+The vulnerability allows for unauthorized command execution, which can lead to sensitive data being accessed or modified. Therefore, I assign a confidentiality impact level of **H** (High).
+
+**Integrity Impact (I):**
+The vulnerability also allows for unauthorized command execution, which can lead to the modification or deletion of critical system files. Hence, I assign an integrity impact level of **H** (High).
+
+**Availability Impact (A):**
+The vulnerability does not directly affect the availability of the affected system. However, it could potentially be used as a stepping stone for further attacks that could impact availability. Therefore, I assign an availability impact level of **L** (Low).
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "R",
+  "scope": "C",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:L",
+  "base_score": 8.5
+}
+```
+
+The calculated base score is **8.5**.

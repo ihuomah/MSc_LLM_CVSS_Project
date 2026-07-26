@@ -1,0 +1,36 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The vulnerability allows attackers with Item/Configure permission to access and capture credentials they are not entitled to. This suggests a **Network (N)** attack vector.
+
+**Attack Complexity (AC)**: The vulnerability requires minimal effort or skill from an attacker, as it can be exploited by anyone with the necessary permissions. Therefore, I assess the **attack complexity as Low (L)**.
+
+**Privileges Required (PR)**: An attacker needs only Item/Configure permission to exploit this vulnerability. This suggests a **Low (L)** privilege requirement.
+
+**User Interaction (UI)**: No user interaction is required to exploit this vulnerability, so I assess it as **No (N)**.
+
+**Scope (S)**: The scope of the impact is limited to the affected system or network, so I assess it as **Unchanged (U)**.
+
+**Confidentiality Impact (C)**: An attacker can access and capture credentials they are not entitled to, which has a significant confidentiality impact. Therefore, I assess the **confidentiality impact as High (H)**.
+
+**Integrity Impact (I)**: The vulnerability allows an attacker to access and capture credentials, which could potentially be used to compromise the integrity of the system or network. Therefore, I assess the **integrity impact as High (H)**.
+
+**Availability Impact (A)**: There is no direct impact on availability, but the compromised credentials could be used to launch further attacks that affect availability. Therefore, I assess the **availability impact as Low (L)**.
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "L",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:L",
+  "base_score": 8.0
+}
+```
+
+The calculated base score is **8.0**.

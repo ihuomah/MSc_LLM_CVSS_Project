@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is "A" because it is possible to launch the attack remotely.
+
+**Attack Complexity (AC):**
+The attack complexity is "L" because the exploit has been disclosed to the public and may be used, making it relatively easy for an attacker to execute.
+
+**Privileges Required (PR):**
+No privileges are required ("N") because the vulnerability can be exploited without any special permissions or access levels.
+
+**User Interaction (UI):**
+The user interaction is "R" because the attack can be launched remotely and does not require any direct user input.
+
+**Scope (S):**
+The scope is "U" because the vulnerability affects an unknown function of the file admin/pages/tables/add_con.php, which is a specific component or module within the product.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is "H" because the vulnerability could potentially allow an attacker to access sensitive information or data.
+
+**Integrity Impact (I):**
+The integrity impact is also "H" because the vulnerability could potentially allow an attacker to modify or delete data, which could compromise the integrity of the system.
+
+**Availability Impact (A):**
+The availability impact is "H" because the vulnerability could potentially cause a denial-of-service (DoS) or a disruption in service, affecting the overall availability of the system.
+
+Here's the output in JSON format:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "R",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "base_score": 9.8
+}
+```
+
+Note that the base score is calculated based on the CVSS v3.1 guidelines and is rounded to one decimal place.

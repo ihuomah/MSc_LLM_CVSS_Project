@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack can be launched remotely, so I will set AV to "A".
+
+**Attack Complexity (AC):**
+The exploit has been disclosed to the public and may be used, which indicates a relatively low complexity of exploitation. Therefore, I will set AC to "L".
+
+**Privileges Required (PR):**
+No privileges are required for the attack, as it can be launched remotely. So, I will set PR to "N".
+
+**User Interaction (UI):**
+The attack can be launched without user interaction, so I will set UI to "N".
+
+**Scope (S):**
+The scope of the attack is limited to the affected system, so I will set S to "U".
+
+**Confidentiality Impact (C):**
+The vulnerability allows for unrestricted upload, which could lead to sensitive data being uploaded. Therefore, I will set C to "H".
+
+**Integrity Impact (I):**
+The vulnerability also allows for unrestricted upload, which could lead to the system being compromised. Therefore, I will set I to "H".
+
+**Availability Impact (A):**
+The attack can be launched remotely and may cause the system to become unavailable or slow down. Therefore, I will set A to "H".
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "base_score": 9.8
+}
+```
+
+The calculated base score is 9.8 out of 10.

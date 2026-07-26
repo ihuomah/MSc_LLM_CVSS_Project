@@ -1,0 +1,51 @@
+Based on the provided vulnerability description and constraints, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability allows a user with `admin_group_member` custom role permission to ban group members. This can be exploited by an attacker who has already gained access to the system or network. Therefore, the attack vector is **N** (Network).
+
+**Attack Complexity (AC):**
+The vulnerability requires some level of expertise and knowledge about the system's permissions and roles. However, it does not require any unusual or unexpected interactions with the system. Therefore, the attack complexity is **L** (Low).
+
+**Privileges Required (PR):**
+An attacker needs to have an `admin_group_member` custom role permission to exploit this vulnerability. This requires a certain level of privileges within the system. Therefore, the privileges required are **H** (High).
+
+**User Interaction (UI):**
+The vulnerability can be exploited without any user interaction. The attacker only needs to have the necessary permissions and access to the system. Therefore, the user interaction is **N** (None).
+
+**Scope (S):**
+The scope of this vulnerability is limited to the affected product or system. It does not affect other systems or networks. Therefore, the scope is **U** (Unchanged).
+
+**Confidentiality Impact (C):**
+An attacker with `admin_group_member` custom role permission can ban group members, which may lead to a loss of confidentiality if sensitive information is being shared within those groups. Therefore, the confidentiality impact is **L** (Low).
+
+**Integrity Impact (I):**
+The vulnerability allows an attacker to modify the system's permissions and roles, which can affect the integrity of the system. Therefore, the integrity impact is **H** (High).
+
+**Availability Impact (A):**
+An attacker with `admin_group_member` custom role permission can ban group members, which may lead to a denial-of-service (DoS) or a disruption in service. Therefore, the availability impact is **L** (Low).
+
+**Vector String:**
+The vector string for this vulnerability is:
+```
+CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:H/A:L
+```
+
+**Base Score:**
+Based on the calculated metrics, the base score for this vulnerability is **6.2**.
+
+Here is the output in JSON format:
+
+```json
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "H",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:H/A:L",
+  "base_score": 6.2
+}
+```

@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is Local (L), as the vulnerability can be exploited by a local low-privileged malicious user.
+
+**Attack Complexity (AC):**
+The attack complexity is Low (L), as the exploitation of this vulnerability requires some degree of skill and expertise, but not extremely complex or difficult to execute.
+
+**Privileges Required (PR):**
+The privileges required are High (H), as the attacker needs to escalate their privilege to the admin user to gain full control of the machine.
+
+**User Interaction (UI):**
+There is No User Interaction (N) required for this vulnerability, as it can be exploited without any user intervention or interaction.
+
+**Scope (S):**
+The scope is Unchanged (U), as the attack affects only the targeted system and does not spread to other systems or networks.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is High (H), as exploitation of this vulnerability could lead to a complete system compromise, potentially exposing sensitive information.
+
+**Integrity Impact (I):**
+The integrity impact is also High (H), as the attacker can gain full control of the machine and modify or delete data.
+
+**Availability Impact (A):**
+The availability impact is also High (H), as exploitation of this vulnerability could lead to a complete system compromise, potentially causing the system to become unavailable.
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "L",
+  "attack_complexity": "L",
+  "privileges_required": "H",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+  "base_score": 9.8
+}
+```
+
+The calculated base score is 9.8 out of a maximum of 10.0.

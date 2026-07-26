@@ -1,0 +1,36 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The attack vector is Network (N) because an unauthenticated attacker can perform an XSS attack via crafted HTTP GET requests.
+
+**Attack Complexity (AC)**: The attack complexity is Low (L) because the attacker only needs to craft a specific HTTP GET request to exploit the vulnerability.
+
+**Privileges Required (PR)**: No privileges are required (N) for the attacker to exploit the vulnerability.
+
+**User Interaction (UI)**: No user interaction is required (N) for the attacker to exploit the vulnerability, as it can be done via an automated process.
+
+**Scope (S)**: The scope of the attack is Unchanged (U) because the attacker's goal is to perform an XSS attack, which does not change the system's functionality or data.
+
+**Confidentiality Impact (C)**: The confidentiality impact is Low (L) because the vulnerability allows an attacker to inject malicious code, but it does not compromise sensitive information.
+
+**Integrity Impact (I)**: The integrity impact is High (H) because the vulnerability allows an attacker to inject malicious code that can potentially modify or delete data.
+
+**Availability Impact (A)**: The availability impact is None (N) because the vulnerability does not affect the system's availability.
+
+Here is the output in JSON format:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "H",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:N",
+  "base_score": 7.2
+}
+```
+
+The base score is calculated based on the CVSS v3.1 formula, which takes into account the attack vector, attack complexity, privileges required, user interaction, scope, confidentiality impact, integrity impact, and availability impact. The resulting base score is 7.2.

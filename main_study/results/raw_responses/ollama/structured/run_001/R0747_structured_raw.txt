@@ -1,0 +1,36 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The vulnerability can be exploited remotely without physical interaction with the system, so it's an "N" (Network).
+
+**Attack Complexity (AC)**: The attack complexity is considered "L" (Low) because the attacker only needs to craft a direct POST request to exploit the vulnerability.
+
+**Privileges Required (PR)**: No privileges are required to exploit this vulnerability, so it's an "N" (None).
+
+**User Interaction (UI)**: An authenticated user can exploit this vulnerability without any user interaction, so it's an "R" (Required).
+
+**Scope (S)**: The scope of the impact is limited to the affected system, so it's a "U" (Unchanged).
+
+**Confidentiality Impact (C)**: The confidentiality impact is considered "L" (Low) because an attacker can manipulate arbitrary inventory item data without accessing sensitive information.
+
+**Integrity Impact (I)**: The integrity impact is considered "H" (High) because an attacker can completely bypass both CSRF token validation and server-side form validation, allowing them to manipulate the system's state.
+
+**Availability Impact (A)**: The availability impact is considered "L" (Low) because the vulnerability does not directly affect the system's availability.
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "R",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:H/A:L",
+  "base_score": 7.5
+}
+```
+
+The calculated base score is 7.5, indicating a moderate severity vulnerability.

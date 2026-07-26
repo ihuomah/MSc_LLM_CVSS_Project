@@ -1,0 +1,47 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metrics.
+
+**Attack Vector (AV)**: Remote (A)
+The attack can be initiated remotely, as stated in the vulnerability description.
+
+**Attack Complexity (AC)**: Low (L)
+The attack complexity is considered low because the manipulation of the argument Address/bloodgroup leads to cross-site scripting, which is a relatively straightforward exploitation.
+
+**Privileges Required (PR)**: None (N)
+No privileges are required for the attack, as it can be initiated remotely and does not require any specific permissions or access levels.
+
+**User Interaction (UI)**: Remote (R)
+The attack requires user interaction in the form of a remote request to the vulnerable component.
+
+**Scope (S)**: Unchanged (U)
+The scope of the attack is considered unchanged, as it affects only the targeted system and does not spread to other systems or networks.
+
+**Confidentiality Impact (C)**: Low (L)
+The confidentiality impact is considered low because the vulnerability allows for cross-site scripting, which primarily affects the confidentiality of user data.
+
+**Integrity Impact (I)**: High (H)
+The integrity impact is considered high because the vulnerability can be used to manipulate the targeted system's file processing, potentially leading to unauthorized changes or modifications.
+
+**Availability Impact (A)**: None (N)
+There is no availability impact, as the attack does not affect the overall availability of the system or network.
+
+Here are the calculated CVSS v3.1 base metrics:
+
+* **Vector String**: "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:L/I:H/A:N"
+* **Base Score**: 7.5
+
+The output will be in JSON format, as required:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "R",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "H",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:L/I:H/A:N",
+  "base_score": 7.5
+}
+```

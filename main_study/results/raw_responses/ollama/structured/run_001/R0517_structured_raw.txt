@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack can be launched remotely, so I will set AV to "A".
+
+**Attack Complexity (AC):**
+The manipulation of the argument typeId leads to sql injection, which is a relatively simple attack vector. Therefore, I will set AC to "L" (Low).
+
+**Privileges Required (PR):**
+No privileges are required for this attack, as it can be launched remotely. So, I will set PR to "N" (None).
+
+**User Interaction (UI):**
+The attack can be launched without user interaction, so I will set UI to "N" (None).
+
+**Scope (S):**
+The scope of the attack is limited to the affected function getMediaLisByFilter in the file cn/javaex/Product Y/service/media_info/MediaInfoService.java. Therefore, I will set S to "U" (Unchanged).
+
+**Confidentiality Impact (C):**
+This vulnerability allows for sql injection attacks, which can potentially lead to unauthorized access or modification of sensitive data. Therefore, I will set C to "H" (High).
+
+**Integrity Impact (I):**
+The integrity of the system may be compromised due to this vulnerability, as an attacker could potentially modify or delete data. Therefore, I will set I to "H" (High).
+
+**Availability Impact (A):**
+This vulnerability does not directly affect the availability of the system, but it could potentially lead to a denial-of-service attack if exploited. Therefore, I will set A to "L" (Low).
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L",
+  "base_score": 7.5
+}
+```
+
+The calculated base score is 7.5, indicating a high severity vulnerability.

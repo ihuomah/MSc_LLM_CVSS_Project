@@ -1,0 +1,36 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The attack vector is "N" because the issue can be exploited remotely without any physical interaction with the system.
+
+**Attack Complexity (AC)**: The attack complexity is "L" because the attacker needs to have some knowledge of the system and its behavior, but no specialized skills or tools are required.
+
+**Privileges Required (PR)**: The privileges required are "N" because an unprivileged user can exploit this vulnerability.
+
+**User Interaction (UI)**: The user interaction is "R" because the attacker does not need to interact with the system in any way to exploit this vulnerability.
+
+**Scope (S)**: The scope is "U" because the attack affects only the confidentiality, integrity, and availability of the affected system.
+
+**Confidentiality Impact (C)**: The confidentiality impact is "L" because the attacker can potentially gain access to sensitive information, but it's not a critical or highly confidential data.
+
+**Integrity Impact (I)**: The integrity impact is "H" because the attacker can potentially modify or delete sensitive data, which could have significant consequences.
+
+**Availability Impact (A)**: The availability impact is "L" because the attacker can potentially cause temporary denial-of-service (DoS) or slow down the system, but it's not a critical service.
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "R",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:H/A:L",
+  "base_score": 6.2
+}
+```
+
+The calculated base score is 6.2, which indicates a moderate severity vulnerability.

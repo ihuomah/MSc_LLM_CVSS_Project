@@ -1,0 +1,36 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The manipulation leads to improper access controls, which suggests a network attack vector (N).
+
+**Attack Complexity (AC)**: The vulnerability is rated as critical, indicating that an attacker with moderate skill level could exploit this issue (H).
+
+**Privileges Required (PR)**: No privileges are required for exploitation, so I will set it to N.
+
+**User Interaction (UI)**: The manipulation does not require user interaction, so I will set it to N.
+
+**Scope (S)**: The scope of the vulnerability is limited to the affected component Tag Handler, so I will set it to U.
+
+**Confidentiality Impact (C)**: Improper access controls could lead to unauthorized data disclosure, which has a high impact on confidentiality (H).
+
+**Integrity Impact (I)**: The manipulation could also lead to unauthorized changes to the system, which has a high impact on integrity (H).
+
+**Availability Impact (A)**: There is no indication that the vulnerability would affect availability, so I will set it to N.
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "H",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+  "base_score": 9.0
+}
+```
+
+Please note that this assessment is based solely on the provided vulnerability description and does not take into account any external knowledge or assumptions.

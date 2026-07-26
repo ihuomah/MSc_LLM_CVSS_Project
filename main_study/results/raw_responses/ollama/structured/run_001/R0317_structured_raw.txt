@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability allows for remote code execution as the root user, which indicates a high attack vector (A).
+
+**Attack Complexity (AC):**
+The vulnerability requires no special skills or knowledge to exploit, indicating low attack complexity (L).
+
+**Privileges Required (PR):**
+The vulnerability can be exploited without requiring any privileges, indicating none (N) required.
+
+**User Interaction (UI):**
+No user interaction is required to exploit the vulnerability, indicating none (N) required.
+
+**Scope (S):**
+The vulnerability affects all users and systems within the scope of the affected products, indicating universal (U).
+
+**Confidentiality Impact (C):**
+The vulnerability can lead to remote code execution as the root user, which indicates high confidentiality impact (H).
+
+**Integrity Impact (I):**
+The vulnerability can also lead to remote code execution as the root user, which indicates high integrity impact (H).
+
+**Availability Impact (A):**
+The vulnerability can potentially cause a denial-of-service or crash of the affected systems, indicating high availability impact (H).
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "base_score": 9.8
+}
+```
+
+Please note that the base score is calculated based on the provided vulnerability description and may not reflect the actual severity of the vulnerability in a real-world scenario.

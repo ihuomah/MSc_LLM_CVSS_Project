@@ -1,0 +1,36 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The vulnerability allows an authenticated user to execute stored cross-site scripting, which requires network access. Therefore, the attack vector is **A** (Network).
+
+**Attack Complexity (AC)**: The vulnerability can be exploited with low complexity, as it only requires improper input validation in the Kubernetes proxy functionality. Therefore, the attack complexity is **L** (Low).
+
+**Privileges Required (PR)**: The vulnerability does not require any special privileges to exploit, as an authenticated user can already execute stored cross-site scripting. Therefore, the privileges required are **N** (None).
+
+**User Interaction (UI)**: The vulnerability requires user interaction in the form of improper input validation, which is a common attack vector. Therefore, the user interaction is **R** (Required).
+
+**Scope (S)**: The vulnerability affects all versions from 15.10 before 18.3.6, 18.4 before 18.4.4, and 18.5 before 18.5.2 of Product Y CE/EE. Therefore, the scope is **C** (Changed).
+
+**Confidentiality Impact (C)**: The vulnerability allows an authenticated user to execute stored cross-site scripting, which could potentially lead to sensitive data being compromised. Therefore, the confidentiality impact is **H** (High).
+
+**Integrity Impact (I)**: The vulnerability could allow an attacker to manipulate or modify data, which could compromise the integrity of the system. Therefore, the integrity impact is **H** (High).
+
+**Availability Impact (A)**: The vulnerability does not directly affect the availability of the system, as it only allows for stored cross-site scripting. However, if exploited, it could potentially lead to a denial-of-service attack or other availability-related issues. Therefore, the availability impact is **L** (Low).
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "R",
+  "scope": "C",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:L",
+  "base_score": 7.5
+}
+```
+
+The calculated base score is **7.5**.

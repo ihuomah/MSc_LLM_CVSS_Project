@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is "N" because the vulnerability can be exploited remotely without any physical interaction with the system.
+
+**Attack Complexity (AC):**
+The attack complexity is "H" because the attacker needs to have some level of expertise and knowledge about SSL/TLS certificates and how to perform a Man-in-the-Middle (MitM) attack.
+
+**Privileges Required (PR):**
+The privileges required are "N" because an unauthenticated remote attacker can exploit this vulnerability without any privileges or access rights.
+
+**User Interaction (UI):**
+The user interaction is "R" because the attacker needs to interact with the system by sending a malicious HTTPS request to perform the MitM attack.
+
+**Scope (S):**
+The scope is "U" because the vulnerability affects all users of the affected products and versions.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is "H" because an unauthenticated remote attacker can intercept sensitive user information, including account emails, MD5 hashed passwords, and device serial numbers.
+
+**Integrity Impact (I):**
+The integrity impact is "L" because the vulnerability allows an attacker to potentially modify or manipulate the communication between the client and server, but it does not allow for arbitrary code execution or data modification.
+
+**Availability Impact (A):**
+The availability impact is "N" because the vulnerability does not affect the overall availability of the system or service.
+
+Here's the output in JSON format:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "H",
+  "privileges_required": "N",
+  "user_interaction": "R",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "L",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:L/A:N",
+  "base_score": 7.5
+}
+```
+
+Note that the base score is calculated based on the CVSS v3.1 guidelines and is subject to change depending on additional information or assumptions not provided in this task.

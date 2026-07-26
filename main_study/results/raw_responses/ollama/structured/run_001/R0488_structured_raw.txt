@@ -1,0 +1,36 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The vulnerability is a cross-domain issue, which allows an attacker to inject malicious content into a page that is not under their control. Therefore, I rate this as **A** (Network).
+
+**Attack Complexity (AC)**: The attack requires some level of expertise and knowledge about the product's behavior, but it does not require any specific tools or techniques beyond what an attacker would typically have. Therefore, I rate this as **L** (Low).
+
+**Privileges Required (PR)**: No special privileges are required to exploit this vulnerability. Therefore, I rate this as **N** (None).
+
+**User Interaction (UI)**: The vulnerability can be exploited without any user interaction. Therefore, I rate this as **N** (None).
+
+**Scope (S)**: The scope of the impact is limited to the product's functionality and does not affect other systems or networks. Therefore, I rate this as **U** (Unchanged).
+
+**Confidentiality Impact (C)**: An attacker could potentially steal sensitive information, such as passwords, if they can inject malicious content into a page that is not under their control. Therefore, I rate this as **H** (High).
+
+**Integrity Impact (I)**: An attacker could potentially modify or delete data stored in the product's database or files. Therefore, I rate this as **H** (High).
+
+**Availability Impact (A)**: The vulnerability could potentially cause the product to become unavailable or slow down its performance if an attacker can inject malicious content into a page that is not under their control. Therefore, I rate this as **L** (Low).
+
+Here is the output in JSON format:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L",
+  "base_score": 7.5
+}
+```
+
+Note that the base score is calculated based on the CVSS v3.1 formula, which takes into account the values of the attack vector, attack complexity, privileges required, user interaction, scope, confidentiality impact, integrity impact, and availability impact.

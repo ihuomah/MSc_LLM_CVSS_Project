@@ -1,0 +1,28 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: A (Network)
+	+ Reasoning: The vulnerability allows an authenticated attacker to delete user-messages for individual users, which can be done remotely.
+* **Attack Complexity (AC)**: L (Low)
+	+ Reasoning: The attack requires minimal complexity, as the attacker only needs to send a crafted request to exploit the vulnerability.
+* **Privileges Required (PR)**: N (None)
+	+ Reasoning: The vulnerability does not require any special privileges or access controls to be exploited.
+* **User Interaction (UI)**: R (Required)
+	+ Reasoning: The attack requires user interaction, as the attacker needs to trick an authenticated user into performing a specific action.
+* **Scope (S)**: U (Unchanged)
+	+ Reasoning: The vulnerability does not change the scope of what can be accessed or modified.
+* **Confidentiality Impact (C)**: N (None)
+	+ Reasoning: The vulnerability does not affect confidentiality, as it only allows an attacker to delete user-messages.
+* **Integrity Impact (I)**: H (High)
+	+ Reasoning: The vulnerability has a high integrity impact, as it allows an attacker to modify or delete sensitive data (user-messages).
+* **Availability Impact (A)**: N (None)
+	+ Reasoning: The vulnerability does not affect availability, as it only affects the confidentiality and integrity of user-messages.
+
+**Vector String**
+CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N
+
+**Base Score**
+9.8 (out of 10)
+
+Please note that this assessment is based solely on the provided vulnerability description and does not take into account any external knowledge or assumptions.

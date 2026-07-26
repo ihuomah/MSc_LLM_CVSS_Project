@@ -1,0 +1,40 @@
+Based on the provided vulnerability description and constraints, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The issue allows privileged users to access certain resource_group information through the API, which should have been unavailable. This suggests a **Network (N)** attack vector.
+
+**Attack Complexity (AC)**: The vulnerability requires some level of expertise and knowledge of the system's internal workings, making it a **Low (L)** complexity attack.
+
+**Privileges Required (PR)**: The issue can be exploited by privileged users, indicating that **High (H)** privileges are required to exploit this vulnerability.
+
+**User Interaction (UI)**: No user interaction is required to exploit this vulnerability, so the value is set to **No (N)**.
+
+**Scope (S)**: The scope of the impact is limited to the affected system or API, making it a **Unchanged (U)** scope.
+
+**Confidentiality Impact (C)**: The issue allows privileged users to access certain resource_group information, which could lead to unauthorized data disclosure. This suggests a **Low (L)** confidentiality impact.
+
+**Integrity Impact (I)**: The vulnerability could allow an attacker to manipulate or modify system resources, leading to a **High (H)** integrity impact.
+
+**Availability Impact (A)**: The issue does not directly affect the availability of the system or API, so the value is set to **None (N)**.
+
+Using these metrics, I will calculate the CVSS v3.1 base score:
+
+`vector_string`: "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:H/A:N"
+
+**Base Score**: 7.5
+
+Here is the output in JSON format:
+```json
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "H",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "H",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:H/A:N",
+  "base_score": 7.5
+}
+```
+Please note that this assessment is based solely on the provided vulnerability description and does not take into account any external knowledge or assumptions.

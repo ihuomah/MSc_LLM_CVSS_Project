@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability allows an attacker to bypass IP-based blocks set by the plugin, which can be done remotely. Therefore, I assign **A** (Network).
+
+**Attack Complexity (AC):**
+The attack requires some knowledge of HTTP headers and the plugin's functionality, but it is not extremely complex. I assign **L** (Low).
+
+**Privileges Required (PR):**
+No special privileges are required to exploit this vulnerability. I assign **N** (None).
+
+**User Interaction (UI):**
+An attacker can exploit this vulnerability without any user interaction. I assign **N** (None).
+
+**Scope (S):**
+The scope of the attack is limited to the affected plugin and its functionality. I assign **U** (Unchanged).
+
+**Confidentiality Impact (C):**
+An attacker could potentially bypass IP-based blocks, which might allow them to access or manipulate sensitive data. I assign **L** (Low).
+
+**Integrity Impact (I):**
+The integrity of the system or plugin could be compromised if an attacker can bypass IP-based blocks and gain unauthorized access. I assign **H** (High).
+
+**Availability Impact (A):**
+An attacker might be able to disrupt the normal functioning of the affected plugin, leading to availability issues. I assign **L** (Low).
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:L",
+  "base_score": 5.0
+}
+```
+
+The calculated base score is **5.0**.

@@ -1,0 +1,51 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attacker must obtain high-privileged code execution (admin user rights) to exploit this vulnerability. Therefore, I will assign an Attack Vector of **A**, as the attack requires local access.
+
+**Attack Complexity (AC):**
+The complexity of the attack is considered **L**, as the attacker needs to obtain admin user rights, which may require some level of expertise or knowledge.
+
+**Privileges Required (PR):**
+As mentioned in the vulnerability description, the attacker must have high-privileged code execution (admin user rights) to exploit this vulnerability. Therefore, I will assign a Privileges Required of **H**.
+
+**User Interaction (UI):**
+The attack does not require any user interaction, as it can be exploited by an attacker with admin privileges. Therefore, I will assign a User Interaction of **N**.
+
+**Scope (S):**
+The scope of the vulnerability is limited to the affected installations, so I will assign a Scope of **U**, indicating that the impact is unilateral.
+
+**Confidentiality Impact (C):**
+The vulnerability could disclose sensitive information, which has a moderate impact on confidentiality. Therefore, I will assign a Confidentiality Impact of **L**.
+
+**Integrity Impact (I):**
+The vulnerability does not have a significant impact on integrity, as it only discloses sensitive information. Therefore, I will assign an Integrity Impact of **N**.
+
+**Availability Impact (A):**
+The vulnerability does not have a significant impact on availability, as it does not disrupt the normal functioning of the system. Therefore, I will assign an Availability Impact of **N**.
+
+**Vector String:**
+Based on the above assessments, the vector string would be:
+```
+CVSS:3.1/AV:A/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:N
+```
+
+**Base Score:**
+Using the CVSS v3.1 base metric calculator, I calculate the base score to be **6.2**.
+
+Here is the output in JSON format:
+```json
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "H",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "N",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:N",
+  "base_score": 6.2
+}
+```
+Please note that this assessment is based solely on the provided vulnerability description and does not take into account any external knowledge or assumptions.

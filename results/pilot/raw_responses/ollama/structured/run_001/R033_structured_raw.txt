@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is Network-based (N) because the vulnerability can be exploited remotely by an authenticated attacker with Administrator-level access and above.
+
+**Attack Complexity (AC):**
+The attack complexity is Low (L) because the vulnerability requires minimal effort to exploit, as it only needs a simple SQL injection payload.
+
+**Privileges Required (PR):**
+The privileges required are High (H) because the attacker must have Administrator-level access or above to exploit this vulnerability.
+
+**User Interaction (UI):**
+There is No User Interaction (N) required for exploitation, as the attack can be performed automatically by an authenticated attacker.
+
+**Scope (S):**
+The scope of the impact is Unchanged (U), meaning that the vulnerability affects only the targeted system and does not spread to other systems or networks.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is High (H) because the vulnerability allows an attacker to extract sensitive information from the database, potentially leading to unauthorized access or data breaches.
+
+**Integrity Impact (I):**
+The integrity impact is High (H) because the vulnerability enables an attacker to modify existing queries and inject additional SQL code, which can lead to data tampering or corruption.
+
+**Availability Impact (A):**
+The availability impact is None (N) because the vulnerability does not directly affect system availability.
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "H",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N",
+  "base_score": 9.0
+}
+```
+
+The calculated base score is 9.0, indicating a High severity vulnerability.

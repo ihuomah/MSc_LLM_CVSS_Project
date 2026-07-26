@@ -1,0 +1,31 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: Network (N)
+The vulnerability allows unauthenticated attackers to craft arbitrary JWTs and access features that usually require authentication, which can be exploited remotely over a network.
+
+**Attack Complexity (AC)**: Low (L)
+The attack requires minimal complexity as it only involves crafting arbitrary JWTs and accessing features without requiring any additional steps or prerequisites.
+
+**Privileges Required (PR)**: None (N)
+The vulnerability does not require any privileges to exploit, as unauthenticated attackers can access the affected features.
+
+**User Interaction (UI)**: None (N)
+No user interaction is required to exploit this vulnerability, as it can be exploited automatically by an attacker.
+
+**Scope (S)**: Unchanged (U)
+The scope of the attack remains unchanged, as it affects all instances of Product Y that are vulnerable to this issue.
+
+**Confidentiality Impact (C)**: High (H)
+The vulnerability allows attackers to access features that usually require authentication and execute arbitrary commands as `root`, which can result in significant confidentiality impacts.
+
+**Integrity Impact (I)**: High (H)
+The vulnerability also allows attackers to execute arbitrary commands as `root`, which can result in significant integrity impacts, such as modifying or deleting sensitive data.
+
+**Availability Impact (A)**: Low (L)
+While the vulnerability could potentially be used to disrupt the availability of Product Y instances, it is not likely to have a significant impact on this aspect.
+
+**Vector String**: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L
+
+**Base Score**: 9.8 (rounded to one decimal place)
+
+Please note that the base score calculation is based solely on the provided vulnerability description and does not take into account any external knowledge or assumptions.

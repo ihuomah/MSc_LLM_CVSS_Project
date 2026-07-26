@@ -1,0 +1,5 @@
+Main Heavy Review Risk Flags
+============================
+Input rows: 1000
+Flagged rows: 16
+Output file: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\datasets\sanitised\review\main_heavy_review_risk_flags.xlsx

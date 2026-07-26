@@ -1,0 +1,51 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability is a PHP code injection issue in an audit logs controller, which can be exploited remotely without authentication (A). Therefore, the attack vector is set to "A".
+
+**Attack Complexity (AC):**
+The vulnerability requires minimal effort and expertise to exploit, as it involves injecting malicious code into a publicly accessible endpoint. Hence, the attack complexity is set to "L" (Low).
+
+**Privileges Required (PR):**
+No privileges are required to exploit this vulnerability, as an attacker can inject malicious code without authenticating or escalating their privileges. Therefore, the privileges required are set to "N" (None).
+
+**User Interaction (UI):**
+The vulnerability does not require user interaction to be exploited, as it is a remote code injection issue that can be triggered programmatically. Hence, the user interaction is set to "N" (No).
+
+**Scope (S):**
+The scope of this vulnerability is limited to the affected product and its components, with no potential for lateral movement or exploitation of other systems. Therefore, the scope is set to "U" (Unchanged).
+
+**Confidentiality Impact (C):**
+An attacker exploiting this vulnerability could potentially access sensitive information, such as audit logs, which could lead to confidentiality breaches. Hence, the confidentiality impact is set to "L" (Low).
+
+**Integrity Impact (I):**
+The integrity of the affected system or data could be compromised if an attacker injects malicious code, leading to potential data tampering or corruption. Therefore, the integrity impact is set to "H" (High).
+
+**Availability Impact (A):**
+An attacker exploiting this vulnerability could potentially cause a denial-of-service (DoS) or crash the affected system, affecting its availability. Hence, the availability impact is set to "L" (Low).
+
+**Vector String:**
+The CVSS v3.1 vector string for this vulnerability is:
+```
+CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:L
+```
+
+**Base Score:**
+Based on the calculated metrics, the base score for this vulnerability is 6.5.
+
+Here is the output in JSON format:
+
+```json
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:L",
+  "base_score": 6.5
+}
+```

@@ -1,0 +1,51 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is Remote Code Execution (RCE) without authentication, which can be achieved through NmApi.exe as a service account. This corresponds to "N" in the allowed values.
+
+**Attack Complexity (AC):**
+The attack complexity is Low, as an unauthenticated attacker can achieve RCE with minimal effort. This corresponds to "L" in the allowed values.
+
+**Privileges Required (PR):**
+No privileges are required for the attack, which corresponds to "N" in the allowed values.
+
+**User Interaction (UI):**
+No user interaction is required for the attack, which corresponds to "N" in the allowed values.
+
+**Scope (S):**
+The scope of the attack is Unchanged, as it affects the confidentiality, integrity, and availability of the system. This corresponds to "U" in the allowed values.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is High, as an attacker can gain unauthorized access to sensitive information. This corresponds to "H" in the allowed values.
+
+**Integrity Impact (I):**
+The integrity impact is High, as an attacker can modify or delete data without authorization. This corresponds to "H" in the allowed values.
+
+**Availability Impact (A):**
+The availability impact is High, as an attacker can cause a denial-of-service attack or disrupt system functionality. This corresponds to "H" in the allowed values.
+
+**Vector String:**
+Based on the above assessments, the vector string would be:
+```
+CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+```
+
+**Base Score:**
+Using the CVSS v3.1 base metric calculator, I calculate the base score to be 9.8.
+
+Here is the output in JSON format:
+```json
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "base_score": 9.8
+}
+```
+Please note that this assessment is based solely on the provided vulnerability description and does not take into account any external knowledge or assumptions.

@@ -1,0 +1,6 @@
+EPSS Coverage Report
+================================================================================
+Pilot records: 50
+Has EPSS: 50
+Missing EPSS: 0
+Coverage: 100.00%

@@ -1,0 +1,69 @@
+================================================================================
+Starting Main Study EPSS enrichment
+================================================================================
+Input file: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\datasets\raw\main_candidate_pool_raw.parquet
+EPSS URL: https://epss.cyentia.com/epss_scores-current.csv.gz
+EPSS local file: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\datasets\raw\epss\epss_scores-current.csv.gz
+Enrichment timestamp: 2026-06-20T00:03:07Z
+
+Loading candidate pool...
+Candidate pool rows: 134789
+
+Downloading EPSS snapshot...
+Loading EPSS snapshot...
+EPSS rows loaded: 341602
+
+Merging EPSS with candidate pool...
+
+Saving enriched outputs...
+================================================================================
+EPSS Enrichment Summary
+================================================================================
+
+Overall EPSS coverage:
+ total_records  has_epss  missing_epss  coverage_percent
+        134789    134789             0             100.0
+
+EPSS coverage by severity:
+official_severity  total_records  has_epss  missing_epss  coverage_percent
+         CRITICAL          18415     18415             0             100.0
+             HIGH          49563     49563             0             100.0
+              LOW           2946      2946             0             100.0
+           MEDIUM          63865     63865             0             100.0
+
+EPSS coverage by year:
+ published_year  total_records  has_epss  missing_epss  coverage_percent
+           2023          28669     28669             0             100.0
+           2024          38769     38769             0             100.0
+           2025          43925     43925             0             100.0
+           2026          23426     23426             0             100.0
+
+EPSS coverage by CVSS selection method:
+   cvss_selection_method  total_records  has_epss  missing_epss  coverage_percent
+fallback_first_available          59933     59933             0             100.0
+              nvd_source            599       599             0             100.0
+            primary_type          74257     74257             0             100.0
+
+NVD-grounded EPSS coverage:
+ total_records  has_epss  missing_epss  coverage_percent
+         74856     74856             0             100.0
+
+NVD-grounded EPSS coverage by severity:
+official_severity  total_records  has_epss  missing_epss  coverage_percent
+         CRITICAL          12270     12270             0             100.0
+             HIGH          26242     26242             0             100.0
+              LOW           1087      1087             0             100.0
+           MEDIUM          35257     35257             0             100.0
+
+NVD-grounded LOW severity EPSS coverage:
+ total_records  has_epss  missing_epss  coverage_percent
+          1087      1087             0             100.0
+
+Outputs:
+Enriched Parquet: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\datasets\processed\main_candidate_pool_with_epss.parquet
+Enriched CSV: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\datasets\processed\main_candidate_pool_with_epss.csv
+Coverage summary workbook: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\audit\main_epss_coverage_summary.xlsx
+EPSS enrichment log: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\audit\main_epss_enrichment_log.txt
+================================================================================
+Main Study EPSS enrichment complete
+================================================================================

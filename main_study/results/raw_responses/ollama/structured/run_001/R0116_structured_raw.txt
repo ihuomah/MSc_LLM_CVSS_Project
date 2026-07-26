@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack may be initiated remotely, so I will set AV to "A".
+
+**Attack Complexity (AC):**
+The complexity of an attack is rather high, so I will set AC to "H".
+
+**Privileges Required (PR):**
+No privileges are required for the exploitation, so I will set PR to "N".
+
+**User Interaction (UI):**
+The attack may be initiated remotely and does not require user interaction, so I will set UI to "N".
+
+**Scope (S):**
+The scope of the impact is limited to confidentiality, integrity, and availability, so I will set S to "U".
+
+**Confidentiality Impact (C):**
+The issue affects the function actionCreate, which may lead to code injection. This could potentially compromise sensitive information, so I will set C to "H".
+
+**Integrity Impact (I):**
+The issue also has the potential to compromise the integrity of the system by allowing code injection, so I will set I to "H".
+
+**Availability Impact (A):**
+The attack may be initiated remotely and does not require user interaction, which could potentially impact the availability of the system. However, since the complexity is high, I will set A to "L" (low).
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "H",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L",
+  "base_score": 8.5
+}
+```
+
+The calculated base score is 8.5.

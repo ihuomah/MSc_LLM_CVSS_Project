@@ -1,0 +1,50 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability allows authenticated users to change appointments of arbitrary users via conflicting ID numbers. This can be exploited by an attacker who has already gained access to the system. Therefore, the attack vector is **A** (Network).
+
+**Attack Complexity (AC):**
+The vulnerability requires some level of expertise and knowledge about the system's behavior. However, it does not require any unusual or unexpected interactions with the system. Therefore, the attack complexity is **L** (Low).
+
+**Privileges Required (PR):**
+An attacker needs to have already gained access to the system as an authenticated user. Therefore, the privileges required are **L** (Low).
+
+**User Interaction (UI):**
+The vulnerability can be exploited without any user interaction. The attacker only needs to manipulate the ID numbers to change appointments. Therefore, the user interaction is **N** (None).
+
+**Scope (S):**
+The vulnerability affects the confidentiality, integrity, and availability of the system. Therefore, the scope is **C** (Changed).
+
+**Confidentiality Impact (C):**
+An attacker can gain unauthorized access to sensitive information by changing appointments. The impact on confidentiality is **H** (High).
+
+**Integrity Impact (I):**
+The vulnerability allows an attacker to modify data without authorization, which affects the integrity of the system. The impact on integrity is also **H** (High).
+
+**Availability Impact (A):**
+An attacker can cause a denial-of-service by changing appointments and disrupting the normal functioning of the system. The impact on availability is **L** (Low).
+
+**Vector String:**
+The vector string is:
+```
+CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:L
+```
+
+**Base Score:**
+Based on the CVSS v3.1 base metric, the calculated score is **7.5**.
+
+Here is the output in JSON format:
+```json
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "L",
+  "user_interaction": "N",
+  "scope": "C",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:L",
+  "base_score": 7.5
+}
+```

@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is "A" because an attacker requires access to a valid deploy key for a repository in the organization as well as repository administrator access.
+
+**Attack Complexity (AC):**
+The attack complexity is "L" because the attacker needs to obtain a valid deploy key and have repository administrator access, which may require some level of expertise or knowledge.
+
+**Privileges Required (PR):**
+The privileges required are "H" because an attacker requires high-level privileges, such as repository administrator access, to exploit this vulnerability.
+
+**User Interaction (UI):**
+The user interaction is "N" because the attack can be performed without any user interaction.
+
+**Scope (S):**
+The scope is "U" because the attack affects a single system or network segment.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is "H" because an attacker could potentially access sensitive information, such as deploy keys and repository data.
+
+**Integrity Impact (I):**
+The integrity impact is "H" because an attacker could potentially modify or delete sensitive information, such as code or configuration files.
+
+**Availability Impact (A):**
+The availability impact is "N" because the attack does not affect the overall availability of the system or network.
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "H",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N",
+  "base_score": 9.0
+}
+```
+
+The calculated base score is 9.0, indicating a high severity vulnerability.

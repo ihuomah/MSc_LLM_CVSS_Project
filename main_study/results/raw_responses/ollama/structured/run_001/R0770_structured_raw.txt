@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack may be initiated remotely, so I will set AV to "A".
+
+**Attack Complexity (AC):**
+The exploit has been made public and could be used, which indicates a relatively low complexity of exploitation. Therefore, I will set AC to "L".
+
+**Privileges Required (PR):**
+No privileges are required for the attack, as it can be initiated remotely. So, I will set PR to "N".
+
+**User Interaction (UI):**
+The attack may be initiated remotely, which means no user interaction is required. Therefore, I will set UI to "N".
+
+**Scope (S):**
+The scope of the impact is limited to the affected component, Delete Request Handler. Since it's a remote attack, the scope is not system-wide. So, I will set S to "U" for User.
+
+**Confidentiality Impact (C):**
+The vulnerability allows path traversal, which could potentially lead to unauthorized access or data disclosure. Therefore, I will set C to "H".
+
+**Integrity Impact (I):**
+The attack may allow an attacker to manipulate the system, which could compromise the integrity of the affected component. So, I will set I to "H".
+
+**Availability Impact (A):**
+The vulnerability could potentially lead to a denial-of-service (DoS) or a disruption in service. Therefore, I will set A to "L".
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L",
+  "base_score": 7.5
+}
+```
+
+The calculated base score is 7.5, indicating a high severity vulnerability.

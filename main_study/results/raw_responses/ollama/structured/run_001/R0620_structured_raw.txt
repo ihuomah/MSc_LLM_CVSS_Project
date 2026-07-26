@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability is a stack overflow in the formexeCommand function, which can be exploited remotely. Therefore, I assign an attack vector of **A** (Network).
+
+**Attack Complexity (AC):**
+The vulnerability requires no special privileges or user interaction to exploit. It can be exploited by sending a crafted packet to the affected system. Hence, I assign an attack complexity of **L** (Low).
+
+**Privileges Required (PR):**
+No special privileges are required to exploit this vulnerability. Therefore, I assign a privilege requirement of **N** (None).
+
+**User Interaction (UI):**
+No user interaction is required to exploit this vulnerability. It can be exploited automatically by sending a crafted packet. Hence, I assign a user interaction of **N** (None).
+
+**Scope (S):**
+The scope of the vulnerability is **U** (Unchanged), as it affects only the affected system.
+
+**Confidentiality Impact (C):**
+If exploited, this vulnerability could potentially allow an attacker to execute arbitrary code on the affected system. This could lead to unauthorized access or data modification. Therefore, I assign a confidentiality impact of **H** (High).
+
+**Integrity Impact (I):**
+The integrity of the affected system could be compromised if this vulnerability is exploited. An attacker could modify or delete sensitive data. Hence, I assign an integrity impact of **H** (High).
+
+**Availability Impact (A):**
+If exploited, this vulnerability could potentially cause a denial-of-service (DoS) or crash the affected system. Therefore, I assign an availability impact of **H** (High).
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "base_score": 9.8
+}
+```
+
+Please note that the base score is calculated based on the provided vulnerability description and may not reflect the actual severity of the vulnerability in a real-world scenario.

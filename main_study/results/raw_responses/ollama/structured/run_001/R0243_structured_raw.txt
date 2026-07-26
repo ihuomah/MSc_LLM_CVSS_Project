@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is "A" because an unauthenticated attacker can exploit this reflected Cross-Site Scripting (XSS) vulnerability.
+
+**Attack Complexity (AC):**
+The attack complexity is "L" because the attacker only needs to convince a victim to visit a URL referencing a vulnerable page, which requires minimal effort and expertise.
+
+**Privileges Required (PR):**
+No privileges are required for this attack, so it's "N".
+
+**User Interaction (UI):**
+The attack requires user interaction ("R") because an unauthenticated attacker must convince the victim to visit the malicious URL.
+
+**Scope (S):**
+The scope is "U" because the vulnerability affects a single system or application.
+
+**Confidentiality Impact (C):**
+There is no impact on confidentiality, so it's "N".
+
+**Integrity Impact (I):**
+There is some impact on integrity ("L") because an attacker can execute malicious JavaScript content within the context of the victim's browser.
+
+**Availability Impact (A):**
+There is no impact on availability, so it's "N".
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "R",
+  "scope": "U",
+  "confidentiality_impact": "N",
+  "integrity_impact": "L",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+  "base_score": 4.0
+}
+```
+
+The base score is 4.0, indicating a moderate severity vulnerability.

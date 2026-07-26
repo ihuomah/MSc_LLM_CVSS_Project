@@ -1,0 +1,36 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The vulnerability allows Local Execution of Code, which means an attacker can execute code with the same level of access as the target system. Therefore, the attack vector is **L**ocal.
+
+**Attack Complexity (AC)**: The vulnerability requires no special skills or knowledge to exploit, making it relatively easy to do so. Therefore, the attack complexity is **L**ow.
+
+**Privileges Required (PR)**: An attacker can execute code with the same level of access as the target system, which means they require **L**ocal privileges.
+
+**User Interaction (UI)**: The vulnerability does not require any user interaction to exploit, making it a non-interactive attack. Therefore, the user interaction is **N**one.
+
+**Scope (S)**: The vulnerability affects the Product Y and its Community Edition, which are both local systems. Therefore, the scope is **U**nchanged.
+
+**Confidentiality Impact (C)**: An attacker can execute code with the same level of access as the target system, which means they can potentially access sensitive information. Therefore, the confidentiality impact is **H**igh.
+
+**Integrity Impact (I)**: An attacker can execute code with the same level of access as the target system, which means they can potentially modify or delete data. Therefore, the integrity impact is **H**igh.
+
+**Availability Impact (A)**: An attacker can execute code with the same level of access as the target system, which means they can potentially cause a denial-of-service attack. Therefore, the availability impact is **H**igh.
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "L",
+  "attack_complexity": "L",
+  "privileges_required": "L",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "base_score": 9.8
+}
+```
+
+Note that the base score is calculated based on the provided vulnerability description and may not reflect the actual severity of the vulnerability in a real-world scenario.

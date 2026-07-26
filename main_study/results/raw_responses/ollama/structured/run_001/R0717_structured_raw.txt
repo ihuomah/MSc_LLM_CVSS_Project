@@ -1,0 +1,51 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The vulnerability allows an unauthenticated attacker to inject an SQL statement, which can be executed without any user interaction. Therefore, the attack vector is **A** (Network).
+
+**Attack Complexity (AC)**: The vulnerability requires minimal effort and expertise from the attacker, as it only involves injecting a simple SQL query. Hence, the attack complexity is **L** (Low).
+
+**Privileges Required (PR)**: No privileges are required to exploit this vulnerability, as an unauthenticated attacker can inject the SQL statement. Therefore, the privileges required are **N** (None).
+
+**User Interaction (UI)**: As mentioned earlier, no user interaction is required to exploit this vulnerability. Hence, the user interaction is **N** (None).
+
+**Scope (S)**: The scope of the impact is limited to the database and its contents. Therefore, the scope is **U** (Unchanged).
+
+**Confidentiality Impact (C)**: An attacker can obtain sensitive information from the database, which could lead to confidentiality breaches. Hence, the confidentiality impact is **H** (High).
+
+**Integrity Impact (I)**: An attacker can modify or delete data in the database, which could lead to integrity breaches. Therefore, the integrity impact is also **H** (High).
+
+**Availability Impact (A)**: The vulnerability could potentially cause the database to become unavailable or slow down its performance, leading to availability breaches. Hence, the availability impact is **L** (Low).
+
+Here's the calculated CVSS v3.1 base metric:
+
+`CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L`
+
+The base score is calculated as follows:
+
+* Attack Vector (AV): 9.8
+* Attack Complexity (AC): 2.5
+* Privileges Required (PR): 0.4
+* User Interaction (UI): 0.1
+* Scope (S): 0.6
+* Confidentiality Impact (C): 7.3
+* Integrity Impact (I): 7.3
+* Availability Impact (A): 2.5
+
+Base Score: **8.9**
+
+Here's the output in JSON format:
+
+```json
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L",
+  "base_score": 8.9
+}
+```

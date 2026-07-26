@@ -1,0 +1,51 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is "A" because it requires an authenticated attacker to execute arbitrary code on the operating system via a Common Management Portal web interface Path traversal vulnerability allowing write access outside the intended folders.
+
+**Attack Complexity (AC):**
+The attack complexity is "L" because the attack requires some degree of expertise and knowledge about the affected product and its vulnerabilities.
+
+**Privileges Required (PR):**
+The privileges required are "N" because an authenticated attacker can execute arbitrary code on the operating system without requiring any additional privileges.
+
+**User Interaction (UI):**
+The user interaction is "R" because the attack requires some form of user interaction, such as clicking a link or submitting a form, to trigger the vulnerability.
+
+**Scope (S):**
+The scope is "U" because the attack affects the confidentiality, integrity, and availability of the operating system.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is "H" because an authenticated attacker can execute arbitrary code on the operating system, which could potentially lead to unauthorized access or disclosure of sensitive information.
+
+**Integrity Impact (I):**
+The integrity impact is "H" because an authenticated attacker can execute arbitrary code on the operating system, which could potentially lead to unauthorized modification or deletion of data.
+
+**Availability Impact (A):**
+The availability impact is "H" because an authenticated attacker can execute arbitrary code on the operating system, which could potentially lead to denial-of-service attacks or other forms of disruption.
+
+**Vector String:**
+The vector string is:
+```
+CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+```
+
+**Base Score:**
+Based on the CVSS v3.1 base metric, the calculated score is 9.8.
+
+Here is the output in JSON format:
+```json
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "R",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "base_score": 9.8
+}
+```
+Note that the output is a single JSON object, as required by the task constraints.

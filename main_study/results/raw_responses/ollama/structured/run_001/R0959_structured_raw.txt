@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is Network (N) because an attacker can upload a malicious piece of media to the media repository and then serve it with `Content-Disposition: inline` upon download.
+
+**Attack Complexity (AC):**
+The attack complexity is Low (L) because the vulnerability can be exploited by uploading a malicious file, which does not require sophisticated techniques or tools.
+
+**Privileges Required (PR):**
+No privileges are required (N) to exploit this vulnerability, as an attacker can upload and serve the malicious media without any special permissions.
+
+**User Interaction (UI):**
+The user interaction is None (N) because the attack can be performed automatically, without requiring any human intervention.
+
+**Scope (S):**
+The scope of the impact is Changed (C) because the vulnerability allows an attacker to execute scripts embedded in SVG content, which can lead to further attacks or data breaches.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is High (H) because an attacker can access and manipulate sensitive information, such as user credentials or confidential data.
+
+**Integrity Impact (I):**
+The integrity impact is High (H) because the vulnerability allows an attacker to execute scripts embedded in SVG content, which can lead to data breaches or system compromise.
+
+**Availability Impact (A):**
+The availability impact is None (N) because the attack does not directly affect the availability of the system or service.
+
+Here is the output in JSON format:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "C",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N",
+  "base_score": 9.0
+}
+```
+
+Note that the base score is calculated based on the CVSS v3.1 guidelines and may vary depending on the specific circumstances of the vulnerability.

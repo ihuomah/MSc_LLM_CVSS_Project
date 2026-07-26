@@ -1,0 +1,43 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: N (Network)
+The vulnerability can be exploited over a network.
+* **Attack Complexity (AC)**: L (Low)
+An attacker with low skill level can exploit this vulnerability.
+* **Privileges Required (PR)**: L (Low)
+A user with low privileges can exploit this vulnerability.
+* **User Interaction (UI)**: N (None)
+No user interaction is required to exploit this vulnerability.
+* **Scope (S)**: U (Unchanged)
+The scope of the impact remains unchanged.
+* **Confidentiality Impact (C)**: N (None)
+There is no confidentiality impact.
+* **Integrity Impact (I)**: L (Low)
+The integrity of the system can be affected, but not severely.
+* **Availability Impact (A)**: H (High)
+The availability of the object lock can be significantly impacted.
+
+**Vector String**
+CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H
+
+**Base Score**
+9.0
+
+Here is the output in JSON format:
+
+```json
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "L",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "N",
+  "integrity_impact": "L",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H",
+  "base_score": 9.0
+}
+```

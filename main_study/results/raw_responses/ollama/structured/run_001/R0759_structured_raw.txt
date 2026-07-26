@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability is a DLL hijacking issue, which typically requires network access (N) to exploit.
+
+**Attack Complexity (AC):**
+The attack complexity is considered low (L), as an attacker can easily manipulate the Windows Installer to load a malicious DLL.
+
+**Privileges Required (PR):**
+No privileges are required (N) for an attacker to exploit this vulnerability, as it can be triggered by a normal user.
+
+**User Interaction (UI):**
+No user interaction is required (N) to exploit this vulnerability, as it can be triggered automatically.
+
+**Scope (S):**
+The scope of the impact is limited to confidentiality (C), integrity (I), and availability (A).
+
+**Confidentiality Impact (C):**
+The confidentiality impact is low (L), as an attacker may only gain access to non-sensitive information.
+
+**Integrity Impact (I):**
+The integrity impact is also low (L), as an attacker may only be able to modify or delete files, but not create new ones.
+
+**Availability Impact (A):**
+The availability impact is low (L), as the vulnerability does not directly affect system availability.
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "C",
+  "confidentiality_impact": "L",
+  "integrity_impact": "L",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:L",
+  "base_score": 2.0
+}
+```
+
+The base score is 2.0, indicating a low severity vulnerability.

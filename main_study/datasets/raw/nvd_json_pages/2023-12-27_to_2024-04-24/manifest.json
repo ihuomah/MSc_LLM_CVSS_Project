@@ -1,0 +1,17 @@
+{
+  "window_start": "2023-12-27",
+  "window_end": "2024-04-24",
+  "total_results": 12321,
+  "downloaded_pages": [
+    0,
+    2000,
+    4000,
+    6000,
+    8000,
+    10000,
+    12000
+  ],
+  "records_downloaded_so_far": 12321,
+  "complete": true,
+  "last_updated_utc": "2026-06-19T20:33:40Z"
+}

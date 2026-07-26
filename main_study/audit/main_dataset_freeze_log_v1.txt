@@ -1,0 +1,16 @@
+================================================================================
+Main Sanitised Dataset Freeze
+================================================================================
+Input file: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\datasets\sanitised\main_dataset_sanitised_manual_v1.parquet
+Rows frozen: 1000
+
+Frozen Parquet: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\datasets\frozen\main_dataset_sanitised_final_v1.parquet
+Frozen CSV: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\datasets\frozen\main_dataset_sanitised_final_v1.csv
+Frozen XLSX: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\datasets\frozen\main_dataset_sanitised_final_v1.xlsx
+
+Validation:
+- Row count verified
+- Required columns verified
+- Manual sanitisation validation passed
+
+Status: FROZEN

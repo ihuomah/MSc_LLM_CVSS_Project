@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability allows attackers to get unresettable identifiers, which can be exploited remotely without requiring any user interaction. Therefore, I assign an attack vector of **A** (Network).
+
+**Attack Complexity (AC):**
+The vulnerability requires no special privileges or knowledge to exploit, making it relatively easy to do so. Hence, I assign an attack complexity of **L** (Low).
+
+**Privileges Required (PR):**
+No special privileges are required to exploit this vulnerability, so I assign a value of **N** (None).
+
+**User Interaction (UI):**
+The vulnerability can be exploited without requiring any user interaction, making it a **R** (Remote) attack.
+
+**Scope (S):**
+The scope of the vulnerability is limited to the affected system or network, making it an **U** (Unchanged) impact.
+
+**Confidentiality Impact (C):**
+The exposure of sensitive information could lead to confidentiality breaches. I assign a value of **H** (High).
+
+**Integrity Impact (I):**
+The vulnerability could allow attackers to manipulate data or modify system configurations, leading to integrity breaches. I assign a value of **H** (High).
+
+**Availability Impact (A):**
+The vulnerability does not directly affect the availability of the affected system or network, so I assign a value of **N** (None).
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "R",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+  "base_score": 8.0
+}
+```
+
+The calculated base score is **8.0**.

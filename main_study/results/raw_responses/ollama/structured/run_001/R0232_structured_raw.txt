@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability allows local attackers to read sdcard information, which indicates a **L**ocal attack vector.
+
+**Attack Complexity (AC):**
+The vulnerability requires no special skills or knowledge, making it an **L**ow complexity attack.
+
+**Privileges Required (PR):**
+No privileges are required for the attacker to exploit this vulnerability, so it's rated as **N**one.
+
+**User Interaction (UI):**
+No user interaction is required to exploit this vulnerability, so it's rated as **N**one.
+
+**Scope (S):**
+The scope of this vulnerability is limited to a single system or device, making it an **U**nchanged scope.
+
+**Confidentiality Impact (C):**
+The vulnerability allows reading sdcard information, which could potentially lead to the disclosure of sensitive data. I rate this impact as **L**ow.
+
+**Integrity Impact (I):**
+The vulnerability does not allow modification or destruction of data, so it's rated as **N**one.
+
+**Availability Impact (A):**
+The vulnerability does not affect system availability, so it's rated as **N**one.
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "L",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "N",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+  "base_score": 2.9
+}
+```
+
+The calculated base score is **2.9**.

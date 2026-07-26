@@ -1,0 +1,16 @@
+{
+  "window_start": "2023-01-01",
+  "window_end": "2023-04-30",
+  "total_results": 10182,
+  "downloaded_pages": [
+    0,
+    2000,
+    4000,
+    6000,
+    8000,
+    10000
+  ],
+  "records_downloaded_so_far": 10182,
+  "complete": true,
+  "last_updated_utc": "2026-06-19T20:10:46Z"
+}

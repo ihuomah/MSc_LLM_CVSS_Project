@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability is an SQL Injection attack, which can be exploited remotely without authentication (A). Therefore, the Attack Vector is set to "N".
+
+**Attack Complexity (AC):**
+The attack requires some degree of expertise and knowledge of SQL injection techniques, but it does not require any special tools or resources. Hence, the Attack Complexity is set to "L" (Low).
+
+**Privileges Required (PR):**
+No privileges are required to exploit this vulnerability, as an attacker can inject malicious SQL code without authenticating or having elevated permissions. Therefore, the Privileges Required is set to "N".
+
+**User Interaction (UI):**
+The attack does not require user interaction, as it can be exploited automatically by sending a crafted request. Hence, the User Interaction is set to "N".
+
+**Scope (S):**
+The scope of this vulnerability is limited to the affected system or network (U). Therefore, the Scope is set to "U".
+
+**Confidentiality Impact (C):**
+An attacker could potentially access sensitive data, such as financial information, which would have a moderate impact on confidentiality. Hence, the Confidentiality Impact is set to "L" (Low).
+
+**Integrity Impact (I):**
+An attacker could modify or delete data, which would have a high impact on integrity. Therefore, the Integrity Impact is set to "H".
+
+**Availability Impact (A):**
+An attacker could potentially cause a denial-of-service (DoS) or crash the system, which would have a moderate impact on availability. Hence, the Availability Impact is set to "L" (Low).
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:L",
+  "base_score": 6.2
+}
+```
+
+The calculated base score is 6.2, indicating a moderate severity vulnerability.

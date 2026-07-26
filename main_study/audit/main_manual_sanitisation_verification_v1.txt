@@ -1,0 +1,14 @@
+================================================================================
+Manual Sanitisation Verification
+================================================================================
+                                              check  result                          details
+                                  row_count_is_1000    True                        rows=1000
+                           final_description_exists    True final_description column present
+                         final_description_no_nulls    True                          nulls=0
+                 final_description_no_empty_strings    True                          empty=0
+                      manual_redacted_column_exists    True manually_redacted column present
+                          manual_redactions_applied    True       manually_redacted_count=25
+reviewed_find_text_not_present_in_final_description    True   remaining_reviewed_find_text=0
+
+Verification workbook: C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\audit\main_manual_sanitisation_verification_v1.xlsx
+No reviewed find_text values remain in final_description.

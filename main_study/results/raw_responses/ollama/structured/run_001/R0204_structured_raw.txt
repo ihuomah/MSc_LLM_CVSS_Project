@@ -1,0 +1,36 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The attack vector is "A" because it requires a network-based attack to social engineer victims into cloning non-trusted code.
+
+**Attack Complexity (AC)**: The attack complexity is "L" because the attack requires some degree of expertise and knowledge about the product's behavior, but not extremely complex or difficult to execute.
+
+**Privileges Required (PR)**: The privileges required are "N" because no special privileges are needed to exploit this vulnerability.
+
+**User Interaction (UI)**: The user interaction is "R" because an attacker can manipulate the victim into performing the attack without any direct interaction with the system.
+
+**Scope (S)**: The scope is "U" because the attack affects only a single system or process.
+
+**Confidentiality Impact (C)**: The confidentiality impact is "L" because the vulnerability could potentially allow an attacker to access sensitive information, but not extremely sensitive data.
+
+**Integrity Impact (I)**: The integrity impact is "H" because the vulnerability could potentially allow an attacker to modify or delete sensitive data.
+
+**Availability Impact (A)**: The availability impact is "N" because the vulnerability does not affect the system's overall availability.
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "R",
+  "scope": "U",
+  "confidentiality_impact": "L",
+  "integrity_impact": "H",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:L/I:H/A:N",
+  "base_score": 7.5
+}
+```
+
+Note that the base score is calculated based on the provided metrics and follows the CVSS v3.1 scoring guidelines.

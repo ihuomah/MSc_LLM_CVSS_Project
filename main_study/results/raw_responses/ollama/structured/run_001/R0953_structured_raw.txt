@@ -1,0 +1,16 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: The vulnerability allows an arbitrary user to change their role to "admin", which can be exploited remotely (A). Therefore, the attack vector is set to A.
+* **Attack Complexity (AC)**: The vulnerability requires minimal effort and expertise from the attacker, as it only involves changing a user's role. Hence, the attack complexity is set to L.
+* **Privileges Required (PR)**: An arbitrary user can exploit this vulnerability without requiring any special privileges. Therefore, the privileges required are set to N.
+* **User Interaction (UI)**: The vulnerability does not require any user interaction; an attacker can exploit it automatically. Hence, the user interaction is set to N.
+* **Scope (S)**: The scope of the vulnerability is limited to the blog app itself (U).
+* **Confidentiality Impact (C)**: An attacker with "admin" privileges can access and modify sensitive data, such as user information and posts. Therefore, the confidentiality impact is set to H.
+* **Integrity Impact (I)**: The integrity of the system is affected, as an attacker with "admin" privileges can delete users, posts, and comments. Hence, the integrity impact is set to H.
+* **Availability Impact (A)**: The availability of the system is not directly impacted by this vulnerability.
+
+**Vector String**
+
+The vector string will be in the format "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N".

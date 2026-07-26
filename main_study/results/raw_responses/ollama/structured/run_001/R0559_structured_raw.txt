@@ -1,0 +1,52 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is remote, as it is possible to launch the attack remotely. Therefore, I will set AV to "A".
+
+**Attack Complexity (AC):**
+The complexity of the attack is low, as the manipulation of an argument name leads to OS command injection. Therefore, I will set AC to "L".
+
+**Privileges Required (PR):**
+No privileges are required for the exploitation of this vulnerability. Therefore, I will set PR to "N".
+
+**User Interaction (UI):**
+The exploit can be launched without user interaction. Therefore, I will set UI to "N".
+
+**Scope (S):**
+The scope is unchanged, as the vulnerability affects an unknown function of a file. Therefore, I will set S to "U".
+
+**Confidentiality Impact (C):**
+The confidentiality impact is high, as the vulnerability allows for OS command injection. Therefore, I will set C to "H".
+
+**Integrity Impact (I):**
+The integrity impact is also high, as the vulnerability allows for OS command injection. Therefore, I will set I to "H".
+
+**Availability Impact (A):**
+The availability impact is high, as the vulnerability allows for OS command injection. Therefore, I will set A to "H".
+
+**Vector String:**
+Based on the above assessments, the vector string will be:
+"CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+
+**Base Score:**
+The base score is calculated based on the vector string and the CVSS v3.1 formula. The result is:
+9.8
+
+Here is the output in JSON format:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "base_score": 9.8
+}
+```
+
+Please note that this assessment is based solely on the provided vulnerability description and does not take into account any external knowledge or assumptions.

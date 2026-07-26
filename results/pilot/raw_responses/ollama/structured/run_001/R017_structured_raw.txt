@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is Network-based (N) as the attacker can send requests to arbitrary hosts/paths without any user interaction.
+
+**Attack Complexity (AC):**
+The attack complexity is Low (L) because the vulnerability requires minimal effort and expertise from the attacker.
+
+**Privileges Required (PR):**
+No privileges are required (N) for an attacker to exploit this vulnerability, as it can be exploited by sending requests to arbitrary hosts/paths.
+
+**User Interaction (UI):**
+No user interaction is required (N) for an attacker to exploit this vulnerability, as it can be exploited through automated means.
+
+**Scope (S):**
+The scope of the attack is Unchanged (U) because the vulnerability allows attackers to send requests to arbitrary hosts/paths, which may not affect the confidentiality or integrity of data.
+
+**Confidentiality Impact (C):**
+The impact on confidentiality is None (N) as the attacker cannot read the response and therefore cannot obtain sensitive information.
+
+**Integrity Impact (I):**
+The impact on integrity is None (N) because the vulnerability does not allow attackers to modify or delete data.
+
+**Availability Impact (A):**
+The impact on availability is Low (L) because an attacker could potentially use this vulnerability to scan the internal network, which may cause a minor disruption.
+
+Here's the output in JSON format:
+
+```json
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "N",
+  "integrity_impact": "N",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+  "base_score": 2.0
+}
+```
+
+The base score is calculated based on the CVSS v3.1 guidelines and is equal to 2.0.

@@ -1,0 +1,36 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: Network-adjacent attackers can exploit this vulnerability without any physical interaction with the device. Therefore, the attack vector is **A** (Network).
+
+**Attack Complexity (AC)**: The vulnerability requires no special privileges or knowledge to exploit. An attacker only needs to be able to send a crafted packet to the affected router. Hence, the attack complexity is **L** (Low).
+
+**Privileges Required (PR)**: To exploit this vulnerability, an attacker does not need any specific privileges. They can execute arbitrary code in the context of root. Therefore, the privileges required are **H** (High).
+
+**User Interaction (UI)**: No user interaction is required to exploit this vulnerability. An attacker can send a crafted packet to the affected router without any human intervention. Hence, the user interaction is **N** (None).
+
+**Scope (S)**: The scope of this vulnerability is **U** (Unchanged), as it affects only the targeted device and does not propagate to other devices or systems.
+
+**Confidentiality Impact (C)**: An attacker can execute arbitrary code in the context of root, which means they can potentially access sensitive information. Therefore, the confidentiality impact is **H** (High).
+
+**Integrity Impact (I)**: The vulnerability allows an attacker to execute arbitrary code, which means they can modify or delete data on the affected device. Hence, the integrity impact is also **H** (High).
+
+**Availability Impact (A)**: An attacker can potentially crash or freeze the affected device, leading to a denial-of-service condition. Therefore, the availability impact is **H** (High).
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "H",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "H",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+  "base_score": 9.8
+}
+```
+
+The calculated base score is **9.8**.

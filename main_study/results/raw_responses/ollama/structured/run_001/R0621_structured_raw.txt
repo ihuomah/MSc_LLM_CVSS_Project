@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is "A" because the attacker can compromise an expired key to forge requests and PDUs with timestamps past the expiry date, which allows them to interact with the remote server without physical access.
+
+**Attack Complexity (AC):**
+The attack complexity is "L" because the attacker only needs to obtain an expired key to exploit this vulnerability. The complexity of obtaining the key might vary depending on the environment, but it's not extremely difficult or complex.
+
+**Privileges Required (PR):**
+The privileges required are "N" because the attacker can exploit this vulnerability without requiring any special privileges or access levels.
+
+**User Interaction (UI):**
+The user interaction is "R" because an attacker needs to interact with the remote server to forge requests and PDUs, which requires some level of human intervention or automated tooling.
+
+**Scope (S):**
+The scope is "U" because the vulnerability affects a single system or component, rather than multiple systems or networks.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is "H" because an attacker can forge requests and PDUs with timestamps past the expiry date, which could lead to unauthorized access to sensitive information.
+
+**Integrity Impact (I):**
+The integrity impact is "H" because an attacker can modify or manipulate PDUs with timestamps past the expiry date, which could lead to data tampering or corruption.
+
+**Availability Impact (A):**
+The availability impact is "L" because while an attacker can exploit this vulnerability to forge requests and PDUs, it's not likely to cause a significant denial-of-service or disruption of service.
+
+Here is the calculated CVSS v3.1 base metric:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "R",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:L",
+  "base_score": 7.5
+}
+```
+
+Please note that this assessment is based solely on the provided vulnerability description and does not take into account any external knowledge, vendor or product information, or assumptions that may not be supported by available data.

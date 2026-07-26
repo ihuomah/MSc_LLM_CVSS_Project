@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is "P" because an attacker can create a cloned tag via brief physical proximity to the original device.
+
+**Attack Complexity (AC):**
+The attack complexity is "L" because the attack requires some skill and knowledge, but not extremely complex or difficult to execute.
+
+**Privileges Required (PR):**
+No privileges are required for this vulnerability, so it's "N".
+
+**User Interaction (UI):**
+No user interaction is required for this vulnerability, so it's "N".
+
+**Scope (S):**
+The scope of the impact is "U" because the vulnerability affects a single system or device.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is "H" because an attacker can create a cloned tag, which could potentially lead to unauthorized access or data theft.
+
+**Integrity Impact (I):**
+The integrity impact is "H" because an attacker can create a cloned tag, which could potentially lead to unauthorized modifications or tampering with the device.
+
+**Availability Impact (A):**
+The availability impact is "L" because while the vulnerability could potentially lead to some disruption or denial of service, it's not likely to have a significant impact on the overall system availability.
+
+Here is the output in JSON format:
+
+```
+{
+  "attack_vector": "P",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L",
+  "base_score": 7.5
+}
+```
+
+Note that the base score is calculated based on the CVSS v3.1 guidelines and is subject to change depending on additional information or further analysis.

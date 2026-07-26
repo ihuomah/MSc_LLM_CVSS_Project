@@ -1,0 +1,39 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The vulnerability is a Stored XSS, which can be exploited by an attacker without requiring any user interaction. Therefore, the attack vector is **A** (Network).
+
+**Attack Complexity (AC)**: The vulnerability requires minimal effort to exploit, as it only needs a stored malicious payload. Hence, the attack complexity is **L** (Low).
+
+**Privileges Required (PR)**: No privileges are required to exploit this vulnerability, as an attacker can simply inject malicious code into the affected product. Therefore, the privileges required are **N** (None).
+
+**User Interaction (UI)**: As mentioned earlier, no user interaction is required to exploit this vulnerability. Hence, the user interaction is **N** (None).
+
+**Scope (S)**: The scope of this vulnerability is **U** (Unchanged), as it affects the confidentiality, integrity, and availability of the affected product.
+
+**Confidentiality Impact (C)**: The confidentiality impact is **H** (High), as an attacker can potentially steal sensitive information or inject malicious code to compromise the confidentiality of the system.
+
+**Integrity Impact (I)**: The integrity impact is also **H** (High), as an attacker can modify or delete data, which could lead to a loss of integrity.
+
+**Availability Impact (A)**: The availability impact is **L** (Low), as this vulnerability does not directly affect the availability of the system.
+
+Here's the calculated CVSS v3.1 base metric:
+
+`CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L`
+
+The base score is calculated based on the above metrics and is approximately **8.4**.
+
+Here's the output in JSON format:
+```json
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L",
+  "base_score": 8.4
+}
+```

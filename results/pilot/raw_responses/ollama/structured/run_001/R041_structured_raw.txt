@@ -1,0 +1,47 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability allows an attacker to inject malicious scripts into the application, which are then stored and executed in the context of other users' browsers when they access affected pages. This indicates a **Network (N)** attack vector.
+
+**Attack Complexity (AC):**
+The vulnerability requires no special privileges or knowledge to exploit, making it relatively easy to do so. Therefore, I assess the **attack complexity as Low (L)**.
+
+**Privileges Required (PR):**
+No special privileges are required to exploit this vulnerability, so I rate it as **None (N)**.
+
+**User Interaction (UI):**
+The vulnerability can be exploited without user interaction, making it a **No (N)** rating.
+
+**Scope (S):**
+The vulnerability affects all users who access affected pages, making it a **Universal (U)** scope.
+
+**Confidentiality Impact (C):**
+An attacker could inject malicious scripts into the application, potentially leading to unauthorized data disclosure. I rate this impact as **High (H)**.
+
+**Integrity Impact (I):**
+The vulnerability allows an attacker to inject malicious scripts, which could lead to unauthorized changes to the application's behavior or data. I rate this impact as **High (H)**.
+
+**Availability Impact (A):**
+An attacker could potentially use this vulnerability to disrupt the normal functioning of the application, making it unavailable to users. I rate this impact as **Low (L)**.
+
+Using these metrics, I calculate the CVSS v3.1 base score:
+
+`CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L`
+
+**Base Score:** 8.8
+
+Here is the output in JSON format:
+```json
+{
+  "attack_vector": "N",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L",
+  "base_score": 8.8
+}
+```

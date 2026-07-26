@@ -1,0 +1,34 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is remote, as it is possible to initiate the attack remotely. Therefore, the value for AV is **A**.
+
+**Attack Complexity (AC):**
+The attack complexity is low, as the vulnerability has been disclosed publicly and an exploit may be used. Therefore, the value for AC is **L**.
+
+**Privileges Required (PR):**
+No privileges are required to exploit this vulnerability. Therefore, the value for PR is **N**.
+
+**User Interaction (UI):**
+The attack can be initiated remotely without user interaction. Therefore, the value for UI is **N**.
+
+**Scope (S):**
+The scope of the impact is limited to confidentiality, integrity, and availability. Therefore, the value for S is **U**.
+
+**Confidentiality Impact (C):**
+The vulnerability leads to information disclosure, which has a moderate impact on confidentiality. Therefore, the value for C is **L**.
+
+**Integrity Impact (I):**
+There is no impact on integrity. Therefore, the value for I is **N**.
+
+**Availability Impact (A):**
+There is no impact on availability. Therefore, the value for A is **N**.
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+Base Score: 4.0
+```
+
+The base score is 4.0, indicating a moderate severity vulnerability.

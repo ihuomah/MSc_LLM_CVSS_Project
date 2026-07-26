@@ -1,0 +1,43 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: The vulnerability allows a local attacker to access MAC addresses without related permission. This is an **L**ocal attack vector.
+* **Attack Complexity (AC)**: The attack complexity is considered **L**ow, as the attacker only needs to exploit the vulnerability to gain unauthorized access.
+* **Privileges Required (PR)**: No privileges are required for the attack, making it a **N**o privilege attack.
+* **User Interaction (UI)**: There is no user interaction required for the attack, making it a **N**o user interaction attack.
+* **Scope (S)**: The scope of the attack is limited to the local system, making it an **U**nchanged scope.
+* **Confidentiality Impact (C)**: The vulnerability allows unauthorized access to MAC addresses, which could lead to confidentiality breaches. This has a **H**igh impact on confidentiality.
+* **Integrity Impact (I)**: There is no integrity impact from this vulnerability, as it only affects confidentiality.
+* **Availability Impact (A)**: There is no availability impact from this vulnerability.
+
+**Vector String**
+
+The vector string for this vulnerability is:
+```
+CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+```
+
+**Base Score**
+
+Based on the assessed metrics, the base score for this vulnerability is:
+```
+9.8
+```
+
+The output will be in JSON format:
+
+```json
+{
+  "attack_vector": "L",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "N",
+  "availability_impact": "N",
+  "vector_string": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+  "base_score": 9.8
+}
+```

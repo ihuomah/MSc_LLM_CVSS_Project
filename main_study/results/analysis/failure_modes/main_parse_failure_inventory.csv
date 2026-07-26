@@ -1,0 +1,1351 @@
+record_id,model_name,prompt_condition,api_success,parse_success,state,compliance_category,error_type,error_message,raw_response_file,parsed_output_file,predicted_vector,predicted_base_score,vector_score_consistent,failure_group,raw_response_char_count,raw_response_preview
+426,gemini,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\gemini\structured\run_001\R0426_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\gemini\structured\run_001\R0426_structured_parsed.json,,,,gemini | structured | invalid | no_error_type,322,"```json
+{
+  ""attack_vector"": ""N"",
+ повече""attack_complexity"": ""L"",
+  ""privileges_required"": ""N"",
+  ""user_interaction"": ""R"",
+  ""scope"": ""U"",
+  ""confidentiality_impact"": ""N"",
+  ""integrity_impact"": ""N"",
+  ""availability_impact"": ""H"",
+  ""vector_string"": ""CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"",
+  ""base_score"": 6.5
+}
+```"
+555,gemini,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\gemini\structured\run_001\R0555_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\gemini\structured\run_001\R0555_structured_parsed.json,,,,gemini | structured | invalid | no_error_type,331,"```json
+{
+  ""attack_vector"": ""N"",
+ATR_VERSION_2
+  ""attack_complexity"": ""L"",
+  ""privileges_required"": ""L"",
+  ""user_interaction"": ""N"",
+  ""scope"": ""U"",
+  ""confidentiality_impact"": ""N"",
+  ""integrity_impact"": ""L"",
+  ""availability_impact"": ""N"",
+  ""vector_string"": ""CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N"",
+  ""base_score"": 4.3
+}
+```"
+565,gemini,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\gemini\structured\run_001\R0565_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\gemini\structured\run_001\R0565_structured_parsed.json,,,,gemini | structured | invalid | no_error_type,156,"```json
+{
+  ""attack_vector"": ""N"",
+ revitalization_impact"": ""H"",
+  ""vector_string"": ""CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"",
+  ""base_score"": 9.8
+}
+```"
+592,gemini,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\gemini\structured\run_001\R0592_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\gemini\structured\run_001\R0592_structured_parsed.json,,,,gemini | structured | invalid | no_error_type,317,"```json
+{
+  ""attack_vector"": ""N"",
+ yaklaşım_complexity"": ""L"",
+  ""privileges_required"": ""L"",
+  ""user_interaction"": ""N"",
+  ""scope"": ""U"",
+  ""confidentiality_impact"": ""N"",
+  ""integrity_impact"": ""H"",
+  ""availability_impact"": ""H"",
+  ""vector_string"": ""CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H"",
+  ""base_score"": 8.1
+}
+```"
+901,gemini,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\gemini\structured\run_001\R0901_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\gemini\structured\run_001\R0901_structured_parsed.json,,,,gemini | structured | invalid | no_error_type,327,"```json
+{
+  ""attack_vector"": ""L"",
+ yaklaşım
+  ""attack_complexity"": ""L"",
+  ""privileges_required"": ""H"",
+  ""user_interaction"": ""N"",
+  ""scope"": ""C"",
+  ""confidentiality_impact"": ""L"",
+  ""integrity_impact"": ""H"",
+  ""availability_impact"": ""H"",
+  ""vector_string"": ""CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:L/I:H/A:H"",
+  ""base_score"": 8.2
+}
+```"
+66,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0066_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0066_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1498,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: N (Network)
+The vulnerability allows Functionality Bypass, which can be exploited remotely.
+* **Attack Complexity (AC)**: L (Low)
+The attack requires minimal complexity, as it is a straightforward exploitation of the improper privilege management vulnerability.
+* **Privileges Required (PR)**: H (High)
+An attacker with high privileges can exploit this vulnerability to bypass functionality and gain unauthorized access.
+* **User Interaction (UI)**: N (None)
+No user interaction is required to exploit this vulnerability, as it can be exploited remotely.
+* **Scope (S)**: U (Unchanged)
+The scope of the attack remains unchanged, as the attacker's privileges are not increased or decreased.
+* **Confidentiality Impact (C)**: H (High)
+The confidentiality impact is high, as an attacker with high privileges can access sensitive information.
+* **Integrity Impact (I)**: H (High)
+The integrity impact is also high, as an attacker with high privileges can modify or delete data.
+* **Availability Impact (A)**: L (Low)
+The availability impact is low, as the vulnera"
+72,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0072_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0072_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1583,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: Remote (A)
+The manipulation of the argument name leads to sql injection, which can be initiated remotely.
+
+**Attack Complexity (AC)**: Low (L)
+The attack requires some degree of expertise and knowledge of SQL injection techniques, but it is not extremely complex or difficult to execute.
+
+**Privileges Required (PR)**: None (N)
+No special privileges are required to exploit this vulnerability.
+
+**User Interaction (UI)**: None (N)
+The attack can be initiated without user interaction.
+
+**Scope (S)**: Unchanged (U)
+The scope of the impact is limited to the affected system or component, and there is no potential for further exploitation or spread.
+
+**Confidentiality Impact (C)**: High (H)
+The vulnerability allows for unauthorized access to sensitive data, which could lead to significant confidentiality breaches.
+
+**Integrity Impact (I)**: High (H)
+The vulnerability also allows for unauthorized modifications to the affected system or component, which could lead to significant integrity breaches.
+
+**Availability Impact (A)**: Low (L)
+While the vulnerability could potentially ca"
+80,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0080_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0080_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1573,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: N (Network)
+The issue allows attackers to modify configurations without prior authentication, which can be done remotely.
+* **Attack Complexity (AC)**: L (Low)
+The attack requires minimal complexity, as an attacker only needs to exploit the missing authorization check in captive portals.
+* **Privileges Required (PR)**: N (None)
+No privileges are required for the attack, as it can be performed by an unauthenticated user.
+* **User Interaction (UI)**: R (Required)
+The attack requires some level of user interaction, such as accessing the captive portal.
+* **Scope (S)**: U (Unchanged)
+The scope of the impact is unchanged, as the issue affects only the targeted system or network.
+* **Confidentiality Impact (C)**: H (High)
+The missing authorization check allows attackers to modify configurations without prior authentication, which can lead to sensitive information being compromised.
+* **Integrity Impact (I)**: H (High)
+The attack can compromise the integrity of the system or network by modifying configurations without authorization.
+* **Availability "
+81,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0081_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0081_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1389,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: N (Network)
+The attack vector is network-based, as it involves sending a flood of queries to a backend.
+* **Attack Complexity (AC)**: L (Low)
+The complexity of the attack is low, as it only requires the ability to send a large number of queries in a short period.
+* **Privileges Required (PR)**: N (None)
+No privileges are required to carry out this attack.
+* **User Interaction (UI)**: N (None)
+This attack does not require any user interaction.
+* **Scope (S)**: U (Unchanged)
+The scope of the attack is unchanged, as it only affects the targeted backend.
+* **Confidentiality Impact (C)**: N (None)
+There is no impact on confidentiality, as this attack does not involve sensitive data.
+* **Integrity Impact (I)**: L (Low)
+The integrity impact is low, as the attack may cause a mismatch between queries and responses, but it does not compromise the integrity of the system.
+* **Availability Impact (A)**: H (High)
+The availability impact is high, as the attack can potentially cause a denial-of-service (DoS) or a slowdown in the system's response.
+
+**Vector "
+109,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0109_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0109_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1428,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: N (Network)
+	+ The vulnerability is an improper restriction of excessive authentication attempts in a GitHub repository, which can be exploited remotely.
+* **Attack Complexity (AC)**: L (Low)
+	+ The attack requires minimal complexity, as it involves exploiting a known vulnerability in the authentication mechanism.
+* **Privileges Required (PR)**: N (None)
+	+ No special privileges are required to exploit this vulnerability.
+* **User Interaction (UI)**: N (None)
+	+ The vulnerability can be exploited without any user interaction.
+* **Scope (S)**: U (Unchanged)
+	+ The scope of the attack is unchanged, as it only affects the targeted system.
+* **Confidentiality Impact (C)**: L (Low)
+	+ The confidentiality impact is low, as an attacker may gain access to sensitive information but not compromise the entire system.
+* **Integrity Impact (I)**: H (High)
+	+ The integrity impact is high, as an attacker can potentially modify or delete data stored in the affected system.
+* **Availability Impact (A)**: L (Low)
+	+ The availability impact is low, as the vulner"
+118,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0118_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0118_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1647,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is ""A"" because an attacker could leverage this vulnerability to bypass mitigations such as ASLR, which requires a network-based attack.
+
+**Attack Complexity (AC):**
+The attack complexity is ""L"" because exploitation of this issue requires user interaction in that a victim must open a malicious file, making it relatively easy for an attacker to exploit.
+
+**Privileges Required (PR):**
+The privileges required are ""N"" because the vulnerability can be exploited without requiring any special privileges or access.
+
+**User Interaction (UI):**
+The user interaction is ""R"" because exploitation of this issue requires user interaction in that a victim must open a malicious file.
+
+**Scope (S):**
+The scope is ""U"" because the vulnerability affects individual users, not organizations or systems as a whole.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is ""L"" because an attacker could potentially disclose sensitive memory, which could lead to loss of confidentiality.
+
+**Integrity Impact (I):**
+The integrity impact is ""N"" because there is no potential for d"
+130,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0130_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0130_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1563,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: N (Network)
+The attack vector is network-based, as it allows a local attacker to execute arbitrary code via a crafted request.
+* **Attack Complexity (AC)**: L (Low)
+The attack complexity is low, as the vulnerability can be exploited with minimal effort and resources.
+* **Privileges Required (PR)**: N (None)
+No privileges are required to exploit this vulnerability, as it can be executed by an unauthenticated attacker.
+* **User Interaction (UI)**: N (None)
+No user interaction is required to exploit this vulnerability, as it can be triggered automatically.
+* **Scope (S)**: U (Unchanged)
+The scope of the impact is unchanged, as the vulnerability affects the confidentiality, integrity, and availability of the affected system.
+* **Confidentiality Impact (C)**: H (High)
+The confidentiality impact is high, as an attacker could potentially access sensitive information or data.
+* **Integrity Impact (I)**: H (High)
+The integrity impact is also high, as an attacker could potentially modify or delete sensitive data.
+* **Availability Impact (A)**: L (Low)
+T"
+147,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0147_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0147_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1630,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: L (Local)
+The attack vector is local because an administrator user can create an XML definition file anywhere on the file system.
+* **Attack Complexity (AC)**: H (High)
+The attack complexity is high because it requires creating a custom XML definition file, which may require some level of expertise and effort.
+* **Privileges Required (PR)**: L (Low)
+The privileges required are low because an administrator user can perform the attack.
+* **User Interaction (UI)**: N (None)
+There is no user interaction required for this attack.
+* **Scope (S)**: U (Unchanged)
+The scope of the impact is unchanged, as it affects the confidentiality, integrity, and availability of the system.
+* **Confidentiality Impact (C)**: H (High)
+The confidentiality impact is high because an attacker can create a custom XML definition file that may contain sensitive information or allow unauthorized access to the system.
+* **Integrity Impact (I)**: H (High)
+The integrity impact is high because an attacker can create a custom XML definition file that may modify or delete existing"
+196,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0196_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0196_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1908,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: Network-adjacent attackers can exploit this vulnerability without any physical interaction with the device. Therefore, the attack vector is **A** (Network).
+
+**Attack Complexity (AC)**: The vulnerability requires no special skills or knowledge to exploit. An attacker can easily craft a request to inject arbitrary code. Hence, the attack complexity is **L** (Low).
+
+**Privileges Required (PR)**: To execute arbitrary code on the affected router, an attacker needs to have root privileges. Therefore, the privileges required are **H** (High).
+
+**User Interaction (UI)**: No user interaction is required to exploit this vulnerability. An attacker can send a crafted request to inject arbitrary code. Hence, the user interaction is **N** (None).
+
+**Scope (S)**: The scope of the impact is limited to the affected router and its network. Therefore, the scope is **U** (Unchanged).
+
+**Confidentiality Impact (C)**: An attacker can execute arbitrary code on the affected router, which could potentially lead to unauthorized access or data breaches. Hence, the confidentiality impact is **H*"
+222,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0222_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0222_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1727,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: N (Network)
+The vulnerability is related to a cryptographic issue in Product Y, which can be exploited over a network.
+* **Attack Complexity (AC)**: L (Low)
+The attack complexity is considered low because the vulnerability is related to a specific implementation error that can be easily identified and exploited.
+* **Privileges Required (PR)**: N (None)
+No special privileges are required to exploit this vulnerability.
+* **User Interaction (UI)**: N (None)
+No user interaction is required to exploit this vulnerability.
+* **Scope (S)**: U (Unchanged)
+The scope of the attack remains unchanged, as it only affects the targeted system.
+* **Confidentiality Impact (C)**: L (Low)
+The confidentiality impact is considered low because the vulnerability is related to a cryptographic issue that can be exploited to obtain sensitive information.
+* **Integrity Impact (I)**: H (High)
+The integrity impact is considered high because the vulnerability can be exploited to modify or delete data.
+* **Availability Impact (A)**: L (Low)
+The availability impact is conside"
+233,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0233_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0233_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1302,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: L (Local)
+The vulnerability allows a local authenticated attacker to decrypt stored SQL credentials.
+* **Attack Complexity (AC)**: H (High)
+The attack requires significant expertise and resources to exploit the hardcoded key.
+* **Privileges Required (PR)**: L (Low)
+The attacker only needs low-level privileges to access the vulnerable system.
+* **User Interaction (UI)**: N (None)
+No user interaction is required to exploit the vulnerability.
+* **Scope (S)**: U (Unchanged)
+The attack affects the confidentiality, integrity, and availability of the affected system.
+* **Confidentiality Impact (C)**: H (High)
+The attacker can decrypt stored SQL credentials, which could lead to sensitive data exposure.
+* **Integrity Impact (I)**: H (High)
+The attacker can potentially modify or delete sensitive data.
+* **Availability Impact (A)**: L (Low)
+The attack is unlikely to affect the availability of the affected system.
+
+**Vector String**
+CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:L
+
+**Base Score**
+9.8
+
+Please note that this assessment is based solely on the pr"
+248,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0248_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0248_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1602,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The attack vector is ""A"" because the vulnerability can be exploited remotely.
+
+**Attack Complexity (AC)**: The attack complexity is ""L"" because the exploit requires some degree of expertise and knowledge about the affected product.
+
+**Privileges Required (PR)**: The privileges required are ""N"" because the vulnerability does not require any special privileges to exploit.
+
+**User Interaction (UI)**: The user interaction is ""R"" because an attacker can remotely trigger the vulnerability without requiring any user interaction.
+
+**Scope (S)**: The scope is ""U"" because the vulnerability affects a single system or process.
+
+**Confidentiality Impact (C)**: The confidentiality impact is ""H"" because the vulnerability allows arbitrary code execution, which could potentially lead to sensitive data being accessed or stolen.
+
+**Integrity Impact (I)**: The integrity impact is also ""H"" because the vulnerability allows arbitrary code execution, which could potentially lead to system modifications or data tampering.
+
+**Availability Impact (A)**: The availability impact is ""H"" because the"
+289,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0289_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0289_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1387,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: Network (N)
+The vulnerability can be exploited remotely, allowing an attacker to access the system over a network.
+* **Attack Complexity (AC)**: Low (L)
+The attack requires minimal complexity, as it is a straightforward exploitation of the stack overflow vulnerability.
+* **Privileges Required (PR)**: None (N)
+An attacker does not need any special privileges to exploit this vulnerability.
+* **User Interaction (UI)**: None (N)
+No user interaction is required to exploit this vulnerability.
+* **Scope (S)**: Unchanged (U)
+The scope of the attack remains unchanged, as it only affects the targeted system.
+* **Confidentiality Impact (C)**: High (H)
+An attacker could potentially gain unauthorized access to sensitive information or data.
+* **Integrity Impact (I)**: High (H)
+An attacker could modify or delete sensitive data, compromising the integrity of the system.
+* **Availability Impact (A)**: High (H)
+The vulnerability could lead to a denial-of-service (DoS) or a crash of the affected system.
+
+**Vector String**
+CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:"
+293,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0293_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0293_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1862,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is ""N"" because the vulnerability can be exploited remotely without any user interaction.
+
+**Attack Complexity (AC):**
+The attack complexity is ""L"" because the exploit requires some degree of expertise and knowledge about the system, but it's not extremely complex or difficult to execute.
+
+**Privileges Required (PR):**
+The privileges required are ""N"" because an attacker can exploit this vulnerability without requiring any special privileges or access levels.
+
+**User Interaction (UI):**
+The user interaction is ""N"" because the vulnerability can be exploited remotely without any user interaction.
+
+**Scope (S):**
+The scope is ""U"" because the vulnerability affects a single system or component, and not multiple systems or components.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is ""L"" because an attacker could potentially access sensitive information or data, but it's not extremely severe or catastrophic.
+
+**Integrity Impact (I):**
+The integrity impact is ""H"" because an attacker could potentially compromise the system's integrity by modifying "
+297,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0297_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0297_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1620,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: N (Network)
+The issue allows an attacker to fork and submit merge requests to private projects they're not a member of, which can be done remotely over a network.
+* **Attack Complexity (AC)**: L (Low)
+The attack requires minimal complexity, as it only involves submitting a merge request with malicious code.
+* **Privileges Required (PR)**: N (None)
+No special privileges are required to exploit the issue.
+* **User Interaction (UI)**: R (Required)
+An attacker must interact with the system by submitting a merge request.
+* **Scope (S)**: U (Unchanged)
+The scope of the attack is unchanged, as it only affects the targeted private project.
+* **Confidentiality Impact (C)**: L (Low)
+The issue allows an attacker to gain unauthorized access to private projects, which could lead to the disclosure of sensitive information.
+* **Integrity Impact (I)**: H (High)
+An attacker can modify or delete files in the targeted private project, which could compromise its integrity.
+* **Availability Impact (A)**: N (None)
+The issue does not affect the availability of the s"
+302,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0302_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0302_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1636,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is ""N"" because the vulnerability can be exploited remotely without any user interaction.
+
+**Attack Complexity (AC):**
+The attack complexity is ""L"" because the exploit requires some degree of expertise and knowledge about the affected system.
+
+**Privileges Required (PR):**
+The privileges required are ""N"" because an attacker with normal user privileges can exploit this vulnerability.
+
+**User Interaction (UI):**
+The user interaction is ""N"" because the vulnerability can be exploited without any user interaction.
+
+**Scope (S):**
+The scope is ""U"" because the vulnerability affects a single system or process.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is ""L"" because an attacker could potentially access sensitive information, but it's not critical to the overall security of the system.
+
+**Integrity Impact (I):**
+The integrity impact is ""H"" because an attacker could potentially modify or delete data, which could have significant consequences for the affected system.
+
+**Availability Impact (A):**
+The availability impact is ""L"" because an attacke"
+305,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0305_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0305_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1441,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: N (Network)
+The vulnerability exists in a C library for reading and writing PDF files, which is accessible over a network.
+* **Attack Complexity (AC)**: L (Low)
+An attacker can exploit this vulnerability by crafting malicious PDF files, which requires some skill but not exceptional expertise.
+* **Privileges Required (PR)**: N (None)
+The vulnerability does not require any special privileges to exploit.
+* **User Interaction (UI)**: N (None)
+No user interaction is required to exploit the vulnerability.
+* **Scope (S)**: U (Unchanged)
+The scope of the attack remains unchanged, as it only affects the targeted system.
+* **Confidentiality Impact (C)**: L (Low)
+The impact on confidentiality is low, as the vulnerability does not directly compromise sensitive information.
+* **Integrity Impact (I)**: H (High)
+The integrity of the affected system is at risk due to the denial-of-service vulnerability.
+* **Availability Impact (A)**: H (High)
+The availability of the affected system is also at high risk due to the potential for a denial-of-service attack.
+
+**V"
+327,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0327_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0327_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1742,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metrics.
+
+**Attack Vector (AV)**: Network-adjacent attackers can exploit this vulnerability without requiring any authentication or interaction from the user. Therefore, the attack vector is **A** (Network).
+
+**Attack Complexity (AC)**: The vulnerability requires no special privileges or knowledge to exploit, making it relatively easy to do so. Hence, the attack complexity is **L** (Low).
+
+**Privileges Required (PR)**: An attacker can execute code in the context of root, which means they require **H** (High) privileges.
+
+**User Interaction (UI)**: No user interaction is required to exploit this vulnerability, making it **N** (None).
+
+**Scope (S)**: The scope of the impact is limited to a single system or network segment, so it's **U** (Unchanged).
+
+**Confidentiality Impact (C)**: An attacker can execute code in the context of root, which means they could potentially access sensitive information. Therefore, the confidentiality impact is **H** (High).
+
+**Integrity Impact (I)**: The vulnerability allows an attacker to execute arbitrary code, which means they could potentially modify or delete data. Hence"
+359,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0359_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0359_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1241,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: N (Network)
+The vulnerability can be exploited remotely.
+* **Attack Complexity (AC)**: L (Low)
+The attack requires minimal complexity to execute.
+* **Privileges Required (PR)**: N (None)
+No privileges are required to exploit the vulnerability.
+* **User Interaction (UI)**: N (None)
+No user interaction is required to exploit the vulnerability.
+* **Scope (S)**: U (Unchanged)
+The scope of the impact remains unchanged.
+* **Confidentiality Impact (C)**: H (High)
+The potential confidentiality impact is high, as an attacker could potentially access sensitive information.
+* **Integrity Impact (I)**: H (High)
+The potential integrity impact is high, as an attacker could potentially modify or delete data.
+* **Availability Impact (A)**: L (Low)
+The potential availability impact is low, as the vulnerability may not significantly affect system availability.
+
+**Vector String**
+CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L
+
+**Base Score**
+9.8
+
+Please note that this assessment is based solely on the provided vulnerability description and does not take into accou"
+365,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0365_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0365_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1270,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability is a SQL injection, which can be exploited remotely (A).
+
+**Attack Complexity (AC):**
+The attack complexity is low, as the vulnerability requires minimal effort to exploit (L).
+
+**Privileges Required (PR):**
+No privileges are required to exploit this vulnerability (N).
+
+**User Interaction (UI):**
+No user interaction is required to exploit this vulnerability (N).
+
+**Scope (S):**
+The scope of the impact is limited to confidentiality, integrity, and availability (C).
+
+**Confidentiality Impact (C):**
+The confidentiality impact is high, as an attacker could potentially access sensitive data (H).
+
+**Integrity Impact (I):**
+The integrity impact is also high, as an attacker could potentially modify or delete data (H).
+
+**Availability Impact (A):**
+The availability impact is high, as an attacker could potentially cause the system to become unavailable (H).
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+Base Score: 9.8
+```
+
+Please note that this assessment is based solely on the provided vulnerability description"
+372,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0372_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0372_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1636,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is ""N"" because the vulnerability can be exploited remotely without any user interaction.
+
+**Attack Complexity (AC):**
+The attack complexity is ""L"" because the exploit requires some degree of expertise and knowledge about the affected system.
+
+**Privileges Required (PR):**
+The privileges required are ""N"" because an attacker with normal user privileges can exploit this vulnerability.
+
+**User Interaction (UI):**
+The user interaction is ""N"" because the vulnerability can be exploited without any user interaction.
+
+**Scope (S):**
+The scope is ""U"" because the vulnerability affects a single system or process.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is ""L"" because an attacker could potentially access sensitive information, but it's not critical to the overall security of the system.
+
+**Integrity Impact (I):**
+The integrity impact is ""H"" because an attacker could potentially modify or delete data, which could have significant consequences for the affected system.
+
+**Availability Impact (A):**
+The availability impact is ""L"" because an attacke"
+375,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0375_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0375_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1400,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is ""A"" because the vulnerability can be exploited remotely.
+
+**Attack Complexity (AC):**
+The attack complexity is ""L"" because the vulnerability requires low skill to exploit.
+
+**Privileges Required (PR):**
+The privileges required are ""N"" because no special privileges are needed to exploit the vulnerability.
+
+**User Interaction (UI):**
+The user interaction is ""R"" because the vulnerability can be exploited without any user interaction.
+
+**Scope (S):**
+The scope is ""U"" because the vulnerability affects only a single system or network segment.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is ""H"" because the vulnerability could lead to the unauthorized disclosure of sensitive information.
+
+**Integrity Impact (I):**
+The integrity impact is ""H"" because the vulnerability could lead to the modification or destruction of data.
+
+**Availability Impact (A):**
+The availability impact is ""H"" because the vulnerability could lead to a denial-of-service or disruption of service.
+
+Here's the calculated CVSS v3.1 base metric:
+
+```
+CVSS:3.1/AV:A/AC:L/PR:N/UI"
+377,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0377_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0377_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1490,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: L (Local)
+The vulnerability allows for local escalation of privilege with no additional execution privileges needed.
+* **Attack Complexity (AC)**: H (High)
+The attack requires a high degree of complexity, as it involves exploiting a path traversal error in the `FileUtils.java` class.
+* **Privileges Required (PR)**: L (Low)
+The vulnerability can be exploited without requiring any additional privileges beyond what is already available to the attacker.
+* **User Interaction (UI)**: N (None)
+No user interaction is required for exploitation.
+* **Scope (S)**: U (Unchanged)
+The scope of the attack remains unchanged, as it only affects the local system.
+* **Confidentiality Impact (C)**: H (High)
+The vulnerability could lead to a high impact on confidentiality, as an attacker could potentially access sensitive files and data.
+* **Integrity Impact (I)**: H (High)
+The vulnerability could also have a high impact on integrity, as an attacker could modify or delete files and data.
+* **Availability Impact (A)**: L (Low)
+The availability of the system is not s"
+392,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0392_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0392_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1283,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: N (Network)
+The vulnerability can be exploited over a network.
+* **Attack Complexity (AC)**: L (Low)
+Exploiting this vulnerability requires minimal attack complexity.
+* **Privileges Required (PR)**: N (None)
+An attacker does not need any special privileges to exploit this vulnerability.
+* **User Interaction (UI)**: N (None)
+The vulnerability can be exploited without user interaction.
+* **Scope (S)**: U (Unchanged)
+Exploiting this vulnerability will not change the scope of the attack.
+* **Confidentiality Impact (C)**: H (High)
+The confidentiality impact is high, as an attacker could potentially access sensitive information.
+* **Integrity Impact (I)**: H (High)
+The integrity impact is also high, as an attacker could potentially modify or delete data.
+* **Availability Impact (A)**: L (Low)
+The availability impact is low, as the vulnerability does not directly affect system availability.
+
+**Vector String**
+CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L
+
+**Base Score**
+9.8
+
+Please note that this assessment is based solely on the provided vulnerabilit"
+407,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0407_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0407_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1538,"Based on the provided vulnerability description and constraints, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The vulnerability can be exploited remotely without any interaction from the user, so it's an ""N"" (Network).
+
+**Attack Complexity (AC)**: The attack complexity is considered Low (""L"") because the attacker only needs to send a specific HTTP request to exploit the vulnerability.
+
+**Privileges Required (PR)**: No privileges are required to exploit this vulnerability, so it's a ""N"" (None).
+
+**User Interaction (UI)**: No user interaction is required to exploit this vulnerability, so it's an ""N"" (None).
+
+**Scope (S)**: The scope of the impact is limited to the affected system or network, so it's a ""U"" (Unchanged).
+
+**Confidentiality Impact (C)**: The confidentiality impact is considered Low (""L"") because the attacker can potentially bypass security constraints.
+
+**Integrity Impact (I)**: The integrity impact is also considered Low (""L"") because the attacker can potentially modify or delete data.
+
+**Availability Impact (A)**: The availability impact is considered High (""H"") because the attacker can potentially cause a denial-of-service (DoS) attack.
+
+Here's th"
+418,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0418_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0418_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1350,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: N (Network)
+The vulnerability can be exploited remotely.
+* **Attack Complexity (AC)**: L (Low)
+The attack requires some degree of expertise and knowledge about the pthread_create() function.
+* **Privileges Required (PR)**: N (None)
+No special privileges are required to exploit this vulnerability.
+* **User Interaction (UI)**: N (None)
+No user interaction is required to exploit this vulnerability.
+* **Scope (S)**: U (Unchanged)
+The scope of the impact remains unchanged.
+* **Confidentiality Impact (C)**: L (Low)
+The confidentiality impact is low, as an attacker may be able to exhaust process memory, but there is no sensitive information disclosure.
+* **Integrity Impact (I)**: H (High)
+The integrity impact is high, as an attacker can potentially cause a denial-of-service (DoS) or crash the system.
+* **Availability Impact (A)**: L (Low)
+The availability impact is low, as the vulnerability may cause a temporary disruption but not a complete system outage.
+
+**Vector String**
+CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:L
+
+**Base Score**
+9.8
+
+Please not"
+443,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0443_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0443_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1594,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: L (Local)
+The vulnerability allows local attackers to configure default Message application, indicating a local attack vector.
+* **Attack Complexity (AC)**: H (High)
+The vulnerability requires high attack complexity as it involves configuring the default Message application, which may require significant expertise and resources.
+* **Privileges Required (PR)**: L (Low)
+The vulnerability can be exploited by an attacker with low privileges, such as a local user.
+* **User Interaction (UI)**: N (None)
+No user interaction is required to exploit this vulnerability.
+* **Scope (S)**: U (Unchanged)
+The scope of the attack remains unchanged, as it only affects the local system.
+* **Confidentiality Impact (C)**: L (Low)
+The confidentiality impact is low, as the vulnerability allows an attacker to configure default Message application, which may not compromise sensitive information.
+* **Integrity Impact (I)**: H (High)
+The integrity impact is high, as the vulnerability allows an attacker to modify the system's configuration, potentially leading to a loss o"
+469,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0469_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0469_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1638,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is ""N"" because the vulnerability can be exploited remotely without any user interaction.
+
+**Attack Complexity (AC):**
+The attack complexity is ""L"" because the exploit requires some degree of expertise and knowledge about the underlying system.
+
+**Privileges Required (PR):**
+The privileges required are ""N"" because an attacker with normal user privileges can exploit this vulnerability.
+
+**User Interaction (UI):**
+The user interaction is ""N"" because the vulnerability can be exploited without any user interaction.
+
+**Scope (S):**
+The scope is ""U"" because the vulnerability affects a single system or process.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is ""L"" because an attacker could potentially access sensitive information, but it's not critical to the overall security of the system.
+
+**Integrity Impact (I):**
+The integrity impact is ""H"" because an attacker could potentially modify or delete data, which could have significant consequences for the affected system.
+
+**Availability Impact (A):**
+The availability impact is ""L"" because an attac"
+490,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0490_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0490_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1598,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: N (Network)
+The attack vector is network-based, as it involves generating errors responses over a single DoQ and DoH3 connection.
+* **Attack Complexity (AC)**: L (Low)
+The attack complexity is low, as the vulnerability can be exploited by sending a large number of error responses without requiring any complex interactions or manipulations.
+* **Privileges Required (PR)**: N (None)
+No privileges are required to exploit this vulnerability, as it can be triggered by an unauthenticated attacker.
+* **User Interaction (UI)**: N (None)
+No user interaction is required to exploit this vulnerability, as it can be triggered automatically.
+* **Scope (S)**: U (Unchanged)
+The scope of the attack is unchanged, as it only affects the targeted system or network.
+* **Confidentiality Impact (C)**: L (Low)
+The confidentiality impact is low, as the vulnerability does not directly compromise sensitive information.
+* **Integrity Impact (I)**: H (High)
+The integrity impact is high, as the vulnerability can cause significant damage to the affected system or data.
+* **A"
+508,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0508_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0508_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1688,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: N (Network)
+The vulnerability is related to a module loading free order issue in Product Y, which can be exploited remotely.
+* **Attack Complexity (AC)**: L (Low)
+The attack complexity is considered low as the vulnerability requires minimal effort and expertise to exploit.
+* **Privileges Required (PR)**: N (None)
+No privileges are required to exploit this vulnerability.
+* **User Interaction (UI)**: N (None)
+No user interaction is required to exploit this vulnerability.
+* **Scope (S)**: U (Unchanged)
+The scope of the impact remains unchanged, as the vulnerability can be exploited remotely.
+* **Confidentiality Impact (C)**: L (Low)
+The confidentiality impact is considered low, as the vulnerability may allow an attacker to access sensitive information but does not necessarily result in data being stolen or compromised.
+* **Integrity Impact (I)**: H (High)
+The integrity impact is considered high, as the vulnerability can potentially allow an attacker to modify or delete sensitive data.
+* **Availability Impact (A)**: L (Low)
+The availability impact"
+523,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0523_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0523_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1692,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: A (Network)
+	+ Reasoning: The vulnerability allows an authenticated attacker to delete user-messages for individual users, which can be done remotely.
+* **Attack Complexity (AC)**: L (Low)
+	+ Reasoning: The attack requires minimal complexity, as the attacker only needs to send a crafted request to exploit the vulnerability.
+* **Privileges Required (PR)**: N (None)
+	+ Reasoning: The vulnerability does not require any special privileges or access controls to be exploited.
+* **User Interaction (UI)**: R (Required)
+	+ Reasoning: The attack requires user interaction, as the attacker needs to trick an authenticated user into performing a specific action.
+* **Scope (S)**: U (Unchanged)
+	+ Reasoning: The vulnerability does not change the scope of what can be accessed or modified.
+* **Confidentiality Impact (C)**: N (None)
+	+ Reasoning: The vulnerability does not affect confidentiality, as it only allows an attacker to delete user-messages.
+* **Integrity Impact (I)**: H (High)
+	+ Reasoning: The vulnerability has a high integrity impact, as it allows an"
+529,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0529_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0529_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1690,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: N (Network)
+	+ The vulnerability is a possible double free due to a race condition, which can be exploited remotely.
+* **Attack Complexity (AC)**: L (Low)
+	+ The attack requires some degree of skill and expertise, but it's not extremely complex or difficult to execute.
+* **Privileges Required (PR)**: H (High)
+	+ System execution privileges are needed for exploitation, indicating a high level of privilege escalation.
+* **User Interaction (UI)**: N (None)
+	+ No user interaction is required for exploitation, making the attack more automated and less dependent on human intervention.
+* **Scope (S)**: U (Unchanged)
+	+ The scope of the vulnerability remains unchanged, as it can affect all systems with the affected software installed.
+* **Confidentiality Impact (C)**: H (High)
+	+ The vulnerability could lead to local escalation of privilege, which may result in unauthorized access to sensitive data or system resources.
+* **Integrity Impact (I)**: H (High)
+	+ The vulnerability could also lead to local escalation of privilege, which may result in unauth"
+552,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0552_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0552_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1391,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: N (Network)
+The vulnerability is related to a cryptographic weakness in Product Y's hashing algorithm, which can be exploited remotely.
+* **Attack Complexity (AC)**: L (Low)
+An attacker with basic knowledge of cryptography and the affected product can exploit this vulnerability.
+* **Privileges Required (PR)**: N (None)
+No special privileges are required to exploit this vulnerability.
+* **User Interaction (UI)**: N (None)
+The vulnerability can be exploited without user interaction.
+* **Scope (S)**: U (Unchanged)
+The scope of the attack is limited to the affected product and its dependencies.
+* **Confidentiality Impact (C)**: H (High)
+An attacker could potentially access sensitive information, such as cryptographic keys or authentication credentials.
+* **Integrity Impact (I)**: H (High)
+An attacker could modify or delete data, which could lead to a loss of integrity or availability.
+* **Availability Impact (A)**: L (Low)
+The vulnerability is unlikely to cause significant availability issues.
+
+**Vector String**
+CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:"
+553,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0553_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0553_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1648,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is ""N"" because the vulnerability can be exploited remotely without any user interaction.
+
+**Attack Complexity (AC):**
+The attack complexity is ""L"" because the exploit requires some degree of expertise and knowledge about the affected system.
+
+**Privileges Required (PR):**
+The privileges required are ""L"" because an attacker with low-level privileges can potentially exploit this vulnerability.
+
+**User Interaction (UI):**
+The user interaction is ""N"" because the vulnerability can be exploited without any user interaction.
+
+**Scope (S):**
+The scope is ""U"" because the vulnerability affects a single system or component.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is ""L"" because an attacker could potentially access sensitive information, but it's not critical to the overall security of the system.
+
+**Integrity Impact (I):**
+The integrity impact is ""H"" because an attacker could potentially modify or delete data, which could have significant consequences for the affected system.
+
+**Availability Impact (A):**
+The availability impact is ""L"" becaus"
+569,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0569_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0569_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1607,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The vulnerability can be exploited remotely, so I'll choose **A** (Network).
+
+**Attack Complexity (AC)**: The attack complexity is relatively low, as an attacker only needs to craft a malicious HTTP trailer header. Therefore, I'll choose **L** (Low).
+
+**Privileges Required (PR)**: No privileges are required to exploit the vulnerability, so I'll choose **N** (None).
+
+**User Interaction (UI)**: The vulnerability can be exploited without user interaction, so I'll choose **N** (None).
+
+**Scope (S)**: The scope of the impact is limited to the affected product and its users, so I'll choose **U** (Unchanged).
+
+**Confidentiality Impact (C)**: The vulnerability could potentially allow an attacker to smuggle requests behind a reverse proxy, which could lead to confidentiality breaches. Therefore, I'll choose **H** (High).
+
+**Integrity Impact (I)**: The vulnerability could also allow an attacker to manipulate the request stream, which could lead to integrity breaches. Therefore, I'll choose **H** (High).
+
+**Availability Impact (A)**: The vulnerability could potentially cause a de"
+574,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0574_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0574_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1430,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The vulnerability can be exploited remotely, so it's an ""A"" (Network).
+
+**Attack Complexity (AC)**: The attack complexity is considered ""L"" (Low) because the attacker only needs to send a crafted SQL query to exploit the vulnerability.
+
+**Privileges Required (PR)**: No privileges are required to exploit the vulnerability, so it's an ""N"" (None).
+
+**User Interaction (UI)**: The vulnerability can be exploited without user interaction, so it's an ""N"" (None).
+
+**Scope (S)**: The scope of the impact is limited to confidentiality, integrity, and availability, so it's a ""U"" (Unchanged).
+
+**Confidentiality Impact (C)**: The confidentiality impact is considered ""H"" (High) because the attacker can potentially access sensitive data.
+
+**Integrity Impact (I)**: The integrity impact is also considered ""H"" (High) because the attacker can potentially modify or delete data.
+
+**Availability Impact (A)**: The availability impact is considered ""H"" (High) because the attacker can potentially cause a denial-of-service (DoS) or crash the system.
+
+Here's the calculated CVSS v3.1 base metric:
+
+"
+593,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0593_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0593_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1526,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is ""N"" because the vulnerability can be exploited remotely without any user interaction.
+
+**Attack Complexity (AC):**
+The attack complexity is ""L"" because the exploit requires some degree of expertise and knowledge about the KVM architecture and the specific vulnerability.
+
+**Privileges Required (PR):**
+The privileges required are ""L"" because an attacker needs to have low-level access to the system to exploit this vulnerability.
+
+**User Interaction (UI):**
+The user interaction is ""N"" because the vulnerability can be exploited without any user interaction.
+
+**Scope (S):**
+The scope is ""U"" because the vulnerability affects a single system or process.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is ""L"" because an attacker could potentially access sensitive information, but it's not critical to the overall security of the system.
+
+**Integrity Impact (I):**
+The integrity impact is ""H"" because an attacker could potentially compromise the integrity of the system by exploiting this vulnerability.
+
+**Availability Impact (A):**
+The availability i"
+601,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0601_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0601_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1372,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: Network (N) - The vulnerability can be exploited remotely.
+* **Attack Complexity (AC)**: Low (L) - The attack requires minimal complexity to execute.
+* **Privileges Required (PR)**: None (N) - No additional privileges are needed for exploitation.
+* **User Interaction (UI)**: None (N) - User interaction is not required for exploitation.
+* **Scope (S)**: Unchanged (U) - The scope of the vulnerability remains unchanged.
+* **Confidentiality Impact (C)**: High (H) - The vulnerability could lead to remote escalation of privilege, which has a high impact on confidentiality.
+* **Integrity Impact (I)**: High (H) - The vulnerability could also have a high impact on integrity, as it allows for remote escalation of privilege.
+* **Availability Impact (A)**: None (N) - There is no expected impact on availability.
+
+**Vector String**
+CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
+
+**Base Score**
+9.0
+
+The base score of 9.0 indicates a high severity vulnerability that can be exploited remotely with minimal complexity, requiring no additional privileges or user in"
+608,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0608_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0608_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1586,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: N (Network)
+The attack vector is network-based, as it involves memory corruption while playing an audio file with a large-sized input buffer.
+* **Attack Complexity (AC)**: L (Low)
+The attack complexity is low, as the vulnerability can be exploited by sending a specially crafted audio file to the affected system.
+* **Privileges Required (PR)**: N (None)
+No privileges are required to exploit this vulnerability, as it can be triggered by an unprivileged user.
+* **User Interaction (UI)**: N (None)
+No user interaction is required to exploit this vulnerability, as it can be triggered automatically.
+* **Scope (S)**: U (Unchanged)
+The scope of the attack remains unchanged, as the vulnerability affects only the affected system.
+* **Confidentiality Impact (C)**: L (Low)
+The confidentiality impact is low, as the vulnerability does not directly compromise sensitive information.
+* **Integrity Impact (I)**: H (High)
+The integrity impact is high, as the vulnerability can cause memory corruption and potentially lead to arbitrary code execution.
+* **Availabili"
+624,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0624_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0624_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1522,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: N (Network)
+The vulnerability is an improper access control in a GitHub repository, which can be exploited remotely.
+* **Attack Complexity (AC)**: L (Low)
+The attack complexity is low because the vulnerability requires minimal effort to exploit.
+* **Privileges Required (PR)**: N (None)
+No privileges are required to exploit this vulnerability.
+* **User Interaction (UI)**: N (None)
+No user interaction is required to exploit this vulnerability.
+* **Scope (S)**: U (Unchanged)
+The scope of the impact remains unchanged, as the vulnerability affects the confidentiality, integrity, and availability of the affected system.
+* **Confidentiality Impact (C)**: H (High)
+The confidentiality impact is high because an attacker could potentially access sensitive information stored in the GitHub repository.
+* **Integrity Impact (I)**: H (High)
+The integrity impact is also high because an attacker could modify or delete files in the affected repository, leading to data tampering or loss.
+* **Availability Impact (A)**: L (Low)
+The availability impact is low becaus"
+658,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0658_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0658_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1610,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: N (Network)
+The vulnerability allows a remote authenticated admin with read-only rights to modify settings that should be restricted.
+* **Attack Complexity (AC)**: L (Low)
+The attack requires some degree of expertise and knowledge, but it is not extremely complex or difficult to execute.
+* **Privileges Required (PR)**: H (High)
+A remote authenticated admin with read-only rights is required to exploit the vulnerability.
+* **User Interaction (UI)**: N (None)
+No user interaction is required to exploit the vulnerability.
+* **Scope (S)**: U (Unchanged)
+The scope of the impact remains unchanged, as the vulnerability only affects the certificate management component.
+* **Confidentiality Impact (C)**: L (Low)
+The confidentiality impact is low, as the vulnerability allows modification of settings that should be restricted, but does not directly compromise sensitive information.
+* **Integrity Impact (I)**: H (High)
+The integrity impact is high, as the vulnerability allows an attacker to modify settings that could potentially lead to unauthorized changes"
+707,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0707_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0707_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1626,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: L (Local)
+The attack vector is local because the vulnerability allows arbitrary modification of template files, which can be done from within the system.
+* **Attack Complexity (AC)**: H (High)
+The attack complexity is high because an attacker needs to have a good understanding of the system and its file management mechanisms to exploit this vulnerability.
+* **Privileges Required (PR)**: L (Low)
+An attacker does not need any special privileges to exploit this vulnerability, as it can be done from within the system.
+* **User Interaction (UI)**: N (None)
+No user interaction is required to exploit this vulnerability.
+* **Scope (S)**: U (Unchanged)
+The scope of the impact remains unchanged because the vulnerability affects only the local system.
+* **Confidentiality Impact (C)**: H (High)
+The confidentiality impact is high because an attacker can read sensitive files, which could compromise confidential information.
+* **Integrity Impact (I)**: H (High)
+The integrity impact is also high because an attacker can modify template files, which could lead "
+731,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0731_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0731_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1541,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is ""N"" because the vulnerability can be exploited remotely without any user interaction.
+
+**Attack Complexity (AC):**
+The attack complexity is ""L"" because the exploit requires some degree of expertise and knowledge to successfully execute.
+
+**Privileges Required (PR):**
+The privileges required are ""N"" because the vulnerability does not require elevated privileges to exploit.
+
+**User Interaction (UI):**
+The user interaction is ""N"" because the vulnerability can be exploited without any user interaction.
+
+**Scope (S):**
+The scope is ""U"" because the vulnerability affects a single system or process.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is ""L"" because the vulnerability could potentially leak sensitive information, but it's not critical.
+
+**Integrity Impact (I):**
+The integrity impact is ""H"" because the vulnerability could allow an attacker to modify or delete data, which could have significant consequences.
+
+**Availability Impact (A):**
+The availability impact is ""H"" because the vulnerability could cause a denial-of-service (DoS) or a"
+736,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0736_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0736_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1564,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The attack vector is ""A"" because the vulnerability can be exploited remotely.
+
+**Attack Complexity (AC)**: The attack complexity is ""L"" because the attacker needs to have valid Admin role credentials and know the correct HTTP API endpoints to exploit the vulnerability.
+
+**Privileges Required (PR)**: The privileges required are ""H"" because an attacker with valid Admin role credentials can exploit the vulnerability.
+
+**User Interaction (UI)**: The user interaction is ""N"" because the attack does not require any user interaction.
+
+**Scope (S)**: The scope is ""U"" because the vulnerability affects a single system or network segment.
+
+**Confidentiality Impact (C)**: The confidentiality impact is ""L"" because an attacker can read files in directories that start with a `/var/lib/Product Y-server/support-bundle` directory name.
+
+**Integrity Impact (I)**: The integrity impact is ""H"" because an attacker can delete files in the same directories, which could lead to data loss or corruption.
+
+**Availability Impact (A)**: The availability impact is ""L"" because an attacker can download "
+741,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0741_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0741_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1516,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The attack vector is ""N"" because the vulnerability can be exploited remotely without any user interaction.
+
+**Attack Complexity (AC)**: The attack complexity is ""H"" because the vulnerability requires a high degree of expertise and knowledge to exploit.
+
+**Privileges Required (PR)**: The privileges required are ""L"" because an attacker with low-level privileges can exploit this vulnerability.
+
+**User Interaction (UI)**: The user interaction is ""N"" because no user interaction is required to exploit this vulnerability.
+
+**Scope (S)**: The scope is ""U"" because the vulnerability affects a single system or process.
+
+**Confidentiality Impact (C)**: The confidentiality impact is ""H"" because an attacker can potentially read host LBRs, which could lead to the disclosure of sensitive information.
+
+**Integrity Impact (I)**: The integrity impact is ""H"" because an attacker can potentially modify the guest's behavior or data, leading to a loss of integrity.
+
+**Availability Impact (A)**: The availability impact is ""L"" because while the vulnerability may cause some disruption, it is not"
+753,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0753_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0753_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1347,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: N (Network)
+The vulnerability allows other processes to read keyboard input, which can be exploited remotely.
+* **Attack Complexity (AC)**: L (Low)
+The attack requires minimal complexity, as an attacker only needs to exploit the lack of secure keyboard input functionality.
+* **Privileges Required (PR)**: N (None)
+No special privileges are required to exploit this vulnerability.
+* **User Interaction (UI)**: N (None)
+No user interaction is required to exploit this vulnerability.
+* **Scope (S)**: U (Unchanged)
+The scope of the attack remains unchanged, as it only affects the targeted system.
+* **Confidentiality Impact (C)**: H (High)
+The vulnerability allows unauthorized access to sensitive information, such as keyboard input.
+* **Integrity Impact (I)**: L (Low)
+The integrity of the system is not significantly impacted by this vulnerability.
+* **Availability Impact (A)**: N (None)
+The availability of the system is not affected by this vulnerability.
+
+**Vector String**
+CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N
+
+**Base Score**
+9.8
+
+Please note t"
+757,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0757_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0757_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1645,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability is a Missing Authorization issue, which can be exploited remotely without authentication (A). Therefore, the attack vector is ""N"".
+
+**Attack Complexity (AC):**
+The complexity of exploiting this vulnerability is Low (L), as it requires minimal effort and expertise to exploit.
+
+**Privileges Required (PR):**
+No privileges are required to exploit this vulnerability, so the value is ""N"".
+
+**User Interaction (UI):**
+No user interaction is required to exploit this vulnerability, so the value is ""N"".
+
+**Scope (S):**
+The scope of this vulnerability is Unchanged (U), as it affects the same system or data that was already affected by the vulnerability.
+
+**Confidentiality Impact (C):**
+The confidentiality impact of this vulnerability is Low (L), as an attacker could potentially access sensitive information, but the impact would be limited.
+
+**Integrity Impact (I):**
+The integrity impact of this vulnerability is High (H), as an attacker could potentially modify or delete data, which could have significant consequences.
+
+**Availability Impact (A):**
+The availabilit"
+780,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0780_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0780_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1660,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is ""N"" because the vulnerability can be exploited remotely without any user interaction.
+
+**Attack Complexity (AC):**
+The attack complexity is ""L"" because the exploit requires some degree of expertise and knowledge about the RDMA/mlx5 protocol and its recovery flow.
+
+**Privileges Required (PR):**
+The privileges required are ""L"" because an attacker needs to have low-level access to the system or network to exploit this vulnerability.
+
+**User Interaction (UI):**
+The user interaction is ""N"" because the vulnerability can be exploited without any user interaction.
+
+**Scope (S):**
+The scope is ""U"" because the vulnerability affects a single system or process.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is ""L"" because an attacker could potentially access sensitive information, but it's not critical to the overall security of the system.
+
+**Integrity Impact (I):**
+The integrity impact is ""H"" because an attacker could potentially modify or delete data, which could have significant consequences for the system.
+
+**Availability Impact (A):**
+The av"
+781,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0781_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0781_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1354,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is remote, as it is possible to initiate the attack remotely. Therefore, the value for AV is **A**.
+
+**Attack Complexity (AC):**
+The attack complexity is low, as the vulnerability has been disclosed publicly and an exploit may be used. Therefore, the value for AC is **L**.
+
+**Privileges Required (PR):**
+No privileges are required to exploit this vulnerability. Therefore, the value for PR is **N**.
+
+**User Interaction (UI):**
+The attack can be initiated remotely without user interaction. Therefore, the value for UI is **N**.
+
+**Scope (S):**
+The scope of the impact is limited to confidentiality, integrity, and availability. Therefore, the value for S is **U**.
+
+**Confidentiality Impact (C):**
+The vulnerability leads to information disclosure, which has a moderate impact on confidentiality. Therefore, the value for C is **L**.
+
+**Integrity Impact (I):**
+There is no impact on integrity. Therefore, the value for I is **N**.
+
+**Availability Impact (A):**
+There is no impact on availability. Therefore, the value for A is **N**.
+
+Here's the calculated CVSS v3."
+793,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0793_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0793_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1335,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: N (Network)
+The vulnerability can be exploited remotely.
+* **Attack Complexity (AC)**: L (Low)
+The attack requires minimal complexity to execute.
+* **Privileges Required (PR)**: N (None)
+No privileges are required to exploit the vulnerability.
+* **User Interaction (UI)**: N (None)
+No user interaction is required to exploit the vulnerability.
+* **Scope (S)**: U (Unchanged)
+The scope of the attack remains unchanged.
+* **Confidentiality Impact (C)**: L (Low)
+The confidentiality impact is low, as the vulnerability may allow deactivation of the Theft Deterrence feature, but it does not compromise sensitive information.
+* **Integrity Impact (I)**: H (High)
+The integrity impact is high, as the vulnerability can allow unauthorized changes to the system's configuration.
+* **Availability Impact (A)**: L (Low)
+The availability impact is low, as the vulnerability may cause temporary disruptions but does not affect the overall system availability.
+
+**Vector String**
+CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:L
+
+**Base Score**
+9.8
+
+Please note that this ass"
+837,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0837_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0837_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1674,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The attack vector is Network (N) because an attacker can access the vulnerable URLs remotely without physical interaction with the system.
+
+**Attack Complexity (AC)**: The attack complexity is Low (L) because an attacker only needs to guess or discover the file name/path value to access the files, and no complex attacks are required.
+
+**Privileges Required (PR)**: The privileges required are None (N) because an unauthenticated user can access the files without any special privileges.
+
+**User Interaction (UI)**: The user interaction is None (N) because an attacker can access the files without interacting with a human user.
+
+**Scope (S)**: The scope is Changed (C) because the vulnerability affects the confidentiality, integrity, and availability of the system.
+
+**Confidentiality Impact (C)**: The confidentiality impact is High (H) because an attacker can access sensitive files that were previously only accessible to authorized users.
+
+**Integrity Impact (I)**: The integrity impact is High (H) because an attacker can modify or delete files that were previously only access"
+847,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0847_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0847_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1636,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is ""N"" because the vulnerability can be exploited remotely without any user interaction.
+
+**Attack Complexity (AC):**
+The attack complexity is ""L"" because the exploit requires some degree of expertise and knowledge about the affected system.
+
+**Privileges Required (PR):**
+The privileges required are ""L"" because an attacker with low-level privileges can exploit this vulnerability.
+
+**User Interaction (UI):**
+The user interaction is ""N"" because the vulnerability can be exploited without any user interaction.
+
+**Scope (S):**
+The scope is ""U"" because the vulnerability affects a single system or component.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is ""L"" because an attacker could potentially access sensitive information, but it's not critical to the overall security of the system.
+
+**Integrity Impact (I):**
+The integrity impact is ""H"" because an attacker could potentially modify or delete data, which could have significant consequences for the affected system.
+
+**Availability Impact (A):**
+The availability impact is ""L"" because an attacke"
+882,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0882_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0882_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1389,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The vulnerability can be exploited remotely by an attacker, so it is classified as ""A"" (Network).
+
+**Attack Complexity (AC)**: The attack complexity is considered ""L"" (Low) because the vulnerability requires minimal effort to exploit.
+
+**Privileges Required (PR)**: No privileges are required to exploit this vulnerability, so it is classified as ""N"" (None).
+
+**User Interaction (UI)**: No user interaction is required to exploit this vulnerability, so it is classified as ""N"" (None).
+
+**Scope (S)**: The scope of the impact is limited to a single system or process, so it is classified as ""U"" (Unchanged).
+
+**Confidentiality Impact (C)**: The confidentiality impact is considered ""L"" (Low) because an attacker can potentially launch a denial-of-service attack.
+
+**Integrity Impact (I)**: The integrity impact is also considered ""L"" (Low) because the vulnerability allows for potential data tampering or corruption.
+
+**Availability Impact (A)**: The availability impact is considered ""H"" (High) because the vulnerability can cause a denial-of-service attack, leading to system unavaila"
+896,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0896_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0896_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1630,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: N (Network)
+The attack vector is network-based, as it involves a handshake between two virtual machines.
+* **Attack Complexity (AC)**: L (Low)
+The complexity of the attack is low, as it requires only basic knowledge of the virtual machine architecture and communication protocols.
+* **Privileges Required (PR)**: N (None)
+No privileges are required to exploit this vulnerability, as an attacker can perform the attack without elevated permissions.
+* **User Interaction (UI)**: N (None)
+The attack does not require user interaction, as it can be performed automatically by an attacker.
+* **Scope (S)**: U (Unchanged)
+The scope of the impact is unchanged, as the vulnerability affects only the virtual machine architecture and communication protocols.
+* **Confidentiality Impact (C)**: H (High)
+The confidentiality impact is high, as an attacker could potentially gain unauthorized access to sensitive information or data.
+* **Integrity Impact (I)**: H (High)
+The integrity impact is also high, as an attacker could potentially modify or delete sensitive data o"
+930,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0930_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0930_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1266,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability is an out-of-bounds character read in Bluetooth, which can be exploited remotely without authentication (A). Therefore, the attack vector is ""A"".
+
+**Attack Complexity (AC):**
+The complexity of exploiting this vulnerability is low, as it requires only basic knowledge of Bluetooth protocol and some trial-and-error attempts. Hence, the attack complexity is ""L"".
+
+**Privileges Required (PR):**
+No privileges are required to exploit this vulnerability, as an attacker can read sensitive information without needing elevated permissions. Therefore, the privileges required are ""N"".
+
+**User Interaction (UI):**
+The exploitation of this vulnerability does not require user interaction, as it can be done automatically or through a script. Hence, the user interaction is ""N"".
+
+**Scope (S):**
+The scope of this vulnerability is limited to confidentiality, as it affects service confidentiality but does not impact integrity or availability. Therefore, the scope is ""U"" (unmodified data).
+
+**Confidentiality Impact (C):**
+The successful exploitation of this vulnerability may "
+931,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0931_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0931_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1536,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: N (Network)
+	+ Reasoning: The issue is a denial-of-service that can be exploited by an attacker in a privileged network position.
+* **Attack Complexity (AC)**: L (Low)
+	+ Reasoning: The attack requires some degree of expertise and knowledge, but it's not extremely complex or difficult to execute.
+* **Privileges Required (PR)**: H (High)
+	+ Reasoning: The issue can be exploited by an attacker with a high level of privileges in the network.
+* **User Interaction (UI)**: N (None)
+	+ Reasoning: No user interaction is required to exploit this vulnerability.
+* **Scope (S)**: U (Unchanged)
+	+ Reasoning: The scope of the attack remains unchanged, as it only affects the targeted system or network.
+* **Confidentiality Impact (C)**: N (None)
+	+ Reasoning: There is no impact on confidentiality, as this is a denial-of-service issue and not an information disclosure vulnerability.
+* **Integrity Impact (I)**: N (None)
+	+ Reasoning: Similarly, there is no impact on integrity, as the issue only affects availability.
+* **Availability Impact (A)**: H (High)
+	+ Re"
+953,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0953_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0953_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1515,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Metrics Assessment**
+
+* **Attack Vector (AV)**: The vulnerability allows an arbitrary user to change their role to ""admin"", which can be exploited remotely (A). Therefore, the attack vector is set to A.
+* **Attack Complexity (AC)**: The vulnerability requires minimal effort and expertise from the attacker, as it only involves changing a user's role. Hence, the attack complexity is set to L.
+* **Privileges Required (PR)**: An arbitrary user can exploit this vulnerability without requiring any special privileges. Therefore, the privileges required are set to N.
+* **User Interaction (UI)**: The vulnerability does not require any user interaction; an attacker can exploit it automatically. Hence, the user interaction is set to N.
+* **Scope (S)**: The scope of the vulnerability is limited to the blog app itself (U).
+* **Confidentiality Impact (C)**: An attacker with ""admin"" privileges can access and modify sensitive data, such as user information and posts. Therefore, the confidentiality impact is set to H.
+* **Integrity Impact (I)**: The integrity of the system is affected, as an attacker with """
+960,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0960_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0960_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1910,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: Network (N)
+The vulnerability allows unauthenticated attackers to craft arbitrary JWTs and access features that usually require authentication, which can be exploited remotely over a network.
+
+**Attack Complexity (AC)**: Low (L)
+The attack requires minimal complexity as it only involves crafting arbitrary JWTs and accessing features without requiring any additional steps or prerequisites.
+
+**Privileges Required (PR)**: None (N)
+The vulnerability does not require any privileges to exploit, as unauthenticated attackers can access the affected features.
+
+**User Interaction (UI)**: None (N)
+No user interaction is required to exploit this vulnerability, as it can be exploited automatically by an attacker.
+
+**Scope (S)**: Unchanged (U)
+The scope of the attack remains unchanged, as it affects all instances of Product Y that are vulnerable to this issue.
+
+**Confidentiality Impact (C)**: High (H)
+The vulnerability allows attackers to access features that usually require authentication and execute arbitrary commands as `root`, which can result in significant confidentiality impa"
+984,ollama,structured,True,False,S2_api_success_parse_failure_rq5,invalid,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0984_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0984_structured_parsed.json,,,,ollama | structured | invalid | no_error_type,1471,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV)**: The vulnerability can be exploited remotely, so it's an ""N"" (Network).
+
+**Attack Complexity (AC)**: The attack complexity is considered ""L"" (Low) because the attacker only needs to craft a specially designed branch name to exploit this vulnerability.
+
+**Privileges Required (PR)**: No privileges are required to exploit this vulnerability, so it's an ""N"" (None).
+
+**User Interaction (UI)**: No user interaction is required to exploit this vulnerability, so it's an ""N"" (None).
+
+**Scope (S)**: The scope of the impact is limited to the affected system, so it's a ""U"" (Unchanged).
+
+**Confidentiality Impact (C)**: The confidentiality impact is considered ""H"" (High) because an attacker can steal secrets from or abuse GITHUB_TOKEN permissions.
+
+**Integrity Impact (I)**: The integrity impact is also considered ""H"" (High) because the vulnerability allows arbitrary code execution, which can lead to data tampering or modification.
+
+**Availability Impact (A)**: The availability impact is considered ""L"" (Low) because the vulnerability does not directly affect system availability.
+
+Here'"
+29,ollama,structured,True,False,S2_api_success_parse_failure_rq5,parser_exception,,,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0029_structured_raw.txt,C:\Users\uwach\MSc_LLM_CVSS_Project\main_study\results\raw_responses\ollama\structured\run_001\R0029_structured_parsed.json,,,,ollama | structured | parser_exception | no_error_type,2224,"Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The vulnerability allows an Authenticated admin user to exploit the issue, which means it requires a network attack vector (A).
+
+**Attack Complexity (AC):**
+The complexity of the attack is low, as the attacker only needs to be authenticated and have access to the logs. Therefore, I will rate this as Low (L).
+
+**Privileges Required (PR):**
+As mentioned in the description, an Authenticated admin user can exploit the issue, which means that high privileges are required (H).
+
+**User Interaction (UI):**
+No user interaction is required for the attack, as it can be performed by an authenticated admin user. Therefore, I will rate this as No (N).
+
+**Scope (S):**
+The scope of the vulnerability is limited to confidentiality impact, as it allows an attacker to view sensitive information stored in logs. Therefore, I will rate this as User (U) for confidentiality and None (N) for integrity and availability.
+
+**Confidentiality Impact (C):**
+The vulnerability allows an attacker to view sensitive information, which has a High (H) confidentiality impact.
+
+**Integrity Impact (I):**
+There"

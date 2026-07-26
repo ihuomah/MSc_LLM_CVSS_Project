@@ -1,0 +1,44 @@
+Based on the provided vulnerability description, I will assess the CVSS v3.1 base metric.
+
+**Attack Vector (AV):**
+The attack vector is remote, as the manipulation of the argument "username" in the file "/admin/login.php" can be launched remotely. Therefore, the value for Attack Vector is **A**.
+
+**Attack Complexity (AC):**
+The complexity of the attack is low, as it only requires manipulating a single input field ("username"). Therefore, the value for Attack Complexity is **L**.
+
+**Privileges Required (PR):**
+No privileges are required to exploit this vulnerability. The attacker can launch the attack without any special permissions or access. Therefore, the value for Privileges Required is **N**.
+
+**User Interaction (UI):**
+The attack does not require user interaction. It can be launched automatically by an attacker. Therefore, the value for User Interaction is **N**.
+
+**Scope (S):**
+The scope of the impact is limited to the affected system or component. The vulnerability only affects the file "/admin/login.php". Therefore, the value for Scope is **U**.
+
+**Confidentiality Impact (C):**
+The confidentiality impact is high, as an attacker can potentially access sensitive information through SQL injection. Therefore, the value for Confidentiality Impact is **H**.
+
+**Integrity Impact (I):**
+The integrity impact is also high, as an attacker can potentially modify or delete data through SQL injection. Therefore, the value for Integrity Impact is **H**.
+
+**Availability Impact (A):**
+The availability impact is moderate, as an attacker may be able to cause a denial-of-service (DoS) or crash the system. However, this is not the primary goal of the attack. Therefore, the value for Availability Impact is **L**.
+
+Here's the output in JSON format:
+
+```
+{
+  "attack_vector": "A",
+  "attack_complexity": "L",
+  "privileges_required": "N",
+  "user_interaction": "N",
+  "scope": "U",
+  "confidentiality_impact": "H",
+  "integrity_impact": "H",
+  "availability_impact": "L",
+  "vector_string": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L",
+  "base_score": 9.0
+}
+```
+
+The calculated base score is **9.0**.
